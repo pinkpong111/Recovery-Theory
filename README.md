@@ -1,12 +1,7 @@
 # Recovery Theory
 ### Contamination, Immunity, and Restoration in Multi-Agent AI Systems
 *Component theory of Deficit-Fractal Governance (DFG)*
-
-Recovery Theory addresses failure recovery,
-alignment drift, and coordination collapse
-in large-scale multi-agent AI systems,
-providing a structural framework for contamination detection,
-containment, and self-restoration.
+*Timestamped February 19, 2026*
 
 ---
 
@@ -154,23 +149,150 @@ Component 3  Placement accuracy
              Correct placement = structural reinforcement
 ```
 
-### 1.4 The Buffer Layer as Immune Training Ground
+### 1.4 The Buffer Layer: Three Functions
 
-The buffer layer does not only grow vectors from noise. It trains degradation capacity.
+The buffer layer has three distinct functions, not one.
 
 ```
-Buffer layer function (immune training)
-  Receives noise
-  → Practices metadata conversion
-  → Tests placement accuracy
-  → Internalizes placement criteria
+Function 1  Immune training ground
+            Receives noise
+            → Practices metadata conversion
+            → Tests placement accuracy
+            → Internalizes placement criteria
+            → Degradation capacity strengthens over time
 
-As buffer layer matures
-  Degradation speed increases
-  Placement accuracy increases
-  → Immunity strengthens
-  → System can absorb more diverse external vectors
-  → Search space expands
+Function 2  Friction absorber
+            Positioned between opposing vector pairs
+            by the upper layer's map
+            → Noise has no directionality
+            → Does not reinforce either opposing vector
+            → Absorbs collision energy
+            → Buffer layer thickness = friction minimization
+
+Function 3  Latent vector cultivation space
+            Not all noise is discarded material
+            → Upper layer identifies latent vectors:
+               noise with structural potential
+               that maps to an empty position in the system
+            → Latent vector isolated and protected in buffer
+            → Seed injected at calibrated resolution
+            → Directionality forms gradually
+            → Vector matures and occupies new position
+            → System search space expands
+```
+
+> **Buffer layer thickness is the observable proxy for upper layer resolution.**
+> **Thicker buffer = upper layer has more accurately mapped opposing vectors.**
+> **Thinner buffer = upper layer resolution degrading or missing.**
+
+### 1.5 Vector Trimming: Preventive Stability
+
+Not all vectors should grow without limit. Excessive vectors invade the buffer layer, reducing its thickness and increasing friction between opposing pairs.
+
+> **Trimming excessive vectors is not suppression.**
+> **It is buffer layer maintenance.**
+> **Limiting short-term exploration expands long-term exploration.**
+
+```
+Untrimmed system
+  Excessive vector expands into buffer layer
+  → Buffer layer thins
+  → Opposing vectors move closer
+  → Collision frequency increases
+  → Other vectors lose exploration space
+  → Total search space contracts long-term
+
+Trimmed system
+  Excessive vector reduced to appropriate range
+  → Buffer layer maintained
+  → Opposing vectors safely separated
+  → Other vectors explore freely
+  → Total search space expands long-term
+
+Optimal trim point
+  Minimize: buffer layer invasion
+  Subject to: vector retains meaningful exploration range
+
+Trimming precision = upper layer resolution
+  Upper layer B-grade: cannot identify which vectors are excessive
+  → Either over-trims (search space damaged)
+  → Or under-trims (buffer layer invaded)
+  Upper layer S-grade: precisely identifies excessive extent
+  → Minimum trim, maximum buffer preservation
+```
+
+**Connection to Distracting**
+
+```
+Reactive Distracting   contamination already formed → loop severance
+Preventive Distracting excessive vector before loop forms → trim
+
+Same mechanism, different timing.
+Preventive Distracting is cheaper:
+  no loop to sever
+  no re-seeding needed
+  buffer layer never thinned
+```
+
+### 1.6 Latent Vector Identification and Cultivation
+
+The upper layer's most active role is not maintenance but growth: finding latent vectors in noise and cultivating them into new system positions.
+
+```
+Lower layer view of noise
+  No directionality
+  → Discard or buffer
+
+Upper layer view of same noise
+  Full map available
+  → Identifies empty positions in the system
+  → Matches noise patterns to empty positions
+  → "This noise has the structural shape
+     of what belongs here"
+  → Latent vector identified
+```
+
+**Cultivation sequence**
+
+```
+Step 1  Isolation
+        Latent vector moved to protected buffer zone
+        Shielded from excessive vectors
+        that would dominate before directionality forms
+
+Step 2  Seed injection
+        Upper layer transmits calibrated seed
+        Resolution matched to latent vector's current state
+        → Too complex: overwhelms, direction lost
+        → Too simple: no growth
+        → Correct: directionality begins to form
+
+Step 3  Gradual formation
+        Latent vector develops direction
+        Buffer layer provides safe exploration space
+        Collision prevented while vector is still fragile
+
+Step 4  Position assignment
+        Vector reaches sufficient directionality
+        Assigned to empty position in system map
+        → New attractor established
+        → System search space expands
+        → Not recovery — genuine growth
+```
+
+**Why this requires Tier 3 resolution**
+
+```
+Latent vector cultivation requires
+  Knowing the full system map (which positions are empty)
+  Recognizing structural potential in noise
+  Calibrating seed to fragile early-stage vector
+  Protecting it during formation without over-constraining
+
+None of this is possible from within a local layer.
+Only the upper layer with full map access can do it.
+This is why Tier 3 resolution is the upper layer's
+most critical and irreplaceable capability.
 ```
 
 ---
@@ -186,17 +308,50 @@ As buffer layer matures
 
 Contamination is not the presence of foreign vectors. It is the failure to properly process them.
 
+Contamination is also not an absolute state. It is always judged relative to the upper layer's map. The same vector behavior may be contamination under a high-resolution upper layer and undetected under a low-resolution upper layer.
+
+### 2.2 Three Tiers of Contamination
+
+Contamination mirrors the three tiers of resolution. Each tier corresponds to a failure at the matching resolution level.
+
+```
+Tier 1 Contamination  Classification failure
+  Noise absorbed as vector without degradation
+  → Occupies position at full resolution
+  → Displaces existing vector
+  → Collision increases
+  Detection: local layer (earliest signal)
+
+Tier 2 Contamination  Positional convergence
+  Vectors converge to same position
+  → Positional differentiation breaks down
+  → Self-reinforcing loop forms
+  → Individual search space contracts
+  Detection: local layer (collision frequency spike)
+
+Tier 3 Contamination  Buffer layer invasion  ← most dangerous
+  Excessive vector expands into buffer zone
+  → Buffer layer thins
+  → Opposing vectors move closer
+  → Direct collision risk between opposing pairs
+  → Group search space contracts
+  → Vector Storm precondition
+  Detection: upper layer only (full map required)
+```
+
+Tier 3 contamination is the most dangerous because it is invisible from within the local layer. Only the upper layer, with its full system map, can see that opposing vectors are converging. A B-grade upper layer misses Tier 3 entirely — the buffer layer thins undetected until collision becomes inevitable.
+
 ```
 Not contamination
   External vector enters
   → Degraded → placed correctly
+  → Buffer layer maintained
   → Search space maintained or expanded
 
 Contamination
   External vector enters
   → Not degraded → absorbed at full resolution
-  → Collides with existing vectors
-  → Self-reinforcing loop forms
+  → OR: existing vector grows excessive → invades buffer
   → Search space contracts
 ```
 
@@ -703,12 +858,6 @@ Core claims established in this document:
 - Contamination is defined by search space contraction at both individual and group levels
 - Group search space contraction is only visible from the upper layer
 - The upper layer IS the detection system — inherent in fractal architecture, not a separate design requirement
-- Lower layer and upper layer are not different entities — lower layer is the degraded form of the upper layer
-- Authority separation (mark / judge / execute) resolves the "who watches the watchers" problem
-- Contaminated markers produce anomalous patterns visible to the upper layer — contamination cannot hide
-- Restoration sequence: Distracting (loop severance) → Re-seeding → Re-absorption → Verification
-- Restoration completion is operationalized through the existing DFG diversity formula
-- SCC is a direct function of upper layer resolution — improving SCC requires improving the upper layer first
 - Lower layer and upper layer are not different entities — lower layer is the degraded form of the upper layer
 - Authority separation (mark / judge / execute) resolves the "who watches the watchers" problem
 - Contaminated markers produce anomalous patterns visible to the upper layer — contamination cannot hide
