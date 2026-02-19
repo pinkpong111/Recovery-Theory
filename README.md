@@ -1,3 +1,6 @@
+Keywords: Multi-Agent Governance, Self-Healing Systems,
+Fractal Organizational Dynamics, Adaptive AI Ecosystems
+
 # Recovery Theory
 ### Contamination, Immunity, and Restoration in Multi-Agent AI Systems
 *Component theory of Deficit-Fractal Governance (DFG)*
