@@ -1,10 +1,12 @@
-Keywords: Multi-Agent Governance, Self-Healing Systems,
-Fractal Organizational Dynamics, Adaptive AI Ecosystems
-
 # Recovery Theory
 ### Contamination, Immunity, and Restoration in Multi-Agent AI Systems
 *Component theory of Deficit-Fractal Governance (DFG)*
-*Timestamped February 19, 2026*
+
+Recovery Theory addresses failure recovery,
+alignment drift, and coordination collapse
+in large-scale multi-agent AI systems,
+providing a structural framework for contamination detection,
+containment, and self-restoration.
 
 ---
 
