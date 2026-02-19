@@ -506,18 +506,51 @@ Group-level
   Positional differentiation restored across locals
   Attractor metadata direction confirmed correct
 
-Formal criterion
-  Diversity measure returning toward pre-contamination level:
+Resolution-proxy (operational criterion)
+  Layer classification boundary performance returns to
+  pre-contamination level
 
+  Type1 = False Restoration: healthy vector mistaken for contaminated
+  Type2 = Missed Contamination: contaminated mistaken for healthy
+
+  Proxy = 1 - (Type1 loss + Type2 loss) / total input
+  R_restored ≥ R_before_contamination
+
+  → Same calibration input applied before and after restoration
+  → Boundary performance compared
+  → Restoration complete when proxy restored or exceeded
+
+  Note: this measures resolution as classification boundary performance —
+  an operational proxy, not full structural resolution.
+  Full resolution (R(c) curve, context width, decomposition capacity)
+  is a Layer 2 open problem.
+
+Diversity-level (structural criterion)
   D = f(1/P_overlap, D_interdependency, L_reinforcement)
-
-  Search space expansion = diversity recovery
-  Not a new measurement — existing DFG diversity formula
-  Connects restoration verification to the framework's
-  established measurement structure
+  returning toward pre-contamination level
 ```
 
-Search space expansion — not mere stabilization — is the completion criterion. A system that has stopped contracting but has not resumed expanding is not yet restored.
+Both criteria must hold. Resolution-proxy confirms correct classification is restored. Diversity confirms structural differentiation is restored. A system that classifies correctly but has collapsed positional diversity is not fully restored. A system that has recovered diversity but in the wrong direction is not fully restored.
+
+**Connection: Verification feeds back into Step 1**
+
+```
+If verification fails at Resolution-proxy level
+  → Type1 too high: over-disruption in Step 1
+     → Loop severance cut healthy vectors
+     → Reduce disruption scope
+
+  → Type2 too high: under-detection in Step 1
+     → Loop was not fully severed
+     → Increase disruption scope
+
+Step 1 minimum disruption is therefore:
+  Minimize Type1
+  Subject to: Type2 ≤ threshold
+
+Type1/Type2 measurement in verification
+retroactively calibrates Step 1 precision.
+```
 
 ### 3.5 Self-Correction Capacity and Upper Layer Resolution
 
@@ -665,6 +698,12 @@ Core claims established in this document:
 - Contamination is defined by search space contraction at both individual and group levels
 - Group search space contraction is only visible from the upper layer
 - The upper layer IS the detection system — inherent in fractal architecture, not a separate design requirement
+- Lower layer and upper layer are not different entities — lower layer is the degraded form of the upper layer
+- Authority separation (mark / judge / execute) resolves the "who watches the watchers" problem
+- Contaminated markers produce anomalous patterns visible to the upper layer — contamination cannot hide
+- Restoration sequence: Distracting (loop severance) → Re-seeding → Re-absorption → Verification
+- Restoration completion is operationalized through the existing DFG diversity formula
+- SCC is a direct function of upper layer resolution — improving SCC requires improving the upper layer first
 - Lower layer and upper layer are not different entities — lower layer is the degraded form of the upper layer
 - Authority separation (mark / judge / execute) resolves the "who watches the watchers" problem
 - Contaminated markers produce anomalous patterns visible to the upper layer — contamination cannot hide
