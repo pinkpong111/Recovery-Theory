@@ -783,6 +783,7 @@ Resolution-Based Information Theory
   Degradation mechanism = immunity mechanism
   Negative resolution gap = contamination precondition
   Upper layer resolution = detection capacity and system ceiling
+  Resolution Tier 3 = full map = contamination judgment basis
 
 Vector Storm Theory
   Vector Storm = contamination at critical threshold
@@ -800,6 +801,51 @@ Governance Rules Theory
   Rest Mode exits under contamination exceeding upper layer resolution
   SCC = direct function of upper layer resolution
 ```
+
+---
+
+## Fractal Consistency: System Scale vs. Agent Scale
+
+Recovery Theory applies at both scales. The mechanisms are self-similar.
+
+```
+System scale                        Agent scale
+────────────────────────────────────────────────────────
+Contaminated agent isolated         Contaminated vector isolated
+Excessive agent trimmed             Excessive vector trimmed
+Latent agent cultivated             Latent vector cultivated
+Buffer layer between opposing       Buffer layer between opposing
+  agent groups                        vector directions
+Upper layer reads system map        Upper resolution reads data map
+Seed calibrated to agent maturity   Seed calibrated to layer resolution
+Restoration: agent reintegrated     Restoration: vector re-absorbed
+```
+
+**The one difference**
+
+```
+Agents have autonomy — cannot be force-placed
+Vectors have no autonomy — can be force-placed
+
+Recovery at system scale
+  Contaminated agent cannot be simply overwritten
+  → Must sever the loop the agent is embedded in
+  → Re-seed the attractor the agent belongs to
+  → Agent reorients through deficit pull
+  → Not forced — attracted back
+
+Recovery at agent scale
+  Contaminated vector can be isolated and re-processed directly
+  → Buffer layer re-absorption
+  → Metadata conversion reapplied
+  → Force-placed into correct position
+
+Same sequence. Autonomy determines method, not structure.
+```
+
+This confirms that Recovery Theory is fractal-consistent.
+The contamination-restoration cycle operates identically at both scales,
+adjusted only for the presence or absence of agent autonomy.
 
 ---
 
@@ -855,12 +901,17 @@ Core claims established in this document:
 - Seed handover condition: lower layer maximum resolution must not exceed upper layer resolution at time of handover
 - Immunity is structural absorption capacity, not rejection capacity
 - Vector degradation (metadata conversion) is the mechanism of immunity
-- Contamination is defined by search space contraction at both individual and group levels
-- Group search space contraction is only visible from the upper layer
+- Contamination has three tiers mirroring the three tiers of resolution
+- Tier 3 contamination (buffer layer invasion) is only visible from the upper layer
+- Contamination is relative — always judged against the upper layer's map, not an absolute standard
+- Buffer layer has three functions: immune training, friction absorption, latent vector cultivation
+- Buffer layer thickness is the independent observable proxy for upper layer resolution
+- Excessive vector trimming is buffer layer maintenance, not suppression — short-term limitation expands long-term search space
+- Latent vector cultivation (noise → identified potential → seed → new position) is the system's growth mechanism
 - The upper layer IS the detection system — inherent in fractal architecture, not a separate design requirement
-- Lower layer and upper layer are not different entities — lower layer is the degraded form of the upper layer
 - Authority separation (mark / judge / execute) resolves the "who watches the watchers" problem
-- Contaminated markers produce anomalous patterns visible to the upper layer — contamination cannot hide
 - Restoration sequence: Distracting (loop severance) → Re-seeding → Re-absorption → Verification
 - Restoration completion is operationalized through the existing DFG diversity formula
 - SCC is a direct function of upper layer resolution — improving SCC requires improving the upper layer first
+- Fractal consistency verified: system-scale and agent-scale recovery mechanisms are self-similar
+- The only structural difference (agent autonomy) is precisely what requires Attracting and deficit-based design
