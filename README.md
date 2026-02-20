@@ -124,11 +124,14 @@ A high-output "Writer" vector expands excessively
 More agents align to Writer's direction
   → Fast coherent output is attractive
 
-Signal 1  Collision frequency rises
+Signal 1  Collision frequency rises (per §3.3)
           Critic repeatedly disputes
           Synthesizer oscillates
 
-Signal 3  Group search space contracts
+Signal 2  Individual search space contracts (per §3.3)
+          Roles within each agent begin repeating the same direction
+
+Signal 3  Group search space contracts (per §3.3)
           Different roles start repeating the same argument path
 
 Buffer thins between "theory-first" and "experiment-first" tracks
@@ -534,7 +537,7 @@ Contamination
   → Search space contracts
 ```
 
-### 2.2 Two Levels of Search Space
+### 2.3 Two Levels of Search Space
 
 Search space contraction operates at two distinct levels. Both must be monitored.
 
@@ -565,7 +568,7 @@ Group search space contraction is only visible from the upper layer — because 
 > It does not require a separate detection architecture.
 > It requires sufficient resolution to read what the lower layer produces.
 
-### 2.3 The Self-Reinforcing Loop
+### 2.4 The Self-Reinforcing Loop
 
 The most dangerous property of contamination is that it self-amplifies.
 
@@ -582,7 +585,7 @@ Contaminated vector enters position X
 
 This is why contamination reduces search space: vectors that should be exploring different attractors are locked into the same loop, unable to move.
 
-### 2.4 Attractor Metadata as the Transmission Path
+### 2.5 Attractor Metadata as the Transmission Path
 
 Contamination does not stay local. It travels through attractor metadata.
 
@@ -606,14 +609,14 @@ System-wide propagation
 
 The attractor metadata is the transmission vector. High interdependency between attractors accelerates propagation.
 
-### 2.5 Contamination by Data Type
+### 2.6 Contamination by Data Type
 
 The four data types produce four distinct contamination profiles:
 
 | Type | Contamination Mechanism | Detection Difficulty | Propagation Risk |
 |------|------------------------|---------------------|-----------------|
 | Mathematical | Incorrect calculation absorbed as fact | Low | Low — local error |
-| Noise | Discarded material re-enters as vector | Medium — detectable at entry | Medium — storm precondition |
+| Noise | Buffered-or-discarded material re-enters at full resolution as vector | Medium — detectable at entry | Medium — storm precondition |
 | Tacit Knowledge | Wrong pattern learned, mechanism corrupted | High — latent until triggered | High — spreads through practice |
 | High-Context | Judgment criteria corrupted | Very high — looks like normal operation | Very high — seed contamination |
 
@@ -637,7 +640,7 @@ which confirm the upper layer's B-grade judgment.
 The system is coherent and wrong.
 ```
 
-### 2.6 Contamination vs. Normal Variation
+### 2.7 Contamination vs. Normal Variation
 
 Not all deviation is contamination. The distinction matters.
 
@@ -853,7 +856,7 @@ Resolution-proxy (operational criterion)
   Type2 = Missed Contamination: contaminated mistaken for healthy
 
   Proxy = 1 - (Type1 loss + Type2 loss) / total input
-  R_restored ≥ R_before_contamination
+  Proxy_restored ≥ Proxy_pre-contamination
 
   → Same calibration input applied before and after restoration
   → Boundary performance compared
@@ -942,16 +945,18 @@ Contamination event
 
 ## Structural Correspondences
 
+*These are structural analogies, not formal equivalences. None of the cited fields proposed the recovery application described here.*
+
 | Theory Concept | Related Field | Connection |
 |---------------|--------------|------------|
-| Immunity as absorption capacity | Immunology | Adaptive immune response |
-| Upper layer as inherent detection system | Neuroscience | Hierarchical predictive processing |
-| Authority separation (mark/judge/execute) | Constitutional law | Separation of powers |
+| Immunity as absorption capacity | Immunology (structural analogy) | Adaptive immune response |
+| Upper layer as inherent detection system | Neuroscience (structural analogy) | Hierarchical predictive processing |
+| Authority separation (mark/judge/execute) | Constitutional law (structural analogy) | Separation of powers |
 | Metadata conversion as degradation | Resolution-Based Information Theory | Calibrated degradation mechanism |
-| Self-reinforcing contamination loop | Dynamical systems | Limit cycle attractors |
-| Attractor metadata as transmission path | Network theory | Hub-based contagion |
-| Group search space contraction | Information theory | Collective entropy reduction |
-| Upper layer resolution as system ceiling | Organizational theory | Managerial capability constraint |
+| Self-reinforcing contamination loop | Dynamical systems (structural analogy) | Limit cycle attractors |
+| Attractor metadata as transmission path | Network theory (structural analogy) | Hub-based contagion |
+| Group search space contraction | Information theory (structural analogy) | Collective entropy reduction |
+| Upper layer resolution as system ceiling | Organizational theory (structural analogy) | Managerial capability constraint |
 
 ---
 
@@ -1040,12 +1045,15 @@ adjusted only for the presence or absence of agent autonomy.
    adjacent healthy vectors?
    Dependent on: resolution measurement (foundational open problem)
 
-2. Upper layer resolution measurement
-   Resolution measurement is the foundational open problem
-   of the entire DFG framework.
-   Until resolved, SCC and detection capacity
-   cannot be formally quantified.
-   All recovery metrics are qualitatively defined pending this.
+2. Upper layer resolution measurement   PARTIALLY RESOLVED
+   Operational proxy: Resolution-proxy = 1 - (Type1 + Type2) / Total input
+   Type1 = False Restoration (healthy mistaken for contaminated)
+   Type2 = Missed Contamination (contaminated mistaken for healthy)
+   This proxy measures classification boundary performance only —
+   not full structural resolution.
+   Full structural resolution (R(c) curve) remains unresolved.
+   SCC formal quantification pending full structural measurement.
+   All recovery metrics remain qualitatively defined pending this.
 ```
 
 ### Layer 2 — Extension
