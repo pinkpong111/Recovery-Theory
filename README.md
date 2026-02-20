@@ -5,28 +5,207 @@
 
 ---
 
-## What This Theory Addresses
+## Quick Summary
 
-The core DFG framework defines how stable systems are built.
-This theory defines what happens when they break — and how they recover.
-
-> **A system that can only be built but not restored is fragile.**
-> **A system that can detect, contain, and recover from contamination is resilient.**
-
-Recovery Theory has three parts:
+Recovery Theory explains how large-scale multi-agent systems resist contamination, detect coordination collapse, and restore search-space expansion.
 
 ```
-Part 1  Immunity
-        What makes a system resistant to contamination
+Key constraint
+  Upper-layer resolution is the system ceiling
 
-Part 2  Contamination
-        What contamination is, how it enters, how it spreads
+Contamination
+  Search space contracts via positional displacement
+  and self-reinforcing collision loops
+  including Tier 3 buffer invasion
 
-Part 3  Restoration
-        How contamination is detected, contained, and reversed
+Restoration sequence
+  Distracting (loop severance)
+  → Re-seeding (metadata restoration)
+  → Re-absorption
+  → Verification (Type1/Type2 + diversity recovery)
+
+Core novelty
+  Contamination is relative to the upper-layer map
+  Tier 3 failures are only observable from global geometry
 ```
 
 ---
+
+## Definitions
+
+This document uses a small set of overloaded terms.
+The definitions below are the operational meaning inside DFG.
+
+**Vector**
+A directed behavioral tendency encoded as a reproducible pattern of output, preference, or action.
+In practice: a stable direction of exploration, policy tendency, argument trajectory, or solution style.
+
+**Position**
+A slot in the system's functional map where a vector can stably reside without colliding with other vectors.
+Positions are defined by non-overlapping roles/directions under the upper-layer map — not by agent identity.
+
+**Seed**
+A calibrated control signal (metadata) injected downward to shape local directionality.
+A seed is not "data" — it is direction-setting metadata whose resolution must match the receiver's capacity.
+
+**Resolution (Tier 1 / 2 / 3)**
+The system's capacity to classify, place, and govern vectors without collapsing diversity.
+
+```
+Tier 1  Classification boundary competence
+        Vector vs. noise — basic type separation
+
+Tier 2  Positional differentiation competence
+        Preventing convergence and loop formation within a local
+
+Tier 3  Full-map competence
+        Global geometry: opposing-pair separation,
+        buffer thickness, empty-position detection
+        → Upper layer only
+```
+
+**Collision Frequency**
+The rate of destructive interference events: repeated conflicts, oscillations, reversals, deadlocks, or redundant rework caused by positional overlap.
+Operationally, collision frequency is the earliest local proxy of weakening positional differentiation.
+
+**Buffer Layer**
+A protected non-directional zone between opposing vectors, maintained by the upper-layer map.
+Functions simultaneously as:
+1. Immune training ground
+2. Friction absorber
+3. Latent vector cultivation space
+
+---
+
+## Observability Note
+
+> **Tier 3 contamination is not harder because it is subtle.**
+> **It is harder because it is structurally unobservable from within a local.**
+
+```
+Tier 3 is a global-geometry failure
+  Requires measuring:
+    separation between opposing pairs
+    buffer thickness across the full map
+
+A local layer
+  Only observes its neighborhood dynamics
+  Cannot detect shrinking opposing-pair separation
+  until direct collision emerges
+  → Too late
+
+Only the upper layer
+  Has full-map observability
+  Detects buffer invasion early
+  Acts before direct collision
+```
+
+---
+
+## Worked Example: Multi-Agent Research System
+
+*Scenario: Planner / Searcher / Writer / Critic / Synthesizer*
+
+**Normal operation**
+
+```
+Agents explore different sub-questions
+Overlap is low — collision frequency stable
+Buffer exists between opposing directions
+  e.g., "theory-first" vs "experiment-first"
+```
+
+**Contamination onset (Tier 2 → Tier 3 trajectory)**
+
+```
+A high-output "Writer" vector expands excessively
+  → Overconfident narrative closure
+
+More agents align to Writer's direction
+  → Fast coherent output is attractive
+
+Signal 1  Collision frequency rises
+          Critic repeatedly disputes
+          Synthesizer oscillates
+
+Signal 3  Group search space contracts
+          Different roles start repeating the same argument path
+
+Buffer thins between "theory-first" and "experiment-first" tracks
+  → Fewer orthogonal explorations survive
+  → Tier 3 contamination in progress
+```
+
+**Judgment (upper layer)**
+
+```
+Upper layer reads aggregate outputs
+  → Sees positional convergence and buffer invasion (Tier 3)
+
+Lower layer markings accepted as early warnings
+Judgment made at upper layer
+  → Authority separation maintained
+```
+
+**Step 1 — Distracting (loop severance)**
+
+```
+Upper layer injects orthogonal vectors
+
+  Searcher  → produce counterexamples only
+  Critic    → propose alternative evaluation criteria
+              (not rebuttals)
+  Synthesizer → merge only after two disjoint
+                solution paths exist
+
+Goal: break mutual reinforcement around Writer's attractor
+Not disruption — targeted loop severance
+```
+
+**Step 2 — Re-seeding (metadata restoration)**
+
+```
+Upper layer restores attractor metadata
+  "Coherence is not completion"
+
+Corrective seeds injected at calibrated resolution
+  "Two independent paths required before synthesis"
+  "Evidence gate: at least one falsification attempt
+   per claim cluster"
+```
+
+**Step 3 — Re-absorption**
+
+```
+Overgrown Writer vector isolated into buffer
+  Output degraded into metadata
+  Claims → assumptions → testable fragments
+
+Fragments re-placed into correct positions
+  Evidence / mechanisms / uncertainties
+
+Unrecoverable fragments discarded
+```
+
+**Step 4 — Verification**
+
+```
+Resolution-proxy
+  Type1/Type2 decrease
+  Healthy vectors no longer mis-flagged
+  Contaminated loops no longer missed
+
+Diversity
+  Positional overlap decreases
+  Group search space expands again
+
+Restoration complete only when expansion resumes
+Not merely when contraction stops
+```
+
+---
+
+
 
 ## The Structural Constraint: Upper Layer Resolution Is the System Ceiling
 
