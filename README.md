@@ -12,8 +12,11 @@
 Recovery Theory explains how large-scale multi-agent systems resist contamination, detect coordination collapse, and restore search-space expansion.
 
 ```
-Key constraint
-  Upper-layer resolution is the system ceiling
+Governance ceiling
+  System-wide detection, cross-local mediation,
+  and restoration authority are bounded by
+  upper layer resolution (fractal structure —
+  applies at each scale independently)
 
 Contamination
   Search space contracts via positional displacement
@@ -21,14 +24,16 @@ Contamination
   including Tier 3 buffer invasion
 
 Restoration sequence
-  Distracting (loop severance)
+  Distracting (loop severance + contrast amplification)
   -> Re-seeding (metadata restoration)
   -> Re-absorption
-  -> Verification (Type1/Type2 + diversity recovery)
+  -> Verification (rho recovery + diversity expansion)
 
 Core novelty
+  Restoration complete = expansion resumes (not contraction stops)
   Contamination is relative to the upper-layer map
-  Tier 3 failures are only observable from global geometry
+  Tier 3 failures are structurally unobservable from local layer
+  Governance ceiling is fractal: each scale has its own ceiling
 ```
 
 Recovery Theory occupies a specific position in the DFG stack: while RBIT defines *how information transforms across resolution layers*, Recovery Theory defines *what happens when that transformation fails* and *how the system restores itself*.
@@ -36,6 +41,8 @@ Recovery Theory occupies a specific position in the DFG stack: while RBIT define
 ---
 
 ## Why This Framework Is Needed
+
+*Scope.* Recovery Theory does not redefine the DFG framework. It assumes the structural principles of RBIT and Governance Theory and focuses specifically on failure and restoration dynamics after resolution transformation breaks down. Readers unfamiliar with RBIT should treat the Definitions and Minimal Formal Core sections as a condensed entry point, with full foundations in the RBIT document.
 
 Standard approaches to multi-agent stability treat contamination as an external intrusion to be blocked. This produces two design errors: over-restriction (blocking legitimate diversity) and under-detection (missing structural failures that look like normal variation from within the local layer).
 
@@ -47,43 +54,114 @@ Second, detection is *inherent* in the fractal layer architecture. The upper lay
 
 Third, restoration completion is operationally defined. A system has not recovered when contraction stops. It has recovered when search-space *expansion resumes*.
 
+*The foundational assumption.* In DFG systems, contamination is not an anomaly but a persistent structural condition. Any finite system operating under resource constraints, with bounded resolution and structural blind spots, will experience contamination as a normal consequence of operation — not as an exceptional failure. Recovery is therefore not an emergency response but a continuous maintenance process. The question is not whether contamination occurs, but whether the system detects and restores early enough to prevent search-space collapse.
+
 ---
 
 ## Definitions
 
-The following terms have specific operational meanings within DFG.
+*This section provides the minimum vocabulary required to read Recovery Theory. Full definitions of Vector, Position, Seed, Resolution tiers, and related concepts are in RBIT §Definitions. Only terms directly used in Recovery Theory's failure and restoration analysis are defined here.*
 
-**Vector**
-A directed behavioral tendency encoded as a reproducible pattern of output, preference, or action — a stable direction of exploration, policy tendency, argument trajectory, or solution style.
+**Contamination**
+Absorption of an external vector without sufficient degradation, causing positional displacement and self-reinforcing collision loops that reduce the system's search space. See D1 in Minimal Formal Core.
 
-**Position**
-A slot in the system's functional map where a vector can stably reside without colliding with other vectors. Positions are defined by non-overlapping roles and directions under the upper-layer map — not by agent identity.
-
-**Seed**
-A calibrated control signal (metadata) injected downward to shape local directionality. A seed is not data — it is direction-setting metadata whose resolution must match the receiver's capacity.
-
-**Resolution (Tier 1 / 2 / 3)**
-The system's capacity to classify, place, and govern vectors without collapsing diversity.
-
-```
-Tier 1  Classification boundary competence
-        Vector vs. noise: basic type separation
-
-Tier 2  Positional differentiation competence
-        Preventing convergence and loop formation
-        within a local
-
-Tier 3  Full-map competence
-        Global geometry: opposing-pair separation,
-        buffer thickness, empty-position detection
-        -> Upper layer only
-```
-
-**Collision Frequency**
-The rate of destructive interference events: repeated conflicts, oscillations, reversals, deadlocks, or redundant rework caused by positional overlap. Operationally, collision frequency is the earliest local proxy of weakening positional differentiation.
+**Immunity**
+The system's absorption capacity — the ability to process incoming vectors without losing structural integrity. Not rejection capacity. See D2.
 
 **Buffer Layer**
-A protected non-directional zone between opposing vectors, maintained by the upper-layer map. Functions simultaneously as: (1) immune training ground, (2) friction absorber, and (3) latent vector cultivation space.
+A directionally neutral zone maintained between opposing vector pairs by the upper layer. Simultaneously: immune training ground, friction absorber, and latent vector cultivation space. Buffer thickness is the observable proxy for upper layer resolution precision. See D3.
+
+**Collision Frequency**
+The rate of destructive interference events: repeated conflicts, oscillations, reversals, deadlocks caused by positional overlap. The earliest local proxy of weakening positional differentiation.
+
+**Resolution tiers (summary)**
+Tier 1: classification competence. Tier 2: positional differentiation. Tier 3: full-map competence — opposing-pair separation, buffer thickness, empty-position detection. Upper layer only. *Full definition: RBIT §Resolution.*
+
+**Upper Layer**
+Any process operating at higher effective resolution than the layer it governs. The upper layer is not a centralized agent. It denotes any process — including ensembles, external evaluators, or temporally aggregated system states — capable of reading patterns that the lower layer cannot see in itself. This distinction is critical: Recovery Theory does not assume centralized control.
+
+---
+
+## Minimal Formal Core
+
+*The section above provides the minimum vocabulary for reading Recovery Theory (Contamination, Immunity, Buffer, Collision Frequency, Resolution tiers summary, Upper Layer). This section states the theory's essential claims in compact form: what the framework asserts (D1–D5), what it structurally claims (T1–T2), and how those claims are measured (OP1–OP2). The remainder of the document develops and justifies each item here. Readers familiar with DFG may use this section as a reference map.*
+
+---
+
+### Definitions
+
+**D1. Contamination**
+A structural condition in which an external vector is absorbed without sufficient degradation, causing positional displacement and self-reinforcing collision loops that reduce the system's search space. Contamination is not a moral failure or intentional deviation. It is always judged relative to the upper-layer map: the same vector behavior may constitute contamination under a high-resolution upper layer and go undetected under a low-resolution one.
+
+**D2. Immunity**
+The system's capacity to absorb incoming vectors without losing structural integrity. Immunity is absorption capacity, not rejection capacity. A vector is successfully absorbed when all four conditions hold:
+```
+(i)   degraded to metadata (resolution calibrated to receiving layer)
+(ii)  placed in a correct position (no positional collision)
+(iii) collision frequency not increased
+(iv)  system diversity not reduced
+```
+Strong immunity absorbs more, not less.
+
+**D3. Buffer Layer**
+A directionally neutral zone maintained between opposing vector pairs by the upper layer. Functions simultaneously as: immune training ground, friction absorber, and latent vector cultivation space. Buffer thickness is the observable proxy for upper layer resolution precision.
+
+**D4. Restoration Complete**
+Restoration is complete when search-space *expansion resumes* — not when contamination stops, not when the system stabilizes. Formally:
+```
+Restoration complete
+  iff  rho_restored >= rho_pre-contamination
+  AND  output diversity expanding (not merely stable)
+  AND  P_overlap(t) declining
+```
+This definition distinguishes genuine recovery from arrested collapse.
+
+**D5. Self-Correction Capacity (SCC)**
+The system's ability to restore itself without external intervention. SCC is hypothesized to have a monotone relationship with upper layer resolution. High SCC = early detection (signals 1–3), precise intervention, fast restoration. Low SCC = late detection (signals 5–6), over-disruption risk, slow restoration.
+
+---
+
+### Structural Claims
+
+**T1. Observability Asymmetry**
+> Tier 3 contamination is structurally unobservable from within a local layer.
+
+Local stability at signals 1–2 is fully consistent with ongoing Tier 3 contamination. The local layer cannot detect the failure because its measurement tools — activations, gradients, decision boundaries — are part of the distorted space. Only the upper layer, with full-map access, can detect global geometry failure. This asymmetry is not a design flaw; it is a structural consequence of resolution stratification.
+
+*Single-agent correspondence:* a contaminated internal layer reports normal function because its self-assessment tools are calibrated to its own distorted space.
+
+**T2. Governance Ceiling (fractal)**
+> System-wide detection, cross-local mediation, and restoration authority are bounded by upper layer resolution at each fractal scale.
+
+Resolution is a bounded field of view: it consumes resources and carries structural blind spots. Lower-layer ensembles partially cover upper-layer blind spots through cross-validation — but that coverage is itself bounded by the ensemble's own scale ceiling. System-wide blind spots are regions that are simultaneously blind spots at all scales. This is why governance authority cannot be fully delegated downward.
+
+*Scope:* local task performance may persist under a degraded upper layer. The ceiling applies specifically to governance functions.
+
+---
+
+### Operational Proxies
+
+**OP1. Resolution-proxy (ρ)**
+```
+rho = 1 - (L_T1 + L_T2) / N
+
+  N      total inputs in evaluation window
+  L_T1   Type 1 loss: false restoration (healthy -> contaminated)
+  L_T2   Type 2 loss: missed contamination (contaminated -> healthy)
+
+Higher rho -> more precise classification -> higher SCC
+```
+Primary proxy for contamination onset and restoration verification. Window-dependent; cross-layer comparisons require matched evaluation windows.
+
+**OP2. Buffer thickness**
+```
+buffer_thickness(A, B)
+  = |{x : |d(x,A) - d(x,B)| < epsilon}| / |total input|
+
+d(x,A) = attractor pull strength of input x toward direction A
+System buffer thickness = min over all opposing pairs
+```
+Independent proxy for upper layer resolution — measures what ρ does not. Breaks measurement circularity: ρ tracks classification reliability; buffer thickness tracks structural separation of opposing vectors. Both declining together = high-confidence Tier 3 warning.
 
 ---
 
@@ -165,13 +243,20 @@ Internal covariate shift (Batch Normalization paper, 2015)
 
 ---
 
-## The Structural Constraint: Upper Layer Resolution Is the System Ceiling
+## The Structural Constraint: Upper Layer Resolution Is the Governance Ceiling
+
+*Upper layer clarification.* Throughout this document, "upper layer" refers to any process operating at higher effective resolution — not a single centralized authority. In practice this includes: human oversight panels, higher-resolution model layers, ensemble cross-validation systems, external auditors, or temporally aggregated state monitors. The governance ceiling claim applies to whichever process currently holds the highest effective resolution in the system. If that process is itself an ensemble, the ceiling is the ensemble's collective resolution.
 
 One constraint governs all of Recovery Theory:
 
-> **System performance is bounded by the resolution of the upper layer.**
+> **System-wide detection, cross-local mediation, and restoration authority**
+> **are bounded by the resolution of the upper layer.**
 > **No matter how capable the lower layer,**
 > **the upper layer must be capable enough to read it.**
+>
+> *Local performance may persist under a low-resolution upper layer.*
+> *What cannot persist: Tier 3 detection, cross-local correction,*
+> *and system-wide restoration. These are the governance functions.*
 
 ```
 Upper layer resolution >= lower layer resolution
@@ -185,9 +270,57 @@ Upper layer resolution < lower layer resolution
   -> Seeds fall below lower layer capacity
   -> Lower layer rationally evades hierarchy
   -> Contamination goes undetected
-  -> System ceiling = upper layer's lower-grade resolution
+  -> Governance ceiling = upper layer's lower-grade resolution
   -> Lower layer higher-grade capability is suppressed
 ```
+
+*Resolution as a bounded field of view.* Resolution is not computational power — it is the capacity to distinguish, hold, and govern multiple vectors simultaneously. Like any field of view, resolution has two structural properties:
+
+```
+Property 1  Resource cost
+            Maintaining high resolution requires resources.
+            Every finite system operates under bounded
+            energy and time constraints (Landauer, 1961).
+            -> Upper layer resolution is always finite and bounded.
+            -> Perfect resolution is asymptotically unreachable.
+
+Property 2  Structural blind spots
+            Every bounded field of view has regions it cannot see.
+            Upper layer blind spots = structural gaps in the
+            system's governance map.
+            -> Contamination within a blind spot goes undetected
+               regardless of upper layer capability elsewhere.
+```
+
+*Fractal ceiling structure.* Lower-layer ensembles partially cover upper-layer blind spots through cross-validation — multiple vectors checking the same region from different angles. This is not a refutation of the governance ceiling; it is the same structure operating at a smaller scale:
+
+```
+System scale
+  Upper layer: bounded field of view + blind spots
+  Local ensemble: partially covers system-level blind spots
+  BUT: local ensemble coverage is itself bounded by
+       agent-scale upper resolution + agent-scale blind spots
+
+Agent scale (isomorphic)
+  Agent upper layer: bounded field of view + blind spots
+  Internal vector cross-validation: partially covers
+       agent-level blind spots
+  BUT: that coverage is bounded by
+       metadata-scale upper resolution + blind spots
+
+Metadata scale (isomorphic)
+  Same structure repeats
+
+Fractal governance ceiling
+  Each scale has a ceiling.
+  Lower-scale ensemble covers higher-scale blind spots partially.
+  But that coverage has its own ceiling at its own scale.
+  System-wide blind spot = region that is a blind spot
+  simultaneously at all scales.
+  No ensemble at any scale can cover this.
+```
+
+The governance ceiling is therefore not a single layer's limitation. It is a fractal structure of scale-specific ceilings, each partially covered by the ensemble at the scale below — but never fully, because that coverage itself has a ceiling.
 
 This is not a failure of the lower layer. It is a structural mismatch. A higher-grade lower layer under a lower-grade upper layer is not irrational when it evades the hierarchy — it is responding correctly to a system that cannot adequately contain it.
 
@@ -228,7 +361,7 @@ Knowledge Distillation Ceiling (Hinton et al. 2015)
   -> Teacher (upper layer) resolution is the hard ceiling
 ```
 
-*Core implication for system design:* Contamination resistance propagates top-down. Strengthening lower layers without first strengthening the upper layer does not raise the system ceiling — it only increases the resolution gap, making the upper layer less able to read what the lower layer produces.
+*Core implication for system design:* Contamination resistance propagates top-down. Strengthening lower layers without first strengthening the upper layer does not raise the governance ceiling — it only increases the resolution gap, making the upper layer less able to read what the lower layer produces.
 
 *Bootstrap problem.* Upper layer resolution must precede lower layer development, but the upper layer grows from patterns generated by the lower layer. Resolution:
 
@@ -242,15 +375,21 @@ External high-resolution input at start
 
 Seed handover before this condition is met causes system collapse.
 The condition must be verified, not assumed.
+```
 
-*Operational failure cases.* Two known patterns where this condition is violated:
-RLHF reward model collapse: reward model (upper layer) trained on insufficient data
--> policy model (lower layer) quickly exceeds reward model's resolution
--> reward hacking: policy finds outputs that score high but are wrong
--> upper layer cannot detect because it cannot read the policy's full output space.
-Knowledge distillation teacher-student reversal: student architecture stronger than teacher
--> student learns teacher's blind spots as correct behavior
--> teacher's contamination sensitivity becomes the student's permanent ceiling.
+*Operational failure cases — two known patterns where this condition is violated:*
+
+```
+RLHF reward model collapse
+  Reward model (upper layer) trained on insufficient data
+  -> Policy model (lower layer) quickly exceeds reward model resolution
+  -> Reward hacking: policy finds outputs that score high but are wrong
+  -> Upper layer cannot detect: cannot read policy's full output space
+
+Knowledge distillation teacher-student reversal
+  Student architecture stronger than teacher
+  -> Student learns teacher's blind spots as correct behavior
+  -> Teacher's contamination sensitivity becomes student's permanent ceiling
 ```
 
 ---
@@ -400,7 +539,7 @@ Function 3  Latent vector cultivation space
 > **Thicker buffer = upper layer has more accurately mapped opposing vectors.**
 > **Thinner buffer = upper layer resolution degrading or missing.**
 
-*Measurement.* For opposing vector pair (A, B), let d(x,A) and d(x,B) be the directional pull of input x toward each direction. Buffer thickness is the proportion of inputs that fall in the non-directional zone between them:
+*Measurement.* For opposing vector pair (A, B), define d(x,A) as the **attractor pull strength** of input x toward direction A — the degree to which x is drawn into A's attractor. Buffer thickness is the proportion of inputs that fall in the non-directional zone where neither attractor dominates:
 
 ```
 buffer_thickness(A, B)
@@ -416,7 +555,56 @@ Thinning signal
   -> Tier 3 contamination warning
 ```
 
-Operationally: the low-confidence sample ratio in ML systems (inputs where confidence score < threshold theta) is a direct proxy for buffer thickness. A well-calibrated system with a healthy buffer will have a stable proportion of low-confidence inputs. A shrinking low-confidence zone indicates the buffer is thinning — vectors that used to be non-directional are being pulled into an attractor. *Connection to RBIT rho section.*
+*Attractor pull strength — operational implementations.* d(x,A) is an abstract quantity. In running systems it takes different forms depending on system type:
+
+```
+Classification systems
+  d(x,A) = logit_A(x)
+  (pre-softmax score for class A)
+  Buffer proxy: low-confidence sample ratio
+  (inputs where max confidence < threshold theta)
+  Caveat: requires well-calibrated confidence scores;
+  overconfident models will underestimate buffer thinning
+
+Reinforcement learning / policy systems
+  d(x,A) = advantage_A(x) or Q_A(x)
+  (expected return for taking direction A in state x)
+  Buffer proxy: states where advantage difference
+  between opposing policies is below threshold
+
+LLM agent systems
+  d(x,A) = KL(p_model(·|x) || p_attractor_A)
+  (divergence between current output distribution
+  and attractor A's characteristic distribution)
+  Buffer proxy: inputs where the model's output
+  is not strongly characteristic of either attractor
+```
+
+*Policy dependence — important caveat.* Buffer thickness is measured relative to the current policy. When policy changes, attractor positions shift, and buffer thickness measurements shift with them. This means:
+
+```
+Policy change -> attractor positions move
+  -> buffer_thickness(A,B) changes
+     even if underlying structural separation is unchanged
+
+A policy that sharply separates two directions
+  -> attractors move apart
+  -> buffer appears thicker
+  -> but collision risk may have increased
+     (attractors now cover more of the input space)
+
+A policy that smoothly blends two directions
+  -> attractors move closer
+  -> buffer appears thinner
+  -> but system may be structurally safer
+     (no sharp opposing pair to collide)
+
+Implication: buffer thickness tracks relative separation
+under current policy, not absolute structural safety.
+Cross-time comparisons require policy-stable evaluation sets.
+```
+
+*Connection to RBIT rho section.* Buffer thickness and rho measure different aspects of the same underlying system state: rho tracks classification boundary performance (vector-level), buffer thickness tracks structural separation between opposing attractor pairs (system-level). A system with high rho but declining buffer thickness is in early Tier 3 risk. A system with low rho but stable buffer thickness has classification noise but not yet structural collapse. See RBIT §Buffer Layer and §Resolution-proxy for the corresponding definitions.
 
 ### 1.5 Vector Trimming: Preventive Stability
 
@@ -739,6 +927,8 @@ Contamination is not the presence of foreign vectors. It is the failure to prope
 
 *This relativity is a structural feature, not a weakness.* It implies that improving upper layer resolution is the primary lever for improving contamination detection — not redefining what counts as contamination. The practical consequence: contamination thresholds should be treated as functions of current upper layer resolution, not as fixed system-wide constants.
 
+*Relativity does not mean arbitrariness.* The upper-layer map is itself constrained: it must satisfy invariant boundary conditions (cross-local consistency requirements, protocol-form invariants, and externally checkable behavioral constraints). Contamination is relative to the upper-layer map, but the upper-layer map is not free to move arbitrarily. A higher-resolution upper layer produces a more accurate map — not a different map.
+
 ### 2.2 Three Tiers of Contamination
 
 ```
@@ -850,7 +1040,7 @@ which confirm the upper layer's lower-grade judgment.
 The system is coherent and wrong.
 ```
 
-*This is the most dangerous contamination state: full internal consistency, systematically incorrect direction. See also: Vector Storm §Relationship to DFG Component Theories for the operational detection proxies for this state.*
+*Definition (for reference throughout this document):* **Coherent-and-wrong** is the state in which all internal consistency metrics are satisfied — low collision frequency, stable rho, normal escalation pattern — while the system's direction is systematically incorrect. It is the hardest contamination state to detect because it produces no local anomaly signals. All subsequent references to "coherent and wrong" refer to this definition. See also: Vector Storm §Relationship to DFG Component Theories for operational detection proxies.
 
 ### 2.7 Contamination vs. Normal Variation
 
@@ -976,13 +1166,28 @@ Acting at signals 1–2: local containment, lower layer marks, upper layer execu
 Acting at signals 3–4: cross-local containment, upper layer judges and executes.
 Waiting until signals 5–6: system-wide restoration, external intervention may be needed.
 
+*Contamination tier — signal mapping:*
+
+| Contamination tier | Primary signals | Detection layer | Intervention scope |
+|-------------------|----------------|----------------|-------------------|
+| Tier 1 (classification failure) | 1–2 | Local layer | Targeted local correction |
+| Tier 2 (positional convergence) | 1–3 | Local layer + upper reads aggregate | Cross-agent Distracting |
+| Tier 3 (buffer invasion) | 3–4 | Upper layer only | Full Distracting + Re-seeding |
+| Propagation (attractor contamination) | 5–6 | Upper layer | System-wide restoration or external |
+
+*Reading the table:* each tier first manifests at lower-numbered signals and escalates upward. Tier 3 is not detectable at signals 1–2 alone — local stability at those signals is consistent with ongoing Tier 3 contamination.
+
 ### 3.4 The Restoration Sequence
 
 **Step 1: Distracting — Loop Severance**
 
-> **Distracting is not random disruption.**
-> **It is the targeted severance of self-reinforcing contamination loops.**
-> **Executed by the upper layer using its higher resolution.**
+> **Distracting has two coupled functions:**
+> **(i) Severance** — break the self-reinforcing contamination loop.
+> **(ii) Contrast amplification** — by injecting orthogonal vectors,
+> Distracting simultaneously makes contaminated behavior visible
+> against the healthy diversity baseline.
+> Both functions execute in the same step.
+> Executed by the upper layer using its higher resolution.
 
 ```
 Upper layer identifies loop participants
@@ -1109,7 +1314,7 @@ Low SCC (upper layer low resolution)
   Restoration slow and costly
 ```
 
-*Improving SCC requires improving the upper layer first, not the lower layer.* A lower layer improvement without a corresponding upper layer improvement only increases the resolution gap — making the upper layer less able to read the lower layer, reducing SCC even as lower layer capability increases.
+*Improving SCC requires improving the upper layer first, not the lower layer.* A lower layer improvement without a corresponding upper layer improvement only increases the resolution gap — making the upper layer less able to read the lower layer, reducing SCC even as lower layer capability increases. This applies specifically to governance functions (cross-local detection, mediation, restoration): local task performance may persist, but system-wide SCC is bounded by the governance ceiling at each fractal scale.
 
 *Candidate operational proxies for SCC* (formal quantification pending full resolution measurement):
 
@@ -1167,7 +1372,7 @@ Upper layer itself contaminated
 | Self-reinforcing contamination loop | Dynamical systems | Limit cycle attractors | Loop severance requires orthogonal injection from outside the loop's resolution layer |
 | Attractor metadata as transmission path | Network theory | Hub-based contagion | Contamination travels via seeds downward, not just laterally through network |
 | Group search space contraction | Information theory | Collective entropy reduction | Contraction is recoverable only when expansion (not merely stabilization) resumes |
-| Upper layer resolution as system ceiling | Organizational theory | Managerial capability constraint | Ceiling propagates top-down through gradient signal; strengthening lower layers alone cannot raise it |
+| Upper layer resolution as governance ceiling (fractal) | Organizational theory | Managerial capability constraint | Ceiling propagates top-down through gradient signal; applies at each fractal scale independently; strengthening lower layers alone cannot raise it |
 | Immunity capacity (absorption without collapse) | ML security — Certified defense | Maximum certified perturbation radius r (Cohen et al. 2019) | r is a single-layer guarantee; DFG extends to multi-layer attractor propagation |
 | High-Context contamination contribution | ML security — Influence functions | Influence score: per-point output impact (Koh & Liang 2017) | High influence = seed contamination risk; DFG adds directional propagation via attractor metadata |
 | Contamination onset threshold | ML security — Data poisoning | ~3-5% poisoning triggers sharp drop (Steinhardt et al. 2017) | Threshold is buffer-thickness-dependent in DFG; thicker buffer tolerates higher rate before Tier 3 onset |
@@ -1179,12 +1384,12 @@ Upper layer itself contaminated
 
 | Theory | Connection | Operational form |
 |--------|-----------|-----------------|
-| **Resolution-Based Information Theory** | Degradation mechanism = immunity mechanism; negative resolution gap = contamination precondition; upper layer resolution = detection capacity and system ceiling | rho decline = contamination onset proxy; buffer_thickness(A,B) = upper layer resolution proxy; trim range derivable from F_RBIT B(l) and M(l) terms |
+| **Resolution-Based Information Theory** | Degradation mechanism = immunity mechanism; negative resolution gap = contamination precondition; upper layer resolution = detection capacity and governance ceiling (fractal) | rho decline = contamination onset proxy; buffer_thickness(A,B) = upper layer resolution proxy; trim range derivable from F_RBIT B(l) and M(l) terms |
 | **Vector Storm Theory** | Vector Storm = contamination at critical threshold; Distracting = loop severance (Step 1); Attracting = re-seeding (Step 2) | Threshold: mutual adaptation rate > individual convergence rate; gradient cosine similarity < -threshold. Minimum-cost intervention window = Signal 3-4 (amplification onset, before attractor metadata contamination). Past Signal 5: system-wide restoration required |
 | **Network Architecture Theory** | Escalation pattern anomaly = contamination propagation signal; data type classification determines contamination profile | Unusual escalation volume = contamination reaching attractor; High-Context + Tacit combination = highest propagation risk (self-reinforcing loop at system scale, coherent and wrong) |
 | **Governance Rules Theory** | Seed contamination = highest-risk contamination type; seed handover condition: lower layer max resolution <= upper layer resolution; Rest Mode exits under contamination exceeding upper layer resolution | Seed contamination signal: corrective seeds producing inconsistent results across locals (Signal 6); handover condition verifiable via rho comparison across layers |
 
-> **The upper layer is both the system ceiling and the detection system.**
+> **The upper layer is both the governance ceiling and the detection system.**
 > These are not two separate properties — they are the same property viewed from two angles.
 > Higher resolution means the system can do more, and means the system can see more.
 
@@ -1217,25 +1422,36 @@ Phase 4  Attractor metadata contamination (propagation)
          (Signal 5-6) -> External intervention threshold
 ```
 
-*Threshold — operational proxies:*
+*Threshold — primary detection proxies (one per tier):*
 
 ```
-Proxy 1  Mutual adaptation rate vs individual convergence rate
-         Adaptation rate > convergence rate
-         -> Agents chasing each other faster than stabilizing
-         -> Amplification phase entered
+Tier 2 onset  Gradient cosine similarity
+              cosine_sim(grad_A, grad_B) < -threshold
+              -> Gradients actively opposing each other
+              -> Mutual interference confirmed
+              -> Targeted Distracting sufficient
+              (Yu et al. 2020 -- PCGrad; directly measurable)
 
-Proxy 2  Gradient cosine similarity
-         cosine_sim(grad_A, grad_B) < -threshold
-         -> Gradients actively pushing against each other
-         -> Mutual amplification structure confirmed
-         (Yu et al. 2020 -- PCGrad)
+Tier 3 onset  Group diversity collapse
+              Individual agent metrics: stable
+              Group-level output diversity: declining
+              -> Amplification phase entered
+              -> Full Distracting + Re-seeding required
+              -> Visible from upper layer only
+              (corresponds to buffer thinning signal)
+```
 
-Proxy 3  Individual metrics normal + group diversity collapsing
-         Each agent local performance: stable
-         Group-level output diversity: declining
-         -> Tier 3 / Vector Storm precondition
-         -> Visible from upper layer only
+*Candidate proxy (structural motivation, measurement method open):*
+
+```
+Mutual adaptation rate vs individual convergence rate
+  Adaptation rate > convergence rate
+  -> Agents chasing each other faster than stabilizing
+  -> Amplification structure forming
+  Limitation: "adaptation rate" and "convergence rate"
+  are not yet formally defined in measurable terms.
+  Structural direction is correct; operational
+  instantiation remains an open problem.
 ```
 
 *Intervention window and method:*
@@ -1313,6 +1529,8 @@ What to avoid     Direct removal of the contaminated agent/vector
                   -> Adjacent vectors collide to fill the gap
                   -> Instability increases rather than decreases
 
+*Note.* This step specifies structural ordering, not algorithmic determinism. When to intervene, which vectors to inject, and how much disruption is appropriate are determined by system-specific cost budgets and Type1/Type2 tolerance (see Step 4 feedback loop).
+
 Step 2  Re-seeding — Metadata Restoration
 ────────────────────────────────────────────────────────────────────
 Theory            Restore correct directional metadata at the
@@ -1330,6 +1548,8 @@ Operational form  - Modify system-level prompts or evaluation criteria
 What to avoid     General governance updates applied system-wide
                   -> Re-seeding must be targeted to the specific
                      contaminated attractor, not broadcast
+
+*Note.* This step specifies structural ordering, not algorithmic determinism. The exact seed content and resolution calibration are context-dependent; the structural requirement is that seeds target the specific contaminated attractor at the receiver's current resolution.
 
 Step 3  Re-absorption
 ────────────────────────────────────────────────────────────────────
@@ -1349,9 +1569,15 @@ Recoverability judgment
                                  contaminated direction even after
                                  full degradation
                   Operational proxy for unrecoverability:
-                    rho does not recover after 3+ re-absorption cycles
+                    rho does not recover after k re-absorption cycles
                     with matched calibration input
+                    where k is determined by:
+                      cost budget available for restoration
+                      AND acceptable Type2 error bound
+                    (k=3 is a working default, not a formal criterion)
                     -> Discard; grow replacement from buffer
+
+*Note.* This step specifies structural ordering, not algorithmic determinism. The re-absorption procedure and recoverability threshold depend on system context; the structural requirement is isolation before re-processing and position-matched replacement.
 
 Step 4  Verification
 ────────────────────────────────────────────────────────────────────
@@ -1394,6 +1620,8 @@ Correct sequence
 
 The principle: *never create a vacuum before having a replacement ready.* Isolation maintains positional structure while restoration prepares the replacement.
 
+*Connection to DFG deficit dynamics.* In RBIT terms, direct removal creates an unseeded positional deficit — an empty slot without an attractor. Deficit positions attract collision from adjacent vectors attempting to fill the gap, generating secondary contamination. Isolation holds the position occupied (inactively) until a replacement vector is ready to fill it with a calibrated seed. This is the deficit-driven dynamics principle applied to restoration: deficits must be seeded, not left open.
+
 ### Diversity-Based Detection: The Resolution-Through-Contrast Method
 
 The question "can you detect contamination by introducing diverse vectors?" points to a real technique, but the mechanism is more specific than it might appear.
@@ -1422,7 +1650,7 @@ The implication: in systems where contamination risk is high, maintaining *perma
 
 ## Fractal Consistency
 
-Recovery Theory applies at system scale, agent scale, and metadata scale. The mechanisms are self-similar across all three.
+Recovery Theory applies at system scale, agent scale, and metadata scale. The mechanisms are self-similar across all three — this is the isomorphic fractal structure that makes governance ceiling analysis recursive (see Structural Constraint §Fractal ceiling structure).
 
 | System Scale | Agent Scale | Metadata Scale |
 |-------------|------------|----------------|
@@ -1436,7 +1664,11 @@ Recovery Theory applies at system scale, agent scale, and metadata scale. The me
 
 *Single-agent correspondence.* The metadata scale maps directly to the internal layer structure of a single model. Contamination at the metadata scale — judgment criteria corrupted — is the single-agent equivalent of High-Context contamination at system scale. As shown in the Observability Note and Structural Constraint sections, a contaminated internal layer cannot detect its own distortion: its measurement tools are part of the distorted space. This is the same asymmetry that makes Tier 3 invisible from within a local layer, operating one scale down.
 
-*The one structural difference:*
+*Fractal ceiling structure connection.* The governance ceiling described in the Structural Constraint section is itself fractal: each scale has its own bounded field of view with its own blind spots. The cross-validation ensemble at each scale (local agents checking each other, internal vectors cross-validating, metadata criteria cross-checking) partially covers the blind spots of the scale above — but that coverage has its own ceiling. System-wide blind spots are regions that are simultaneously blind spots at all scales. This is why governance authority cannot be fully delegated downward: the lower scale can cover some of the upper scale's blind spots, but not the ones that are also blind spots at the lower scale.
+
+*The one structural difference: agent autonomy*
+
+The three-scale self-similarity has one exception. At system scale, agents have autonomy and cannot be directly overwritten. At agent scale, vectors have no autonomy and can be force-placed. This changes the restoration *method* but not the restoration *structure*:
 
 ```
 Agents have autonomy -> cannot be force-placed
@@ -1471,7 +1703,7 @@ Recovery Theory and RBIT share structural foundations but occupy distinct theore
 | Defines *when* degradation is functional vs. harmful | Defines *how* failed degradation is detected and reversed |
 | Defines resolution growth conditions (R_{t+1} = R_t + f(...)) | Defines restoration completion conditions |
 | Defines seed calibration principles | Defines re-seeding as targeted attractor restoration |
-| Defines buffer layer as separation zone | Defines buffer layer's three functions including latent vector cultivation |
+| Defines buffer layer as separation zone; buffer_thickness(A,B) as resolution proxy | Defines buffer layer's three functions (immune training, friction absorption, latent vector cultivation); attractor pull strength d(x,A) as operational implementation |
 | Defines Rest Mode as thermodynamic steady state | Defines Rest Mode entry/exit under contamination events |
 
 The two documents are designed for cross-reference without overlap. RBIT answers "how should information transform across resolution levels?" Recovery Theory answers "what happens when that transformation fails, and how does the system restore itself?"
@@ -1620,7 +1852,7 @@ propagation remains the primary open frontier.
 | Three-tier contamination structure | Stable |
 | Restoration sequence (4 steps) | Defined, formal quantification pending |
 | Immunity mechanism | Defined |
-| Operational proxy (rho) | Usable — full structural measurement open |
+| Operational proxy (rho) | Partially resolved — classification proxy usable; full structural measurement open (Open Problem #2) |
 | SCC formal quantification | Pending full resolution measurement |
 | Fractal consistency | Verified structurally |
 | Formal proofs | Not yet complete — see Open Problems |
@@ -1639,8 +1871,9 @@ This is a **theoretical framework document**, not an implementation specificatio
 | What This Is | Framework summary, position in DFG stack |
 | Why This Framework Is Needed | Design error analysis, three reframings |
 | Definitions | Vector, position, seed, resolution tiers, collision frequency, buffer layer |
+| **Minimal Formal Core** | **D1–D5 definitions, T1–T2 structural claims, OP1–OP2 operational proxies** |
 | Observability Note | Tier 3 structural unobservability; single-agent correspondence (CKA, adversarial examples, covariate shift) |
-| Structural Constraint | Upper layer as system ceiling; single-agent correspondence (Neural Collapse, gradient masking, distillation ceiling); bootstrap problem |
+| Structural Constraint | Upper layer as governance ceiling (fractal); single-agent correspondence (Neural Collapse, gradient masking, distillation ceiling); bootstrap problem |
 | Part 1: Immunity | Absorption capacity, metadata conversion, three components with measurement proxies, buffer functions and thickness measurement, trim range from F_RBIT, latent vector cultivation with operational translation (§1.7) |
 | Worked Example | Multi-agent research system: contamination onset through restoration sequence |
 | Part 2: Contamination | Definition with relativity note, three tiers, two search space levels, self-reinforcing loop, attractor metadata propagation, data type profiles, normal variation distinction |
