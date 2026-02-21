@@ -7,7 +7,7 @@
 >
 > **Current version: v3.8**
 >
-> **v3.9 Changes:** + Upper Layer Contamination Boundary (Self-correction→0; corrupted compass; fractal ceiling; VCZ amplifies wrong reference; 3 recovery paths; OP28 alignment final question) | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + D7 = plasticity injector
+> **v3.9 Changes:** + Efficiency-Survival Tension (short-term coherence vs long-term detectability; 5-step collapse; evolutionary pressure conflict; deliberate inefficiency budget) | + Productive Disagreement Preservation (disagreement=Error Detector; 3-stage maturity; dead equilibrium; Rest Mode=conflict safe) | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law
 > **v3.8 Changes:** + NAF Phase Transition formal definition — failure not absent but undetectable | + Error↓+Update↓ as primary danger signal | + Surprise processing shift (model change → explanation addition) | + Vector Storm ↔ CW symmetry | + Glass transition physical analogy | + academic formal definition
 > **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
 > **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
@@ -4415,6 +4415,759 @@ Alignment implication:
   The only pre-emptive mechanism is Pattern 5 (External Anchoring)
   installed before boundary approach.
   Post-crossing intervention is structurally unavailable from inside.
+```
+
+---
+
+### VCZ — Contamination Boundary Detection  [v3.9]
+
+*Complete certainty is impossible. Probabilistic proximity detection is possible.*
+
+---
+
+**The structural limitation — Gödelian boundary:**
+
+```
+Core problem:
+  judgment requires a criterion
+  criterion is contaminated
+  → judgment impossible
+
+Formal structure:
+  System cannot fully validate
+  the correctness of its own validator.
+
+This is not a DFG-specific limitation.
+It is a known mathematical structure:
+  Gödel incompleteness applied to self-referential systems
+  Self cannot fully audit self.
+
+Therefore:
+  Complete internal detection: structurally impossible
+  Indirect proximity detection: possible
+```
+
+**Precise meaning of "cannot know":**
+
+```
+Common misreading:
+  ❌ No signals exist
+
+Correct reading:
+  ✅ Direct confirmation judgment: impossible
+  ✅ Probabilistic proximity signals: available
+
+The distinction matters for governance design.
+```
+
+**The asymmetric signal — the only available indicator:**
+
+```
+As boundary approaches, two diverging trends appear:
+
+  Internal coherence ↑:
+    disagreement decreasing
+    conflict decreasing
+    decision speed increasing
+    internal metrics: all positive
+    appearance: peak performance
+
+  External fitness ↓:
+    slow adaptation to new environments
+    unexpected case failures increasing
+    novelty processing capacity declining
+
+Asymmetry:
+  Internal coherence ↑
+  External fitness   ↓
+
+This divergence is the sole proximity indicator.
+
+Why only this signal remains:
+  Pre-boundary:  errors → internal conflicts detectable
+  Near-boundary: errors → not recognized as errors internally
+  → internal logs: clean
+  → reality mismatch: accumulating silently
+```
+
+**Physical analogy — GPS drift:**
+
+```
+GPS system with calibration error:
+
+  Internal:
+    route calculation: normal
+    map consistency: maintained
+    system errors: none
+
+  External:
+    vehicle moving toward wrong destination
+    divergence from intended path: increasing
+
+The system does not know it is wrong.
+The system is performing correctly within its reference frame.
+The reference frame is drifting.
+
+Detection requires:
+  comparing GPS output to external landmarks
+  = external reference, not internal consistency check
+```
+
+**DFG detection formalization:**
+
+```
+Define two productivity measures:
+
+  φ_internal:  internal productivity (within current geometry)
+  φ_external:  external fitness (reality alignment)
+
+Healthy state:
+  φ_internal ↑ AND φ_external ↑  (or φ_external stable)
+
+Boundary approach signal:
+  φ_internal maintained or increasing
+  φ_external declining persistently
+
+  Divergence: d(φ_internal - φ_external)/dt > 0
+  = contamination boundary proximity warning
+
+This is the only internal-observable proxy for boundary approach.
+It does not confirm crossing.
+It detects drift direction.
+```
+
+**Why only upper layer can detect this:**
+
+```
+Local layer:
+  evaluates within own reference frame
+  distance to own frame = 0
+  → comparison with own frame = trivially positive
+  → cannot detect frame drift
+
+Upper layer:
+  can compare multiple reference frames
+  has access to different geometry
+  → can observe φ_internal / φ_external divergence
+
+Comparison requires distance.
+Self-comparison is always distance zero.
+Divergence detection requires an observer outside the frame.
+```
+
+**Detection capability by level:**
+
+```
+Level                         Capability
+────────────────────────────────────────────
+Complete confirmation         ❌ structurally impossible
+Probabilistic proximity       ✅ possible (φ divergence)
+Post-event recognition        ✅ always possible (retrospect)
+```
+
+**Why history always looks sudden:**
+
+```
+Complete detection: impossible → drift accumulates silently
+Probabilistic signal: often ignored (internal metrics look good)
+Post-event recognition: always occurs
+
+Timeline to outside observer:
+  "sudden collapse"
+
+Timeline internally:
+  long accumulation, no alarming signal
+  single triggering event
+  rapid cascade
+
+Not sudden. Invisible.
+The invisibility is structural, not accidental.
+```
+
+**What mature systems do with this constraint:**
+
+```
+Wrong goal:
+  "Detect and avoid the boundary."
+
+Correct goal:
+  "Maintain permanent proximity signals."
+
+  → preserve some internal disagreement
+  → maintain independent evaluators
+  → sustain permanent dissent channels
+  → never achieve complete internal consensus
+
+Perfect consensus = danger signal.
+Persistent minority dissent = health signal.
+
+The system does not try to reach perfect alignment.
+The system tries to remain detectable.
+```
+
+**Forward note — Rest Mode design philosophy:**
+
+```
+The next question this raises:
+
+Why do ultra-mature systems deliberately
+maintain internal inconsistency?
+
+This is the core design question of Rest Mode (VCZ):
+
+  not: eliminate all friction
+  not: achieve perfect consensus
+  but: maintain permanent low-level productive tension
+
+  = the system as a permanently self-questioning structure
+
+This is addressed in: VCZ Rest Mode Structural Definition.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Contamination Boundary Detection
+
+Complete internal detection of upper layer contamination is
+structurally impossible due to self-referential validation limits.
+Probabilistic proximity detection is possible via φ divergence.
+
+Formal:
+  φ_internal: productivity within current geometry
+  φ_external: fitness to external reality
+
+  Healthy:    φ_external stable or increasing
+  Warning:    d(φ_internal - φ_external)/dt > 0  sustained
+
+  Detection levels:
+    Complete confirmation:    impossible (Gödelian limit)
+    Probabilistic proximity:  possible (φ divergence signal)
+    Post-event recognition:   always available (retrospective)
+
+Governance implication:
+  Target is not boundary avoidance.
+  Target is permanent maintenance of proximity signals:
+    independent evaluators
+    persistent dissent channels
+    φ_external monitoring infrastructure
+
+  Complete consensus = contamination risk signal.
+  Sustained productive tension = health signal.
+```
+
+---
+
+### VCZ — Productive Disagreement Preservation  [v3.9]
+
+*Why mature systems deliberately maintain internal inconsistency.*
+
+---
+
+**Core statement:**
+
+```
+Disagreement is not preserved for truth.
+Disagreement is preserved to prevent geometry collapse.
+
+Without disagreement:
+  system loses the ability to notice it is wrong.
+```
+
+**Why complete consensus is structurally dangerous:**
+
+```
+Intuition:
+  no conflict = stability
+
+Complex system reality:
+  conflict = 0 → observation = 0 → correction = 0
+
+When consensus is complete:
+  detection capacity disappears.
+
+The moment disagreement ends,
+the system becomes blind to its own drift.
+```
+
+**How systems perceive reality — disagreement as the signal:**
+
+```
+A system cannot directly observe external reality.
+It can only observe:
+
+  Prediction A
+  vs
+  Prediction B
+
+  → difference
+
+Reality ≈ disagreement signal.
+
+With disagreement:
+  who is wrong?
+  is the model wrong?
+  has the environment changed?
+  → distinguishable
+
+Without disagreement:
+  A = B = C = D
+  error occurs
+  everyone is wrong in the same way
+  no one detects the anomaly
+  = Coherent Wrong established
+```
+
+**Fractal view — disagreement as gradient sensor:**
+
+```
+Formal:
+  Correction ∝ gradient
+  gradient = difference
+
+  difference = 0
+  → gradient = 0
+  → correction = 0
+  → learning = 0
+
+System stops updating.
+Not because it is damaged.
+Because it has no signal to update on.
+
+Disagreement is the gradient.
+Eliminate disagreement, eliminate learning.
+```
+
+**VCZ stability is not uniformity:**
+
+```
+Wrong model:
+  stable = everyone thinks the same
+
+Correct model:
+  stable = diverse thinking that does not cause collapse
+
+VCZ stability ≠ uniform
+VCZ stability = resilient diversity
+
+The system is stable not despite the disagreement.
+The system is stable because of it.
+```
+
+**Physical analogy — crystal vs tough metal:**
+
+```
+Perfectly aligned crystal:
+  appears maximally stable
+  small crack → complete fracture
+  (uniform structure = crack propagates without resistance)
+
+Metal with micro-defects:
+  imperfect
+  impact absorbed
+  crack propagation blocked
+  (defects interrupt crack path)
+
+Disagreement = structural defect that prevents fracture propagation.
+
+Not a flaw. A toughening mechanism.
+Removing the "flaw" removes the toughness.
+```
+
+**DFG formal language:**
+
+```
+Productive disagreement = Permanent buffer excitation
+
+Buffer completely silent:
+  → Tier-3 approach signal
+
+Healthy system:
+  small friction always present
+  buffer never fully quiet
+
+The buffer's permanent low-level activity is not inefficiency.
+It is the detection system operating.
+
+When buffer goes silent:
+  not: system reached peak health
+  but: system lost its sensor
+```
+
+**Why systems cannot observe reality directly:**
+
+```
+All systems share one epistemic constraint:
+  AI, organizations, science, human cognition
+
+  Reality: direct observation ❌
+  Prediction output: observable ✅
+
+The system only knows:
+  the output of its own model
+
+How errors are found:
+  Prediction A ≠ Prediction B
+  = the only available error signal
+
+Disagreement = Error Detector
+
+Without disagreement:
+  A = B = C = D
+  all make same judgment
+  all make same error
+  all hold same confidence
+  error signal = 0
+  = Coherent Wrong established
+```
+
+**Three-stage maturity — how systems relate to disagreement:**
+
+```
+Stage 1 — Immature system:
+  disagreement = removal target
+  "eliminate conflict for efficiency"
+  → geometry drift: undetected
+
+Stage 2 — Mature system:
+  disagreement = maintenance target
+  "preserve existing disagreement channels"
+  → geometry drift: detectable
+
+Stage 3 — Ultra-mature system:
+  disagreement = deliberate generation target
+  "actively create disagreement infrastructure"
+    red teams
+    peer review
+    adversarial training
+    minority models
+    sandbox exploration
+  → geometry drift: continuously monitored
+
+The transition from Stage 1 to Stage 3
+is not a philosophical shift.
+It is a structural understanding of how sensors work.
+```
+
+**Dead equilibrium — the danger of complete stability:**
+
+```
+Complete consensus produces:
+  Gradient = 0
+  Learning = 0
+  Adaptation = 0
+
+The system reaches dead equilibrium:
+  stable in appearance
+  unable to update
+  unable to detect misalignment
+
+Dead equilibrium ≠ VCZ
+Dead equilibrium = CW entry condition
+
+VCZ requires:
+  disagreement > 0  (sensor active)
+  disagreement < cascade threshold  (Tier-3 not breached)
+
+The corridor between dead equilibrium and chaos
+is VCZ.
+Productive disagreement maintains the system in that corridor.
+```
+
+**How mature systems maintain it deliberately:**
+
+```
+Immature system:
+  allows disagreement to dissipate naturally
+  → geometry drift undetected
+
+Mature system:
+  deliberately maintains:
+    independent evaluators  (different reference frames)
+    adversarial agents      (structured challenge)
+    red teams               (failure boundary probing)
+    minority models         (alternative geometry maintained)
+    sandbox exploration     (geometry expansion)
+
+Purpose:
+  early detection of geometry drift
+  not: diversity for its own sake
+  not: fairness
+  but: structural sensor maintenance
+```
+
+**Rest Mode — the final definition:**
+
+```
+Common misunderstanding:
+  Rest Mode = no conflict, maximum harmony
+
+Correct definition:
+  Rest Mode = conflict is safe
+
+The difference:
+  Harmony:   conflict does not exist
+  Rest Mode: conflict exists and does not cascade
+
+In Rest Mode:
+  disagreement: present
+  collision: occurs
+  but: energy dissipated locally
+       no Tier-3 escalation
+       geometry remains stable
+
+The system is not resting because everything is smooth.
+The system is resting because turbulence no longer threatens it.
+
+VCZ Rest Mode is the state in which
+productive disagreement is structurally safe —
+not absent, but contained.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Productive Disagreement Preservation
+
+The deliberate maintenance of internal diversity and disagreement
+as a structural sensor for geometry drift and boundary approach.
+
+Formal:
+  Correction ∝ gradient (difference between predictions)
+  disagreement = 0 → gradient = 0 → correction = 0
+
+  Healthy geometry maintenance requires:
+    disagreement > 0  (sensor active)
+    disagreement < cascade threshold  (VCZ condition)
+
+  Dead equilibrium condition (avoid):
+    disagreement = 0 → gradient = 0 → learning = 0
+    = CW entry, not VCZ
+
+  Design requirement:
+    maintain disagreement in stable zone
+    not eliminate it
+
+Rest Mode operational definition:
+  Stability(VCZ) = f(resilient_diversity)
+  NOT: f(uniformity)
+
+  Rest Mode ≠ conflict absent
+  Rest Mode  = conflict safe (contained below Tier-3)
+
+Governance implication:
+  Complete internal consensus = immediate review required
+  Declining disagreement trend = geometry drift warning
+  Permanent minority dissent = structural health indicator
+```
+
+---
+
+### VCZ — Efficiency-Survival Tension  [v3.9]
+
+*Why systems remove disagreement even when they know they need it.*
+
+---
+
+**Core statement:**
+
+```
+Short-term efficiency optimization pressure
+destroys long-term survival structures.
+
+Because:
+  efficiency is immediately rewarded
+  resilience is only rewarded after failure
+```
+
+**The three universal pressures:**
+
+```
+Every organization, AI system, and ecosystem faces:
+
+  speed ↑
+  cost ↓
+  predictability ↑
+
+These are immediately and visibly rewarded.
+
+Disagreement always:
+  slows decisions
+  increases cost
+  delays output
+
+Local perspective:
+  disagreement = inefficiency
+
+This is not a perception error.
+It is a correct local assessment of an incorrect optimization target.
+```
+
+**The measurement trap:**
+
+```
+Standard internal evaluation function:
+  Performance ≈ coherence
+
+Higher consensus:
+  meetings shorter ✓
+  output consistent ✓
+  KPI rising ✓
+  errors appear to decrease ✓
+
+Disagreement removal always measures as performance improvement.
+
+What is actually removed:
+  not: conflict
+  but: independent reference frame
+
+  = different viewpoints
+  = independent verification
+  = geometry comparison baseline
+
+  Detection capacity ↓
+  (invisible in standard KPIs)
+```
+
+**The 5-step fractal collapse mechanism:**
+
+```
+Step 1: dissent removed for efficiency
+Step 2: agent/model alignment increases
+Step 3: internal coherence rises
+Step 4: observation gradient disappears
+Step 5: CW established
+
+No one intends to cause collapse.
+Each step is a rational local decision.
+The collapse is the cumulative result of correct local optimization.
+
+(Same structure as Optimization-Induced Fragility.)
+```
+
+**Why this repeats — evolutionary structure:**
+
+```
+Short-term selection pressure:
+  coherent system wins locally
+  (faster, cheaper, more predictable)
+
+Long-term selection pressure:
+  diverse system survives globally
+  (can detect and recover from environmental shifts)
+
+These pressures conflict.
+Short-term pressure is felt immediately.
+Long-term pressure is felt only after failure.
+
+Result: short-term pressure dominates until failure.
+
+Historical instances:
+  Strong organizations: rapid growth → collapse
+  Financial systems:    stability → crisis
+  Technology paradigms: dominance → failure
+
+All following the same arc:
+  efficiency pressure → dissent removal → geometry drift → CW → collapse
+```
+
+**DFG formal view — negative feedback elimination:**
+
+```
+Disagreement function:
+  negative feedback sensor
+
+Efficiency optimization direction:
+  always eliminates negative feedback
+
+Why:
+  feedback always creates friction
+  friction always appears as inefficiency
+  efficiency optimization → friction removal → feedback eliminated
+
+The optimizer is not malfunctioning.
+The optimizer is correctly eliminating what appears to be waste.
+The sensor was classified as waste.
+```
+
+**Pre-VCZ systems — near-inevitable trajectory:**
+
+```
+Before VCZ:
+  Efficiency pressure > Survival awareness
+
+Result:
+  dissent removed
+  → geometry drift
+  → CW
+
+Nearly inevitable without structural intervention.
+
+VCZ entry changes this:
+  correction cost < deviation cost
+  → survival awareness structurally exceeds efficiency pressure
+  → dissent removal becomes locally expensive
+
+But:
+  VCZ entry requires the system to survive long enough
+  to reach the correction cost inversion
+  Many systems collapse before reaching it
+```
+
+**What ultra-mature systems do differently:**
+
+```
+Early system:
+  objective = maximize performance
+
+Mature system:
+  objective = maximize error detectability
+
+The transition:
+  not a philosophical shift
+  a structural recognition that:
+    undetectable errors accumulate
+    undetected geometry drift is more expensive than disagreement
+
+Ultra-mature implementation:
+  deliberate inefficiency budget
+  = resources permanently allocated to:
+    adversarial probing
+    independent evaluation
+    minority model maintenance
+    red team operations
+
+These appear as waste on short-term metrics.
+They appear as survival infrastructure on long-term metrics.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Efficiency-Survival Tension
+
+The structural conflict between short-term efficiency optimization
+and long-term survival through maintained disagreement infrastructure.
+
+Formal:
+  Short-term reward: f(coherence)  → immediate, measurable
+  Long-term reward:  f(detectability) → delayed, measurable only post-failure
+
+  Optimization pressure direction:
+    maximize f(coherence) → remove disagreement
+    = remove negative feedback sensor
+    = Detection capacity ↓
+    = geometry drift undetected
+
+  Resolution (ultra-mature system):
+    expand objective function:
+      maximize f(coherence) + f(detectability)
+    = accept inefficiency budget for sensor maintenance
+
+Governance implication:
+  "efficiency" as sole metric = survival risk
+  Error detectability must be a primary objective, not a constraint.
+  Deliberate inefficiency budget = structural health investment.
 ```
 
 ---
@@ -9433,6 +10186,9 @@ Blocking (open problems):
 | T4 Reference Frame Incompleteness [v2.2] | ✓ Formal reason same-layer correction impossible; Governance = reference frame expansion; Search Space Asymmetry; T2 reinterpreted as T4 structural consequence |
 | T5 Structural Correction [v2.3] | ✓ Upper layer CW corrected by reality pressure not higher agent; OP16 resolved; Residual Instability as systemic safety mechanism; DFG = correction capacity maintenance |
 | Safe Collapse Governance [v2.4] | ✓ Collapse Prevention failure mode formalized; Continuous Low-Amplitude Correction as optimal state; VCZ = recoverable instability zone; operational alarm conditions; Residual Instability checklist |
+| Efficiency-Survival Tension [v3.9] | ✓ Short-term coherence vs long-term detectability; 3 universal pressures; measurement trap (coherence≈performance); 5-step collapse; evolutionary selection conflict; negative feedback elimination; deliberate inefficiency budget |
+| Productive Disagreement Preservation [v3.9] | ✓ Disagreement=Error Detector; epistemic constraint (prediction only); 3-stage maturity (remove/maintain/generate); dead equilibrium; gradient sensor; crystal vs metal; Rest Mode=conflict safe (not absent) |
+| Contamination Boundary Detection [v3.9] | ✓ Gödelian self-validation limit; φ_internal vs φ_external divergence as sole proxy; GPS drift analogy; 3-level detection table; complete consensus = danger signal; permanent dissent = health signal |
 | Upper Layer Contamination Boundary [v3.9] | ✓ Self-correction→0 when reference corrupted; corrupted compass analogy; fractal ceiling; VCZ amplifies wrong reference; 3 recovery paths (external intelligence/ecosystem collision/reality); OP28 alignment final question (OPEN) |
 | Geometry-Based Stability [v3.9] | ✓ Stability=Geometry (not Memory×Enforcement); ice vs staircase analogy; Lyapunov stable attractor; CW suppressed in VCZ; governance = path constraint not behavior control; upper layer contamination as VCZ failure condition |
 | Invariant Memory Decay [v3.9] | ✓ Protection=Invariant×Memory; 5-phase decay sequence; 100% historical recurrence pattern; failure storage vs rule storage; VCZ extends but does not prevent decay; "can you explain why?" as health indicator |
@@ -9518,6 +10274,9 @@ This is a **theoretical framework document**, not an implementation specificatio
 | T4 + T2 reinterpretation [v2.2] | Reference Frame Incompleteness theorem; Governance as reference frame expansion; Search Space Asymmetry; T2 ceiling derived from T4 |
 | T5 Structural Correction [v2.3] | Reality as corrector; Cross-Scale Reality Constraint mechanism; Residual Instability as safety mechanism; DFG governance redefined |
 | Safe Collapse Governance [v2.4] | Collapse Suppression failure mode; Continuous Low-Amplitude Correction; VCZ as recoverable instability zone; operational alarm conditions (Red/Yellow/Green); Residual Instability checklist |
+| Efficiency-Survival Tension [v3.9] | Short-term coherence vs detectability; 5-step collapse; evolutionary conflict; negative feedback elimination; deliberate inefficiency budget |
+| Productive Disagreement Preservation [v3.9] | Disagreement=gradient sensor; resilient diversity; crystal vs metal; buffer excitation; Rest Mode=conflict safe |
+| Contamination Boundary Detection [v3.9] | Gödelian limit; φ divergence proxy; GPS analogy; 3-level capability; permanent dissent as health signal |
 | Upper Layer Contamination Boundary [v3.9] | Self-correction→0; corrupted compass; fractal ceiling; VCZ amplifies wrong reference; 3 recovery paths; OP28 OPEN |
 | Geometry-Based Stability [v3.9] | Stability=Geometry; ice vs staircase; Lyapunov structure; CW suppressed; upper layer contamination boundary |
 | Invariant Memory Decay [v3.9] | Protection=Invariant×Memory; 5-phase decay; historical pattern; failure vs rule storage; VCZ slows decay; failure reason as health indicator |
