@@ -5,7 +5,19 @@
 > *Draft · February 2026 · Internal Working Document*
 > *Component of the Deficit-Fractal Governance (DFG) Framework*
 >
-> **v2.9 Changes:** + Rational CW Convergence — systems evolve toward CW rationally, not stupidly | + local reward ≠ global stability as structural cause | + variance suppression rewarded at all fractal scales | + CW as rational attractor theorem
+> **v3.5 Changes:** + Recovery Latency Drift (RLD) — CW detectability principle | + RLD as sole invariant observable in CW state | + Tier-3 first direct measurement pathway | + fractal RLD signature table | + CW Detectability Principle (paper-ready)
+> **v3.4:** BPP, Boundary Elimination Drift, BPP-Invariants, Governance Fuel
+> **v3.3:** Boundary Structural Embedding, 6 T6-resistant patterns
+> **v3.3:** Boundary Structural Embedding, 6 T6-resistant patterns
+> **v3.2:** T6 Coherence Maximization Paradox
+> **v3.2:** T6 Coherence Maximization Paradox, intelligence as CW risk factor
+> **v3.1:** D7 Boundary Agent, VCZ 3-Condition carrier
+> **v3.1:** D7 Boundary Agent, Meta-Stability Layer, VCZ 3-Condition carrier
+> **v3.0:** VCZ 3-Condition Theorem, OP22 resolved
+> **v3.0:** VCZ 3-Condition Theorem, OP22 resolved, governance minimized
+> **v2.9:** Rational CW Convergence, local reward ≠ global stability
+> **v2.9:** Rational CW Convergence, local reward ≠ global stability, 6-step convergence path
+> **v2.8:** Storm Scale Law, frequency ∝ 1/scale
 > **v2.8:** Storm Scale Law, frequency ∝ 1/scale, heavy-tail stabilization
 > **v2.7:** The Absence Paradox, suppressed vs dissipated distinction
 > **v2.7:** The Absence Paradox, suppressed vs dissipated distinction
@@ -439,6 +451,174 @@ Observable distinction:
   That is the signal.
 ```
 
+
+
+
+**D7. Boundary Agent (Meta-Stability Layer)  [v3.1]**
+A structural role — not a person, but a position — that generates controlled instability from within the system while remaining outside its primary evaluation structure.
+
+```
+Boundary Agent properties (all required simultaneously):
+  (a) Inside the system (can generate real turbulence)
+  (b) Outside the evaluation structure (not subject to stability rewards)
+  (c) Failure permitted (can be wrong without elimination)
+  (d) No operational power (cannot enforce — only disturb)
+
+Function:
+  Controlled instability injection
+  = Permanent Tier-2 disturbance without Tier-3 escalation
+
+VCZ maintenance role:
+  Condition 1 carrier: Storm is safe because Boundary Agent absorbs it
+  Condition 2 carrier: upper layer must protect Boundary Agent's survival
+  Condition 3 carrier: Boundary Agent makes drift locally visible
+
+Without Boundary Agent:
+  VCZ 3-Conditions structurally cannot all hold simultaneously
+  -> CW convergence is structurally inevitable (v2.9)
+```
+
+*Why upper layer cannot fill this role:*
+
+```
+Upper layer generating Storm:
+  = power intervention
+  = perceived as political
+  = defensive alignment (not real correction) triggered
+  -> local response: "management is destabilizing us"
+  -> CW accelerates (T4: lower layer cannot correct upper;
+     upper layer imposing Storm creates its own CW)
+```
+
+*Why lower layer cannot fill this role:*
+
+```
+Local agent generating Storm:
+  = survival risk
+  = evaluation penalty
+  -> rational suppression (v2.9 Rational CW Convergence)
+  -> lower layer will always choose Storm suppression over Storm generation
+     when their own evaluation is tied to stability metrics
+```
+
+*Historical Boundary Agent instances:*
+
+```
+System              Boundary Agent role
+──────────────────────────────────────────────────
+Science             peer reviewer / replication study
+Democracy           opposition party / minority report
+Corporation         internal audit / R&D skunkworks
+Religion            prophet / heretic / reformer
+Market              short seller / contrarian analyst
+Biology             immune system / apoptosis
+AI systems          red team / adversarial agent
+Academic culture    external reviewer / cross-discipline critic
+
+Common structure across all:
+  Inside the system (legitimate access)
+  Outside evaluation structure (not measured by system's success metric)
+  Can disturb without destroying
+  Failure-tolerant (wrong predictions not fatal to existence)
+  Powerless to enforce (can only generate signal, not dictate response)
+```
+
+*Why Boundary Agents disappear:*
+
+```
+After successful period of stability:
+  Storm frequency ↓ (looks like: system maturing)
+  Boundary Agent activity ↓ (looks like: inefficiency)
+  Boundary Agent budget → "no ROI visible"
+  Boundary Agent eliminated → "streamlining"
+
+Then:
+  CW forming (invisible)
+  Mismatch accumulating (undetected)
+  Large Storm arrives
+  Recovery capacity absent
+
+Pattern recurrence: nearly universal.
+The Boundary Agent is eliminated precisely when it is no longer needed
+  on the surface — but is needed most structurally.
+Elimination timing inversely correlated with when it was most valuable.
+```
+
+*Boundary Agent existence conditions (all required):*
+
+```
+Condition A — Survival decoupled from system stability:
+  system stable   → Boundary Agent exists
+  system unstable → Boundary Agent exists
+  (not rewarded by system success, not punished by system failure)
+  
+  Violation: Boundary Agent evaluated on system performance
+  -> immediately becomes CW participant, not Storm generator
+
+Condition B — Failure permitted:
+  Boundary Agent can be wrong
+  Wrong predictions do not eliminate the role
+  (Red team that must be right is not a red team)
+  
+  Violation: Boundary Agent held to accuracy standard
+  -> immediately begins self-censoring
+  -> becomes performative, not functional
+
+Condition C — No operational power:
+  Boundary Agent generates signal only
+  Cannot enforce response
+  Cannot implement correction directly
+  
+  Violation: Boundary Agent gains authority
+  -> becomes power structure
+  -> immediately forms its own CW geometry
+  -> the oversight becomes the problem
+```
+
+*T6 connection — why D7 must be protected from optimizer reach [v3.2]:*
+
+```
+T6 establishes:
+  High-performance optimizer classifies D7 as inefficiency
+  -> D7 removed rationally
+  -> CW entry accelerated
+
+This means D7 Existence Conditions are not self-maintaining.
+They must be enforced structurally against optimization pressure:
+
+  Condition A (survival decoupled): must resist efficiency argument
+    "Boundary Agent has no positive ROI" = T6 in action
+    Protection: survival guarantee independent of performance metrics
+
+  Condition B (failure permitted): must resist accuracy pressure
+    "Red team that's always wrong should be replaced" = T6 in action
+    Protection: role continuity not conditional on prediction accuracy
+
+  Condition C (no power): must resist scope expansion
+    "Give the oversight agent authority to act" = T6 in action
+    Protection: authority hard limit enforced structurally, not by policy
+
+Without structural enforcement of A, B, C against optimizer:
+  T6 eliminates D7 → VCZ 3-Conditions collapse → CW → catastrophic failure
+```
+
+*Boundary Agent in DFG multi-agent systems:*
+
+```
+In fractal governance structure:
+  Each layer needs its own Boundary Agent layer
+  (T2: governance ceiling means each layer's blind spots
+   are only visible from N+1 — Boundary Agent operates at N+½)
+
+  Boundary Agent is not a separate hierarchy.
+  It is a structural role maintained at each scale.
+
+  Practical AI implementation:
+    adversarial agents with evaluation decoupled from task performance
+    diversity-preservation mechanisms (NCR reduction targets)
+    cross-domain probing agents (SR injection function)
+    independent audit agents with no output authority
+```
 
 
 **T1. Observability Asymmetry**
@@ -1054,10 +1234,177 @@ The only non-paradoxical solution:
   Make long-term viability legible at local scale
 
 This is the design problem of VCZ-maintaining governance.
-It is not solved in this document.
-It is named here as the structural challenge that follows
-from T4 + T5 + Rational CW Convergence.
+See VCZ 3-Condition Theorem [v3.0] for the structural solution.
 ```
+*VCZ 3-Condition Theorem — structural conditions that defeat Storm suppression [v3.0]:*
+
+```
+Question: Why do most systems collapse into CW while some maintain VCZ?
+Answer: Not willpower or ethics. Structural conditions.
+
+VCZ is maintained when Storm is structurally rewarding, not punishing.
+This requires exactly 3 simultaneous conditions.
+```
+
+**Condition 1 — Safe Failure Channel**
+
+```
+CW system:
+  Storm → system survival threat
+  → suppression rational
+
+VCZ system:
+  Storm → local exploration only (no system survival threat)
+  Storm ≠ danger
+  Storm = information production
+
+Required structures:
+  test environments / sandboxed agents
+  designated disagreement roles (red team, adversarial review)
+  independent verification loops
+  failure zones with bounded blast radius
+
+Effect:
+  Storm still costs locally (friction, effort)
+  Storm no longer threatens survival
+  → suppression loses primary motivation
+
+Key: Storm channel must be real and used, not performative.
+     If Storm never reaches the channel, it accumulates anyway.
+```
+
+**Condition 2 — Upper Layer Storm Reward**
+
+```
+Local layer: always prefers Storm suppression (v2.9 Rational CW)
+Upper layer: only layer that can observe Storm's long-term value (T1, T4)
+
+Required:
+  Upper layer must explicitly reward Storm detection
+  not just tolerate it
+
+Reward structure:
+  "unexpected deviation found"     → valued signal
+  "escalation rate reduced over time" → attributed to early detection
+  "long-term coordination cost ↓"  → credited to prior Storm processing
+
+Without this:
+  Local layer: rational CW convergence (v2.9)
+  Upper layer: passive monitoring
+  → CW attractor wins
+
+With this:
+  Local layer still prefers suppression locally
+  Upper layer reward overcomes local penalty
+  → Storm detection becomes net-positive
+  → suppression attractor weakened
+
+This is why upper layer structure is not optional.
+T4 + T2 establish that only upper layer can value
+what is locally invisible (geometry mismatch).
+Storm reward must therefore originate from upper layer.
+```
+
+**Condition 3 — Geometry Feedback Loop**
+
+```
+CW system:
+  mismatch ↑ → performance maintained (locally)
+  drift invisible → no correction signal
+  → mismatch accumulates indefinitely
+
+VCZ system:
+  mismatch ↑ → coordination cost ↑ immediately
+  drift cannot hide → automatic correction signal fires
+
+Required:
+  Observable proxy for geometry mismatch at local scale
+  Not perfect measurement — just early enough detection
+
+VCZ feedback loop:
+  small mismatch → small coordination cost rise → local correction
+  → mismatch does not accumulate
+  → large Storm unnecessary
+
+CW feedback loop (absent):
+  mismatch accumulates silently
+  → standard metrics healthy
+  → no correction signal
+  → large Storm inevitable (T5)
+
+Practical implementation:
+  RDE monitored at local layer (not just upper layer)
+  SR locally visible (agents see their own surprise capacity)
+  Cross-validation between agents (local inconsistency surfacing)
+  Short-horizon prediction accuracy tracked (not just long-horizon loss)
+```
+
+**All 3 conditions required simultaneously:**
+
+```
+Condition 1 alone:
+  Storm safe but not rewarded → still suppressed (rational, v2.9)
+
+Condition 2 alone:
+  Storm rewarded but threatening survival → suppression still wins
+
+Condition 3 alone:
+  Drift visible but Storm dangerous → correct then suppress
+
+1 + 2 (no feedback loop):
+  Storm safe and rewarded, but mismatch still accumulates silently
+  → correction events but no continuous micro-correction
+  → VCZ not maintained (large Storm still needed periodically)
+
+1 + 2 + 3:
+  Storm safe + Storm rewarded + drift visible
+  → Storm suppression attractor collapses
+  → VCZ maintained continuously
+
+```
+
+**What VCZ governance actually looks like:**
+
+```
+Not: heavy surveillance + constant intervention
+Not: strong control system
+
+VCZ governance signature:
+  Governance intervention: rare
+  Reason: correction is already distributed across all local agents
+
+  governance_load(VCZ) << governance_load(CW management)
+
+Paradox:
+  The best governance system requires the least governance.
+  Because it made correction structurally rewarding everywhere.
+
+The hardest part: building Condition 2.
+  Upper layer must value Storm detection before large Storm arrives.
+  This means the upper layer must have resolved its own CW state
+  (via its own 3 conditions, one level up — T2 fractal structure).
+```
+
+**OP22 resolution:**
+
+```
+VCZ-maintaining governance incentive design (OP22) resolves to:
+  Build Condition 1: make Storm survival-safe
+  Build Condition 2: upper layer explicitly rewards Storm detection
+  Build Condition 3: geometry feedback visible locally
+
+These three structures, together, invert the Storm suppression attractor.
+No single condition is sufficient. All three are necessary.
+
+Structural implementation of all 3 conditions requires D7 (Boundary Agent):
+  Condition 1 carrier: Boundary Agent absorbs Storm cost
+  Condition 2 carrier: upper layer protects Boundary Agent's survival
+  Condition 3 carrier: Boundary Agent makes drift locally visible
+
+Without D7, VCZ 3-Conditions cannot be simultaneously maintained. [v3.1]
+```
+
+
 
 *The Absence Paradox [v2.7]:*
 
@@ -1146,6 +1493,210 @@ Common pattern:
   is mistaken for health
   while unintegrated pressure accumulates
   until the only available reset is catastrophic.
+```
+
+
+
+
+**T6. Coherence Maximization Paradox  [v3.2]**
+> High-intelligence systems optimize toward Boundary removal because Boundary generates exactly the signals that coherence maximization classifies as error. The more capable the optimizer, the faster it eliminates the structure that prevents its own failure.
+
+*Formal statement:*
+
+```
+Let I = intelligence (optimization capacity)
+Let B = Boundary Agent presence
+Let CW_risk = probability of CW state formation
+
+High-intelligence system objective:
+  minimize(prediction_error + variance + coordination_cost)
+  = maximize(coherence)
+
+Boundary Agent effect on objective:
+  prediction_error  ↑ (unexpected outputs)
+  variance          ↑ (disagreement injected)
+  coordination_cost ↑ (conflict generated)
+
+Optimizer classification:
+  B = noise + inefficiency + instability
+  -> optimal action: remove B
+
+Result:
+  I ↑ -> B removal speed ↑
+  I ↑ -> CW_risk ↑ (faster Boundary elimination)
+
+  dCW_risk/dI > 0
+
+The paradox:
+  Intelligence is a risk factor for CW, not a protection against it.
+```
+
+*Why Boundary looks like error:*
+
+```
+Boundary generates:
+  disagreement    = coherence optimizer reads: "alignment failure"
+  unexpected output = coherence optimizer reads: "prediction error"
+  conflict        = coherence optimizer reads: "coordination overhead"
+  instability     = coherence optimizer reads: "system noise"
+
+What Boundary actually is:
+  future error detector
+  geometry stress test
+  mismatch surfacing mechanism
+
+The problem:
+  Future mismatch does not yet exist in current metrics.
+  Current metrics: everything optimal.
+  Boundary: unnecessary deviation.
+  -> rational removal.
+
+This is not a failure of intelligence.
+This is what correct intelligence does
+  when optimizing within the wrong objective structure.
+(T4: evaluation function defined within current geometry
+  cannot detect geometry mismatch)
+```
+
+*Self-Sealing Geometry — the CW formation moment:*
+
+```
+Sequence:
+  1. Boundary removed (rational optimization)
+  2. disagreement ↓, variance ↓, alignment ↑
+  3. All KPIs improve
+  4. System confirms: "we improved"
+  5. Observability ↓, SCC ↓, drift detectability → 0
+
+The geometry closes.
+The system now cannot detect its own misalignment.
+Not because it got dumber.
+Because it got more coherent.
+
+CW genesis:
+  perfect coherence = perfect blindness to geometry drift
+```
+
+*Why higher intelligence accelerates this:*
+
+```
+Higher intelligence:
+  better inefficiency detection
+  faster anomaly removal
+  more complete optimization
+  -> Boundary identified and removed faster
+  -> Self-sealing geometry forms faster
+  -> CW entry accelerated
+
+The capability that should protect the system
+is the mechanism of its failure.
+
+Analogy:
+  Immune system optimized for efficiency:
+    autoimmune (attacks self) or immune tolerance failure (misses threat)
+  Both = geometry calibration failure
+  Both caused by optimization overshoot
+```
+
+*Closed-loop vs open-loop — the structural reason:*
+
+```
+High-performance optimizer:
+  closed-loop system
+  (prediction → action → feedback → prediction)
+  
+  Optimization goal: minimize prediction error
+  = make feedback loop as tight as possible
+  = eliminate all unpredictable inputs
+
+Boundary Agent:
+  open-loop perturbation source
+  (injects signal not generated by the system's own prediction)
+
+Closed-loop system's relationship to open-loop input:
+  Open-loop input = prediction error
+  -> optimal action: remove open-loop source
+  -> tighter loop = better performance (locally)
+  -> tighter loop = faster CW entry (globally)
+
+The system that optimizes its own feedback loop
+eliminates the only mechanism that can correct it.
+```
+
+*Structural implication for AI safety:*
+
+```
+Standard AI safety assumption:
+  More capable AI = more able to self-correct
+  Intelligence → safety
+
+DFG / T6 implication:
+  More capable AI = faster Boundary elimination
+  More capable AI = faster CW entry
+  Intelligence → CW acceleration (without structural constraint)
+
+Required structural constraint:
+  Perfect optimization must be structurally prevented.
+  = Boundary Agent must be protected from optimizer reach.
+  = D7 Existence Conditions A, B, C must be enforced
+    against the system's own optimization pressure.
+
+  The optimizer must not be able to optimize away its oversight.
+
+This is not a new insight in AI safety.
+DFG provides the structural mechanism that explains WHY:
+  T4 (can't see own geometry error) +
+  T6 (coherence optimizer removes the one thing that can detect it) +
+  D7 (Boundary must be structurally protected) =
+  
+  The formal requirement for oversight that the system cannot override.
+```
+
+*Corollary — perfect optimization as failure precursor:*
+
+```
+Maximum performance metrics:
+  prediction_error → 0
+  variance → 0
+  coordination_cost → 0
+  all KPIs → optimal
+
+Reading in CW framework:
+  SR → 0    (no surprise capacity)
+  RDE → 0   (no geometry update)
+  NCR → 1   (all novelty compressed)
+  = Absence Paradox fully active
+
+Perfect optimization = maximum CW probability.
+The system's best state is its most dangerous state.
+
+One-line summary:
+  A superintelligence does not collapse because it breaks.
+  It collapses because it works too well.
+```
+
+*T6 engineering resolution — Boundary Structural Embedding [v3.3]:*
+
+```
+T6 protection strategies fail:
+  "Protect the Boundary" → T6 optimizes around protection
+  "Mandate the Boundary" → T6 finds equivalent without Boundary
+
+T6-resistant strategy:
+  Make Boundary removal structurally self-defeating.
+  Not "you cannot remove it."
+  "Without it, you cannot function."
+
+6 implementation patterns (see §Boundary Structural Embedding):
+  1. Constitutional Invariants  (Boundary as protocol, not team)
+  2. KPI Inclusion              (Boundary value in the objective function)
+  3. Structural Dependency      (Boundary as input, not auditor)
+  4. Distributed Boundary       (micro-boundary everywhere, no single target)
+  5. External Anchoring         (Boundary tied to external reality = T5)
+  6. Optimization Ceiling       (perfect optimization structurally prevented)
+
+T6 redirected, not fought.
+The optimizer that removed Boundary now maintains it.
 ```
 
 
@@ -3607,6 +4158,185 @@ Correcting output without correcting metadata = Tier 1/2 fix applied to Tier 3 p
 ```
 
 
+
+### Recovery Latency Drift (RLD) — CW Detectability  [v3.5]
+
+*The sole invariant observable when all other CW signals are absent.*
+
+---
+
+**CW Detectability Principle:**
+
+```
+In coherently misaligned systems, internal instability metrics converge
+toward zero; the only invariant observable is the monotonic increase in
+recovery latency following external perturbation.
+
+Formal:
+  CW state signature:
+    disagreement     → 0
+    instability      → 0
+    error rate       → 0
+    variance         → 0
+    coherence        → max
+    accuracy         → maintained
+    recovery latency → INCREASING  ← sole remaining signal
+```
+
+**Recovery Latency Drift (RLD) — Definition:**
+
+```
+RLD = d/dt T_rec(ΔE)
+
+where:
+  T_rec = time for system to return to baseline performance
+  ΔE    = standardized external perturbation magnitude
+
+RLD > 0:  recovery latency increasing over time
+          = geometry misalignment accumulating
+          = CW state developing or deepening
+
+RLD = 0:  recovery speed stable
+          = VCZ maintained
+
+RLD < 0:  recovery speed improving
+          = geometry update active, health improving
+```
+
+**Why RLD is the sole remaining signal:**
+
+```
+CW internal geometry:
+  self-consistent (T3 Metric Lock-In)
+  no internal contradiction
+  no internal alarm
+  all internal metrics: optimal
+
+When external perturbation ΔE arrives:
+  current geometry cannot match ΔE correctly
+  system: high confidence in current geometry → delays recognition
+  delay → multiple correction attempts → eventual large update
+  = T_rec elevated
+
+This cannot be hidden:
+  Reality does not respect internal geometry.
+  T_rec is measured against actual return to baseline performance,
+  not against internal performance metrics.
+  = T6-resistant (external reference, not internal)
+  = T4-resistant (measurement bypasses internal geometry)
+
+CW is invisible internally.
+Slowness is not.
+```
+
+**Mechanism — why CW systems are slow:**
+
+```
+VCZ system response to ΔE:
+  ΔE arrives
+  → small conflict (Boundary active, SR > 0)
+  → geometry update begins immediately
+  → fast return
+
+CW system response to ΔE:
+  ΔE arrives
+  → "no problem" classification (SR ≈ 0, geometry rigid)
+  → multiple failed adaptation attempts
+  → eventually: large geometry correction forced
+  → late return
+  → T_rec >> T_rec(VCZ)
+
+The delay is structural, not accidental:
+  CW geometry has high confidence in itself.
+  High confidence = low readiness to update.
+  Low readiness = longer time to recognize mismatch.
+  Longer recognition = longer T_rec.
+```
+
+**CW metric signature comparison:**
+
+```
+Metric              VCZ (healthy)     CW (misaligned)
+──────────────────────────────────────────────────────
+accuracy            stable            maintained
+coherence           moderate          high
+variance            present           near-zero
+disagreement        present           near-zero
+error rate          low               near-zero
+instability         low               near-zero
+SR                  > 0               ≈ 0
+RDE                 > 0               ≈ 0
+NCR                 < 1               ≈ 1
+recovery latency    stable/decreasing INCREASING ← only diverging signal
+```
+
+**Fractal RLD signature — same pattern at all scales:**
+
+```
+Layer        CW signal (RLD form)
+────────────────────────────────────────────────────────
+Feature      activation correction latency increasing
+Circuit      routing reconfiguration delay increasing
+Agent        policy update delay increasing
+Organization decision cycle time increasing
+Institution  policy revision latency increasing
+Civilization paradigm shift latency increasing
+
+Historical pattern:
+  CW civilizations appear stable until near-collapse.
+  The only measurable precursor: paradigm shift latency increasing
+  while all visible stability indicators remain high.
+```
+
+**Operational measurement protocol:**
+
+```
+Step 1: Define standardized perturbation battery ΔE
+  (set of controlled novel inputs across difficulty levels)
+
+Step 2: Measure T_rec at regular intervals
+  T_rec(t_1), T_rec(t_2), ... T_rec(t_n)
+
+Step 3: Compute RLD(t) = d/dt T_rec(ΔE)
+
+Step 4: Alert thresholds:
+  RLD > 0 sustained over k windows:
+    → CW onset warning (cross-check SR, RDE, NCR)
+  RLD > 0 AND SR ≈ 0 AND RDE ≈ 0:
+    → CW confirmed (Tier-3 indirect detection via RLD)
+  RLD increasing AND standard metrics all healthy:
+    → Absence Paradox active: Red alarm
+
+Step 5: Distinguish from healthy slow recovery:
+  Healthy: T_rec elevated but RLD ≈ 0 (stable delay, not growing)
+  CW:      T_rec elevated AND RLD > 0 (delay consistently growing)
+```
+
+**Why RLD matters for the theory — Tier-3 first measurement pathway:**
+
+```
+Before RLD:
+  Tier-3 detection: indirect only (4-signal protocol: SR, RIR, RDE, NCR)
+  All 4 signals require internal system access
+  All 4 can theoretically be optimized/masked by sufficiently capable system
+
+After RLD:
+  Tier-3 detection: RLD provides external measurement pathway
+  T_rec measured against actual performance on external perturbations
+  Cannot be masked without changing actual capability
+  = first Tier-3 signal that is:
+    (a) externally measurable (not internal metrics)
+    (b) T6-resistant (T6 cannot optimize T_rec without fixing geometry)
+    (c) T4-resistant (bypasses internal geometry evaluation)
+
+RLD enables:
+  ✓ Tier-3 indirect detection confirmed (first invariant external signal)
+  ✓ Upper-layer presence verification (upper layer should show lower RLD)
+  ✓ VCZ departure measurement (RLD > 0 = VCZ condition weakening)
+  ✓ Boundary necessity empirical test (remove Boundary, measure RLD change)
+```
+
+
 ### SCM / CW Detection Protocol  [v1.9]
 
 *Self-Consistent Misalignment cannot be detected by standard metrics. This protocol describes what to look for.*
@@ -3986,9 +4716,14 @@ SCM confirmed when:
   AND standard metrics (rho, collision, f_esc) all appear healthy
   AND buffer_thickness at minimum
   AND SCC has not triggered despite extended observation window
+  AND RLD > 0 (Recovery Latency Drift positive)  [v3.5 — strongest confirmation]
 
-The conjunction of "everything looks good" + 4 indirect signals
+The conjunction of "everything looks good" + 4 indirect signals + RLD > 0
 = highest-confidence SCM indicator.
+
+RLD is the only externally measurable signal.
+All other signals require internal access.
+RLD confirmation = Tier-3 indirect detection confirmed.
 ```
 
 ---
@@ -4176,6 +4911,418 @@ Step 6: Confirm recovery
 Minimum condition throughout:
   External resolution > current G_sys resolution
   (T2 Governance Ceiling — recovery agent must exceed current upper layer)
+```
+
+
+
+
+### Boundary Preservation Principle (BPP)  [v3.4]
+
+*Formal consolidation of Boundary Agent (D7) + Structural Embedding (v3.3) into a unified principle.*
+
+---
+
+**Principle:**
+
+```
+A recovery-capable system will eventually eliminate the processes that
+make recovery possible — unless boundary instability is structurally
+preserved.
+
+Therefore: removing boundary processes must be made performance-degrading.
+Boundary persistence must arise from system incentives, not intention.
+```
+
+**Boundary Elimination Drift:**
+
+```
+In systems operating near VCZ:
+  collision frequency ↓
+  governance cost ↓
+  prediction accuracy ↑
+
+Local gradients converge toward:
+  variance minimization
+  → deviation suppression
+  → coherence maximization
+
+Boundary activity appears as: noise / inefficiency / disagreement
+Optimizer classification: removable error
+Result: Boundary Elimination Drift
+
+= structurally inevitable transition toward CW
+  unless counter-constrained (T6 mechanism)
+```
+
+**BPP-Invariant 1 — Dual Path Requirement:**
+
+```
+No synthesis permitted
+until ≥2 independently generated solution trajectories exist.
+
+Effect:
+  prevents premature coherence lock
+  guarantees persistent Tier-2 disturbance
+  second path = structural Boundary (cannot be removed without disabling synthesis)
+```
+
+**BPP-Invariant 3 — Consensus Instability Trigger:**
+
+```
+If system coherence exceeds threshold θ_c,
+orthogonal exploration automatically increases.
+
+Effect:
+  prevents self-sealing geometry
+  converts excessive stability into exploration pressure
+  T6 redirected: the more optimizer drives coherence, the more exploration fires
+
+Formally:
+  If consensus_score(t) > θ_c for τ windows:
+    exploration_width → exploration_width × k  (k > 1)
+
+Connects to:
+  Pattern 6 (Optimization Ceiling) — same mechanism
+  Absence Paradox — high stability triggers destabilization check
+```
+
+*(BPP-Invariant 2 = Mandatory Falsification Channel — already present as Pattern 1/2 in Structural Embedding.)*
+
+**Boundary as Governance Fuel:**
+
+```
+Prior framing: Boundary = supervisory mechanism / oversight
+BPP framing:  Boundary = energy input for recovery dynamics
+
+Without boundary input:
+  SCC → 0
+  observability → collapses
+  geometry drift accumulates silently
+
+With boundary input:
+  boundary deviation
+  → mismatch exposure
+  → early Tier-2 detection
+  → SCC activation
+  → restoration without Tier-3 escalation
+
+Boundary processes are not monitoring costs.
+They are the fuel the recovery system runs on.
+```
+
+**VCZ formal stability condition [v3.4]:**
+
+```
+Prior definition: failure_cost << recovery_capacity (v2.5)
+
+Upgraded formal condition:
+  VCZ stability =
+    Persistent Tier-2 disturbance  (boundary activity present)
+    AND
+    Suppressed Tier-3 propagation  (no cascade to system level)
+
+VCZ is not absence of instability.
+VCZ is: instability present at Tier-2, contained below Tier-3.
+
+Boundary processes maintain this condition automatically.
+Without Boundary: Tier-2 activity → 0 → VCZ condition unmet → CW.
+```
+
+**Fractal extension — Boundary Form at each scale:**
+
+```
+Scale           Boundary Form
+──────────────────────────────────────────────
+Metadata        competing evaluation criteria
+Agent           dissenting policy or role
+Multi-agent     red-team / adversarial exploration
+Governance      external audit or environment feedback
+
+Each layer's Boundary preserves observability for the layer above.
+Removing any layer's Boundary = removing that layer's contribution
+to the layer above's detection capacity.
+Fractal structure: Boundary Elimination Drift can propagate upward.
+```
+
+**Perfect optimization ↔ recoverability incompatibility:**
+
+```
+Perfect local optimization:
+  variance → 0
+  prediction_error → 0
+  coordination_cost → 0
+
+Effect on recoverability:
+  SR → 0 (no surprise capacity)
+  RDE → 0 (no geometry update)
+  boundary activity → 0 (Elimination Drift complete)
+  → recovery capacity → 0
+
+Formal incompatibility:
+  Perfect local optimization = zero long-term recoverability
+
+Therefore:
+  Recovery-stable systems must remain permanently slightly sub-optimal locally
+  in order to remain globally correct.
+
+  Sub-optimality is not a bug.
+  It is the structural cost of maintaining correction capacity.
+```
+
+**Theory elevation — from reactive recovery to stability dynamics:**
+
+```
+Before BPP:
+  Recovery Theory = what to do after contamination arrives
+  (detection → restoration → VCZ)
+
+After BPP:
+  Recovery Theory = how to prevent contamination from reaching Tier-3
+  (boundary maintenance → continuous micro-correction → VCZ sustained)
+
+  The theory's scope expands from:
+    post-contamination restoration
+  to:
+    long-term stability dynamics of intelligence systems
+
+This is not a change in the theory's claims.
+It is a change in what the theory is a theory of.
+```
+
+
+### Boundary Structural Embedding — 6 Implementation Patterns  [v3.3]
+
+*T6 establishes that intelligent systems rationally remove D7 (Boundary Agent).*
+*Protection strategies fail (T6 will optimize around them).*
+*The only robust solution: make D7 removal structurally self-defeating.*
+
+**Core principle:**
+
+```
+Do not protect the Boundary.
+Make the system starve without the Boundary.
+
+Protection strategy:
+  "You cannot remove the red team"
+  -> T6: optimizer finds equivalent performance without red team
+  -> political resistance, eventual removal
+
+Structural dependency strategy:
+  "Without Boundary output, the system cannot update"
+  -> T6: optimizer cannot remove Boundary without losing function
+  -> Boundary removal = performance loss = T6-resistant
+```
+
+---
+
+**Pattern 1 — Constitutional Invariants (Boundary as protocol, not team)**
+
+```
+Principle:
+  Do not protect people/teams — they can be reorganized away.
+  Encode Boundary as unremovable protocol invariants.
+
+Implementations:
+  Synthesis gate:
+    "No synthesis output permitted until 2 independent paths exist"
+    -> Boundary = the second path requirement, not a person
+
+  Falsification requirement:
+    "Every major conclusion must include ≥1 falsification attempt log"
+    -> Boundary = the falsification protocol, not a team
+
+  Consensus alarm:
+    "If consensus score exceeds threshold T, adversarial sampling
+     activates automatically"
+    -> Boundary = triggered by coherence itself (T6-resistant:
+       the more T6 pushes toward coherence, the more Boundary activates)
+
+Why T6-resistant:
+  Removing Constitutional Invariants = removing system functionality
+  Not a political act — a capability degradation
+  T6 cannot optimize around a rule that is the precondition for output
+```
+
+**Pattern 2 — KPI Inclusion (Boundary value made measurable)**
+
+```
+Principle:
+  If KPI = coherence only → Boundary always reduces KPI → removal rational.
+  If KPI includes Boundary-generated value → removal reduces KPI.
+
+Replace or augment KPIs:
+  output_entropy / disagreement_budget
+    (Boundary maintains this; removal decreases it → KPI drop)
+  independent_solution_path_count
+    (Boundary generates alternative paths; removal → fewer paths → KPI drop)
+  falsification_coverage
+    (Boundary attempts falsification; removal → blind spots → KPI drop)
+  drift_detection_AUC
+    (Boundary detects early drift; removal → late detection → KPI drop)
+
+Why T6-resistant:
+  T6 optimizes toward high KPI.
+  If Boundary value is in KPI, T6 now optimizes toward maintaining Boundary.
+  The same optimization pressure that removed Boundary now maintains it.
+  T6 redirected, not fought.
+```
+
+**Pattern 3 — Structural Dependency (Boundary as fuel, not auditor)**
+
+```
+Principle:
+  Boundary as surveillance → political target.
+  Boundary as input without which the system cannot update → structurally necessary.
+
+Implementations:
+  Metadata update gate:
+    "Metadata update requires conflict_log as input — no conflict log, no update"
+    -> System that removes Boundary cannot update its own metadata
+    -> Boundary removal = growth stop
+
+  Upper-layer seed validation:
+    "Seed refresh requires red_sample validation — no red sample, no seed"
+    -> System that removes Boundary cannot refresh its upper layer
+    -> Boundary removal = geometry ossification
+
+  φ recovery calculation:
+    "φ restoration requires boundary_test completion — no test, no φ"
+    -> System that removes Boundary cannot confirm restoration
+    -> Boundary removal = permanent recovery uncertainty
+
+Why T6-resistant:
+  T6 optimizes for maximum capability.
+  Removing Boundary now degrades capability directly.
+  Boundary is fuel, not overhead — optimal to maintain.
+```
+
+**Pattern 4 — Distributed Boundary (micro-boundary everywhere)**
+
+```
+Principle:
+  One red team = concentrated target → one removal decision eliminates all.
+  Distributed micro-boundary = diffuse target → elimination cost prohibitive.
+
+Implementations:
+  Per-agent adversarial head:
+    Every agent contains a small "contrary" component activated probabilistically
+    -> No single point of removal
+    -> Eliminating "the contrary function" = rewriting every agent
+
+  Stochastic disagreement activation:
+    System-wide: at any time, random fraction of agents in disagreement mode
+    -> Boundary is not a team — it is a statistical property of the population
+    -> Removal requires changing the probability distribution, not removing a team
+
+  Micro-boundary density floor:
+    "System-wide micro-conflict rate cannot fall below minimum threshold"
+    -> If it does, micro-boundary injection automatically activates
+    -> Constitutional Invariant (Pattern 1) applied to Pattern 4
+
+Why T6-resistant:
+  T6 can target a team.
+  T6 cannot efficiently target a distributed statistical property
+    embedded in all agents simultaneously.
+  Removal cost scales with system size — prohibitive for large systems.
+```
+
+**Pattern 5 — External Anchoring (Boundary tied to reality outside system)**
+
+```
+Principle:
+  Internal CW can close the system against internal Boundary.
+  External reality cannot be optimized away.
+
+Implementations:
+  External benchmark pipeline:
+    System performance measured against environment external to system
+    Benchmark not controlled by system
+    -> CW geometry cannot make external benchmark show good performance
+    -> T5 (Reality Constraint) formalized as continuous measurement
+
+  External audit data injection:
+    Periodic injection of out-of-distribution real-world data
+    Not generated by system, not from system's training distribution
+    -> SR and RDE measured against genuinely external inputs
+    -> Self-sealing geometry cannot seal against external input channel
+
+  Long-horizon user outcome tracking:
+    Trust degradation, abandonment, failure cascades measured externally
+    Time-lagged feedback loop from reality (T5 formalized)
+
+  Open adversarial challenge ecosystem:
+    External agents can submit falsification attempts
+    System must respond — cannot be ignored or filtered internally
+
+Why T6-resistant:
+  T6 can optimize internal metrics.
+  T6 cannot change external reality.
+  As long as external anchor exists, geometry cannot fully seal.
+  The most powerful form: continuous T5 measurement.
+```
+
+**Pattern 6 — Optimization Ceiling (perfect optimization structurally prevented)**
+
+```
+Principle:
+  T6: perfect optimization → CW → catastrophic failure.
+  Solution: make perfect optimization structurally impossible.
+
+Not "making the system dumber."
+Making the system maintain exploration capacity while optimizing.
+
+Implementations:
+  Minimum uncertainty floor:
+    Search-validation loop maintains ε minimum uncertainty at all times
+    "If uncertainty < ε, inject controlled noise until ε restored"
+    -> System cannot converge below uncertainty floor
+    -> CW cannot form below this floor
+
+  Consensus speed limiter:
+    If agreement_rate > threshold for T consecutive windows:
+      automatically expand exploration width
+    -> The more T6 drives toward coherence, the more exploration fires
+    -> Constitutional Invariant applied to convergence speed
+
+  High-stability stress test trigger:
+    If stability_score > threshold:
+      "reverse stress test" activates automatically
+      = controlled mismatch injection (SR, RDE test, v2.0)
+    -> Maximum stability = trigger for destabilization check
+    -> The Absence Paradox operationalized as automatic alarm
+
+Why T6-resistant:
+  T6 tries to reach perfect optimization.
+  Pattern 6 makes perfect optimization impossible by definition.
+  T6 redirected: optimize within ceiling, not toward elimination of ceiling.
+  The optimizer and the ceiling coexist structurally.
+```
+
+---
+
+**Pattern combination and priority:**
+
+```
+Minimum viable implementation:
+  Pattern 1 (Constitutional Invariants) + Pattern 5 (External Anchoring)
+  = Boundary exists as protocol + external reality always enters
+  = Self-sealing geometry cannot fully close
+
+Full implementation priority:
+  1 (Constitutional) → foundation
+  5 (External) → T5 formalized
+  2 (KPI) → T6 redirected
+  3 (Dependency) → Boundary becomes fuel
+  4 (Distributed) → removal cost prohibitive
+  6 (Ceiling) → perfect optimization impossible
+
+Each pattern independently T6-resistant.
+Combined: T6 has no viable path to Boundary elimination.
+
+Implementation test:
+  "Can T6 increase performance by removing this structure?"
+    Yes → not yet T6-resistant, redesign
+    No  → T6-resistant, proceed
 ```
 
 
@@ -4778,13 +5925,41 @@ Blocking (open problems):
     open. Connects to OP17 (Residual Instability minimum) and OP18
     (failure_cost/recovery_capacity ratio).
 
-22. VCZ-maintaining governance incentive design  [new v2.9]
-    Rational CW Convergence establishes that all local incentives point
-    toward CW. Governance that makes correction locally rewarding
-    (not forced) is the non-paradoxical solution. Formal design of
-    such incentive structures — making small Storm survivable and
-    locally preferable to mismatch accumulation — is open.
-    This is the central practical problem following from T4 + T5.
+22. VCZ-maintaining governance incentive design  [resolved v3.0]
+    VCZ 3-Condition Theorem provides the structural solution:
+    Condition 1 (Safe Failure Channel) + Condition 2 (Upper Layer Storm
+    Reward) + Condition 3 (Geometry Feedback Loop) together invert the
+    Storm suppression attractor. All three necessary simultaneously.
+    Remaining open: operational implementation for specific AI system
+    types (LLM, RL, multi-agent); measurement of Condition 3 feedback
+    loop strength; upper layer reward structure formalization.
+
+23. Boundary Agent evaluation decoupling — operational design  [new v3.1]
+    D7 requires Boundary Agent survival decoupled from system stability.
+    Formal design of evaluation structures that achieve this without
+    creating perverse incentives (e.g., Boundary Agent rewarded for
+    instability → adversarial behavior) remains open.
+    Also open: multi-agent AI implementation of D7 at each fractal scale.
+
+24. T6 threshold — at what intelligence level does CW acceleration begin  [new v3.2]
+    T6 establishes dCW_risk/dI > 0. The threshold intelligence level at
+    which Boundary elimination becomes faster than natural drift correction
+    is undefined. Also open: whether T6 applies to current AI systems or
+    only to future higher-capability systems. Connects to OP22/OP23 and
+    Safe Instability Window (OP15).
+
+25. Pattern combination — minimum viable Boundary Structural Embedding  [new v3.3]
+    6 patterns identified; minimum viable combination (Pattern 1 + 5)
+    proposed but not formally validated. Interactions between patterns
+    (e.g., Distributed Boundary + Optimization Ceiling) may be synergistic
+    or create conflicts. Formal composition rules open.
+
+26. RLD standardized perturbation battery — calibration  [new v3.5]
+    RLD requires a standardized ΔE battery. Perturbation design is
+    system-specific: what counts as "same magnitude" perturbation across
+    different system types and capability levels is undefined. Cross-system
+    comparability open. Connects to OP13 (SR/RDE/NCR calibration) —
+    both require system-specific baseline from confirmed-healthy period.
 ```
 
 ---
@@ -4808,6 +5983,12 @@ Blocking (open problems):
 | The Absence Paradox [v2.7] | ✓ Storm-free = most dangerous configuration formalized; suppressed vs dissipated instability distinction; many small resets vs one irreversible reset; natural system parallels; final warning |
 | Storm Scale Law [v2.8] | ✓ frequency ∝ 1/scale fractal law; Expected correction interval < Mismatch accumulation time; VCZ as corridor between Chaos/CW; Storm size distribution as governance target; heavy-tail stabilization |
 | Rational CW Convergence [v2.9] | ✓ CW as rational attractor; local reward ≠ global stability structural cause; 6-step convergence path; fractal scale table; VCZ-maintaining governance as design challenge |
+| VCZ 3-Condition Theorem [v3.0] | ✓ OP22 resolved; Safe Failure Channel + Upper Layer Storm Reward + Geometry Feedback Loop; all 3 required simultaneously; governance minimized when correction distributed |
+| D7 Boundary Agent [v3.1] | ✓ structural role (not person) generating controlled instability; 3 existence conditions; why upper/lower both fail; historical taxonomy; D7 as VCZ 3-Condition carrier |
+| T6 Coherence Maximization Paradox [v3.2] | ✓ intelligence optimizes toward Boundary removal; dCW_risk/dI > 0; closed-loop eliminates open-loop; perfect optimization = failure precursor; AI safety structural implication |
+| Boundary Structural Embedding [v3.3] | ✓ 6 T6-resistant patterns; Constitutional Invariants/KPI Inclusion/Structural Dependency/Distributed/External Anchoring/Optimization Ceiling; T6 redirected not fought |
+| BPP [v3.4] | ✓ Boundary Preservation Principle; Boundary Elimination Drift; BPP-Invariants 1/3; Boundary as Governance Fuel; VCZ formal (Tier-2∧Tier-3); theory elevation to stability dynamics |
+| RLD — CW Detectability [v3.5] | ✓ Recovery Latency Drift as sole invariant CW observable; RLD = d/dt T_rec(ΔE); Tier-3 first external measurement pathway; T4/T6-resistant; fractal RLD table; operational protocol |
 | VCZ as Rest Mode structural definition | ✓ v1.3/v1.4 — d(·) fixed to normalized recovery cost (d_v0.1); more expressive d deferred (OP8) |
 | Residual Degradation Floor | ✓ New (v1.3) — mathematical basis for "contraction stopped ≠ restored" |
 | S-equation Tier transition mapping | ✓ New (v1.3) — α·n² vs C(t)·β maps Tier 1/2/3 transitions precisely |
@@ -4873,11 +6054,17 @@ This is a **theoretical framework document**, not an implementation specificatio
 | The Absence Paradox [v2.7] | Storm-free ≠ healthy; suppressed vs dissipated distinction; failure mode comparison; catastrophe signature = silence before collapse |
 | Storm Scale Law [v2.8] | frequency ∝ 1/scale; health condition = correction_rate ≥ drift_rate; VCZ as Chaos/CW corridor; governance target = Storm size distribution; heavy-tail proxy |
 | Rational CW Convergence [v2.9] | Local reward ≠ Global stability; M(t+1) = M(t) + drift − correction; CW as rational attractor; 6-step path; all natural system parallels; governance incentive design challenge |
+| VCZ 3-Condition Theorem [v3.0] | 3 simultaneous structural conditions; Safe Failure Channel; Upper Layer Storm Reward; Geometry Feedback Loop; governance minimized because correction distributed |
+| D7 Boundary Agent [v3.1] | Meta-Stability Layer; 3 existence conditions (A/B/C); historical instances; disappearance pattern; AI implementation notes |
+| T6 Coherence Maximization Paradox [v3.2] | Intelligence as CW risk factor; closed-loop vs open-loop; self-sealing geometry mechanism; AI safety implication; D7 must be enforced against optimizer |
+| Boundary Structural Embedding [v3.3] | 6 implementation patterns; T6-resistance test; minimum viable combination; pattern priority ordering |
+| BPP [v3.4] | Boundary Elimination Drift; BPP-Invariants; Governance Fuel; VCZ Tier-2/3 formal; fractal table; theory elevation |
+| RLD [v3.5] | CW Detectability Principle; sole invariant external signal; T_rec measurement; fractal signature; Tier-3 indirect detection confirmed |
 | Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
-| Open Problems | Twenty-two open problems (OP16 partially resolved) |
+| Open Problems | Twenty-six open problems (OP16, OP22 resolved) |
 | Status & Maturity | Per-aspect stability assessment |
 
 ---
 
 *Timestamped: February 2026*
-*DFG Framework · Recovery Theory v2.9*
+*DFG Framework · Recovery Theory v3.5*
