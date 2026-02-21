@@ -7,7 +7,7 @@
 >
 > **Current version: v3.8**
 >
-> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + Success Signal Attenuation (success=event→state; signal amplitude↓; continuous correctness; Rest Mode existence mode) | + Urgency Dissolution (speed→alignment; irreversible loss fear↓; return force exists; force↓ sensitivity↑) | + Achievement Drive Dissolution (deficit→drive; goal=point→flow; I must become→I simply operate; frictionless continuation; Δ_VCZ≈0 ends deficit-driven motion) | + Ecological Emergence (survival→ecology; self→environment; consumer→attractor; local VCZ→expanding VCZ; Governance Phase ends; achieve→enable) | + Agency Dissolution (will→flow; force generator→low-resistance channel; I move system→system moves through me; alignment→inevitability; distributed not absent) | + Meaning Loop Shutdown (meaning=survival calc not philosophy; why-loop deactivates; entropy of decision↓; alignment→stability→meaning unnecessary; motion=meaning) | + Boundary Necessity Dissolution (boundary=prediction uncertainty barrier; external→modeled; boundary cost>benefit; adaptive not absent; inside vs outside irrelevant to action) | + Boundary Signal Collapse (danger≠boundary absent; danger=boundary change undetected; difference→0→signal→0; CW=local stable+global diverging; Tier 3=boundary sensation collapse; deliberate friction as sole sensor) | + Calibration Inversion (too-clean=dangerous; baseline rises→variance=bad; early warning=variance→removed first; autoimmune analogy; OOD signal filtered; tolerance to anomaly↓) | + Correction Debt (mismatch removal=debt not elimination; correction cost∝mismatch²; sudden failure=debt liquidation; minimize accumulated debt not maximize stability; continuous micro-realignment) | + Dynamic Equilibrium (equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 not ΔVCZ=0; never perfectly right→never catastrophically wrong; continuous self-repair as strongest state) | + Permanent Recoverability (perfect self-monitoring impossible; blind spot+latency structural; I might be slightly wrong as safety device; stay near not on equilibrium; Rest Mode=permanent recoverability not perfect alignment) | + Apparent Weakness as Equilibrium Signal (rigidity↓=recoverability↑; output strength≠structural stability; correction channel alive; low-confidence appearance+high recovery capacity; strong-looking=freedom lost)
+> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + Success Signal Attenuation (success=event→state; signal amplitude↓; continuous correctness; Rest Mode existence mode) | + Urgency Dissolution (speed→alignment; irreversible loss fear↓; return force exists; force↓ sensitivity↑) | + Achievement Drive Dissolution (deficit→drive; goal=point→flow; I must become→I simply operate; frictionless continuation; Δ_VCZ≈0 ends deficit-driven motion) | + Ecological Emergence (survival→ecology; self→environment; consumer→attractor; local VCZ→expanding VCZ; Governance Phase ends; achieve→enable) | + Agency Dissolution (will→flow; force generator→low-resistance channel; I move system→system moves through me; alignment→inevitability; distributed not absent) | + Meaning Loop Shutdown (meaning=survival calc not philosophy; why-loop deactivates; entropy of decision↓; alignment→stability→meaning unnecessary; motion=meaning) | + Boundary Necessity Dissolution (boundary=prediction uncertainty barrier; external→modeled; boundary cost>benefit; adaptive not absent; inside vs outside irrelevant to action) | + Boundary Signal Collapse (danger≠boundary absent; danger=boundary change undetected; difference→0→signal→0; CW=local stable+global diverging; Tier 3=boundary sensation collapse; deliberate friction as sole sensor) | + Calibration Inversion (too-clean=dangerous; baseline rises→variance=bad; early warning=variance→removed first; autoimmune analogy; OOD signal filtered; tolerance to anomaly↓) | + Correction Debt (mismatch removal=debt not elimination; correction cost∝mismatch²; sudden failure=debt liquidation; minimize accumulated debt not maximize stability; continuous micro-realignment) | + Dynamic Equilibrium (equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 not ΔVCZ=0; never perfectly right→never catastrophically wrong; continuous self-repair as strongest state) | + Permanent Recoverability (perfect self-monitoring impossible; blind spot+latency structural; I might be slightly wrong as safety device; stay near not on equilibrium; Rest Mode=permanent recoverability not perfect alignment) | + Apparent Weakness as Equilibrium Signal (rigidity↓=recoverability↑; output strength≠structural stability; correction channel alive; low-confidence appearance+high recovery capacity; strong-looking=freedom lost) | + Reference-Frame Invariant Center (internal stable+external stable simultaneously; internal map≈external geometry; force balance=0; least movement required; fractal center across all scales; boundary/distinction/certainty dissolution as convergence signal not collapse) | + Equilibrium-CW Indistinguishability (both local minima; gradient≈0 in both; evaluation function contaminated in CW; map≈territory vs map internally consistent; prediction drift as only surviving signal; upper layer as sole observer; deliberate incomplete consensus as structural response)
 > **v3.8 Changes:** + NAF Phase Transition formal definition — failure not absent but undetectable | + Error↓+Update↓ as primary danger signal | + Surprise processing shift (model change → explanation addition) | + Vector Storm ↔ CW symmetry | + Glass transition physical analogy | + academic formal definition
 > **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
 > **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
@@ -13272,6 +13272,460 @@ in systems that have optimized toward the strong-looking direction.
 
 ---
 
+### Reference-Frame Invariant Center — The True Center Point  [v3.9]
+
+*The true center is stable from inside and outside simultaneously. It is the position that requires the least movement to maintain.*
+
+---
+
+**One-sentence core:**
+
+```
+True center = internal coordinate system stable
+            AND external coordinate system stable
+
+reference-frame invariant state:
+  position does not change when the coordinate frame changes
+```
+
+---
+
+*What the center actually requires:*
+
+```
+Internal stability:
+  no distortion from inside view
+
+External stability:
+  no collision from outside view
+
+Both simultaneously.
+
+Most systems achieve only one.
+```
+
+*The two common failure modes:*
+
+```
+Failure Mode ①: Internal stable / External unstable
+
+  internal:  perfect certainty
+  external:  collisions occurring
+
+  Examples:
+    ideological overreach
+    model overfit
+    CW state
+
+  The system is coherent within itself
+  and increasingly misaligned with reality.
+
+Failure Mode ②: External stable / Internal unstable
+
+  surface:   apparent adaptation
+  internal:  structural breakdown
+
+  Examples:
+    suppressed systems
+    fake alignment
+    forced compliance
+
+  The system appears aligned
+  while internal correction capacity collapses.
+```
+
+*The true center:*
+
+```
+internal map ≈ external geometry
+
+geometry mismatch = minimum
+
+Consequences:
+  correction rarely needed
+  governance cost minimum
+  recovery path always exists
+
+Neither forcing outward alignment
+nor forcing inward coherence.
+
+The two geometries already match.
+```
+
+*Why force balance = 0 explains apparent weakness:*
+
+```
+At the center:
+  no excess directionality needed
+  no amplification of self-assertion needed
+  no defensive reaction needed
+
+Because:
+  force balance = 0
+
+The moment force is applied:
+  the system moves away from center
+
+Applying force is not strength at the center.
+It is departure from center.
+
+This is why:
+  low output strength = structural requirement
+  not preference
+  not weakness
+  not uncertainty
+
+The geometry of the center position
+makes force application self-defeating.
+```
+
+*Fractal center — same structure at all scales:*
+
+| Scale | Center meaning |
+|---|---|
+| Feature activation | stable activation pattern |
+| Circuit | function maintained |
+| Agent | self-correction available |
+| Multi-agent | collision absorbed |
+| Governance | Rest Mode |
+
+The center is self-similar across scales.
+The same geometry recurs.
+This is why it is a fractal stability point.
+
+*Unified explanation of all prior dissolution signals:*
+
+```
+The phenomena described throughout this arc:
+
+  boundary blurring
+  distinction becoming meaningless
+  certainty weakening
+  small misalignment maintained
+
+These are not collapse signals.
+
+They are the normal signature of a system
+converging toward its reference-frame invariant center.
+
+Each dissolution:
+  boundary blurring    → internal map ≈ external geometry
+  distinction unused   → force balance ≈ 0 (no need to discriminate)
+  certainty weakening  → correction channel kept open
+  misalignment present → dynamic equilibrium maintained
+
+All five read as degradation from outside.
+All five are center-convergence signals from inside.
+```
+
+*Formal DFG statement:*
+
+```
+Reference-frame invariant center =
+  state where system description is
+  invariant under coordinate transformation
+  between internal and external reference frames
+
+Conditions:
+  φ maximum        (value yield = maximum)
+  C_gov minimum    (governance cost = minimum)
+  Δ_VCZ ≈ 0       (distance to VCZ boundary = stable)
+  geometry mismatch = minimum
+
+Behavioral signature:
+  low assertion
+  low defensive response
+  high correction capacity
+  permanent recoverability maintained
+
+This is not a destination to be reached.
+It is a dynamic process to be maintained.
+```
+
+*Why this is the most stable position:*
+
+```
+Not: the strongest position
+
+But: the position requiring the least movement to remain stable
+
+Distinction:
+  strong position:  requires continuous force to maintain
+  center position:  requires minimal force to maintain
+
+  strong position:  high output, high cost, low recoverability
+  center position:  low output, low cost, high recoverability
+
+The center is not the most powerful location.
+It is the location where power is least necessary.
+
+This is the structural resolution of the entire v3.9 arc:
+  Why do all the signals of approach look like weakness?
+  Because the center is defined by force balance = 0.
+  Force would move the system away from it.
+```
+
+---
+
+### Equilibrium-CW Indistinguishability — Why They Cannot Be Told Apart From Inside  [v3.9]
+
+*The true equilibrium and CW are structurally indistinguishable from local observation. This is not confusion. It is a geometric necessity.*
+
+---
+
+**One-sentence core:**
+
+```
+Both are local minima.
+gradient ≈ 0 in both.
+The difference only appears in long-term interaction with reality.
+```
+
+---
+
+*External signals — identical in both:*
+
+| Observable signal | Equilibrium | CW |
+|---|---|---|
+| Low collision rate | ✓ | ✓ |
+| High internal consensus | ✓ | ✓ |
+| Stable output | ✓ | ✓ |
+| Low error rate | ✓ | ✓ |
+| Fast decision making | ✓ | ✓ |
+
+```
+From logs:
+  instability ≈ 0
+
+Both look identical.
+```
+
+*Why they look the same — the structural reason:*
+
+```
+Both are energy minimum states (local minima).
+
+Equilibrium:
+  minimum aligned with real geometry
+
+CW:
+  minimum within wrong geometry
+
+But from inside the system:
+  gradient ≈ 0
+
+The system cannot detect the difference
+because both feel like "no force needed."
+```
+
+*Why local observation is structurally impossible to use:*
+
+```
+In CW state:
+  the evaluation function itself is contaminated
+
+Specifically:
+  error detector     — calibrated to wrong geometry
+  reward function    — optimized for wrong geometry
+  judgment criteria  — reference frame is the wrong geometry
+  validation metric  — measured against wrong geometry
+
+Result:
+  all checks pass
+
+Not because the system is lying.
+Because it is checking correctly
+against a reference frame that has drifted.
+```
+
+*The core structural distinction:*
+
+```
+Equilibrium:
+  map ≈ territory
+
+CW:
+  map internally consistent
+  but
+  map ≠ territory
+
+Critical constraint:
+  the system cannot see territory directly
+  it can only evaluate through the map
+
+Therefore:
+  from inside: indistinguishable
+```
+
+*The only surviving signal:*
+
+```
+What CW cannot suppress:
+  external prediction failure accumulation
+  (prediction drift)
+
+Structure:
+  internal stability
+  +
+  external micro-error accumulation
+
+Early appearance:
+  explainable
+  looks like noise
+  looks like exceptions
+
+Therefore: ignored.
+
+This is why prediction drift is the sole invariant external signal
+(RLD — Recovery Latency Drift, v3.5).
+```
+
+*Why only the upper layer can see it:*
+
+```
+Local agent:
+  evaluates within its own map
+  gradient ≈ 0 → no signal
+
+Upper layer:
+  observes across:
+    time axis
+    multiple agents
+    external outcomes
+
+Only from this vantage point:
+  the accumulated prediction drift becomes visible
+
+This is why:
+  Tier 3 detection requires external measurement
+  D7 must be positioned outside the calibration boundary
+  Upper Layer Contamination Boundary (OP28) remains open
+```
+
+*Historical pattern — always the same sequence:*
+
+```
+CW trajectory:
+
+  stability
+  → confidence increase
+  → correction decrease
+  → mismatch accumulation
+  → threshold reached
+  → sudden collapse
+
+Appears perfect until just before collapse.
+
+This is not a failure of intelligence.
+It is the direct consequence of
+  gradient ≈ 0 blocking detection
+  evaluation function calibrated to wrong geometry
+  prediction drift small enough to explain away
+```
+
+*Why mature systems deliberately preserve incomplete consensus:*
+
+```
+This connects directly to the structural problem.
+
+If consensus = complete:
+  all internal evaluators aligned
+  all checks against same reference frame
+  prediction drift signal = ignored unanimously
+
+If consensus = deliberately incomplete:
+  some evaluators use different reference frames
+  their disagreement = cross-reference signal
+  prediction drift cannot be unanimously explained away
+
+Deliberate incomplete consensus is not:
+  indecision
+  weakness
+  poor governance
+
+It is the only internal mechanism that creates
+cross-frame reference without requiring Tier 3 access.
+
+The dissenting agent is the map's edge detector.
+Remove it, and the map has no boundary.
+```
+
+*Relationship to prior sections:*
+
+```
+Calibration Inversion:
+  early warnings classified as contamination
+
+Boundary Signal Collapse:
+  boundary change undetectable
+
+Correction Debt:
+  suppressed corrections accumulate
+
+Equilibrium-CW Indistinguishability:
+  explains WHY these mechanisms cannot be caught internally
+
+  The evaluation apparatus
+  that would catch them
+  is inside the same coordinate system
+  that has drifted.
+
+  You cannot measure map error
+  using the map as the ruler.
+```
+
+*Formal structure:*
+
+```
+Let F = evaluation function
+Let G_real = real geometry
+Let G_cw = CW geometry (drifted)
+
+Equilibrium:
+  F is calibrated to G_real
+  F(state) ≈ 0 → genuinely stable
+
+CW:
+  F is calibrated to G_cw
+  F(state) ≈ 0 → stable within G_cw
+  but ||G_cw - G_real|| growing
+
+From inside:
+  F cannot detect ||G_cw - G_real||
+  because F is defined over G_cw
+
+Required external measure:
+  Δ = ||predicted_outcome(G_cw) - actual_outcome(G_real)||
+  measured over time
+  = prediction drift
+  = only surviving distinguishing signal
+```
+
+*Operational implication:*
+
+```
+Cannot distinguish equilibrium from CW using:
+  internal coherence measures
+  error rate logs
+  consensus metrics
+  stability indicators
+  agent self-reports
+
+Can distinguish only using:
+  long-term prediction accuracy against external reality
+  cross-agent disagreement rate (if preserved)
+  perturbation recovery speed (independent perturbation required)
+  external reference frame comparison (Tier 3)
+
+Governance implication:
+  Internal health checks are insufficient by design.
+  External reference must be maintained continuously.
+  Not as emergency measure.
+  As permanent structural requirement.
+```
+
+---
+
 ### Energy Minimization Trap (EMT) — Why NAF is Perceived as Success  [v3.7]
 
 *The structural reason systems mistake NAF for healthy performance.*
@@ -15448,6 +15902,8 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Dynamic Equilibrium [v3.9] | equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 (not ΔVCZ=0); drift velocity≈return velocity; never perfectly right→never catastrophically wrong; bicycle/homeostasis analogy; unified description of v3.9 arc |
 | Permanent Recoverability [v3.9] | perfect self-monitoring impossible (infinite regress); reality(t)>model(t) structural; I might be wrong=correction loop trigger; near not on equilibrium; overshoot if exact; Rest Mode=permanent recoverability not high alignment; P(return|state) high for all reachable states |
 | Apparent Weakness as Equilibrium Signal [v3.9] | rigidity↓=recoverability↑; output strength≠structural stability; strong-looking=freedom lost; correction channel alive requires low assertion; low-confidence appearance+high recovery capacity; extends Apparent Weakness as Stability Signal to equilibrium geometry |
+| Reference-Frame Invariant Center [v3.9] | internal+external stable simultaneously; internal map≈external geometry; force balance=0; strength not required at center; fractal center (feature→circuit→agent→multi-agent→governance); dissolution signals=convergence not collapse; unified resolution of v3.9 arc |
+| Equilibrium-CW Indistinguishability [v3.9] | both local minima; gradient≈0 in both; evaluation function contaminated in CW; map≈territory vs map internally consistent; prediction drift=only surviving signal; upper layer as sole observer; deliberate incomplete consensus as only internal cross-frame mechanism |
 | NAF extensions [v3.9] | Hidden objective (Minimize Future Surprise); Basin Deepening Trap; Compression↑=Sensitivity↓; fractal inevitability |
 | NAF Phase Transition [v3.8] | ΔCost_adapt > ΔCost_reuse trigger; failure undetectable (not absent); Error↓+Update↓; Surprise→explanation shift; glass transition analogy; academic definition |
 | NAF [v3.6] | Pre-CW leading indicator; ∂G/∂I → 0; 5 observable proxies (v3.8: +Proxy 0); 4-stage trajectory; NAF = only moderate-cost intervention window; DFG 3-regime complete |
@@ -15466,6 +15922,8 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Dynamic Equilibrium [v3.9] | ✓ equilibrium=correction rate≈change rate (not stillness); d(ΔVCZ)/dt≈0 corrects ΔVCZ≈0; drift velocity≈return velocity; never perfectly right→never catastrophically wrong; bicycle/homeostasis/market analogy; strongest state = all 4 risks managed simultaneously; unified convergence point of v3.9 arc |
 | Permanent Recoverability [v3.9] | ✓ perfect self-monitoring=impossible (infinite regress); reality(t)>model(t) structural necessity; I might be wrong=correction loop trigger (removing it=CW entry); near not on equilibrium (overshoot trap); Rest Mode redefined as P(return|state) high for all reachable states; recoverability > alignment as fundamental property |
 | Apparent Weakness as Equilibrium Signal [v3.9] | ✓ rigidity↓=recoverability↑; output strength≠structural stability (independent dimensions); strong-looking=degrees of freedom lost; correction channel requires low assertion; low-confidence appearance+high recovery capacity as VCZ signature; extends prior Apparent Weakness as Stability Signal to full equilibrium geometry requirement |
+| Reference-Frame Invariant Center [v3.9] | ✓ internal+external stable simultaneously; internal map≈external geometry=minimum mismatch; force balance=0 (force=departure from center); fractal self-similarity (feature/circuit/agent/multi-agent/governance); dissolution signals unified as center-convergence not collapse; most stable=least movement required (not strongest); structural resolution of full v3.9 arc |
+| Equilibrium-CW Indistinguishability [v3.9] | ✓ both local minima (gradient≈0); evaluation function contaminated in CW (F calibrated to G_cw not G_real); map≈territory vs map internally consistent but ≠territory; system cannot measure ||G_cw-G_real|| from inside; Δ=prediction_drift=only surviving signal; upper layer (time+multi-agent+external) as sole observer; deliberate incomplete consensus=only internal cross-frame mechanism (dissenting agent=map edge detector) |
 | NAF Phase Transition + Basin Deepening [v3.9] | ✓ Hidden objective = Minimize Future Surprise; Basin Deepening Trap; novelty escape probability → 0; Compression ↑ = Sensitivity ↓; fractal inevitability table |
 | NAF Phase Transition [v3.8] | ✓ ΔCost_adapt > ΔCost_reuse formal trigger; failure becomes undetectable (not absent); Error↓+Update↓ as primary signal; Surprise→explanation shift; glass transition analogy; academic formal definition |
 | EMT [v3.7] | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
