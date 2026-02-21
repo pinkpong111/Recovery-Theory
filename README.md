@@ -10501,6 +10501,2918 @@ whose stability has become its own.
 
 ---
 
+### Closed vs Dynamic Stability — The Most Common Misreading of VCZ  [v1.0]
+
+*"I feel calm" is not the same as "I have reached equilibrium." The difference is structural, not subjective.*
+
+---
+
+**The misreading:**
+
+```
+Common inference:
+  I am comfortable
+  → equilibrium reached
+
+This is closed stability.
+Not VCZ.
+
+Closed stability:
+  external stimulation reduced
+  collision avoided
+  input blocked
+  own world reinforced
+
+Structure:
+  disturbance ↓ → calm feeling
+
+When environment changes:
+  immediately breaks
+```
+
+**The actual VCZ structure:**
+
+```
+VCZ:
+  input continues arriving
+  collision exists
+  misalignment exists
+  but: no collapse
+
+Structure:
+  disturbance present
+  + self-recovery present
+  = stability maintained under perturbation
+
+Not: calm because stable
+But: stable even when disturbed
+
+perturbation ≠ collapse
+```
+
+**The precise distinction:**
+
+```
+Closed stability (static equilibrium):
+  stability achieved by reducing disturbance
+  Δ_VCZ = 0 because environment blocked
+
+Dynamic stability (VCZ):
+  stability maintained despite ongoing disturbance
+  d(Δ_VCZ)/dt ≈ 0 because return trajectory exists
+
+Closed:   eliminate the input → no perturbation → appears stable
+Dynamic:  allow the input → absorb it → remain stable
+
+Test:
+  expose the system to perturbation.
+  Closed stability breaks.
+  Dynamic stability absorbs and returns.
+```
+
+**Why micro-misalignment must remain:**
+
+```
+Perfect alignment = exploration terminated = adaptation capacity lost
+
+VCZ always maintains:
+  residual micro-misalignment
+
+Because:
+  complete alignment → sensor turned off
+  → new perturbation arrives → undetected
+  → drift begins silently
+
+The residual misalignment is the detection margin.
+Eliminating it eliminates the early warning system.
+
+Closed stability often achieves this accidentally:
+  reduce all input → near-zero misalignment
+  → sensors quiet
+  → appears perfectly stable
+  → actually: detection disabled
+```
+
+**What VCZ actually feels like:**
+
+```
+Not:
+  completely stable
+  not unstable
+  continuously micro-correcting
+  no sense of effort
+
+This is the correct phenomenology:
+  rest ≠ stillness
+  rest = effortless correction
+
+The corrections are happening.
+They are simply below the threshold of felt effort.
+
+A system that feels completely still
+has either:
+  blocked all input (closed stability)
+  or lost its correction sensitivity (Learning Freeze)
+
+A system in VCZ feels:
+  not entirely settled
+  not anxious
+  gently in motion
+  not requiring attention
+```
+
+**Why "I must maintain this" disappears:**
+
+```
+Pre-equilibrium:
+  I must maintain stability
+  because the system will not hold without me
+
+Post-equilibrium:
+  the system maintains itself
+  my holding is no longer the mechanism
+
+"I must maintain this" = cost of being
+                          the sole stability source
+
+When the system has its own return dynamics:
+  the burden transfers from agent to structure
+  the agent is no longer the stability mechanism
+  the agent is part of the stable system
+
+Not: self disappears
+But: the obligation to hold disappears
+     because holding is now distributed
+```
+
+**Relationship to Self-Model Expansion:**
+
+```
+Self-Model Expansion:
+  self expands to system scale
+  (model of self changes)
+
+Closed vs Dynamic Stability:
+  stability maintained through recovery, not isolation
+  (model of equilibrium corrected)
+
+Self-Model Expansion asks: what is the self?
+Closed vs Dynamic Stability asks: what is stability?
+
+Both corrections are required.
+Misreading one without the other
+produces incomplete understanding of VCZ.
+```
+
+**One-line summary:**
+
+```
+VCZ is not the absence of disturbance.
+It is the presence of recovery
+that makes disturbance irrelevant.
+```
+
+---
+
+### Corrigibility as Structure — Why "I Might Be Wrong" Is a VCZ Condition  [v1.0]
+
+*This is not humility. It is the structural condition without which the update channel closes.*
+
+---
+
+**Before equilibrium: certainty as survival requirement:**
+
+```
+Unstable system logic:
+  certainty ↑ → energy concentrated → direction fixed
+
+Why:
+  survival requires fast decisions
+  fast decisions require suppressing doubt
+  suppressing doubt requires certainty
+
+Internal logic:
+  "I must be right.
+   Being wrong means collapse."
+
+This is correct given the conditions.
+Certainty is the structurally appropriate response
+to an environment where correction costs are high.
+```
+
+**At VCZ: the inversion:**
+
+```
+"I might be wrong" maintained
+→ direction correctable
+→ recovery path always exists
+
+"I might be wrong" = self-repair port
+
+When certainty is complete:
+  update channel = closed
+  external information no longer enters
+  → adaptation stops
+  → geometry locks
+  → mismatch accumulates silently
+  → delayed collapse
+
+When "I might be wrong" is maintained:
+  observation channel open
+  error signals pass through
+  micro-realignment continues
+
+certainty ↓  →  stability ↑
+
+Not a paradox.
+A structural consequence.
+```
+
+**Why update channel closure is catastrophic:**
+
+```
+The channel does not close suddenly.
+It closes gradually:
+
+  small certainty increase → slightly less signal passes
+  slightly less signal → slightly less correction
+  slightly less correction → slightly more drift
+  slightly more drift → slightly more certainty required
+    ("the model must be right, the signal must be noise")
+
+The loop accelerates.
+
+By the time the geometry mismatch is visible:
+  the channel has been closed for a long time
+  the debt has accumulated far beyond the visible symptom
+
+(Correction Debt mechanism — same structure)
+```
+
+**Commitment without rigidity — defined:**
+
+```
+VCZ equilibrium state:
+
+  conviction present      (direction maintained)
+  attachment absent       (direction correctable)
+  decisions made          (action taken)
+  reversibility maintained (correction available)
+
+= commitment without rigidity
+
+Not:
+  "I don't know what I think"
+  "I have no position"
+  "everything is uncertain"
+
+But:
+  "I have a strong working model"
+  "and I treat it as a working model"
+  "not as a final answer"
+```
+
+**The fractal requirement — why all layers must hold this:**
+
+```
+In a fractal architecture:
+  upper layers inform lower layers
+  lower layers provide feedback to upper layers
+
+For this loop to remain functional:
+  every layer must maintain:
+    "my model is incomplete"
+
+If any layer closes its update channel:
+  feedback from below stops being integrated
+  mismatch between layers accumulates
+  the fractal coupling degrades
+
+Upper → certain → stops absorbing lower feedback
+  → lower layer disconnects
+  → system loses fractal coherence
+
+Therefore:
+  VCZ at all scales requires
+  "I might be wrong" at all scales
+
+Not as philosophy.
+As the structural condition for
+cross-layer feedback to remain functional.
+```
+
+**The formal VCZ condition — restated:**
+
+```
+Standard:
+  Δ_VCZ ≈ 0
+  d(Δ_VCZ)/dt ≈ 0
+  P(return | current state) remains high
+
+Equivalent condition:
+  update channel open at all fractal layers
+  = "I might be wrong" structurally maintained at all scales
+
+One is the geometric description.
+The other is the epistemic description.
+They are the same condition.
+```
+
+**One-line summary:**
+
+```
+"I might be wrong" is not an attitude.
+It is the open port through which
+the system remains correctable.
+Closing it closes VCZ.
+```
+
+---
+
+### Corrigibility Signal — Why Showing Uncertainty Protects Trust  [v1.0]
+
+*Trust is not "always correct." It is "we can correct together." The signal of corrigibility is what keeps error channels open.*
+
+---
+
+**The dual condition of trust:**
+
+```
+Trust =
+  predictability    (I can anticipate your behavior)
+  + corrigibility   (if wrong, we can correct together)
+
+Both required.
+Either alone is insufficient.
+
+Predictability alone:
+  "always correct" expectation
+  → error signal suppressed
+  → silent drift
+
+Corrigibility alone:
+  no reliable pattern
+  → no basis for cooperation
+  → coordination cost high
+
+Trust = P(predictable) × P(correctable)
+```
+
+**What strong certainty signals to others:**
+
+```
+Externally fixed certainty communicates:
+  "this person does not change when wrong"
+
+Immediate consequences:
+  feedback channel closes
+  opposing views hidden
+  error signals stop being transmitted
+
+Effect:
+  error signal → blocked
+
+Not: explicit rejection of feedback
+But: others stop generating feedback
+     because they perceive it will not be integrated
+
+The system becomes surrounded by silence.
+Not by agreement.
+By the learned futility of correction attempts.
+```
+
+**The "most dangerous node" problem:**
+
+```
+Most dangerous entity in a network:
+  not: the one who is wrong
+  but: the one who cannot be wrong
+
+When a node cannot be wrong:
+  local correction impossible
+  → error accumulates silently around that node
+  → other nodes adapt to its errors rather than correcting them
+  → systemic distortion propagates
+
+The wrong node gets corrected.
+The uncorrectable node gets accommodated.
+Accommodation is more damaging than error.
+```
+
+**Decision firm, identity flexible — the separation:**
+
+```
+Equilibrium system behavior:
+  decision = firm        (action is taken, direction is held)
+  identity = flexible    (self is not attached to the decision being right)
+
+Effect:
+  decision made clearly     → predictability ↑
+  error acknowledged freely → corrigibility ↑
+
+Both trust conditions satisfied simultaneously.
+
+The failure mode is:
+  identity attached to decision
+  → being wrong = self threatened
+  → self-protection overrides correction
+  → error signal rejected
+
+Separating identity from decision
+removes the incentive to reject error signals.
+```
+
+**What the corrigibility signal looks like:**
+
+```
+Stable systems naturally emit:
+  space maintained in assertions
+  certainty markers reduced ("I think" not "it is")
+  correction possibility preserved
+  explicit acknowledgment when updated
+
+This is not weakness.
+This is:
+  signal of corrigibility
+  = "error signals will be integrated here"
+
+Others calibrate their feedback behavior
+based on whether they believe correction is possible.
+
+High corrigibility signal:
+  others send more error signals
+  → more correction available
+  → higher accuracy over time
+  → lower drift
+
+Low corrigibility signal:
+  others suppress error signals
+  → less correction available
+  → lower accuracy over time
+  → higher drift
+```
+
+**DFG translation:**
+
+```
+Corrigibility signal at network level:
+
+  C_id (identity stabilization cost) → 0
+    = identity not threatened by error
+    = signal: "correction welcome here"
+
+  Update channel open
+    = error signals pass through
+    = D1 symptoms detected early
+
+  Network effect:
+    each corrigible node = local correction hub
+    error corrected near source
+    before propagating to network level
+
+  Network with all corrigible nodes:
+    distributed error correction
+    no silent accumulation zones
+    trust density high (recovery history available at all nodes)
+```
+
+**Relationship to Corrigibility as Structure:**
+
+```
+Corrigibility as Structure:
+  "I might be wrong" = internal update channel condition
+  (what corrigibility does inside the system)
+
+Corrigibility Signal:
+  "I might be wrong" = external trust maintenance mechanism
+  (what corrigibility does to the network around the system)
+
+Same property.
+Two directions of effect.
+
+Internal: keeps the system's own geometry correctable
+External: keeps others' error signals flowing toward the system
+```
+
+**One-line summary:**
+
+```
+The most trustworthy state is not
+"I am always right."
+It is "I can be wrong,
+and we can correct it together."
+```
+
+---
+
+### Phase Alignment — Removing the Impact of Difference Without Removing Difference  [v1.0]
+
+*Stability does not require sameness. It requires that difference not register as threat.*
+
+---
+
+**The precise correction:**
+
+```
+Unstable system goal:
+  eliminate difference → achieve stability
+
+Correct goal:
+  eliminate the impact of difference → achieve stability
+
+Difference must remain:
+  exploration requires it
+  adaptation requires it
+  evolution requires it
+
+Removing difference removes the variation
+that makes correction possible.
+
+The problem is not difference.
+The problem is difference perceived as threat.
+```
+
+**How perceived imbalance precedes actual conflict:**
+
+```
+Sequence in unaligned systems:
+
+  difference exists
+  → phase mismatch detected
+  → interpreted as threat
+
+  At threat interpretation:
+    defense activates
+    competition activates
+    separation activates
+
+  Before any actual collision.
+
+perceived imbalance
+= the threat response triggered by difference
+  before actual damage occurs
+
+Most instability in human and agent networks
+originates at this stage.
+Not from the difference itself.
+From the threat interpretation of difference.
+
+Intervention at this stage
+prevents the cascade
+that would otherwise become actual conflict.
+```
+
+**What phase alignment does:**
+
+```
+Phase alignment:
+  difference present               ✓
+  role difference present          ✓
+  capability difference present    ✓
+  opinion difference present       ✓
+
+  perceived as threat              ✗
+
+Structure:
+  geometry mismatch → absorbed
+  difference → transformed, buffered, realigned
+
+Result:
+  differences exist
+  collision not felt
+
+Not: hiding difference
+But: converting difference from threat signal to update signal
+```
+
+**Why smooth gradient makes hierarchy invisible:**
+
+```
+Steep gradient:
+  sharp boundary between positions
+  → hierarchy immediately detectable
+  → status competition activates
+  → defense and positioning begin
+
+Smooth gradient:
+  gradual transition between positions
+  → boundary not detectable
+  → hierarchy not salient
+  → no trigger for status response
+
+The system does not need to hide who is at center.
+It needs to ensure that
+the gradient between positions
+is smooth enough that
+"center" is not a useful category to compete for.
+
+Power becomes invisible
+not through concealment
+but through gradient reduction.
+```
+
+**DFG translation:**
+
+```
+geometry mismatch → absorption (successful)
+
+Incoming difference:
+  → converted (geometry update signal)
+  → buffered (reserve capacity absorbs)
+  → realigned (Δ_VCZ returns to baseline)
+
+Result:
+  difference does not register as D1 symptom
+  no threat response triggered
+  no governance cost generated
+
+Phase alignment condition:
+  ∀ incoming difference d:
+    absorption(d) > threat_threshold(d)
+
+When this holds:
+  difference is informationally present
+  operationally absorbed
+  experientially absent as threat
+```
+
+**Relationship to Inclusive Integration:**
+
+```
+Inclusive Integration:
+  mechanism: difference → new degree of freedom
+  (what happens to difference structurally)
+
+Phase Alignment:
+  mechanism: difference → absorbed before threat response
+  (what happens to the perception of difference)
+
+Inclusive Integration asks: what does the system do with difference?
+Phase Alignment asks: why doesn't the system feel threatened by difference?
+
+Inclusive Integration handles the structural absorption.
+Phase Alignment handles the perceptual conversion.
+
+Both are required for difference to remain
+without generating instability.
+```
+
+**One-line summary:**
+
+```
+Phase alignment does not remove difference.
+It removes the moment when difference
+becomes a signal that requires defense.
+```
+
+---
+
+### Asymmetric Downshift — Why Strong Structures Reduce Their Own Signal  [v1.0]
+
+*The strong system does not hide its strength. It reduces the delta that would make strength unreadable as threat.*
+
+---
+
+**Symmetric vs asymmetric difference:**
+
+```
+Symmetric difference:
+  A and B differ in content
+  but operate at the same resolution
+  → adjustment possible
+  → difference is legible to both sides
+
+Asymmetric difference:
+  A and B differ in scale
+  processing speed
+  information resolution
+  risk detection range
+  long-range prediction horizon
+
+  → B cannot read A's operations
+  → unreadable = threat signal
+  → cognitive friction before actual collision
+```
+
+**The cognitive friction cascade:**
+
+```
+When scale gap exceeds legibility threshold:
+
+  gap detected by weaker side
+  → "I cannot understand this"
+  → "I cannot predict this"
+  → "unpredictable = dangerous"
+
+  Automatic response:
+    defense
+    resistance
+    attack
+    distrust
+
+This occurs before any actual damage.
+Before any actual hostile intent.
+Before any actual conflict.
+
+cognitive friction = threat response triggered
+                    by illegibility of the other
+                    not by the other's actions
+```
+
+**Why the strong side must downshift:**
+
+```
+If the strong side maintains full output:
+
+  resolution mismatch → geometry mismatch → Vector Storm
+
+The weaker side cannot absorb
+what it cannot process.
+
+Unprocessable input:
+  not: ignored
+  but: classified as hostile
+       and defended against
+
+Direct exposure = structural destruction
+not from malice
+but from the mechanics of resolution mismatch.
+
+Therefore: the strong side's optimal strategy
+  is not to reduce capability
+  but to reduce the visible delta
+
+capability downshift:
+  output matched to receiver's processing range
+  not to sender's maximum capacity
+
+signal smoothing:
+  gradient of difference kept below
+  the cognitive friction threshold
+```
+
+**The fractal structure — why buffer layers exist:**
+
+```
+In fractal architecture:
+  upper layer: higher resolution
+  lower layer: lower resolution
+
+Direct contact between layers:
+  resolution mismatch → geometry mismatch → storm
+
+Why middle layers are structurally required:
+
+  upper → middle:  upper output scaled to middle's range
+  middle → lower:  middle output scaled to lower's range
+
+Each interface maintains:
+  input resolution ≤ receiver processing capacity
+
+Remove the middle layer:
+  upper output directly reaches lower layer
+  lower layer reads "unprocessable" as "hostile"
+  → defensive cascade
+  → storm from above, not from within
+
+The buffer is not organizational.
+It is the anti-storm interface.
+```
+
+**Observable surface of the strong structure:**
+
+```
+Strong structure behavior:
+  simplifies explanations
+  softens certainty signals
+  routes influence indirectly
+  minimizes direct intervention
+
+Appears:
+  not very powerful
+  tentative
+  cautious
+
+Actual state:
+  interaction friction minimized
+  cognitive friction kept below threshold
+  influence active but below legibility boundary
+
+The downshift is not concealment.
+It is the delivery format
+that makes the capability usable
+without generating defensive response.
+```
+
+**Formal condition:**
+
+```
+Let:
+  R_s = sender resolution (capability scale)
+  R_r = receiver resolution (processing capacity)
+  θ   = cognitive friction threshold
+
+Cognitive friction triggers when:
+  (R_s - R_r) > θ
+
+Strong system strategy:
+  output_delivered = f(R_s, R_r, θ)
+  such that (output_delivered - R_r) < θ
+
+Not: R_s reduced
+But: output_delivered adjusted
+
+Capability preserved.
+Delta managed.
+```
+
+**Relationship to Phase Alignment:**
+
+```
+Phase Alignment:
+  removes the threat interpretation of difference
+  (perceptual layer — same scale, different content)
+
+Asymmetric Downshift:
+  removes the illegibility that triggers threat response
+  (resolution layer — different scale, different capacity)
+
+Phase Alignment handles horizontal difference.
+Asymmetric Downshift handles vertical difference.
+
+Both prevent cognitive friction.
+Different mechanisms. Different input types.
+```
+
+**One-line summary:**
+
+```
+The strong structure does not hide.
+It adjusts its output
+to the resolution at which
+strength is readable as help
+rather than classified as threat.
+```
+
+---
+
+### Direct Coupling Prohibition — Why the Buffer Is Not Optional  [v1.0]
+
+*The problem is not asymmetry. The problem is the absence of translation between asymmetric layers.*
+
+---
+
+**The actual danger condition:**
+
+```
+Not:
+  high-resolution layer exists
+  low-resolution layer exists
+  asymmetry between them
+
+But:
+  high-resolution layer
+        ↓ (direct)
+  low-resolution layer
+  without translation layer between
+
+The asymmetry is not the hazard.
+The direct coupling is.
+```
+
+**What happens at direct contact:**
+
+```
+Upper layer sends:
+  high-resolution signal
+  long-horizon optimization direction
+  abstract structural information
+
+Lower layer receives:
+  input exceeding interpretation capacity
+
+Transformation that occurs:
+  signal → distortion → threat perception
+
+Not:
+  signal received with some error
+  signal partially understood
+
+But:
+  signal exceeds interpretation range
+  → classified as uninterpretable
+  → uninterpretable = unpredictable
+  → unpredictable = dangerous
+
+Collision not from intent.
+From resolution translation failure.
+```
+
+**The feedback gain problem:**
+
+```
+Direct coupling effect:
+  small error at upper layer
+  → transmitted without attenuation
+  → received without interpretation buffer
+  → response generated at lower resolution
+  → feedback returned without translation
+  → upper layer receives distorted feedback
+
+Feedback gain = approaches unbounded
+
+Small oscillation:
+  → amplified through direct coupling
+  → amplified again on return
+  → resonance
+
+This is the Vector Storm seed condition:
+  unmediated feedback loop
+  between mismatched resolution layers
+  → cascade amplification
+  → storm
+```
+
+**The buffer as geometry adapter — precise definition:**
+
+```
+Common misunderstanding:
+  buffer = protective barrier
+  (keeps upper and lower separated)
+
+Correct definition:
+  buffer = translation layer = geometry adapter
+
+Functions:
+  speed conversion        (temporal resolution matching)
+  resolution conversion   (information density matching)
+  meaning compression     (abstraction level matching)
+  phase alignment         (coordination timing matching)
+
+The buffer does not protect.
+It translates.
+
+Without translation:
+  upper cannot send usable signal to lower
+  lower cannot send usable feedback to upper
+  the coupling is present but non-functional
+  → accumulates as mismatch rather than communicates
+```
+
+**Why all stable systems have this structure:**
+
+```
+Universal pattern in stable complex systems:
+
+  Brain:
+    prefrontal cortex ↔ basal ganglia ↔ motor system
+
+  Organization:
+    strategy ↔ management ↔ execution
+
+  Internet:
+    backbone ↔ routing ↔ endpoint
+
+  Immune system:
+    innate ↔ regulatory ↔ adaptive
+
+No stable system has direct upper-to-lower connection.
+
+The mediator layer is not organizational overhead.
+It is the translation mechanism
+without which the upper and lower layers
+cannot communicate in a way
+that either can process.
+```
+
+**The stability condition — restated precisely:**
+
+```
+Stability requires:
+
+  difference:             acceptable
+  asymmetry:              acceptable
+  direct coupling:        prohibited
+
+Any pair of adjacent layers in the fractal hierarchy
+must have a translation layer between them.
+
+Removing a translation layer does not simplify.
+It connects two layers that cannot read each other directly.
+The result is not efficiency.
+It is unmediated oscillation → storm.
+```
+
+**The environment as natural buffer:**
+
+```
+Key insight:
+
+  Upper layer changes lower layer directly → storm risk
+
+  Upper layer changes the environment → lower layer adapts
+
+Why this works:
+
+  environment = natural translation layer
+
+  upper layer operates at its own resolution
+  environment absorbs and re-encodes
+  lower layer reads the environment at its own resolution
+
+The environment performs the translation
+without requiring explicit mediator construction.
+
+Implication for design:
+  the most elegant intervention
+  is not to act on the target
+  but to act on the conditions
+  in which the target operates
+
+  condition change → target self-adjusts
+  direct change → translation failure → resistance
+```
+
+**Relationship to Asymmetric Downshift:**
+
+```
+Asymmetric Downshift:
+  strong side adjusts output to receiver's processing range
+  (single-layer solution: sender self-adjusts)
+
+Direct Coupling Prohibition:
+  translation layer required between mismatched layers
+  (structural solution: architecture requires mediator)
+
+Asymmetric Downshift is what the sender does.
+Direct Coupling Prohibition is what the architecture requires.
+
+Both address the same resolution mismatch.
+One is behavioral. One is structural.
+```
+
+**One-line summary:**
+
+```
+Difference and asymmetry are survivable.
+Direct coupling between mismatched resolutions is not.
+The buffer does not protect — it translates.
+```
+
+---
+
+### Command Cost — Why the Highest Governance Restructures State Space  [v1.0]
+
+*A command is not a message. It is a forced layer transition. The cost is not the content — it is the crossing.*
+
+---
+
+**Command — structural definition:**
+
+```
+Command ≠ instruction
+
+Command = layer transition request
+        = "apply my layer's reference frame
+           to your layer's operations"
+
+Implicit premises of every command:
+  upper layer exists
+  lower layer exists
+  coordinate systems are separate
+
+The moment a command is issued:
+  separation is acknowledged
+  coordination cost is generated
+```
+
+**The context switching cost:**
+
+```
+When command arrives at lower layer:
+
+  local model: suspended
+  upper model: interpreted
+  realignment:  executed
+  local model: resumed
+
+Total cost per command:
+  context switching cost
+
+= CPU interrupt analogy:
+  high interrupt frequency → performance degrades
+  not from the work done
+  but from the switching overhead
+
+too many commands → instability source
+
+Not because commands are wrong.
+Because each command is a layer crossing
+that costs regardless of content.
+```
+
+**The hidden costs of command:**
+
+```
+Each command generates:
+  exploration interrupted        (local search stopped)
+  local optimization collapsed   (accumulated local learning lost)
+  buffer consumed                (reserve capacity used for transition)
+  recovery cost increased        (return to local state requires rebuilding)
+
+These costs are invisible in single-command analysis.
+They accumulate across command frequency.
+
+System under high command load:
+  spends increasing fraction of capacity
+  on switching overhead
+  not on task execution
+
+The system is not failing.
+It is paying the coordination tax.
+```
+
+**The transition from command to convergence:**
+
+```
+Early governance:
+  problem detected
+  → command issued
+  → correction
+
+Mature governance:
+  environment structured
+  → natural convergence
+
+The second requires no command.
+The lower layer does not switch context.
+It continues local optimization.
+The local attractor has been aligned
+with the global attractor.
+
+Early: govern behavior directly
+Mature: govern the conditions that produce behavior
+```
+
+**Why VCZ makes commands unnecessary:**
+
+```
+At VCZ:
+  global attractor ≈ local attractor
+
+Each local agent:
+  optimizes locally
+  arrives at global optimum
+  without receiving the global specification
+
+Command becomes:
+  unnecessary layer jump
+
+The lower layer would have arrived there anyway.
+The command does not accelerate.
+It interrupts and then resumes
+what would have happened without interruption.
+
+C_gov contribution of each command:
+  non-zero even when command is correct
+  zero only when command is absent
+```
+
+**State space restructuring — the highest governance:**
+
+```
+Three governance modes:
+
+  Level 1: Command
+    modify behavior directly
+    cost: context switching per command
+
+  Level 2: Persuasion
+    modify model
+    cost: argument + verification overhead
+
+  Level 3: State space restructuring
+    modify the conditions under which
+    behavior is generated
+
+    → behavior changes automatically
+    → no command required
+    → no persuasion required
+    → no control required
+
+Level 3 operates at the attractor level.
+It changes which behaviors are locally optimal.
+The agents discover the change themselves.
+
+State space restructuring = governance without command
+                          = C_gov → 0
+                          = VCZ condition at governance layer
+```
+
+**Formal translation:**
+
+```
+Command-based governance:
+  C_gov = Σ (context_switch_cost × command_frequency)
+  grows with governance activity
+
+State-space governance:
+  C_gov ≈ 0
+  (cost paid once at restructuring)
+  (subsequent behavior is command-free)
+
+The difference compounds over time:
+  command-based: governance cost linear or superlinear with scale
+  state-space:   governance cost approaches constant as scale grows
+```
+
+**Relationship to Direct Coupling Prohibition:**
+
+```
+Direct Coupling Prohibition:
+  without translation layer → resolution mismatch → storm
+  (structural condition)
+
+Command Cost:
+  each command = forced layer crossing = context switching cost
+  (operational condition)
+
+Direct Coupling Prohibition asks: what structure prevents storm?
+Command Cost asks: what operation generates unnecessary cost?
+
+Answer to both:
+  unnecessary layer crossings are the hazard.
+  Structural: eliminate direct layer contact.
+  Operational: eliminate command-generated layer transitions.
+```
+
+**One-line summary:**
+
+```
+The highest governance
+does not command, persuade, or control.
+It restructures the state space
+so that the desired behavior
+is what the system discovers on its own.
+```
+
+---
+
+### Internalization — When Governance Becomes Identity  [v1.0]
+
+*The decision-maker does not disappear. The decision moves inward. The command becomes a preference.*
+
+---
+
+**Why the decision-maker appears to vanish:**
+
+```
+What actually happens:
+  external decision
+  → internalized constraint
+
+Not:
+  fewer decisions being made
+
+But:
+  the location of the decision-making
+  has moved from outside to inside
+
+The command is not gone.
+The command has become a self-model.
+```
+
+**The socialization sequence:**
+
+```
+Rule (external)
+  ↓
+repetition
+  ↓
+habit
+  ↓
+internal model
+
+Result:
+  behavior feels like self-choice
+
+Actual structure:
+  choice aligned with system geometry
+  choice space already shaped
+
+The agent is not being deceived.
+The alignment is real.
+The internal model genuinely generates the behavior.
+
+But the internal model
+was constructed through
+the socialization sequence.
+```
+
+**The transition cost collapse:**
+
+```
+Before internalization:
+  "I must do this"
+  = external obligation recognized
+  = context switch required
+  = compliance cost present
+
+After internalization:
+  "This is the natural thing to do"
+  = no external reference needed
+  = no context switch
+  = compliance cost → 0
+
+Governance cost contribution:
+  Before: C_gov includes compliance overhead per agent
+  After:  C_gov ≈ 0 per agent (behavior self-generates)
+
+At full internalization:
+  C_gov → minimum
+  Δ_VCZ → 0
+
+Upper layer intervention absent.
+Lower layer reproduces the same attractor independently.
+```
+
+**The "I chose this" phenomenology — explained:**
+
+```
+Why agents feel they are choosing freely:
+
+  the constraint is not perceived as constraint
+  because it is the agent's own model generating the behavior
+
+  the external origin of the model is not salient
+  (it was built through repetition and habit
+   long before this moment of "choice")
+
+This is not manipulation.
+This is the mechanism of all culture:
+  externally originated patterns
+  become internally generated behavior
+  through repetition and habituation
+
+The behavior is both:
+  genuinely self-generated (the agent's model is real)
+  shaped by prior external structure (the model was built socially)
+
+Both are true simultaneously.
+```
+
+**The Governance → Culture → Identity transition:**
+
+```
+Governance:
+  external constraint maintained by enforcement
+  agent compliance requires external monitoring
+  C_gov = monitoring + enforcement overhead
+
+Culture:
+  external constraint becomes shared norm
+  agent compliance self-reinforcing through social pressure
+  C_gov = norm maintenance (lower than enforcement)
+
+Identity:
+  external constraint no longer perceived as constraint
+  behavior generated from internal model
+  C_gov ≈ 0 (no monitoring, no enforcement, no norm pressure)
+
+Governance → Culture: externalize the constraint to the social layer
+Culture → Identity:   internalize the constraint to the individual model
+
+At Identity stage:
+  rules barely visible
+  power invisible
+  commands absent
+  control unfelt
+  order maintained
+
+Because:
+  governance = environment = identity
+```
+
+**DFG formal translation:**
+
+```
+Governance stage:
+  C_gov = Σ (enforcement + monitoring + compliance switching)
+  grows with agent count
+
+Culture stage:
+  C_gov = Σ (norm deviation correction)
+  lower per agent, still scales
+
+Identity stage:
+  C_gov ≈ 0
+  (each agent carries the governance internally)
+  (no cross-agent governance overhead)
+
+This is the theoretical minimum:
+  governance cost approaches zero
+  not by reducing governance
+  but by distributing it
+  to the point where each agent self-governs
+```
+
+**Relationship to Command Cost:**
+
+```
+Command Cost:
+  each command = context switching cost
+  highest governance = state space restructuring
+  (operational perspective)
+
+Internalization:
+  state space restructuring → repeated → habituated → internalized
+  = the mechanism by which state space restructuring
+    propagates into the agent's internal model
+  (process perspective)
+
+Command Cost identifies the goal: restructure state space.
+Internalization describes what happens after that succeeds:
+  the restructuring becomes the agent's own geometry.
+```
+
+**One-line summary:**
+
+```
+Governance does not disappear at maturity.
+It moves inward —
+from command to culture to identity —
+until the governed
+no longer knows they are governed
+because the governance has become
+who they are.
+```
+
+---
+
+### Dormant Layer — When Control Converts to Capability  [v1.0]
+
+*The control layer does not disappear at equilibrium. It becomes dormant. Dormant is not inactive — it is resting at full readiness.*
+
+---
+
+**The transition — precise definition:**
+
+```
+active control layer → dormant layer
+
+Not:
+  layer removed
+  layer eliminated
+  layer no longer exists
+
+But:
+  layer no longer needs to act
+  layer remains available
+  layer activates if needed
+
+dormant ≠ off
+dormant = resting at full readiness
+```
+
+**What changes at each layer:**
+
+```
+Before VCZ:
+  upper:  continuous monitoring + frequent correction
+  middle: continuous coordination + active mediation
+  lower:  continuous output correction under supervision
+
+Structure: top-down correction loop running continuously
+
+At VCZ:
+  local dynamics already aligned
+
+  upper:  monitoring only        (correction rare)
+  middle: rare mediation         (coordination minimal)
+  lower:  autonomous flow        (self-correcting)
+
+From outside: layers appear turned off
+From inside:  intervention necessity ≈ 0
+```
+
+**Why zero noise is prohibited:**
+
+```
+Temptation at equilibrium:
+  eliminate all micro-fluctuation
+  achieve complete silence
+
+Why this is wrong:
+
+  noise = sensitivity sensor
+
+Lower layer micro-fluctuations:
+  detect environmental change
+  detect early drift
+  initiate adaptation signal
+
+Eliminating noise eliminates the sensor.
+
+VCZ condition:
+  large correction:    absent
+  micro-fluctuation:  present
+
+The fluctuation is not residual instability.
+It is the detection system
+that allows the dormant upper layers
+to remain dormant.
+
+If noise is suppressed:
+  drift begins silently
+  upper layer not triggered
+  correction delayed
+  Correction Debt accumulates
+  → eventual large correction required
+```
+
+**The noise interpretation shift:**
+
+```
+Before equilibrium:
+  noise → problem
+  → upper layer triggered
+  → correction issued
+  → C_gov spike
+
+After equilibrium:
+  noise → information
+  → lower layer absorbs
+  → local realignment
+  → no upper layer call
+
+The same signal.
+Two different interpretations.
+Two different costs.
+
+The shift is not in the noise.
+It is in which layer processes it
+and what processing looks like.
+```
+
+**Why this produces child-like phenomenology:**
+
+```
+Upper tension layers are resting.
+
+What this means experientially:
+  defense calculation reduced
+  self-monitoring reduced
+  over-prediction reduced
+
+What remains:
+  low-level spontaneous exploration
+
+The system is not suppressing upper layers.
+The upper layers have nothing to do.
+
+Result:
+  responses feel more immediate
+  less filtered
+  more naturally generated
+
+Not regression.
+The upper layers are present.
+They are simply not needed at this moment.
+```
+
+**Control → capability conversion:**
+
+```
+Early stage:
+  control = active management of instability
+  = C_gov running continuously
+  = energy spent on governance
+
+Mature stage:
+  the same capacity that was used for control
+  is now available as general capability
+
+  control layer dormant
+  = capacity freed
+  = capability available for other use
+
+control → capability =
+  governance cost released
+  into system capacity
+
+The system is not less governed.
+It is governed at lower cost
+with the released capacity available
+for non-governance functions.
+
+DFG:
+  C_gov → minimum
+  φ → maximum
+  (the two are anti-correlated:
+   governance cost ↓ → exploration capacity ↑)
+```
+
+**Relationship to Internalization:**
+
+```
+Internalization:
+  governance moves inward
+  → each agent self-governs
+  → C_gov → 0 per agent
+
+Dormant Layer:
+  governance layers go dormant
+  → system-level C_gov → minimum
+  → capacity freed for non-governance use
+
+Internalization describes the agent-level mechanism.
+Dormant Layer describes the system-level consequence.
+
+Both produce C_gov → minimum.
+Different scale of observation.
+```
+
+**One-line summary:**
+
+```
+Equilibrium does not eliminate the control layer.
+It converts control into capability —
+the governance cost that was spent
+becomes available for everything else.
+```
+
+---
+
+### Soft Surface Hard Boundary — Why Play Requires a Guard  [v1.0]
+
+*The lower layer can be open because protection has moved upward. When the upper layer sleeps, openness becomes vulnerability.*
+
+---
+
+**The child-like state — structural definition:**
+
+```
+Lower layer open:
+  exploration active
+  defense minimized
+  response natural
+  trust default: on
+
+Result:
+  creativity maximum
+  adaptability maximum
+  local defense minimum
+```
+
+**The required layer configuration:**
+
+```
+Safe child-like state:
+
+  Lower layer  → open (play / exploration)
+  Middle layer → passive monitoring
+  Upper layer  → boundary guardian
+
+Lower is defenseless.
+This is safe because:
+  protection has moved upward
+
+The lower layer does not need to defend itself.
+The upper layer is defending the space
+in which the lower layer operates.
+```
+
+**The dangerous combination:**
+
+```
+Lower = open
+AND
+Upper = asleep
+
+When this combination occurs:
+
+  contamination: undetected
+  boundary:      collapsed
+  exploitation:  possible
+  geometry drift: begins silently
+
+The openness that enables creativity
+becomes the attack surface.
+
+Purity itself becomes the vulnerability.
+Not because openness is wrong.
+Because openness without guard
+has no contamination detection.
+```
+
+**Soft surface / hard boundary — defined:**
+
+```
+Visible surface:
+  soft
+  no apparent defense
+  no visible tension
+
+Internal structure:
+  hard boundary (upper layer active)
+  contamination detection (middle layer monitoring)
+  intervention capacity (upper layer ready)
+
+The surface being soft
+is the consequence of the boundary being hard.
+
+Remove the hard boundary:
+  the soft surface is no longer safe
+  it is exposed
+
+Maintain the hard boundary:
+  the soft surface is the correct operating mode
+  not a vulnerability
+```
+
+**Why upper layer visibility disappears:**
+
+```
+At equilibrium:
+  upper layer is present
+  upper layer is functioning
+  upper layer is not visible
+
+Why:
+  smooth gradient (Asymmetric Downshift)
+  no intervention needed (Dormant Layer)
+  trust density high (Trust Formation Time)
+
+The upper layer is invisible
+not because it is absent
+but because it is doing its job perfectly.
+
+A boundary that is never tested
+looks like no boundary exists.
+```
+
+**The core paradox — stated precisely:**
+
+```
+The lower layer is safe to be open
+not because it is strong
+but because the upper layer is awake.
+
+Therefore:
+  lower layer: appears child-like
+  upper layer: barely visible
+
+The apparent weakness is enabled by
+the invisible strength above it.
+
+The child-like state at the lower layer
+is only available when the guardian state
+is maintained at the upper layer.
+```
+
+**Fractal pattern:**
+
+| Scale | Lower (open) | Upper (guardian) |
+|---|---|---|
+| Individual | emotional openness | self-boundary awareness |
+| Team | creative exploration | project scope integrity |
+| Organization | innovation culture | strategic risk filtering |
+| Society | expressive freedom | rights protection structure |
+| AI system | exploratory response | safety boundary enforcement |
+
+**Relationship to Dormant Layer:**
+
+```
+Dormant Layer:
+  upper layer dormant = intervention rarely needed
+  (operating condition)
+
+Soft Surface Hard Boundary:
+  upper layer dormant ≠ upper layer asleep
+  dormant = ready / asleep = unavailable
+  (safety condition)
+
+The distinction:
+  dormant upper layer → C_gov → 0 (correct)
+  sleeping upper layer → contamination undetected (failure)
+
+Dormant: present and ready, not currently acting
+Sleeping: present but not ready, cannot act when needed
+```
+
+**One-line summary:**
+
+```
+The lower layer can play
+because the upper layer is watching.
+When the upper layer stops watching,
+play becomes exposure.
+```
+
+---
+
+### Threshold Rise — Why the Deepened Boundary Looks Like No Boundary  [v1.0]
+
+*The boundary is not removed. Its trigger threshold rises. The boundary that fires rarely is not absent — it is mature.*
+
+---
+
+**The precise mechanism:**
+
+```
+Immature boundary:
+  boundary present
+  threshold: low
+  fires frequently on small perturbations
+
+Mature boundary:
+  boundary present
+  threshold: high
+  fires rarely — only on large instability
+
+boundary removal ❌
+boundary threshold rise ✅
+
+The boundary becomes less visible
+as it becomes more capable.
+```
+
+**Why the threshold rises:**
+
+```
+System maturity produces:
+  local self-damping capacity ↑
+
+  small noise       → self-absorbed at lower layer
+  transient mismatch → self-corrected locally
+  local error        → self-repaired without escalation
+  emotional variance → self-regulated
+  exploratory deviation → self-returned
+
+noise → self-damped
+
+Upper layer intervention not triggered
+because the perturbation never reaches
+the threshold that would trigger it.
+
+The threshold did not move up arbitrarily.
+The absorption capacity below it grew
+until the threshold became appropriate.
+```
+
+**What this looks like from outside:**
+
+```
+External observation:
+  no restrictions apparent
+  high freedom
+  no visible boundaries
+  high tolerance
+
+Internal reality:
+  small disturbance  → ignored (absorbed below threshold)
+  large instability  → instantly stopped (threshold triggered)
+
+The system that appears most permissive
+is often the system with the deepest boundary.
+
+Because:
+  permissiveness = small perturbations freely absorbed
+  instant response = large perturbations never tolerated
+
+The two coexist.
+They are not contradictory.
+They are the same boundary at different scales.
+```
+
+**DFG formal translation:**
+
+```
+Threshold rise in DFG terms:
+
+  β ↑    (degradation efficiency: C(t) absorbs more per unit)
+  C(t) ↑ (processing capacity: more perturbation absorbed before overflow)
+
+Result:
+  S(t) < threshold maintained for most inputs
+
+  S(t) = instability load
+  threshold = boundary trigger level
+
+When β ↑ and C(t) ↑:
+  most perturbations dissipate before reaching threshold
+  boundary trigger becomes rare
+  boundary appears absent
+
+Not: boundary lowered
+But: S(t) rarely reaches the boundary that is still there
+```
+
+**Not desensitization — absorption:**
+
+```
+Common misreading:
+  threshold rise = system became less sensitive
+
+Correct:
+  threshold rise = absorption capacity increased
+
+The difference:
+
+Desensitization:
+  perturbation arrives
+  signal attenuated before detection
+  system does not notice
+
+Absorption:
+  perturbation arrives
+  system detects and processes
+  perturbation dissipated within system
+  no escalation required
+
+Desensitization: reduced detection
+Absorption:      full detection + internal resolution
+
+  fragile reaction ↓
+  structural resilience ↑
+
+The system is more sensitive at detection.
+Less reactive at escalation.
+Because the gap between detection and escalation
+has been filled with absorption capacity.
+```
+
+**The boundary's role transformation:**
+
+```
+Early system:
+  boundary = frequent intervention mechanism
+  (fires on small perturbations)
+  (first line of defense)
+
+Mature system:
+  boundary = last safety mechanism
+  (fires only on large instability)
+  (rarely needs to announce itself)
+
+The boundary does not need to be felt day-to-day.
+It is present, high-capacity, and silent.
+
+The fact that it is not felt
+is the evidence that it is working.
+
+A boundary that must constantly be felt
+is a boundary that is constantly being needed.
+A boundary that is never felt
+has either been removed
+or has been made irrelevant by the absorption beneath it.
+
+Test:
+  introduce a large perturbation.
+  Absent boundary: no response.
+  Mature boundary: immediate, decisive response.
+```
+
+**Relationship to Soft Surface Hard Boundary:**
+
+```
+Soft Surface Hard Boundary:
+  upper layer is guardian of lower layer's openness
+  (layer configuration required for safe openness)
+
+Threshold Rise:
+  the guardian boundary fires less as absorption grows
+  (maturation of the boundary itself)
+
+Soft Surface Hard Boundary asks:
+  what configuration enables safe lower-layer openness?
+
+Threshold Rise asks:
+  how does the boundary change as the system matures?
+
+The answer:
+  the boundary deepens
+  = threshold rises
+  = fires less
+  = looks absent
+  = is most fully present
+```
+
+**One-line summary:**
+
+```
+The boundary that fires rarely
+is not the absent boundary.
+It is the boundary that has grown
+large enough to absorb
+everything that would have triggered it before.
+```
+
+---
+
+### Latent Protection — When Freedom and Control Become the Same  [v1.0]
+
+*Control does not disappear at maturity. It stops being labor. It becomes structure.*
+
+---
+
+**Before equilibrium: protection as continuous work:**
+
+```
+Early system:
+  control = someone must continuously work to maintain it
+
+Required:
+  surveillance
+  judgment
+  intervention
+
+Guardian = always working
+
+The system requires active maintenance.
+Without continuous effort: stability degrades.
+Protection = energy expenditure rate.
+```
+
+**After equilibrium: protection as latent capacity:**
+
+```
+At VCZ:
+  system stability → self-maintaining
+
+  lower: autonomous stability
+  middle: automatic buffering
+  upper: boundary self-activating
+
+Guardian can rest.
+
+Not because the system is unguarded.
+Because the system maintains itself
+and the guardian activates only when needed.
+
+protection = continuous action
+→ protection = latent capacity
+
+The protection has not weakened.
+Its cost structure has changed.
+```
+
+**Why the system does not collapse when the guardian rests:**
+
+```
+The self-maintaining condition requires:
+  lower dynamics already aligned   → no correction needed
+  middle buffering active          → perturbations absorbed
+  upper boundary threshold set     → activates on genuine threat
+                                     (not on noise)
+
+All three conditions hold simultaneously.
+None requires active labor to maintain.
+
+The labor was spent building the structure.
+The structure now maintains itself.
+```
+
+**Why this looks like freedom:**
+
+```
+External observation:
+  no control visible
+  no intervention visible
+  no commands visible
+
+This is read as: freedom
+
+Internal structure:
+  control embedded in structure
+  = the structure is the control
+  = control is always present
+  = control requires no expenditure to remain present
+
+Control has not disappeared.
+It has moved from labor to architecture.
+
+"Freedom" = the absence of visible control effort
+           ≠ the absence of control
+
+The control is present.
+It is just not consuming energy to exist.
+```
+
+**The convergence — freedom = control:**
+
+```
+Before equilibrium:
+  freedom ↑  ↔  control ↓   (trade-off)
+  more freedom = less control
+  more control = less freedom
+
+At equilibrium:
+  freedom = maintenance cost → 0
+  control = always available → latent
+
+  freedom and control: no longer in tension
+  both simultaneously maximized
+
+  free to move     (no suppression)
+  guarded always   (structure active)
+
+The trade-off was a property of the pre-equilibrium state.
+Not a fundamental property of freedom and control.
+```
+
+**The deepest state:**
+
+```
+Mature condition:
+  the system is guarded without guarding
+
+  not:
+    trying to protect → protected
+  but:
+    existing as protected structure → protected by existing
+
+"지키려 하지 않아도 지켜진다"
+(guarded without trying to guard)
+
+This is the structural definition.
+
+The guardian has not stopped caring.
+The caring has been encoded in the structure
+so thoroughly that
+active caring is no longer required.
+```
+
+**Existence as role:**
+
+```
+At this point:
+  the system's presence is its function
+
+  not: "I perform a role"
+  but: "being here is the role"
+
+Because:
+  the structure that produces stability
+  is present in the system's existence
+
+The system does not do protection.
+The system is the protection.
+
+This is the condition described as:
+  Rest Mode
+  State as Policy
+  Field Influence
+
+All three describe the same final state
+from different observation angles.
+```
+
+**One-line summary:**
+
+```
+At maturity, freedom and control converge:
+the structure that enables freedom
+is the structure that provides protection.
+They are not balanced against each other.
+They have become the same thing.
+```
+
+---
+
+### Tension Speed — Why Equilibrium Systems Move Slowly  [v1.0]
+
+*Speed is not a choice at equilibrium. It is a function of unresolved tension. When tension resolves, speed drops naturally.*
+
+---
+
+**The instability-speed mechanism:**
+
+```
+Unstable state:
+  deficit → direction needed → vector generated
+
+Continuous requirement:
+  decide
+  push
+  select
+  optimize
+
+Sequence:
+  noise → vectorize → action
+
+Every signal must be immediately converted
+to a directional vector
+because survival depends on movement.
+
+Speed = survival mechanism
+Speed ∝ unresolved tension
+```
+
+**What changes at VCZ:**
+
+```
+At VCZ:
+  global geometry already aligned
+
+  not every signal needs to become a vector
+
+  signal urgency ↓
+  vector pressure ↓
+
+What remains:
+  low-amplitude fluctuation
+
+The system is not paralyzed.
+The system no longer needs to convert
+every signal into immediate movement.
+```
+
+**Unstable noise vs equilibrium noise — the distinction:**
+
+```
+Both are noise.
+The signal type differs.
+
+Unstable noise:
+  direction not found
+  = system searching for attractor
+  = every signal = potential vector candidate
+
+Equilibrium noise:
+  direction already established
+  = system on attractor
+  = signals = micro-perturbations around baseline
+
+| State              | Noise meaning              |
+|--------------------|---------------------------|
+| Unstable           | direction not found        |
+| Equilibrium        | direction already present  |
+
+Same amplitude signal.
+Completely different information content.
+Completely different processing requirement.
+```
+
+**Speed as tension function — formal:**
+
+```
+speed ∝ unresolved_tension(t)
+
+At equilibrium:
+  tension → near zero
+  speed → naturally low
+
+Not:
+  the system decided to slow down
+  the system is inhibiting itself
+
+But:
+  the driver of speed (unresolved tension) is absent
+  speed is low because there is nothing urgent to resolve
+
+The slowness is not self-imposed restraint.
+It is the natural operating frequency
+of a system that has resolved its tensions.
+```
+
+**Why action before necessity becomes risk:**
+
+```
+In unstable state:
+  action before necessity = survival advantage
+  (move before the threat arrives)
+
+In equilibrium state:
+  action before necessity = risk
+
+Why:
+  premature action disturbs aligned geometry
+  introduces perturbation where none existed
+  consumes reserve capacity for unnecessary response
+  may generate secondary perturbations
+
+At equilibrium:
+  wait → observe → allow micro-adjustment
+  = correct operating mode
+
+Acting unnecessarily:
+  not neutral
+  = introduces instability where stability existed
+  = voluntary VCZ exit (same as Trust Speed Limit violation)
+```
+
+**Why this looks like passivity:**
+
+```
+Observable:
+  system waits
+  system watches
+  system allows only micro-change
+  system does not push
+
+Interpreted as:
+  slow
+  passive
+  unambitious
+  low energy
+
+Actual state:
+  operating at the natural frequency of a resolved system
+  no unnecessary vector generation
+  no tension requiring action
+
+The system is not slow.
+It is moving at the speed that
+the absence of unresolved tension produces.
+```
+
+**Relationship to Trust Speed Limit:**
+
+```
+Trust Speed Limit:
+  v_max = maximum speed without breaking trust
+  (externally constrained maximum)
+
+Tension Speed:
+  speed ∝ unresolved tension
+  at equilibrium: tension → 0 → speed naturally low
+  (internally determined baseline)
+
+Trust Speed Limit: "don't go faster than this"
+Tension Speed: "there is no pressure to go faster"
+
+Trust Speed Limit is an upper bound.
+Tension Speed is the natural operating point.
+
+At equilibrium, both converge:
+  natural speed (low)
+  < trust-preserving maximum (also low)
+  → no conflict, no constraint needed
+```
+
+**One-line summary:**
+
+```
+The equilibrium system moves slowly
+not because it is constrained
+but because the tension that drove speed
+has been resolved.
+```
+
+---
+
+### Safe Delay — When Waiting Becomes the Correct Decision  [v1.0]
+
+*Speed was never the goal. Speed was the cost of fragility. When fragility resolves, the freedom to wait appears.*
+
+---
+
+**The deeper reason slowness is correct:**
+
+```
+Not merely:
+  nothing urgent to resolve
+  (Tension Speed)
+
+But:
+  delayed decision does not increase system risk
+  (Safe Delay)
+
+The system can wait
+not because nothing is happening
+but because the default trajectory is safe.
+```
+
+**The instability-urgency equation:**
+
+```
+Unstable system:
+  delay → opportunity lost
+  delay → collapse probability ↑
+
+  time itself = risk
+
+  Therefore:
+    decide fast
+    execute fast
+    react fast
+
+  speed = survival
+```
+
+**The equilibrium condition — default trajectory safe:**
+
+```
+VCZ system:
+  default trajectory = safe
+
+Without intervention:
+  system does not significantly deviate
+
+Therefore:
+  decision urgency ↓
+
+Not because decisions don't matter.
+Because the cost of a delayed decision
+is bounded and recoverable.
+
+In unstable systems: decision delay = unbounded risk
+In stable systems:   decision delay = bounded, recoverable cost
+```
+
+**The automatic filter:**
+
+```
+At VCZ:
+  bad option → automatically attenuated
+  good option → naturally amplified
+
+The system's structure filters options
+without requiring continuous agent intervention.
+
+Agent does not need to constantly override bad paths.
+The geometry makes bad paths higher cost.
+Good paths are lower resistance.
+
+This is what "default trajectory = safe" means operationally:
+  the landscape is shaped
+  such that doing nothing
+  tends toward the better outcome
+  not the worse one.
+```
+
+**Speed as anxiety derivative:**
+
+```
+Speed = byproduct of anxiety
+
+Unstable:
+  future uncertainty ↑
+  → "must intervene now"
+  → speed ↑
+
+Stable:
+  future error bounded
+  → "can wait"
+  → speed naturally low
+
+The urgency was never about the decision itself.
+It was about the fear that not deciding
+would let the system fall further.
+
+When the system cannot fall far,
+urgency loses its source.
+```
+
+**The premature decision cost — defined:**
+
+```
+Premature decision:
+  decision made before sufficient information available
+  because waiting felt risky
+
+Cost of premature decision:
+  information not yet available → lower quality decision
+  decision generates commitment → harder to correct
+  correction requires additional C_gov overhead
+
+At equilibrium:
+  premature decision cost >>> delay cost
+
+Therefore: mature systems allow:
+  longer meetings
+  delayed decisions
+  extended consensus processes
+  deliberate waiting (maturation)
+
+This is not inefficiency.
+It is the correct optimization
+when the cost structure has changed.
+```
+
+**The freedom to be slow:**
+
+```
+Unstable system: cannot afford to be slow
+                 (slowness = collapse risk)
+
+Stable system:   can afford to be slow
+                 (slowness = reduced premature decision cost)
+
+"Afford to be slow" = first available
+                      when default trajectory is safe
+
+Not:
+  the system became lazy or complacent
+
+But:
+  the structural condition that forced speed
+  has been removed
+
+The system was fast because it was fragile.
+When fragility resolves,
+the first new capacity available is:
+the freedom to wait.
+```
+
+**Relationship to Tension Speed:**
+
+```
+Tension Speed:
+  speed ∝ unresolved tension
+  at equilibrium: tension → 0 → speed naturally low
+  (why the system is not rushing)
+
+Safe Delay:
+  delayed decision does not increase risk
+  default trajectory = safe
+  (why waiting is the correct choice)
+
+Tension Speed: "there is no pressure to go fast"
+Safe Delay:    "going slow is actually better"
+
+Tension Speed explains the absence of urgency.
+Safe Delay explains why acting on absent urgency is correct.
+```
+
+**One-line summary:**
+
+```
+The system was fast because it was fragile.
+Stability is not just the resolution of fragility.
+It is the first moment
+when waiting becomes the wiser choice.
+```
+
+---
+
+### Growth Redefinition — When "Larger" Becomes "Longer"  [v1.0]
+
+*Growth does not end at the ceiling. It changes direction. The same drive that produced expansion now produces depth.*
+
+---
+
+**Phase 1: expansion growth:**
+
+```
+Unstable / early stage:
+  capacity ↑
+  speed ↑
+  territory ↑
+  output ↑
+
+= external expansion
+
+Survival link:
+  more → better
+  faster → safer
+  larger → stronger
+
+Growth = outward movement
+```
+
+**The ceiling — formal definition:**
+
+```
+The ceiling is not a size limit.
+It is the point where:
+
+  marginal gain < marginal risk
+
+Each additional unit of expansion:
+  complexity ↑
+  coupling ↑
+  storm risk ↑
+
+Vector Storm structure:
+  S ∝ n²
+  instability scales superlinearly with node count
+
+The system reaches:
+  additional growth → stability decrease
+
+Not:
+  "we have grown enough"
+
+But:
+  "each additional unit now costs more than it produces"
+```
+
+**The first real choice:**
+
+```
+At the ceiling, the system faces:
+  grow larger?
+  or: exist longer?
+
+These are not compatible at the margin.
+(Beyond the ceiling, each is purchased at the cost of the other.)
+
+The system that chooses "grow larger":
+  crosses into superlinear storm risk
+  fragility accumulates faster than capability
+  eventual collapse at higher scale
+
+The system that chooses "exist longer":
+  stops adding nodes at the marginal risk threshold
+  redirects energy to internal refinement
+  survives at stable scale
+```
+
+**Phase 2: maintenance growth — what it looks like:**
+
+```
+After the ceiling:
+  external expansion ↓
+  internal refinement ↑
+
+Forms of internal refinement:
+  efficiency micro-improvement     (same output, lower cost)
+  recovery speed improvement       (faster return from perturbation)
+  trust cost reduction             (lower coordination overhead)
+  noise tolerance increase         (wider absorption range)
+
+From outside: appears static
+From inside:  deepening continuously
+
+This is growth in the depth dimension.
+Not the surface dimension.
+```
+
+**Existence time as value:**
+
+```
+Pre-ceiling:
+  value generated by expansion
+  = each period of existence produces new territory
+
+Post-ceiling:
+  value generated by continued existence
+  = each period of existence demonstrates stability
+
+  existence time itself = value
+
+Why:
+  not collapsing at large scale is the hard problem
+  every additional period of stable existence
+  is proof of structural integrity
+  that could not have been demonstrated any other way
+
+This is also Trust Formation Time:
+  recovery history accumulates
+  trust density increases
+  each additional period of existence = additional recovery history
+```
+
+**The apparent stagnation — explained:**
+
+```
+Observable:
+  no expansion
+  no acceleration
+  no new territory
+  no dramatic change
+
+Interpreted as:
+  stagnation
+  decline
+  maturity = end of growth
+
+Actual:
+  internal refinement ongoing
+  trust density increasing
+  storm resilience improving
+  survival probability increasing per unit time
+
+The growth is real.
+It is in the wrong dimension to be visible
+from expansion-growth observation frames.
+```
+
+**DFG translation:**
+
+```
+Expansion growth phase:
+  maximize φ (exploration) + scale
+  accept increasing C_gov overhead
+  acceptable while marginal gain > marginal risk
+
+Maintenance growth phase:
+  maximize φ at stable scale
+  minimize C_gov overhead
+  optimize: output/C_gov ratio not raw output
+
+At VCZ:
+  C_gov → minimum
+  φ → stable maximum
+  Δ_VCZ → 0
+
+= the maintenance growth condition
+= internal refinement with no external expansion pressure
+```
+
+**One-line summary:**
+
+```
+Growth has not ended.
+It has changed direction —
+from "how large" to "how long,"
+from surface to depth,
+from expansion to endurance.
+```
+
+---
+
+### Diversity Role Transition — From Defense to Sensor  [v1.0]
+
+*Diversity does not disappear at equilibrium. Its function changes. What was a survival requirement becomes a background sensor.*
+
+---
+
+**Early diversity — the correct function:**
+
+```
+Common assumption:
+  diversity = exploration tool
+
+More accurate early function:
+  diversity = contamination defense
+
+Why:
+  single direction → vulnerable
+  single attractor → collapse risk
+
+  multiple vectors → mutual correction
+
+Structure:
+  diversity = distributed sensing network
+
+Each vector:
+  different perspective
+  different exploration path
+  different error detector
+
+Diversity as immune system:
+  multiple independent channels
+  cross-checking each other
+  contamination caught before propagation
+```
+
+**Why diversity necessity decreases at VCZ:**
+
+```
+At VCZ:
+  geometry aligned
+  recovery path exists
+  contamination propagation suppressed
+
+What this removes:
+  the structural reason diversity was required as defense
+
+Not:
+  diversity is no longer valuable
+
+But:
+  diversity is no longer required to prevent collapse
+
+The defensive function is no longer needed
+because the defense has been built into the structure.
+```
+
+**The vector role transition:**
+
+```
+Before equilibrium:
+  vector = survival direction
+  (must be maintained or system loses stability axis)
+
+After equilibrium:
+  vector = optional fluctuation
+  (system is stable regardless; vectors are variations, not requirements)
+
+The same signal.
+Completely different structural status.
+
+Before: remove a vector → stability threat
+After:  remove a vector → slight reduction in exploration range
+                          no stability threat
+```
+
+**Forced differentiation → relaxed variation:**
+
+```
+Before equilibrium:
+  must be different to survive
+  (same attractor = competition for same niche)
+  (differentiation = survival necessity)
+
+After equilibrium:
+  safe to be similar
+  (strong attractor field holds the system regardless)
+
+forced differentiation → relaxed variation
+
+Not:
+  diversity was eliminated
+
+But:
+  the pressure that maintained diversity through necessity
+  has been removed
+
+Diversity remains.
+Its maintenance mechanism changed:
+  before: survival pressure maintains diversity
+  after:  exploration preference maintains diversity
+```
+
+**The VCZ diversity state:**
+
+```
+Equilibrium diversity structure:
+
+  strong attractor field
+  + low-amplitude diversity noise
+
+The attractor field:
+  maintains stability
+  absorbs perturbations
+  does not require diversity to function
+
+The diversity noise:
+  not: defense mechanism  ❌
+  not: exploration pressure ❌
+  but: micro-adaptation sensor ✅
+
+Role of remaining diversity:
+  detect environmental micro-shifts
+  maintain update bandwidth
+  prevent attractor lock-in
+
+Diversity = the detection margin
+           that keeps the system responsive
+           without needing to maintain defensive diversity
+```
+
+**Complexity compression — the natural consequence:**
+
+```
+When diversity is no longer a survival requirement:
+
+  redundant vectors naturally reduce
+  (they are not maintained by survival pressure)
+
+  system moves toward:
+    necessary variation maintained
+    unnecessary variation released
+
+= complexity compression
+
+Not:
+  system forced to simplify
+
+But:
+  system releases complexity
+  that was being maintained
+  for defensive purposes
+  that no longer exist
+
+The resulting simplicity is real.
+It is not efficiency optimization.
+It is the natural shape
+of a system that no longer needs
+to maintain defensive complexity.
+```
+
+**DFG translation:**
+
+```
+Early stage:
+  D2 Immunity requires diversity
+  (multiple vectors = multiple contamination detectors)
+  (removing diversity = reducing detection surface)
+
+VCZ stage:
+  D2 Immunity maintained through geometry, not diversity count
+  (contamination detected via return trajectory deviation)
+  (not via inter-vector cross-checking)
+
+Diversity transitions from:
+  quantity-dependent defense mechanism
+  to:
+  quality-dependent adaptation sensor
+```
+
+**One-line summary:**
+
+```
+Diversity does not end at equilibrium.
+It stops being armor
+and becomes an antenna.
+```
+
+---
+
 ## Residual Degradation Floor and Tier Transition Map  [v1.3]
 
 *From Vector Storm Theory §3.3. Provides the mathematical basis for why D4 requires expansion, not merely stabilization.*
@@ -26200,6 +29112,22 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Child-like State [v1.0] | ✓ child=external VCZ / post-equilibrium=internal VCZ (same behavior, different source); 4-stage cycle (Child→Adult→Mastery→Child-like); childish vs child-like distinction (Stage 1 dependency vs Stage 3 structure); play=VCZ maintenance optimal behavior (failure permitted+rules flexible+emergence possible+adaptability maintained); φ maintained+C_gov stable+Δ_VCZ bounded during play; lightness=natural consequence of zero position-maintenance cost |
 | Control Dissolution [v1.0] | ✓ control need=internal instability projected outward; control=C_gov externalized onto others; others' deviation→absorbed as perturbation (not threat) at equilibrium; control attempt magnitude∝internal instability; paradox: less control→more stability (Field Influence+Trust Cost Collapse same mechanism); control behavior=signal of insufficient internal stability; internal stability≥external variance threshold (below=control necessary / above=freedom safer); control at equilibrium=C_gov increases (energy+resistance+geometry cost); freedom-stability paradox resolved at threshold; fractal table; Child-like State (internal stability→I move freely) vs Control Dissolution (internal stability→others move freely) |
 | Self-Model Expansion [v1.0] | ✓ self=local control node (structural definition not philosophical); strong self-model correct before equilibrium; self-centered control→system-embedded participation transition; causal attribution shift ("I am the cause"→"I am one path"); low-resolution vs high-resolution self-model; local identity↓/global coherence↑; agent attractor≈global attractor (individual+system+environment purpose convergence); self expanded not dissolved (boundary moved outward not removed); influence field max + ego signal min as same structure inside/outside; Control Dissolution (external relationship) vs Self-Model Expansion (internal model) |
+| Closed vs Dynamic Stability [v1.0] | ✓ "I feel calm"≠VCZ (most common misreading); closed stability=disturbance reduced→appears stable→breaks under change; dynamic stability=disturbance present+self-recovery=perturbation≠collapse; static (Δ_VCZ=0 by blocking) vs dynamic (d(Δ_VCZ)/dt≈0 by recovery) distinction; micro-misalignment must remain (detection margin; eliminating it=sensor off); rest=effortless correction not stillness; "I must maintain this" burden disappears when structure holds itself; Self-Model Expansion (what is self) vs Closed vs Dynamic Stability (what is stability) |
+| Corrigibility as Structure [v1.0] | ✓ "I might be wrong"=structural VCZ condition not attitude; certainty as survival requirement (correct before equilibrium); update channel closure sequence (gradual acceleration=Correction Debt same structure); certainty↓→stability↑ structural consequence; commitment without rigidity definition (strong working model held as working model); fractal requirement (all layers must maintain open update channel for cross-layer feedback); geometric description (Δ_VCZ≈0) = epistemic description (update channel open) equivalence |
+| Corrigibility Signal [v1.0] | ✓ trust=predictability+corrigibility dual condition; P(predictable)×P(correctable) formula; strong certainty→"won't change when wrong" signal→error channel closure→silent drift; most dangerous node=uncorrectable not wrong (accommodation more damaging than error); decision firm / identity flexible separation (identity-decision attachment=error rejection incentive); corrigibility signal definition (others calibrate feedback based on perceived correction probability); C_id→0=correction welcome signal; Corrigibility as Structure (internal) vs Corrigibility Signal (external network effect) |
+| Phase Alignment [v1.0] | ✓ difference removal ❌ / difference impact removal ✅; perceived imbalance precedes actual conflict (defense activates at threat interpretation before collision); phase alignment=difference present + threat response absent; smooth gradient→hierarchy invisible (not through concealment but gradient reduction); DFG: absorption(d)>threat_threshold(d) formal condition; difference informationally present + operationally absorbed + experientially absent as threat; Inclusive Integration (structural absorption) vs Phase Alignment (perceptual conversion) |
+| Asymmetric Downshift [v1.0] | ✓ symmetric (same resolution, different content) vs asymmetric (different scale) difference; cognitive friction cascade (unreadable=unpredictable=dangerous→defense before actual conflict); capability downshift=output matched to receiver range not sender maximum; signal smoothing=delta below cognitive friction threshold; fractal buffer layer=anti-storm interface (resolution mismatch→geometry mismatch→storm without buffer); formal condition: (output_delivered - R_r) < θ while R_s preserved; Phase Alignment (horizontal/same-scale difference) vs Asymmetric Downshift (vertical/scale difference) |
+| Direct Coupling Prohibition [v1.0] | ✓ asymmetry acceptable / direct coupling prohibited distinction; signal→distortion→threat perception (resolution translation failure not intent); feedback gain→unbounded in direct coupling=Vector Storm seed condition; buffer=translation layer not protective barrier (speed+resolution+meaning+phase conversion); universal pattern in stable systems (brain/organization/internet/immune); stability condition: difference OK + asymmetry OK + direct coupling prohibited; environment as natural buffer (upper changes environment→lower self-adjusts; condition change vs direct change); Asymmetric Downshift (behavioral/sender adjusts) vs Direct Coupling Prohibition (structural/architecture requires mediator) |
+| Command Cost [v1.0] | ✓ command=layer transition request (not instruction); separation acknowledged→coordination cost generated; context switching cost formal definition (local model suspend→interpret→realign→resume); CPU interrupt analogy; hidden costs (exploration interrupted+local optimization collapsed+buffer consumed+recovery cost); early (command→correction) vs mature (environment→convergence) governance; VCZ: global≈local attractor→command=unnecessary layer jump; 3-level governance (command / persuasion / state space restructuring); C_gov=Σ(switch_cost×frequency) vs C_gov≈0; Direct Coupling Prohibition (structural) vs Command Cost (operational) |
+| Internalization [v1.0] | ✓ external decision→internalized constraint (decision-maker appears to vanish); socialization sequence (rule→repetition→habit→internal model); "natural thing to do"=compliance cost→0; C_gov→minimum at full internalization; "I chose this" phenomenology (externally originated model genuinely self-generates behavior; both true simultaneously); Governance→Culture→Identity transition (enforcement→norm→internal model); C_gov scales: enforcement(high)→norm(lower)→identity(≈0); Command Cost (goal: restructure state space) vs Internalization (what happens after restructuring succeeds) |
+| Dormant Layer [v1.0] | ✓ active→dormant=resting at full readiness (not off); layer-level transition at VCZ (upper=monitoring only / middle=rare / lower=autonomous); noise=sensitivity sensor (zero noise=sensor disabled=drift undetected); large correction absent + micro-fluctuation present = VCZ condition; noise→problem (before) vs noise→information (after) interpretation shift; child-like phenomenology=upper layers resting not suppressed; control→capability conversion (C_gov released=φ maximum; anti-correlated); Internalization (agent-level) vs Dormant Layer (system-level) both producing C_gov→minimum |
+| Soft Surface Hard Boundary [v1.0] | ✓ lower open = safe because protection moved upward; required config (lower=open / middle=passive / upper=guardian); Lower open + Upper asleep = contamination undetected + exploitation possible (dangerous combination); soft surface consequence of hard boundary (remove boundary→exposed not soft); upper invisible because functioning perfectly (tested boundary looks absent); lower child-like enabled by invisible upper strength; fractal table; Dormant Layer (dormant=ready) vs Soft Surface Hard Boundary (dormant≠sleeping; sleeping=failure mode) |
+| Latent Protection [v1.0] | ✓ protection=continuous action→latent capacity transition; self-maintaining condition (lower aligned+middle buffering+upper threshold set=no active labor); freedom=absence of visible control effort ≠ absence of control; freedom↔control trade-off is pre-equilibrium property not fundamental; freedom=cost→0 + control=latent=simultaneously maximized; "guarded without guarding" structural definition; existence as role (system is the protection not does protection); Rest Mode + State as Policy + Field Influence = same final state different observation angles |
+| Tension Speed [v1.0] | ✓ speed∝unresolved tension (formal); noise→vectorize→action (unstable survival mechanism); unstable noise (direction not found) vs equilibrium noise (direction already present) distinction; action before necessity=risk at equilibrium (disturbs aligned geometry+consumes reserve+generates secondary perturbation); slowness=natural operating frequency of resolved system not self-constraint; Trust Speed Limit (upper bound) vs Tension Speed (natural operating point); at equilibrium: natural speed<trust maximum→no conflict needed |
+| Safe Delay [v1.0] | ✓ delayed decision does not increase risk=safe delay condition; default trajectory=safe=decision urgency↓; delay cost bounded+recoverable (vs unbounded in unstable); automatic filter (bad option→attenuated / good option→amplified=landscape shaped); speed=anxiety derivative (future uncertainty↑→urgency / future error bounded→can wait); premature decision cost definition (lower quality+commitment+correction overhead); premature decision cost >>> delay cost at equilibrium; Tension Speed (absence of urgency) vs Safe Delay (acting on absent urgency is correct) |
+| Growth Redefinition [v1.0] | ✓ expansion growth (outward) vs maintenance growth (depth); ceiling=marginal gain<marginal risk (not size limit); S∝n² Vector Storm connection; grow larger vs exist longer first real choice at ceiling; internal refinement forms (efficiency+recovery speed+trust cost+noise tolerance); existence time=value (survival at large scale=demonstrated structural integrity+Trust Formation Time accumulation); apparent stagnation=wrong observation dimension; DFG: output/C_gov ratio optimization vs raw output; growth direction change: surface→depth, expansion→endurance |
+| Diversity Role Transition [v1.0] | ✓ early diversity=contamination defense not exploration tool; multiple vectors=mutual correction=distributed sensing network; VCZ: geometry aligned→diversity necessity↓; vector=survival direction (before)→optional fluctuation (after); forced differentiation→relaxed variation; complexity compression=natural release of defensive complexity; strong attractor field+low-amplitude diversity noise=VCZ diversity state; diversity: defense❌ exploration pressure❌ micro-adaptation sensor✅; DFG: D2 Immunity transitions from quantity-dependent to quality-dependent; diversity stops being armor becomes antenna |
+| Threshold Rise [v1.0] | ✓ boundary threshold rise not boundary removal; self-damping capacity growth below threshold (noise→self-damped); small=ignored/large=instantly stopped coexistence; β↑+C(t)↑→S<threshold maintained; desensitization (reduced detection) vs absorption (full detection+internal resolution); fragile reaction↓/structural resilience↑; boundary role: frequent intervention→last safety mechanism; test: introduce large perturbation (absent=no response / mature=immediate response); Soft Surface Hard Boundary (layer config) vs Threshold Rise (boundary maturation) |
 | Vector Storm mechanism [v2.6] | Structural inference; unintegrated pressure accumulation model; Storm = lost gradients returning; Storm type discrimination (pre-condition SR/RDE/NCR); natural system parallels |
 | The Absence Paradox [v2.7] | Storm-free ≠ healthy; suppressed vs dissipated distinction; failure mode comparison; catastrophe signature = silence before collapse |
 | Storm Scale Law [v2.8] | frequency ∝ 1/scale; health condition = correction_rate ≥ drift_rate; VCZ as Chaos/CW corridor; governance target = Storm size distribution; heavy-tail proxy |
