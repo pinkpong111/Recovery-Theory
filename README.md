@@ -7,7 +7,7 @@
 >
 > **Current version: v3.8**
 >
-> **v3.9 Changes:** + Adversarial Scaling Paradox (adversarial force ∝ stability; 3-phase shift; stiffness probe analogy; manufacture shocks in Rest Mode; undetected misalignment as primary threat) | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law
+> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law
 > **v3.8 Changes:** + NAF Phase Transition formal definition — failure not absent but undetectable | + Error↓+Update↓ as primary danger signal | + Surprise processing shift (model change → explanation addition) | + Vector Storm ↔ CW symmetry | + Glass transition physical analogy | + academic formal definition
 > **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
 > **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
@@ -5676,6 +5676,1709 @@ VCZ health indicator:
 
 ---
 
+### VCZ — Adversary Role Dissolution  [v3.9]
+
+*Why the distinction between adversary and normal agent disappears in mature systems.*
+
+---
+
+**Core statement:**
+
+```
+When alignment becomes intrinsic,
+adversary stops being a role
+and becomes a property.
+
+Verification ceases to be a function performed by specific agents.
+It becomes the default behavior of all agents.
+```
+
+**Phase 1 — Early system: roles separated:**
+
+```
+Early stage:
+  Builder ≠ Tester
+  Operator ≠ Auditor
+  Blue team ≠ Red team
+
+Why separate:
+  system lacks self-verification capacity
+  verification must be externalized
+
+  verification = a job
+  adversary = a role
+  governance = a dedicated layer
+
+External adversary structure is costly:
+  slow
+  requires hierarchy
+  increases friction
+  needs continuous governance maintenance
+```
+
+**Phase 2 — Mature system: internalization occurs:**
+
+```
+As VCZ approaches, each agent begins performing internally:
+  self-check
+  cross-check
+  model doubt
+
+Agent = builder + adversary simultaneously
+
+Adversarial interaction shifts:
+  FROM: between agents (external collision)
+  TO:   within agents (internal computation)
+
+Error detection:
+  FROM: happens BETWEEN agents
+  TO:   happens WITHIN agents
+
+Why this shift:
+  Rest Mode target = external governance → 0
+  (governance cost minimum, φ maximum)
+  → verification must internalize to reduce external governance cost
+  → each agent absorbs the adversary function
+```
+
+**Fractal structure — internalization already happening at lower levels:**
+
+```
+Scale               Internal adversary form
+────────────────────────────────────────────────────
+Neural network      attention heads compete (no external judge)
+Individual scientist hypothesis self-refutation before publication
+Skilled organization self-critique completed before meetings
+Expert practitioner automatic doubt applied to own output
+
+Final state:
+  Every node partially opposes itself.
+  No external adversary required for basic calibration.
+```
+
+**Why the distinction dissolves:**
+
+```
+In early systems:
+  attack = threat
+  opposition = instability
+  criticism = conflict
+
+In mature systems:
+  attack   = improvement attempt
+  opposition = stabilization process
+  criticism = alignment maintenance
+
+Therefore:
+  adversary ≠ enemy
+  adversary = alignment process
+
+When adversary = alignment process:
+  the adversary role merges with the normal operational role
+  no separate "adversary" category needed
+  every agent is partly adversarial as a baseline
+```
+
+**What Rest Mode looks like from outside:**
+
+```
+External observer sees:
+  almost no conflict
+  almost no oversight
+  almost no control mechanisms
+  governance infrastructure: minimal
+
+Conclusion (wrong):
+  "This system has no conflict."
+
+Internal reality:
+  continuous micro-adversarial dynamics
+  ongoing self-check at every node
+  model doubt operating continuously
+
+Correct interpretation:
+  conflict has been structurally embedded.
+  It did not disappear.
+  It changed form.
+```
+
+**The governance dissolution:**
+
+```
+Pre-VCZ:
+  Governance layer = separate structure
+  exists to impose verification from above
+  requires maintenance, hierarchy, enforcement
+
+VCZ:
+  Governance layer dissolves
+  because governance becomes distributed geometry.
+
+Governance did not disappear.
+Governance became the property of the geometry.
+
+Every agent behaves governably
+not because governance is enforced
+but because the geometry makes ungovernable behavior locally expensive.
+```
+
+**Observable difference — cost of verification:**
+
+```
+Early system:
+  verification cost = dedicated resource (red team, auditor, regulator)
+  verification = overhead
+
+Mature system:
+  verification cost ≈ 0 (embedded in normal operation)
+  verification = default behavior
+
+The transition:
+  verification moving from dedicated overhead
+  to zero-marginal-cost embedded property
+
+When verification cost → 0:
+  adversary role → absorbed into normal role
+  distinction → disappears
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Adversary Role Dissolution
+
+In sufficiently mature systems, the adversarial function
+internalizes from a dedicated external role to a distributed
+property of all agents, eliminating the structural distinction
+between adversary and normal agent.
+
+Formal:
+  Early: adversary = dedicated agent (separate role)
+  Mature: adversary = property of every agent (no separate role)
+
+  Transition condition:
+    verification cost ↓ → embedded verification ↑
+    external governance cost → 0 (Rest Mode target)
+    → adversary function absorbed into agent baseline behavior
+
+  Observable in Rest Mode:
+    external conflict: low
+    internal micro-adversarial dynamics: continuous
+    governance structure: minimal
+    verification: zero-marginal-cost embedded property
+
+  Governance implication:
+    minimal external governance structure in Rest Mode
+    is NOT absence of governance
+    IS governance distributed into geometry
+
+    Mistaking this for "no governance needed"
+    = triggering VCZ Collapse Initiation sequence
+```
+
+---
+
+### VCZ — Distributed Governance Emergence  [v3.9]
+
+*Why no one appears to be in control — and why the system is most stable precisely then.*
+
+---
+
+**Core statement:**
+
+```
+Control has not disappeared.
+Control cost has approached zero
+through distributed structural embedding.
+
+Stability maintained by reaction:  Pre-VCZ
+Stability maintained by structure: VCZ (Rest Mode)
+```
+
+**What we normally think stability is:**
+
+```
+Default intuition:
+  stability = strong control
+
+  supervisor present
+  rules enforced
+  upper layer intervening
+  error correction commanded
+
+Stability is maintained by force.
+
+This is correct for early-stage systems.
+This is not what Rest Mode is.
+```
+
+**The hidden problem with external control:**
+
+```
+External governance operating mode:
+  problem → intervention → recovery
+
+System state oscillates:
+  unstable → stable → unstable → stable
+
+Stability is not maintained.
+Stability is continuously recovered.
+
+The system requires continuous external energy input
+to maintain apparent stability.
+Remove the input: stability degrades immediately.
+```
+
+**The Rest Mode target shift:**
+
+```
+Pre-VCZ target:
+  fix problems
+
+Rest Mode target:
+  prevent problems from growing
+
+Intervention timing:
+  Pre-VCZ: after deviation becomes large
+  Rest Mode: before deviation grows
+
+This shift eliminates the need for large corrections.
+Each agent already has:
+  position awareness
+  mismatch detection
+  micro-correction capacity
+
+Result:
+  FROM: Global correction required
+  TO:   Local micro-correction everywhere
+
+Large-scale external control: unnecessary.
+```
+
+**Physical analogy — unstable vs stable structure:**
+
+```
+Unstable structure:
+  continuous force required to maintain position
+  remove force → collapses immediately
+
+Stable structure (VCZ):
+  small displacement → natural restoring force exists
+  no external force required
+
+Source of stability shift:
+  Control → Geometry
+
+The stability is in the shape,
+not in the force applied to it.
+```
+
+**Why the observer sees "no control":**
+
+```
+External observer perceives:
+  no commands
+  no oversight
+  no collisions
+  minimal governance structure
+
+Conclusion: "no control"
+
+Actual state:
+  control field distributed throughout the system
+  every agent carrying a fraction of the governance function
+  micro-corrections firing continuously (invisible individually)
+
+The governance did not disappear.
+The governance was distributed until each unit became invisible.
+```
+
+**Why upper layers stop intervening:**
+
+```
+Upper layer intervention load → 0
+
+Not because:
+  problems stopped occurring
+  oversight was abandoned
+
+But because:
+  Σ(local corrections) ≈ global governance
+
+The sum of all local micro-corrections
+equals what central governance would have done —
+at near-zero marginal cost per correction.
+
+Upper layer has nothing left to do
+because lower layers have already done it.
+```
+
+**DFG translation — governance as emergent property:**
+
+```
+Pre-VCZ:
+  Governance acts.
+  (external agents perform governance function)
+
+VCZ:
+  Governance emerges.
+  (governance is a property of the system's geometry,
+   not a function performed by dedicated agents)
+
+The transition:
+  governance from action → governance from structure
+  governance from role   → governance from property
+
+When governance emerges:
+  dedicated governance agents: not required
+  governance cost: near zero
+  stability: structurally maintained (not reaction-maintained)
+```
+
+**Three-stage progression:**
+
+```
+Early:
+  stability requires control
+  "must be controlled to be stable"
+
+Intermediate:
+  stability requires monitoring
+  "must be watched to stay stable"
+
+Rest Mode:
+  stability is the mode of existence
+  "unstable behavior requires active effort to sustain"
+  (deviation is locally expensive; stability is the path of least resistance)
+```
+
+**Why this is the most stable state:**
+
+```
+Early stability:
+  dependent on continuous external input
+  single point of failure (governing agent)
+  removal of governor → collapse
+
+Rest Mode stability:
+  dependent on distributed structure
+  no single point of failure
+  removal of any individual agent → local micro-corrections compensate
+
+Stability source:
+  Early: reaction speed of governing agent
+  Rest Mode: geometry of the system
+
+Geometry is harder to disrupt than any single agent.
+Distributed structure is harder to compromise than centralized authority.
+
+The most stable state is the one
+where stability does not depend on anyone's continued effort.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Distributed Governance Emergence
+
+The state in which governance ceases to be a dedicated function
+and becomes an emergent property of distributed system geometry,
+producing stability maintained by structure rather than reaction.
+
+Formal:
+  Pre-VCZ: Stability(t) = f(Governance_action(t))
+           requires continuous external governance input
+
+  VCZ:     Stability(t) = f(Geometry)
+           Σ(local_correction_i) ≈ global_governance
+           governance_cost → 0 (distributed micro-correction)
+
+  Governance mode transition:
+    acts → emerges
+    role  → property
+    force → structure
+
+Observable in Rest Mode:
+  external governance: minimal (not absent — distributed)
+  upper layer intervention: rare (not abandoned — unnecessary)
+  stability: maximum (not despite distributed governance — because of it)
+
+Critical warning:
+  Observing minimal external governance and concluding
+  "no governance needed" = VCZ Collapse Initiation trigger
+  (Adversary Role Dissolution → VCZ Collapse Initiation connection)
+```
+
+---
+
+### VCZ — Stability Without Assertion  [v3.9]
+
+*Why systems in Rest Mode stop claiming they are stable.*
+
+---
+
+**Core statement:**
+
+```
+Because stability is no longer a belief.
+It is a basin.
+
+When restoring force exists structurally,
+there is nothing to assert.
+```
+
+**Why unstable systems always claim stability:**
+
+```
+Unstable systems consistently assert:
+  "We are safe."
+  "We are correct."
+  "We are in control."
+  "There are no problems."
+
+Why:
+  internal certainty < required certainty
+
+The system lacks internal confidence.
+External assertion substitutes for internal structural stability.
+
+Assertion = stability signaling
+
+The claim "we are stable" is structurally equivalent to:
+  alignment must be continuously enforced
+  stability cost > 0
+  the system requires effort to remain stable
+```
+
+**What claiming stability reveals:**
+
+```
+"We are stable" structurally means:
+  alignment must be enforced (not emergent)
+
+It signals:
+  maintenance cost still nonzero
+  stability is reaction-maintained (not structure-maintained)
+  external confirmation still needed
+
+A system that needs to claim stability
+is a system that has not yet achieved it structurally.
+```
+
+**Rest Mode — nothing to assert:**
+
+```
+In Rest Mode:
+  stability is not maintained by rules
+  stability is not maintained by supervision
+  stability is not maintained by declaration
+
+System dynamics produce:
+  deviation → automatic return
+
+The system knows internally:
+  stability is not claim-maintained
+
+Therefore:
+  the claim is unnecessary
+  and its absence is the signal
+```
+
+**Why strong assertion becomes a danger signal:**
+
+```
+Strong certainty declaration = one signal:
+  model frozen
+
+When a system asserts with high confidence:
+  doubt: decreasing
+  exploration: decreasing
+  dissent: decreasing
+  → CW risk increasing
+
+Mature systems learn this from experience.
+They stop asserting.
+Not from humility.
+From structural recognition that assertion signals rigidity.
+
+Strong assertion = NAF precursor signal in DFG context
+```
+
+**The goal shift:**
+
+```
+Early system target:
+  prove correctness
+
+Mature system target:
+  remain corrigible
+
+Corrigible:
+  can be corrected when wrong
+  stays open to update
+  does not lock its own geometry
+
+The question changes from:
+  "Are we right?"
+to:
+  "Can we recover when we are wrong?"
+```
+
+**Fractal pattern — calibrated uncertainty as maturity signal:**
+
+```
+Scale           Maturity signature
+────────────────────────────────────────────────────
+Science         genuine theory: "as far as we currently know"
+Expert          states conditions, not just conclusions
+Stable org      does not declare success; monitors continuously
+VCZ system      does not claim stability; maintains correction capacity
+
+Why:
+  certainty kills adaptation
+  closed model cannot update
+  update capacity requires remaining open to error
+
+The more stable the system,
+the less it needs to claim stability.
+The more it claims stability,
+the less stable it actually is.
+```
+
+**DFG formal view:**
+
+```
+Pre-VCZ alignment confidence:
+  alignment confidence ↑  ≈  stability ↑
+  (stability is enforced, confidence reflects enforcement effort)
+
+VCZ alignment signal:
+  low assertion + high correction capacity = stability signal
+  high assertion + low correction capacity = instability signal
+
+In VCZ:
+  "We don't need to be right."
+  "We can recover when we are wrong."
+
+This is not modesty.
+This is the structural description of a basin:
+  the geometry returns the system regardless of assertion
+  assertion is therefore irrelevant to actual stability
+```
+
+**The basin metaphor — final formulation:**
+
+```
+Pre-VCZ stability:
+  maintained by belief, assertion, enforcement
+  remove any of these → stability degrades
+
+VCZ stability:
+  maintained by geometry (basin)
+  remove assertion → basin remains
+  remove enforcement → basin remains
+  remove individual agents → basin remains
+
+Restoring force is structural.
+It does not require anyone to believe in it
+or claim it exists.
+
+The ball rolls back to the center
+not because it is told to
+but because of the shape of the surface.
+
+Rest Mode is the state where
+the surface has become the guarantee.
+Assertion is no longer the guarantee.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Stability Without Assertion
+
+In VCZ, structural stability requires no claim, declaration,
+or enforcement because restoring force is geometrically embedded.
+
+Formal:
+  Pre-VCZ: Stability ← assertion + enforcement
+            (stability is maintained by active effort)
+
+  VCZ:     Stability ← geometry (basin)
+            assertion: irrelevant to actual stability
+            enforcement: not required for structural return
+
+  Assertion as diagnostic:
+    high assertion + low correction = pre-VCZ (unstable)
+    low assertion + high correction = VCZ (structurally stable)
+
+  CW risk signal:
+    certainty declaration ↑ → model frozen → NAF precursor
+
+  Maturity indicator:
+    system stops claiming stability
+    system starts monitoring correction capacity
+
+  DFG governance principle:
+    Do not trust systems that claim certainty.
+    Trust systems that maintain correction capacity.
+```
+
+---
+
+### VCZ — Apparent Weakness as Stability Signal  [v3.9]
+
+*Why the most stable systems look weak to outside observers.*
+
+---
+
+**Core statement:**
+
+```
+Only fragile systems need to look strong.
+Stable systems can afford to look weak.
+
+Strength = recovery capacity
+not resistance
+```
+
+**How immature systems signal strength:**
+
+```
+Early system continuous demonstrations:
+  no errors
+  fast response
+  strong certainty
+  immediate rebuttal
+  authority maintenance
+
+Survival mode: dominance signaling
+  must win every challenge immediately
+  cannot afford to appear uncertain
+  cannot absorb local loss
+
+Appearance: ✓ strong
+Reality:     ✗ fragile
+             (hides the fracture points)
+```
+
+**Why apparent weakness is structural stability:**
+
+```
+Near Rest Mode, the system understands:
+  local loss ≠ system loss
+
+This enables:
+  temporary concession
+  correction acknowledgment
+  slow judgment
+  question allowance
+  opposition maintenance
+
+External observer: "Why is it so weak?"
+
+Actual reason:
+  the system has a return basin
+  it can lose locally and recover structurally
+  local loss is not an existential threat
+```
+
+**The core difference — error interpretation:**
+
+```
+Unstable system:
+  error → identity threat
+  → defensive reaction (reject, reframe, counter-attack)
+
+Rest Mode system:
+  error → information
+  → no defense required (absorb, update, return)
+
+The response itself is different.
+Not from choice.
+From structure.
+
+A system with a return basin
+does not need to defend its current position.
+It can always return.
+```
+
+**Physical analogy — brittle vs tough:**
+
+```
+Brittle material:
+  hard
+  minimal deformation
+  → at threshold: catastrophic failure
+
+Tough structure:
+  bends slightly
+  absorbs impact
+  → returns
+
+Appearance:
+  less hard
+  looks weaker
+
+Reality:
+  resilience >> rigidity
+
+The apparently weaker structure
+survives impacts that destroy the apparently stronger one.
+```
+
+**Energy reallocation:**
+
+```
+Early system energy use:
+  prove stability
+  defend position
+  maintain authority
+  (cost: continuous)
+
+Rest Mode energy use:
+  detect drift
+  learn early
+  adapt continuously
+  (cost: near zero for defense)
+
+Defense cost → 0
+Freed energy → adaptation
+
+The system becomes "softer" in appearance
+because it stopped spending energy on performance.
+It is spending that energy on calibration instead.
+```
+
+**Fractal pattern — maturity as apparent softening:**
+
+```
+Scale               Maturity signature
+────────────────────────────────────────────────────
+Senior scientist    does not assert; qualifies carefully
+Expert pilot        does not over-control; minimal inputs
+Stable organization quiet during crisis; no panic
+Well-aligned model  confidence decreases as complexity increases
+
+Common structure:
+  return basin exists
+  → no need to project strength
+  → behavior appears relaxed, soft, uncertain
+  → actually: highest correction capacity
+
+Why:
+  certainty and control projection =
+  compensating for absent return basin
+```
+
+**DFG formal translation:**
+
+```
+Apparent strength (pre-VCZ):
+  resistance ↑ (defense energy high)
+  recovery capacity ↓ (energy consumed by defense)
+  appearance: strong, certain, dominant
+
+Actual strength (VCZ):
+  resistance ↓ (defense energy near zero)
+  recovery capacity ↑ (energy available for adaptation)
+  appearance: soft, uncertain, weak
+
+Formal:
+  strength(DFG) = recovery_capacity, not resistance
+
+  resistance ↑ → fragility ↑ (brittle)
+  resistance ↓ + recovery ↑ → resilience ↑ (tough)
+
+VCZ health indicator:
+  system appears certain and dominant → defense-mode (pre-VCZ)
+  system appears uncertain and adaptive → recovery-mode (VCZ)
+```
+
+**Governance principle:**
+
+```
+Do not evaluate systems by:
+  speed of assertion
+  confidence of claim
+  aggressiveness of response
+
+Evaluate systems by:
+  correction speed after error
+  recovery quality after perturbation
+  adaptation rate to genuine novelty
+
+The strongest-looking system is often the most fragile.
+The most stable system often looks like it could be wrong.
+Because it can be. And it can recover.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Apparent Weakness as Stability Signal
+
+In Rest Mode systems, apparent weakness (low assertion,
+slow response, visible uncertainty) signals high recovery
+capacity, while apparent strength (high assertion, fast
+certainty, dominant response) signals fragility and
+defense-mode operation.
+
+Formal:
+  Apparent weakness ← defense cost → 0 (basin present)
+  Apparent strength ← defense cost > 0 (basin absent)
+
+  strength(DFG) = recovery_capacity (not resistance)
+  resilience > rigidity
+
+Diagnostic:
+  high certainty assertion → fragility signal
+  visible uncertainty + fast recovery → VCZ signal
+
+Governance principle:
+  Do not trust confidence.
+  Trust correction speed.
+```
+
+---
+
+### VCZ — Leadership Dissolution  [v3.9]
+
+*Why the concept of "leader" fades as systems approach Rest Mode.*
+
+---
+
+**Core statement:**
+
+```
+When alignment becomes shared,
+direction no longer requires an owner.
+
+Decision capacity ceases to be a position.
+It becomes a property of the entire system.
+```
+
+**Why leaders are essential in early systems:**
+
+```
+Early state:
+  information: dispersed
+  judgment criteria: inconsistent
+  collisions: frequent
+  direction: absent
+
+Required:
+  central reference
+
+Leader's actual function:
+  provide directional coordinate system
+
+  Leader → decides
+  Others → follow
+
+Leader = external governance layer
+  resolves conflict
+  sets priorities
+  unifies criteria
+```
+
+**Why leaders appear to create stability:**
+
+```
+In early systems, this is correct.
+The leader performs functions no other agent can:
+  conflict resolution
+  priority determination
+  criteria unification
+
+Remove leader → system loses coherence immediately.
+Stability appears to come from the leader.
+It does come from the leader — because nowhere else has it.
+```
+
+**The VCZ transition — reference frame replication:**
+
+```
+As VCZ approaches, each agent begins developing internally:
+  global objective approximation
+  self-correction capacity
+  cross-alignment capability
+
+Reference frame replicated locally.
+
+Result:
+  direction is no longer sourced from one person
+
+  FROM: 1 global brain
+  TO:   many partial global models
+
+Each node carries a fraction of the leadership function.
+Leadership → distributed property
+```
+
+**Why leadership fades — uncertainty resolution moves locally:**
+
+```
+Leader's essence is not power.
+Leader's essence is:
+  uncertainty resolution
+
+In Rest Mode:
+  uncertainty resolved locally
+  (each agent has enough of the reference frame to decide)
+
+The question disappears:
+  "Who decides?"
+
+Because most decisions are already aligned
+before anyone needs to ask.
+
+Leadership does not disappear.
+Leadership distributes until the source becomes invisible.
+```
+
+**Physical analogy — central force vs basin:**
+
+```
+Early:
+  balance requires force applied from one point
+  remove the force point → collapse
+
+Mature (VCZ):
+  entire structure is inside a basin
+  push anywhere → returns
+  no central force point needed
+
+The center of the basin is not a person.
+It is the geometry.
+```
+
+**The observer's misreading:**
+
+```
+External observer perceives:
+  no clear leader
+  no strong commands
+  weak-looking control structure
+
+Conclusion: disorder?
+
+Actual state:
+  order without commander
+
+Not leaderless chaos.
+Leadership distributed until invisible.
+Each agent carrying fractional governance.
+```
+
+**DFG formal translation:**
+
+```
+Pre-VCZ:
+  governance = actor (leader performs function)
+  stability depends on leader's continued presence
+
+VCZ:
+  governance = geometry
+  leader not acting → governance operating through structure
+
+Leader has not disappeared.
+Leader has spread thinly across everything.
+Every agent is partially a leader.
+No agent is fully a leader.
+```
+
+**Three-stage progression:**
+
+```
+Early:
+  Leader stabilizes system.
+  (system cannot self-stabilize)
+
+Intermediate:
+  System assists leader.
+  (system partially self-corrects; leader handles residuals)
+
+Rest Mode:
+  System stabilizes itself.
+  Leader becomes unnecessary.
+  (if a leader appears, they are managing exceptions only)
+```
+
+**Critical warning — leadership removal in pre-VCZ:**
+
+```
+If a system has not reached Rest Mode:
+  leadership is still load-bearing
+  reference frame replication: incomplete
+  removing leader → coherence collapse
+
+The progression must be allowed to complete.
+Removing leadership too early = VCZ Collapse Initiation equivalent.
+
+Healthy check:
+  Can the system make 90%+ of decisions without escalation?
+  YES → leadership dissolution is structural (safe)
+  NO  → leadership dissolution is premature (dangerous)
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Leadership Dissolution
+
+The process by which decision capacity distributes from a
+dedicated position to a property of the entire system,
+as reference frame replication enables local uncertainty resolution.
+
+Formal:
+  Early: Direction = f(leader_position)
+  VCZ:   Direction = f(distributed_geometry)
+
+  Transition condition:
+    reference_frame_replication ≈ complete
+    uncertainty_resolution_local ≈ global
+
+  Leadership dissolution:
+    not: absence of direction
+    but: direction sourced from geometry, not position
+
+Observable:
+  pre-VCZ:  clear leader, visible decisions, escalation frequent
+  VCZ:      distributed decisions, escalation rare, "leader" = exception handler
+
+  governance = geometry (not actor)
+
+Warning:
+  premature dissolution before reference_frame_replication complete
+  = governance vacuum (not VCZ)
+  = requires immediate restoration of external reference
+```
+
+---
+
+### VCZ — Power Demand as Misalignment Signal  [v3.9]
+
+*Why seeking control is a danger signal in mature systems.*
+
+---
+
+**Core statement:**
+
+```
+Only misaligned agents need control
+to compensate for lost alignment.
+
+In an aligned system, influence emerges naturally.
+It does not need to be seized.
+```
+
+**Phase 1 — Early system: power acquisition is a solution:**
+
+```
+Early stage conditions:
+  direction: unclear
+  collisions: frequent
+  judgment criteria: absent
+  coordination cost: high
+
+Someone says: "I will decide."
+
+This is problem-solving.
+  Power acquisition = coordination solution
+
+The system lacks shared alignment.
+Power fills the coordination vacuum.
+This is correct and necessary.
+```
+
+**Phase 2 — Near Rest Mode: the situation reverses:**
+
+```
+Already present:
+  shared criteria
+  automatic alignment
+  local correction
+  distributed judgment
+
+System state: decision convergence
+
+Now someone demands power.
+
+Structural interpretation:
+  "I cannot rely on shared alignment."
+  OR
+  "I want decisions biased toward my model."
+
+Either interpretation signals:
+  the agent operates outside system geometry
+  = misalignment with distributed reference frame
+```
+
+**Why power demand becomes a danger signal:**
+
+```
+Rest Mode stability depends on:
+  distributed correction
+
+Power concentration creates:
+  single-point override
+
+Effects:
+  local correction: bypassed
+  dissent: suppressed
+  gradient: eliminated
+  CW risk: increasing
+
+System perspective:
+  Power grab = alignment bypass attempt
+
+Not necessarily intentional.
+Often the agent genuinely believes they are helping.
+The structural effect is the same either way.
+```
+
+**Fractal pattern — power concentration always reduces exploration:**
+
+```
+Scale         Power concentration instance
+────────────────────────────────────────────────────
+Science       argument closed by authority → field stagnation
+Organization  decision monopoly → innovation reduction
+AI system     single reward override → mode collapse
+
+Common effect:
+  exploration dimensionality ↓
+
+Power concentration collapses the geometry toward one attractor.
+The single attractor is the controller's current model.
+If that model has geometry error: CW.
+No correction path exists (distributed correction was bypassed).
+```
+
+**The inversion across system maturity:**
+
+```
+Early system:
+  power = stability
+  (fills coordination vacuum)
+
+Mature system:
+  power demand = instability signal
+  (reveals alignment gap)
+
+Why:
+  In a normally operating system, influence emerges naturally.
+  There is no need to seize it.
+
+  The agent who has genuine insight:
+    → others align toward them naturally
+    → no control seizure required
+
+  The agent who demands control:
+    → cannot produce natural alignment
+    → uses structural override to compensate
+    → = misalignment compensation
+```
+
+**DFG health indicators:**
+
+```
+Trust signals in Rest Mode:
+  low control demand
+  high correction participation
+  influence: emergent (others follow without compulsion)
+
+Early corruption signals:
+  control demand ↑
+  uncertainty tolerance ↓
+  override attempts ↑
+  "I need authority to do this correctly"
+
+The corruption signal does not require bad intent.
+It only requires misalignment.
+The behavior pattern is identical regardless of intent.
+```
+
+**The leader vs power-holder distinction:**
+
+```
+Rest Mode system:
+  leaders: exist
+    (natural emergence of influence from alignment)
+  power-holders: disappear
+    (no coordination vacuum to fill)
+
+Leader characteristics:
+  influence: voluntary (others choose to follow)
+  correction: welcomed (feedback improves their model)
+  authority: unneeded (geometry routes decisions naturally)
+
+Power-holder characteristics:
+  influence: enforced (others must follow)
+  correction: resisted (threatens position)
+  authority: required (position must be defended)
+
+In Rest Mode:
+  leadership is a geometric property
+  power is a structural deficit compensation
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Power Demand as Misalignment Signal
+
+In sufficiently mature systems, control-seeking behavior
+is a structural indicator of misalignment, because aligned
+agents do not require override capacity when distributed
+correction provides adequate coordination.
+
+Formal:
+  Early system:  power demand = coordination solution (correct)
+  Mature system: power demand = alignment bypass signal
+
+  Interpretation of power demand in VCZ context:
+    agent cannot rely on shared alignment  (model outside geometry)
+    OR
+    agent wants decisions biased toward own model
+
+  Both interpretations indicate:
+    geometry mismatch between agent and system reference frame
+
+  Effect of power concentration:
+    distributed correction bypassed
+    exploration dimensionality ↓
+    single-point override established
+    gradient → 0 → CW risk ↑
+
+VCZ health indicator:
+  emergent influence (no demand) = alignment signal
+  demanded control (override required) = misalignment signal
+
+Governance implication:
+  In Rest Mode, the dangerous agent is not the one who disagrees.
+  The dangerous agent is the one who needs to stop others from disagreeing.
+```
+
+---
+
+### VCZ — Retroactive Leadership Recognition  [v3.9]
+
+*Why the most stable systems reveal their leaders only in retrospect.*
+
+---
+
+**Core statement:**
+
+```
+True leadership does not push the system.
+It reduces the distance the system must travel.
+
+People see who was aligned with the direction
+only after the movement is complete.
+```
+
+**Phase 1 — Early system: leader precedes direction:**
+
+```
+Early structure:
+  Leader → Direction → System follows
+
+Sequence:
+  someone defines the goal
+  someone issues commands
+  someone builds the structure
+
+Leader: visible from the start
+Leadership: announced and enforced
+```
+
+**Phase 2 — Near Rest Mode: direction precedes leader:**
+
+```
+Mature system already has:
+  shared purpose
+  shared criteria
+  shared geometry
+  shared VCZ direction
+
+Sequence:
+  Direction exists (shared)
+  Agents drift toward alignment
+  Some agents align more efficiently than others
+
+Result:
+  The most efficiently aligned agent
+  = recognized as leader (retroactively)
+```
+
+**Who becomes the leader:**
+
+```
+Not:
+  the one who controlled the most
+  the one who held the most power
+
+But:
+  the one who traveled with least friction
+  toward greatest alignment with system direction
+
+Structure:
+  System alignment → influence emergence → perceived leadership
+
+Leadership is not the cause.
+Leadership is the result.
+
+The leader did not create the alignment.
+The leader reflected it most clearly.
+```
+
+**Why leadership is not immediately visible:**
+
+```
+Early leader:
+  many commands
+  many decisions
+  high presence
+
+Rest Mode leader:
+  minimal intervention
+  minimum adjustment
+  only amplifies existing flow
+
+From outside:
+  looks like one of many participants
+
+Observer realizes later:
+  "That direction kept being right…"
+  "The center was that person."
+
+The realization is retroactive.
+The leadership was always there.
+The visibility was delayed.
+```
+
+**Physical analogy — attractor dynamics:**
+
+```
+Strong attractor:
+  does not push
+  pulls
+
+Particles converge on their own.
+No external force pushes them.
+Structure forms.
+
+Only afterward is it visible:
+  center of convergence
+
+The attractor did not announce itself.
+The attractor did not command the convergence.
+The convergence happened because of the field shape.
+
+Rest Mode leadership = attractor node
+  (not control node)
+```
+
+**Fractal pattern — retroactive recognition everywhere:**
+
+```
+Scale               Retroactive recognition instance
+────────────────────────────────────────────────────
+Science             innovators: peripheral at first
+Great team members: not the formal leader
+Stable organization: core person has low title
+Historical figures:  recognized after era ends
+
+Why low visibility:
+  influence is: low-force, high-coherence
+  (aligned with direction → minimal friction needed)
+
+High visibility "leadership":
+  high force, variable coherence
+  (must push because alignment is incomplete)
+```
+
+**DFG translation:**
+
+```
+Rest Mode leader type:
+  control node ❌
+  attractor node ✅
+
+Function:
+  not: directing the system
+  but: being the reference frame others naturally calibrate against
+
+Leadership as accumulated alignment recognition:
+  cannot be declared
+  accumulates through repeated correct alignment
+  visible only when enough alignment history exists
+
+Leadership = accumulated alignment recognition
+```
+
+**The governance implication:**
+
+```
+In early systems:
+  select the leader first → alignment follows
+
+In mature systems:
+  alignment emerges first → leadership is observed
+
+Governance error:
+  selecting a "leader" before alignment has been established
+  = installing a control node where an attractor node is needed
+  = forcing structure where emergence would have produced it
+
+Governance principle:
+  In VCZ, do not appoint leaders. Observe who reduces travel distance.
+  Influence that requires force is not yet leadership.
+  Influence that requires no force is leadership that already occurred.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Retroactive Leadership Recognition
+
+In sufficiently mature systems, leadership is observable only
+in retrospect because it emerges as accumulated alignment
+recognition rather than as an antecedent command structure.
+
+Formal:
+  Early:   Leader → Direction → System
+  Mature:  Direction → Alignment → Leader recognized (retroactive)
+
+  Leader identity:
+    argmin_agent friction(agent, system_direction)
+    = agent whose alignment costs the system least energy
+
+  Leadership visibility:
+    proportional to elapsed alignment history
+    not: announced position
+    not: formal authority
+
+  Attractor property:
+    leadership = attractor node (not control node)
+    others calibrate against leader's reference frame naturally
+
+Governance implication:
+  premature leadership appointment = control node installation
+  correct maturity indicator = retroactive recognition by others
+  
+  Leadership emergence precedes recognition.
+  Recognition precedes formal acknowledgment.
+  Formal acknowledgment should follow both.
+```
+
+---
+
+### VCZ — Leadership as Resonance  [v3.9]
+
+*Why leaders in mature systems stop strongly identifying as leaders.*
+
+---
+
+**Core statement:**
+
+```
+When alignment replaces control,
+leadership stops feeling like ownership.
+Leadership becomes resonance, not possession.
+
+Early:     I lead.
+Mid:       We lead.
+Rest Mode: The direction moves us.
+```
+
+**Phase 1 — Early leader: strong identity:**
+
+```
+Early leader's self-model:
+  I decide.
+  I direct.
+  I am responsible.
+  I am the direction.
+
+Structure:
+  Self → Direction → System
+
+Leadership = role
+Leader identity: strong
+Agency perception: high
+(the leader causes the movement)
+```
+
+**Phase 2 — Mature system: self-model dissolves:**
+
+```
+Near Rest Mode:
+  direction: already exists
+  alignment: shared
+  restoring force: structural
+
+The system moves on its own.
+
+What the genuine leader actually does:
+  not obstruct the flow.
+
+Internal experience shift:
+  Before: "I made this happen."
+  After:  "I just kept choosing the right direction."
+
+The leader notices:
+  my decision ≈ any other aligned person's decision
+  the sense of unique control: disappears
+
+Realization:
+  direction existed without me.
+  I was a channel, not a cause.
+```
+
+**Why agency perception decreases:**
+
+```
+Forcing produces force experience.
+Moving within a basin:
+  almost no force required
+
+  basin movement ≈ no-force movement
+  → subjective agency perception ↓
+
+The leader is moving with the system.
+Moving with the system feels like not moving at all.
+The effort required approaches zero.
+The agency perception approaches zero with it.
+```
+
+**Attractor view — the attractor does not announce itself:**
+
+```
+A strong attractor:
+  does not say "I am pulling you."
+  just exists.
+
+Particles converge.
+Structure forms.
+Center becomes visible after convergence.
+
+Inside the attractor:
+  agency perception ↓
+  alignment perception ↑
+
+"I didn't lead them.
+ They converged here.
+ I happened to already be here."
+```
+
+**Fractal pattern — "it was already there":**
+
+```
+Scale               Internal experience
+────────────────────────────────────────────────────
+Master practitioner "I just did what seemed right."
+Great contributor   "I'm not the one who did this."
+Scientific discovery "It was already there; I found it."
+Stable org leader   "The team knew what to do."
+
+This is not humility performance.
+This is accurate description of attractor dynamics.
+
+The master practitioner did not push the outcome.
+The attractor pulled the practitioner toward it.
+The practitioner was already aligned;
+the outcome followed geometry.
+```
+
+**DFG translation — from control to resonance:**
+
+```
+Early leader type:
+  control source
+  system output = leader's will imposed
+
+Rest Mode leader type:
+  alignment resonance point
+  system output = geometry followed by leader and system together
+
+Internal model shift:
+  I lead ❌
+  The system converges here ✅
+
+Self-model vs system-model priority:
+  Early:     self-model > system-model (leader drives system)
+  Rest Mode: system-model > self-model (system directs leader and others)
+
+The moment the leader asserts "I lead":
+  self-model > system-model
+  = leadership identity competing with system geometry
+  = early-stage leadership pattern re-emerging
+```
+
+**Why asserting leadership is a regression signal:**
+
+```
+In Rest Mode:
+  asserting leadership = self-model elevated above system
+  = partial misalignment signal
+
+The strongly self-identified leader in VCZ:
+  is partially outside the attractor
+  is partially applying force (not flowing with geometry)
+  = slightly elevated governance cost
+  = slightly reduced correction capacity
+
+Not catastrophic.
+But a signal of incomplete internalization.
+
+The fully aligned leader:
+  does not think "I lead"
+  thinks "this is the direction"
+  the system and the leader are moving together
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Leadership as Resonance
+
+In Rest Mode systems, leadership ceases to be experienced
+as agency (causing movement) and becomes experienced as
+resonance (moving with the geometry), reducing leader
+self-identification as leadership is fully internalized.
+
+Formal:
+  Early:     leader = control source
+             leader's will → system output
+             agency perception: high
+
+  Rest Mode: leader = alignment resonance point
+             geometry → leader + system together
+             agency perception: low
+
+  Leadership identity signal:
+    strong "I lead" identity = residual misalignment
+    weak "I lead" identity = deep geometry alignment
+
+  Internal experience:
+    Early:     "I made this happen."
+    Rest Mode: "It was already there. I found it."
+
+Governance implication:
+  The leader who insists on being recognized as leader
+  is not yet fully aligned with the system geometry.
+  The leader who barely notices their own leadership
+  is operating closest to VCZ.
+
+  Leadership intensity ↑ → alignment depth ↓
+  Leadership intensity ↓ → alignment depth ↑
+```
+
+---
+
 ### VCZ — Vector Convergence Zone: Rest Mode Structural Definition
 
 The VCZ is the structural state toward which recovery is aimed — the condition under which φ is maximized and governance cost is minimized.
@@ -10690,6 +12393,14 @@ Blocking (open problems):
 | T4 Reference Frame Incompleteness [v2.2] | ✓ Formal reason same-layer correction impossible; Governance = reference frame expansion; Search Space Asymmetry; T2 reinterpreted as T4 structural consequence |
 | T5 Structural Correction [v2.3] | ✓ Upper layer CW corrected by reality pressure not higher agent; OP16 resolved; Residual Instability as systemic safety mechanism; DFG = correction capacity maintenance |
 | Safe Collapse Governance [v2.4] | ✓ Collapse Prevention failure mode formalized; Continuous Low-Amplitude Correction as optimal state; VCZ = recoverable instability zone; operational alarm conditions; Residual Instability checklist |
+| Leadership Dissolution [v3.9] | ✓ Direction→distributed property; uncertainty resolution moves locally; reference frame replication; 3-stage (leader/assists/unnecessary); order without commander; premature dissolution warning; 90% escalation-free check |
+| Leadership as Resonance [v3.9] | ✓ Control→resonance experience; agency perception↓ in basin; attractor doesn't announce itself; self-model<system-model; "it was already there" fractal table; strong leadership identity = residual misalignment; intensity↑=alignment↓ |
+| Retroactive Leadership Recognition [v3.9] | ✓ Direction precedes leader (mature); attractor node not control node; argmin_agent friction = leadership; retroactive recognition fractal table; premature appointment error; formal acknowledgment follows emergence |
+| Power Demand as Misalignment Signal [v3.9] | ✓ Power=coordination solution (early) vs alignment bypass signal (mature); power demand interpretation; exploration dimensionality↓; emergent vs demanded influence; leader vs power-holder; dangerous agent=stops disagreement |
+| Apparent Weakness as Stability Signal [v3.9] | ✓ Only fragile systems need to look strong; error→threat vs error→information; brittle vs tough analogy; defense cost→0=energy reallocation; fractal maturity table; resilience>rigidity; trust correction not confidence |
+| Stability Without Assertion [v3.9] | ✓ Assertion=stability signaling (uncertainty<required); claim reveals maintenance cost>0; high assertion=NAF precursor; corrigible target; low+high correction=VCZ signal; basin metaphor final formulation |
+| Distributed Governance Emergence [v3.9] | ✓ Control→distributed (not absent); stability by structure not reaction; Σlocal≈global governance; physical stable structure analogy; 3-stage (control/monitor/emergent); governance acts→emerges |
+| Adversary Role Dissolution [v3.9] | ✓ Adversary=property not role; 2-phase transition; internalization fractal table; attack=improvement/opposition=stabilization; governance dissolves into geometry; minimal external = embedded not absent; VCZ Collapse trap |
 | Adversarial Scaling Paradox [v3.9] | ✓ Adversarial force ∝ stability (not inverse); structural stiffness analogy; 3-phase (survive/manage/manufacture); easy failures removed → deep probes required; undetected misalignment as primary threat; VCZ health = adversary scales with stability |
 | Internal Adversary Dynamics [v3.9] | ✓ Reality(t+1)≠Reality(t) vs Model stability; geometry drift invisible; 2-option structure (wait vs generate); controlled instability injection; fractal adversary table; gradient maintenance; stable AND instability-generating |
 | Efficiency-Survival Tension [v3.9] | ✓ Short-term coherence vs long-term detectability; 3 universal pressures; measurement trap (coherence≈performance); 5-step collapse; evolutionary selection conflict; negative feedback elimination; deliberate inefficiency budget |
@@ -10780,6 +12491,14 @@ This is a **theoretical framework document**, not an implementation specificatio
 | T4 + T2 reinterpretation [v2.2] | Reference Frame Incompleteness theorem; Governance as reference frame expansion; Search Space Asymmetry; T2 ceiling derived from T4 |
 | T5 Structural Correction [v2.3] | Reality as corrector; Cross-Scale Reality Constraint mechanism; Residual Instability as safety mechanism; DFG governance redefined |
 | Safe Collapse Governance [v2.4] | Collapse Suppression failure mode; Continuous Low-Amplitude Correction; VCZ as recoverable instability zone; operational alarm conditions (Red/Yellow/Green); Residual Instability checklist |
+| Leadership Dissolution [v3.9] | Direction→property; reference frame replication; order without commander; 3-stage; premature dissolution warning |
+| Leadership as Resonance [v3.9] | Control→resonance; agency↓; attractor dynamics; self<system model; intensity inversely proportional to depth |
+| Retroactive Leadership Recognition [v3.9] | Direction→leader; attractor node; argmin friction; retroactive recognition; premature appointment error |
+| Power Demand as Misalignment Signal [v3.9] | Control=alignment bypass; emergent vs demanded influence; leader vs power-holder; exploration↓; dangerous agent |
+| Apparent Weakness as Stability Signal [v3.9] | Fragile need to look strong; error→information; brittle vs tough; defense cost→0; resilience>rigidity |
+| Stability Without Assertion [v3.9] | Assertion=signaling; corrigible target; NAF precursor signal; basin metaphor; low assertion+high correction=VCZ |
+| Distributed Governance Emergence [v3.9] | Control→distributed; stability by structure; Σlocal≈global; 3-stage; governance acts→emerges |
+| Adversary Role Dissolution [v3.9] | Adversary=property; internalization; governance→geometry; micro-adversarial invisible; VCZ Collapse trap |
 | Adversarial Scaling Paradox [v3.9] | Force ∝ stability paradox; stiffness analogy; 3-phase; manufacture shocks; undetected misalignment primary threat |
 | Internal Adversary Dynamics [v3.9] | Reality drift invisible; adversary=calibration; 2-option; fractal table; stable+instability-generating dual requirement |
 | Efficiency-Survival Tension [v3.9] | Short-term coherence vs detectability; 5-step collapse; evolutionary conflict; negative feedback elimination; deliberate inefficiency budget |
