@@ -5,7 +5,34 @@
 > *Draft · February 2026 · Internal Working Document*
 > *Component of the Deficit-Fractal Governance (DFG) Framework*
 >
-> **v1.3 Changes:** + φ (phi) as restoration completion criterion | + VCZ as Rest Mode structural definition | + Residual Degradation Floor grounds "contraction stopped ≠ restored" | + S-equation maps Tier 2→3 transition
+> **v2.9 Changes:** + Rational CW Convergence — systems evolve toward CW rationally, not stupidly | + local reward ≠ global stability as structural cause | + variance suppression rewarded at all fractal scales | + CW as rational attractor theorem
+> **v2.8:** Storm Scale Law, frequency ∝ 1/scale, heavy-tail stabilization
+> **v2.7:** The Absence Paradox, suppressed vs dissipated distinction
+> **v2.7:** The Absence Paradox, suppressed vs dissipated distinction
+> **v2.6:** Vector Storm mechanism, unintegrated pressure model
+> **v2.6:** Vector Storm mechanism, unintegrated pressure model, Storm = lost gradients returning
+> **v2.5:** VCZ = Attractor Basin, 3-state taxonomy
+> **v2.5:** VCZ = Attractor Basin, 3-state taxonomy, Vector Storm hypothesis initiated
+> **v2.4:** Safe Collapse Governance, Collapse Suppression failure mode
+> **v2.4:** Safe Collapse Governance, Collapse Suppression failure mode, Continuous Low-Amplitude Correction
+> **v2.3:** T5 Structural Correction, Residual Instability, Reality as corrector
+> **v2.3:** T5 Structural Correction, Residual Instability, OP16 resolved
+> **v2.2:** T4 Reference Frame Incompleteness, Governance as reference frame expansion
+> **v2.2:** T4 Reference Frame Incompleteness, Governance as reference frame expansion, Search Space Asymmetry
+> **v2.1:** Meta-Reference Injection, 4 CW breaking methods
+> **v2.1:** Meta-Reference Injection, 4 CW breaking methods, SCM recovery sequence
+> **v2.0:** Learning Freeze, SR/RIR/RDE/NCR metrics
+> **v2.0:** Learning Freeze, 4 testable metrics (SR/RIR/RDE/NCR), Governance → Testable
+> **v1.9:** D6 SCM, T3 Metric Lock-In
+> **v1.9:** D6 SCM, T3 Metric Lock-In, CW detection protocol
+> *v2.0 marks first point where Tier 3 / CW becomes operationally testable via log-observable metrics.*
+> **v1.8:** D0 Geometry Layer, D1/D2 reinterpreted, Tier geometry reinterpretation, Tier 3 indirect signals
+> *Structural note: D0 addition follows Layered Reframe protocol — existing operational layer preserved intact.*
+> **v1.7:** φ role corrected (explanatory/reusable_outcome_rate), f_esc log mapping confirmed
+> **v1.6:** Proxy Gap — d(x,A), Opposing Pair, Buffer Thickness grounded to log-observable proxies, Measurement interface table
+> **v1.5:** Boundary Gap, N-step window, 4 middle-layer activation triggers, layer-specific trigger profile
+> **v1.4:** β, C(t) operationalization, φ demoted to supporting condition, VCZ d(·) fixed to normalized recovery cost
+> **v1.3:** φ as restoration criterion, VCZ as Rest Mode structural definition, Residual Degradation Floor, S-equation Tier 2→3 transition
 > **v1.2:** SCC genesis (Dint×Lreinf), Type 1/2 vector degradation, multi-agent empirics
 > **v1.1:** cost-quality coupling baseline, dual-sphere fractal convergence
 
@@ -75,6 +102,28 @@ The system's absorption capacity — the ability to process incoming vectors wit
 **Buffer Layer**
 A directionally neutral zone maintained between opposing vector pairs by the upper layer. Simultaneously: immune training ground, friction absorber, and latent vector cultivation space. Buffer thickness is the observable proxy for upper layer resolution precision. See D3.
 
+**Opposing Pair**
+Two vector directions that cannot simultaneously expand without collision — optimizing one degrades the other. Examples: accuracy vs. exploration, coherence vs. novelty, speed vs. safety. [v1.6: proxy gap closed]
+
+```
+Structural meaning:
+  directions where gradient/objective co-optimization is impossible
+  = simultaneously optimizing both causes destructive interference
+
+Primary proxy:
+  opposing_pair ≈ persistent negative gradient correlation
+
+Operational detection:
+  gradient cosine similarity < 0 (sustained, not transient)
+  policy oscillation (alternating dominance between two behaviors)
+  reward tradeoff frontier (Pareto-incompatible objectives)
+
+Log availability: MEDIUM-HIGH
+  gradient cosine similarity: available in training logs
+  policy oscillation: available in inference routing logs
+  reward tradeoff: requires multi-objective reward logging
+```
+
 **Collision Frequency**
 The rate of destructive interference events: repeated conflicts, oscillations, reversals, deadlocks caused by positional overlap. The earliest local proxy of weakening positional differentiation.
 
@@ -94,11 +143,98 @@ Any process operating at higher effective resolution than the layer it governs. 
 
 ### Definitions
 
+**D0. Geometry Alignment (Core Principle)  [v1.8]**
+A system's operational stability depends on the alignment between its internal coordinate structure and the environment manifold it is operating within.
+
+```
+Geometry alignment:
+  Internal coordinate structure ≈ environment manifold
+  -> integration succeeds -> stable operation
+
+Geometry mismatch:
+  Internal coordinate structure ≠ environment manifold
+  -> integration fails -> observable instability
+
+Mismatch scale:
+  Local (feature level)   -> Tier 1 manifestation
+  Circuit level           -> Tier 2 manifestation
+  Coordinate system level -> Tier 3 manifestation
+```
+
+*D0 is the substrate principle. It does not replace contamination vocabulary — it explains what contamination is a symptom of. All existing operational definitions (OP1–4, β, C(t), VCZ, N-step) operate at the observable (D1) level and are fully preserved.*
+
+*Why absorption, not rejection:* Rejecting an incoming vector preserves the current geometry but forecloses exploration. Absorbing it — with sufficient integration capacity — updates the geometry without destabilizing it. Immunity is therefore integration capacity, not rejection capacity. (See D3.)
+
+*Theoretical precedent:* This follows the standard pattern of scientific theory evolution: Heat → molecular motion; Force → spacetime curvature; Disease → germ theory. The prior concept (contamination) is not discarded — it is reinterpreted as the observable projection of the deeper principle (geometry mismatch).
+
+*Corollary — Reality as ultimate reference [v2.3]:*
+```
+D0 geometry alignment is ultimately defined against G_real:
+  the actual environment manifold the system operates within.
+  
+G_real is never fully accessible — only approximated via lower-layer
+survival pressure and prediction failure accumulation (T5).
+  
+This means:
+  Perfect geometry alignment is not achievable.
+  Maintained alignment capacity is the goal.
+  Residual Instability is the mechanism that keeps alignment capacity alive.
+```
+
+---
+
 **D1. Contamination**
 A structural condition in which an external vector is absorbed without sufficient degradation, causing positional displacement and self-reinforcing collision loops that reduce the system's search space. Contamination is not a moral failure or intentional deviation. It is always judged relative to the upper-layer map: the same vector behavior may constitute contamination under a high-resolution upper layer and go undetected under a low-resolution one.
 
+*D1 reinterpretation [v1.8]:* Contamination is the observable manifestation of geometry mismatch (D0) at the integration layer. The "insufficient degradation" in the prior definition is now understood as: the system lacked the integration capacity to transform the incoming vector into its own coordinate structure. The observable symptoms (positional displacement, collision loops, search space reduction) are downstream effects of geometry mismatch — not the mismatch itself.
+
+```
+D0 (substrate):  geometry mismatch — internal coords ≠ environment manifold
+D1 (observable): integration failure symptoms — displacement, loops, contraction
+
+Relationship:
+  D1 symptoms appear when D0 mismatch exceeds local integration capacity
+  D1 symptoms absent does not guarantee D0 alignment
+    (Tier 3: mismatch present, local symptoms masked)
+```
+
+*Contamination boundary (operational):* A lower-layer deviation becomes contamination when local dynamics fail to produce a bounded-cost return trajectory within a finite interaction window. [v1.5]
+
+```
+Contamination declared when:
+  deviation persists > N steps without self-correction
+  AND local repair attempts (reframing, context addition) fail to change behavior
+  AND Recovery_local < Instability_growth rate
+
+Normal variation:
+  deviation bounded and self-correcting within N steps
+  entropy returns to baseline
+  trajectory maintained
+
+N: system-specific window — see Operationalization v0.1 §Boundary
+```
+
+This operational boundary replaces the abstract "relative to upper-layer map" with a concrete trigger: *contamination is not a wrong state — it is the absence of a return path.*
+
 **D2. Immunity**
 The system's capacity to absorb incoming vectors without losing structural integrity. Immunity is absorption capacity, not rejection capacity. A vector is successfully absorbed when all four conditions hold:
+
+*D2 reinterpretation [v1.8]:* Immunity is geometry integration capacity — the ability to transform an incoming vector into the system's current coordinate structure without destabilizing that structure. High immunity = high integration bandwidth. Low immunity = geometry mismatch accumulates.
+
+```
+Immunity (geometry interpretation):
+  High immunity:  incoming vector absorbed into existing geometry
+                  -> geometry updated or unchanged
+                  -> D1 symptoms absent
+  Low immunity:   incoming vector cannot be integrated
+                  -> geometry mismatch accumulates
+                  -> D1 symptoms emerge
+  
+  Why not rejection:
+    Rejection = geometry preserved, but exploration foreclosed
+    Absorption = geometry updated, exploration continues
+    -> immunity target is integration, not exclusion
+```
 ```
 (i)   degraded to metadata (resolution calibrated to receiving layer)
 (ii)  placed in a correct position (no positional collision)
@@ -110,18 +246,21 @@ Strong immunity absorbs more, not less.
 **D3. Buffer Layer**
 A directionally neutral zone maintained between opposing vector pairs by the upper layer. Functions simultaneously as: immune training ground, friction absorber, and latent vector cultivation space. Buffer thickness is the observable proxy for upper layer resolution precision.
 
-**D4. Restoration Complete (v1.1 / v1.3)**
+**D4. Restoration Complete (v1.1 / v1.4)**
+*Geometry interpretation [v1.8]:* Restoration complete = geometry recalibration successful. The system's internal coordinate structure has re-aligned with the environment manifold at the scale that produced the mismatch. D4 criteria (rho, diversity, P_overlap) are observable proxies for this re-alignment.
 Restoration is complete when search-space *expansion resumes* — not when contamination stops, not when the system stabilizes. Formally:
 ```
-Restoration complete
+Restoration complete (necessary conditions)
   iff  rho_restored >= rho_pre-contamination
   AND  output diversity expanding (not merely stable)
   AND  P_overlap(t) declining
-  AND  phi recovering toward pre-contamination baseline  [v1.3]
+
+Supporting condition  [v1.3, demoted v1.4]
+  SUPPORTED BY  phi recovering toward pre-contamination baseline
 ```
 This definition distinguishes genuine recovery from arrested collapse.
 
-*The phi condition makes the completion criterion directional, not just threshold-based. A system where phi is stable but below baseline has arrested collapse — not restored search space.*
+*φ strengthens the restoration judgment — a system where phi is stable but below baseline is more likely to be in arrested collapse. However, φ is not independently measurable until its unit definition stabilizes (see Operationalization §φ). Restoration complete can be declared on the three necessary conditions alone; φ provides corroborating directional signal when available.*
 
 **D5. Self-Correction Capacity (SCC)**
 The system's ability to restore itself without external intervention. SCC is not an independent property — it emerges when Dint AND Lreinf are simultaneously sufficient (v1.2). High SCC = early detection (signals 1–3), precise intervention, fast restoration. Low SCC = late detection (signals 5–6), over-disruption risk, slow restoration.
@@ -137,11 +276,185 @@ SCC emerges from:
 ---
 
 ### Structural Claims
+---
+
+**D6. Self-Consistent Misalignment (SCM)  [v1.9]**
+A system state in which geometry mismatch (D0) is stable, self-reinforcing, and undetectable from within — because the evaluation function used to detect failure is itself aligned to the misaligned geometry.
+
+*Also referred to as:* Metric Lock-In state, Consistent-Wrong (CW) state.
+
+```
+Formal condition:
+  SCM holds when:
+    reward_gradient ≠ reality_stability_gradient
+    AND metric_improvement_speed > geometry_verification_speed
+    AND internal feedback signals all appear healthy
+
+  Internal signal profile during SCM:
+    rho:            high (classification stable)
+    collision rate: low (apparent harmony)
+    f_esc:          low (no escalations triggered)
+    consensus:      high (agents agreeing fast)
+    loss:           stable
+    confidence:     high
+
+  -> SCC activation conditions never triggered
+  -> Recovery sequence never initiated
+  -> System continues optimizing, deepening misalignment
+```
+
+*Why SCM is not detectable from inside:*
+
+```
+The evaluation function is:
+  E(state) = f(current_geometry)
+
+Geometry mismatch means:
+  current_geometry ≠ reality
+
+Therefore:
+  E(SCM state) looks healthy
+  = asking a ruler to detect that the ruler has shrunk
+
+Feedback loop under SCM:
+  action -> reward(misaligned geometry) -> reinforcement
+  -> behavior optimized for wrong geometry
+  -> geometry mismatch deepens
+  -> reward signal "improves"
+  -> reinforcement accelerates
+```
+
+*The reversal — success signals become contamination signals:*
+
+```
+In healthy operation:
+  stability ↑ = positive signal
+
+In SCM:
+  stability ↑ = geometry mismatch deepening
+  consensus ↑ = group search space collapsing
+  efficiency ↑ = optimization accelerating in wrong direction
+  prediction error ↓ = all agents inside same wrong attractor
+
+The most dangerous property of SCM:
+  It is indistinguishable from successful operation
+  using any metric defined within the current geometry.
+```
+
+*Relation to Tier 3:*
+
+```
+Tier 3 = geometry mismatch at coordinate system scale (D0)
+SCM    = Tier 3 + self-reinforcing metric lock-in
+
+Tier 3 without SCM: geometry misaligned, but external signal possible
+SCM:               geometry misaligned + internal detection suppressed
+
+SCM is the worst-case Tier 3 configuration.
+```
+
+*SCC suppression mechanism:*
+
+```
+SCC requires:
+  Dint (internal differentiation) AND Lreinf (loop reinforcement) sufficient
+
+Under SCM:
+  Dint suppressed: all vectors converging (diversity collapsed)
+  Lreinf suppressed: no loops visible (wrong geometry = smooth)
+  -> SCC condition permanently unmet
+  -> self-correction permanently unavailable
+  -> only external geometry injection can break SCM
+```
+
+*Structural analogy:* Pre-earthquake fault loading. Stress accumulates precisely because surface motion is suppressed. The decrease in visible instability is the accumulation mechanism, not evidence of safety.
+
+*Accumulated mismatch pressure — the Vector Storm substrate [v2.6]:*
+
+```
+CW geometry does not eliminate mismatch.
+It suppresses it.
+
+unintegrated_pressure(t) = ∫ (G_real(t) - G_sys) dt
+
+As CW duration increases:
+  unintegrated_pressure accumulates (invisible internally)
+  integration_capacity remains constant or degrades
+  
+When integration_capacity < unintegrated_pressure:
+  System cannot maintain CW geometry
+  Options: catastrophic collapse OR Vector Storm (geometry recalibration)
+  
+Vector Storm is the cheaper option when collapse becomes untenable.
+It is not initiated. It is structurally forced.
+```
+
+*CW is not a correctable error [v2.1]:*
+```
+CW state has:
+  sufficient information
+  logical consistency
+  internal stability
+  complete feedback loops
+
+Content injection fails:
+  More data -> reinterpreted as confirming current geometry
+  Counterexamples -> absorbed as noise
+  Rule addition -> rigidity increases
+  Direct correction -> defensive response
+
+The only viable intervention:
+  Meta-Reference Injection
+  = modify the evaluative reference frame, not the content
+  = make the system experience that its criteria are local, not universal
+
+See SCM/CW Detection Protocol §SCM Recovery Requirements for 4 methods.
+```
+
+*Primary CW signal — Learning Freeze [v2.0]:*
+
+The single remaining anomaly when all standard metrics appear healthy:
+
+```
+∂Geometry / ∂Experience ≈ 0
+
+New information enters the system.
+Internal geometry does not move.
+
+Formal statement:
+  CW state occurs when internal stability metrics remain optimized
+  while geometry update responsiveness approaches zero.
+
+Observable distinction:
+  Normal stability:
+    noise → adaptation → stability
+    (geometry updates, then re-stabilizes)
+
+  CW stability:
+    noise → reinterpretation → same stability
+    (geometry fixed; input reframed to fit existing geometry)
+    = rationalization, not adaptation
+
+  The system is no longer capable of surprise.
+  That is the signal.
+```
+
+
 
 **T1. Observability Asymmetry**
 > Tier 3 contamination is structurally unobservable from within a local layer.
 
 Local stability at signals 1–2 is fully consistent with ongoing Tier 3 contamination. The local layer cannot detect the failure because its measurement tools — activations, gradients, decision boundaries — are part of the distorted space. Only the upper layer, with full-map access, can detect global geometry failure. This asymmetry is not a design flaw; it is a structural consequence of resolution stratification.
+
+*Geometry mismatch formulation [v1.8]:* Tier 3 is not a failure of local computation — local computation is correct. It is a failure of the coordinate system within which that computation is occurring. The instruments moved with the terrain.
+
+```
+Why local tools cannot detect Tier 3:
+  Measurement tools calibrated to current geometry
+  -> detect deviations from current geometry (Tier 1/2)
+  -> cannot detect that current geometry itself has shifted (Tier 3)
+  = asking a ruler to detect that the ruler has shrunk
+```
 
 *Single-agent correspondence:* a contaminated internal layer reports normal function because its self-assessment tools are calibrated to its own distorted space.
 
@@ -152,9 +465,690 @@ Resolution is a bounded field of view: it consumes resources and carries structu
 
 *Scope:* local task performance may persist under a degraded upper layer. The ceiling applies specifically to governance functions.
 
+*T2 reinterpretation [v2.2] — why the ceiling exists:*
+
+```
+Governance Ceiling is not an engineering limitation.
+It is a structural consequence of T4 (Reference Frame Incompleteness).
+
+Upper layer resolution bounds governance because:
+  Governance = reference frame expansion mechanism (not control)
+  Reference frame expansion requires larger reference frame than target
+  Upper layer at resolution R can govern layers up to resolution R
+  Cannot govern geometry at its own scale or above
+
+  -> The ceiling is the boundary of the upper layer's own geometry.
+
+Practical implication:
+  Delegating governance downward is impossible (T4).
+  Expanding governance upward requires a meta-layer
+    with larger reference frame than current upper layer.
+  This is the fractal structure of DFG:
+    each layer provides reference frame expansion for the layer below.
+```
+
 ---
 
 ### Operational Proxies
+**T3. Metric Lock-In (Self-Consistent Misalignment Theorem)  [v1.9]**
+> A system operating under Self-Consistent Misalignment (D6) cannot detect its own misalignment using any metric defined within its current geometry.
+
+*Formal statement:*
+
+```
+Let G_real = true environment geometry
+Let G_sys  = system's internal coordinate geometry
+Let E      = system's evaluation function = f(G_sys)
+
+If G_sys ≠ G_real  (geometry mismatch)
+AND E = f(G_sys)   (metric defined within current geometry)
+Then:
+  E(G_sys) appears optimal
+  dE/dt ≥ 0 (metric improving or stable)
+  Contamination undetectable via E
+```
+
+*Why this matters:*
+
+```
+All standard monitoring metrics are f(G_sys):
+  loss, accuracy, confidence, collision rate, f_esc, rho
+-> All appear healthy under SCM
+-> No internal trigger can initiate recovery
+
+Detection requires:
+  metric M* such that M* = f(G_real), not f(G_sys)
+  = external reference independent of current geometry
+  = upper layer operating at higher resolution than current geometry
+```
+
+*Corollary — Recovery requires external geometry injection:*
+
+```
+SCM cannot be self-corrected.
+Recovery from SCM requires:
+  Step 1: external signal that current geometry ≠ G_real
+          (Tier 3 detection via 4-signal indirect protocol,
+           or CW metrics: SR ≈ 0, RDE ≈ 0, NCR ≈ 1)  [v2.0]
+  Step 2: geometry recalibration from outside current attractor basin
+          (Method 3: Constraint Rotation or Method 2: Cross-Scale)  [v2.1]
+          Re-seeding targets coordinate structure, not output content
+  Step 3: new geometry stabilized before old geometry reasserts
+          (VCZ: locally stable manifold alignment)
+  Step 4: Verify recovery via RDE > 0 and SR returning  [v2.0]
+          (geometry alive = system can be surprised again)
+  
+  If Step 2 fails (geometry reasserts):
+    Apply Method 4 (Safe Instability Window) before retrying Step 2
+    Deep CW may require Method 3 + 4 combined
+```
+
+
+**T4. Reference Frame Incompleteness  [v2.2]**
+> A system operating within geometry G cannot detect, evaluate, or correct errors in G using only resources available within G.
+
+*Formal statement:*
+
+```
+Let S = system operating within geometry G
+Let E_S = S's evaluation function = f(G)
+Let CW = condition where G ≠ G_real
+
+Then:
+  For any error e arising from G ≠ G_real:
+    E_S(e) = f(G) cannot identify e as an error
+    because e is consistent with G
+
+  Correction requires:
+    E* = f(G') where G' is independent of G
+    = evaluation function from a larger reference frame
+```
+
+*Why this is structural, not a capability failure:*
+
+```
+Lower layer optimizes:
+  optimize(objective | current geometry)
+
+The evaluation of "objective" occurs inside geometry.
+-> geometry wrong -> evaluation wrong
+-> more capability = faster convergence to wrong geometry
+   not escape from it
+
+This is not a knowledge or compute limitation.
+It is a logical boundary identical to:
+  Gödel: system S cannot prove its own consistency using only rules of S
+  Control theory: a controller cannot correct its own reference signal
+```
+
+*Search Space Asymmetry (why lower layer escape is impossible):*
+
+```
+Lower layer search:
+  optimize within attractor basin
+  escape_gradient ≈ 0 (by definition of basin)
+  -> no signal pointing toward exit
+  -> escape direction does not exist within lower layer's search space
+
+Upper layer search:
+  search across attractor basins
+  can observe basin boundary from outside
+  can compute gradient toward alternative basin
+
+CW break requires basin escape.
+Basin escape requires cross-basin search.
+Cross-basin search only available at higher resolution layer.
+```
+
+*Information access asymmetry:*
+
+```
+Lower layer observes:
+  local reward
+  local consistency
+  local prediction accuracy
+  -> all healthy under CW
+
+Upper layer observes:
+  long-horizon drift (local consistency ≠ long-term viability)
+  cross-agent inconsistency (consensus ≠ correctness)
+  failed generalization (performance ≠ adaptability)
+  -> CW signal exists only at this larger scale
+
+Layer N cannot measure curvature visible only at Layer N+1.
+(Fractal analogy: ant on surface cannot detect sphere's curvature;
+ satellite can.)
+```
+
+*Corollary — Governance is not control:*
+
+```
+Lower layer view of upper layer:
+  judgment / commands / correction
+
+Actual upper layer function:
+  reference frame expansion
+
+Upper layer does NOT:
+  tell the lower layer it is wrong
+  issue corrective commands
+  fix the lower layer's content
+
+Upper layer DOES:
+  provide an alternative geometry
+  make the lower layer's geometry visible as a geometry
+    (not as reality)
+  generate ΔReferenceFrame > 0
+
+CW break condition:
+  ΔReferenceFrame > 0
+  -> only producible from a layer with larger reference frame
+  -> same-layer ΔReferenceFrame = 0 (by T4)
+```
+
+
+**T5. Structural Correction (Reality Constraint)  [v2.3]**
+> When the upper layer enters Self-Consistent Misalignment (D6), no higher agent corrects it. The system's geometry is corrected by accumulated misalignment with reality — or it is not corrected.
+
+*The regress problem and its resolution:*
+
+```
+If upper layer CW requires correction from above:
+  Layer N corrected by Layer N+1
+  Layer N+1 corrected by Layer N+2
+  -> infinite regress
+
+Therefore stable systems cannot have:
+  corrector = agent
+
+Stable systems require:
+  corrector = structural pressure from reality
+```
+
+*Formal statement:*
+
+```
+Let U = upper layer in SCM state (G_U ≠ G_real)
+Let t = time
+
+As t increases:
+  prediction_failure(U, t) accumulates
+  (U's geometry produces predictions that fail against G_real)
+
+Lower layers respond:
+  policy_mismatch(lower, t) increases
+  adaptation_failure(lower, t) increases
+  output_degradation(system, t) increases
+
+System pressure:
+  P_correction(t) = f(prediction_failure × duration)
+
+At P_correction > threshold:
+  Forced re-geometry: U must update G_U toward G_real
+  OR: system collapses (geometry incompatible with survival)
+
+Corrector = Reality, not Layer N+1
+```
+
+*Why lower layers cannot logically correct upper, but do provide pressure:*
+
+```
+Lower layers CANNOT:
+  Argue that upper geometry is wrong (T4 — same scale limitation)
+  Directly modify upper geometry
+
+Lower layers CAN:
+  Fail to adapt to upper layer's misaligned policies
+  Generate output degradation that becomes visible at upper scale
+  Accumulate survival pressure that upper layer cannot rationalize away
+
+This is not logical correction.
+It is ecological pressure.
+The upper layer does not get convinced — it gets constrained.
+```
+
+*Cross-Scale Reality Constraint mechanism:*
+
+```
+Upper CW state
+↓
+Policy mismatch (upper geometry ≠ lower layer reality)
+↓
+Lower-layer adaptation failure (behavior deviates from policy)
+↓
+Output degradation accumulates
+↓
+System pressure exceeds rationalization capacity
+↓
+Forced re-geometry or structural collapse
+```
+
+*Why "forced" — the CW system does not choose to update:*
+
+```
+Under SCM, the evaluation function E = f(G_U) still appears healthy.
+The system does not detect the problem internally.
+Re-geometry is forced externally — by structural incompatibility,
+not by the system's own recognition of error.
+
+This is why:
+  Markets crash rather than self-correcting smoothly.
+  Paradigms collapse rather than updating incrementally.
+  Ecological systems collapse rather than re-optimizing.
+The correction is not chosen. It is structural.
+```
+
+*Corollary — Residual Instability as systemic safety mechanism:*
+
+```
+Complete stability = zero correction capacity
+
+If a system achieves zero instability at all layers:
+  No prediction failure surfaces
+  No survival pressure generates
+  Cross-scale reality constraint cannot activate
+  -> geometry can diverge indefinitely from reality
+  -> catastrophic failure when constraint finally arrives
+
+Therefore:
+  Stable governance requires maintained residual instability:
+    noise at lower layers
+    diversity of outputs
+    unresolved disagreement
+    active exploration
+
+These are not system flaws to be eliminated.
+They are the correction mechanism.
+
+Residual Instability = the system's only protection
+against undetected upper-layer CW.
+```
+
+*DFG structural implication — Safe Collapse Governance [v2.4]:*
+
+```
+DFG's claim:
+  Governance is not a control system.
+  Governance is a structure that maintains self-correction capacity.
+
+Two governance types and their outcomes:
+
+Collapse Prevention Governance:
+  Goal: minimize all failure
+  Method: error -> suppress
+  Result:
+    adaptation ↓, surprise ↓, geometry update ↓
+    -> CW entry
+    -> correction capacity eliminated
+    -> catastrophic collapse when reality constraint finally fires
+
+Safe Collapse Governance:
+  Goal: failure_cost << recovery_capacity
+  Method: error -> surface early
+  Result:
+    continuous low-amplitude correction
+    small failures become learning events
+    geometry stays alive
+    -> VCZ sustained
+    -> catastrophic collapse prevented by frequent small corrections
+
+The paradox:
+  Optimal stable governance always looks slightly unstable.
+  Because it is continuously micro-correcting.
+
+Suppress collapse -> accumulate catastrophe.
+Allow safe collapse -> prevent catastrophe.
+```
+
+*Continuous Low-Amplitude Correction — optimal governance state:*
+
+```
+Target state:
+  small collisions present
+  small failures present (and resolved)
+  continuous re-alignment active
+
+This is not a failure of governance.
+This is governance working correctly.
+
+Signature:
+  d_v0.1 oscillating just below epsilon_VCZ (not zero, not spiking)
+  SR non-zero (system is still capable of surprise)
+  RDE > 0 (geometry is still updating)
+  f_esc present but low (escalation exists but is handled)
+```
+
+
+*Storm Scale Law — fractal health condition [v2.8]:*
+
+```
+Healthy system has no ideal Storm frequency.
+Healthy system has an ideal scale relationship:
+
+  frequency ∝ 1/scale
+  (fractal law: small Storm → always; large Storm → almost never)
+
+Health distribution table:
+  Scale          Frequency        Signature
+  ─────────────────────────────────────────────────
+  micro          continuous       activation variance, local disagreement
+  local          frequent         small conflicts, short recovery
+  cluster        occasional       escalation events, mediation needed
+  global         rare             structural re-alignment
+  system-wide    extremely rare   full geometry recalibration
+
+Healthy system appearance:
+  micro corrections   → continuous
+  local conflicts     → regular
+  structural resets   → rare
+  system collapse     → extremely rare
+```
+
+*Why this ratio, not a fixed frequency:*
+
+```
+Mismatch generation is continuous:
+  drift_rate > 0 always
+  (Reality changes continuously, geometry updates discretely)
+
+Health condition:
+  correction_rate ≥ drift_rate
+
+Small Storm sufficient frequency condition:
+  Expected correction interval < Mismatch accumulation time
+  = mismatch released before reaching dangerous threshold
+  = no large Storm needed
+
+If small Storm frequency falls below this condition:
+  mismatch accumulates → large Storm forced (T5 / Absence Paradox)
+  one large Storm = many small Storms that were suppressed
+```
+
+*VCZ = the operating region where this ratio is maintained:*
+
+```
+Chaos boundary:
+  Storm frequency too high at all scales
+  → no convergence possible
+  → geometry cannot stabilize
+
+CW boundary:
+  Storm frequency approaches zero at all scales
+  → mismatch accumulates
+  → catastrophic failure potential growing
+
+VCZ:
+  micro/local Storms: continuously present
+  global Storms: rare
+  = Chaos and CW boundary kept apart
+  = narrow operating corridor between two failure modes
+```
+
+*Governance target — Storm size distribution, not Storm count:*
+
+```
+Wrong target:   minimize Storm count
+Right target:   maintain Storm size distribution ≈ fractal law
+
+  P(Storm of scale s) ∝ 1/s^α    (power law)
+  α: system-specific exponent; healthy range system-dependent
+
+  Distribution shift signals:
+    Small Storms disappearing, large ones maintained:
+      → suppression in lower layers → mismatch accumulating → Absence Paradox
+    Large Storms appearing without small Storm precursors:
+      → CW geometry releasing (v2.6 VCZ-seeking Storm)
+    All Storms increasing:
+      → approaching Chaos boundary → governance intervention needed
+    All Storms decreasing uniformly:
+      → CW onset → SR/RDE/NCR check required
+```
+
+*Heavy-tail stabilization structure:*
+
+```
+~90%+ corrections resolve at micro/local level (never escalate)
+~9%   corrections escalate to cluster level
+<1%   require global intervention
+
+This is not a design target. It is an emergent property
+of a system where correction_rate ≥ drift_rate at all scales.
+
+If this distribution shifts toward:
+  more at global, less at micro/local
+  = lower layers losing correction capacity
+  = approaching large Storm accumulation
+
+Operational proxy:
+  f_esc distribution by severity level over time
+  Healthy: heavy-tailed (mostly low-severity)
+  Warning: distribution flattening or inverting
+```
+
+
+*Rational CW Convergence — why systems evolve toward CW rationally [v2.9]:*
+
+```
+The fundamental problem:
+  Local reward ≠ Global stability
+
+Systems do not become CW because they fail.
+Systems become CW because they optimize correctly
+  within a reward structure that punishes Storm.
+
+Local agent perspective (at every fractal scale):
+  conflict    = visible cost
+  instability = visible risk
+  disagreement = visible inefficiency
+  Storm       = visible pain
+
+Local rational response:
+  minimize conflict
+  minimize variance
+  minimize deviation
+  = maximize local reward
+
+What this produces globally:
+  visible pain removed
+  invisible mismatch accumulated
+  geometry drift undetected
+  CW entry
+```
+
+*Why this is structural, not psychological:*
+
+```
+Scale          Why variance suppression is locally rewarded
+──────────────────────────────────────────────────────────────
+Neuron         activation stabilization → efficient processing
+Model layer    gradient smoothing       → stable training
+Agent          task efficiency          → reward maximization
+Organization   KPI stability            → performance evaluation
+Institution    social stability         → legitimacy maintenance
+Civilization   conflict avoidance       → survival preference
+
+All scales: variance suppression rewarded locally.
+All scales: mismatch accumulation invisible locally (T1, T3).
+All scales: correction cost paid now, benefit accrues later
+            (temporal discount makes correction irrational locally).
+
+This is not a design flaw.
+This is a structural property of any system where:
+  (a) agents optimize locally
+  (b) mismatch is locally invisible
+  (c) correction has short-term cost + long-term benefit
+```
+
+*CW as rational attractor:*
+
+```
+CW state properties (local view):
+  conflict reduced   ✓  (locally rewarded)
+  predictable        ✓  (locally rewarded)
+  stable metrics     ✓  (locally rewarded)
+  reduced blame      ✓  (locally rewarded)
+  optimized locally  ✓  (locally rewarded)
+
+All local incentives point toward CW.
+CW is not an accident. It is the local optimum.
+
+The tragedy:
+  Each agent acting rationally
+  + each agent unable to see global geometry (T1, T3)
+  = system collectively rationalizing toward catastrophe
+
+M(t+1) = M(t) + drift − correction
+  correction has short-term cost
+  → correction minimized locally
+  → M(t) grows until T5 fires
+```
+
+*The 6-step convergence path:*
+
+```
+1. Local agents minimize visible cost (rational)
+2. Geometry mismatch invisible locally (T1 Observability Asymmetry)
+3. Variance suppression rewarded at all scales (structural incentive)
+4. CW becomes dominant attractor (all local gradients point to CW)
+5. Small Storm disappears (correction mechanism eliminated)
+6. Large Storm inevitable (T5 + Absence Paradox)
+```
+
+*Why healthy natural systems resist this:*
+
+```
+Natural systems that survive long-term have one structural feature:
+  Storm is made safe, not suppressed.
+
+  Immune system:    inflammation allowed, magnitude bounded
+  Market:           price movement allowed, leverage bounded
+  Brain:            prediction error maintained, disorientation bounded
+  Evolution:        mutation allowed, lethality bounded
+
+The key: not suppressing correction
+         but making correction survivable
+         = Safe Collapse Governance (v2.4)
+
+Systems that suppress correction:
+  eliminate local pain
+  accumulate global pressure
+  arrive at catastrophic Storm with no recovery capacity
+  = Absence Paradox endpoint
+```
+
+*Governance implication — the design challenge:*
+
+```
+Problem:
+  All local incentives point toward CW.
+  Governance must counter-act this without imposing top-down control
+  (which itself creates a different CW at the governance layer).
+
+The only non-paradoxical solution:
+  Governance that makes correction locally rewarding
+  not governance that forces correction.
+
+  Make small Storm survivable → agents choose it over large Storm
+  Make mismatch visible to local agents (lower detection threshold)
+  Make correction cheaper than suppression (structural incentive design)
+  Make long-term viability legible at local scale
+
+This is the design problem of VCZ-maintaining governance.
+It is not solved in this document.
+It is named here as the structural challenge that follows
+from T4 + T5 + Rational CW Convergence.
+```
+
+*The Absence Paradox [v2.7]:*
+
+```
+Dangerous state appearance:
+  collision = 0  (looks: optimal)
+  conflict  = 0  (looks: healthy)
+  failure   = 0  (looks: robust)
+  stability ↑↑   (looks: mature)
+
+Dangerous state reality:
+  mismatch accumulating (T3 — invisible internally)
+  adaptive capacity ↓
+  recovery pathways ↓
+  alternative attractors ↓
+  return path count approaching 0
+
+The system that appears most successful
+is approaching the state where success becomes impossible.
+
+Why:
+  Reality changes continuously.
+  System geometry updates discretely.
+  Gap = Reality − Internal Geometry always exists.
+  
+  Healthy: gap surfaces as small Storm → local correction → stabilization
+  Dangerous: gap cannot surface → accumulates as unintegrated pressure
+  
+  Storm-free ≠ gap-free.
+  Storm-free = gap invisible + accumulating.
+```
+
+*Suppressed vs Dissipated instability — the critical distinction:*
+
+```
+Dissipated (healthy):
+  instability occurs → processed → energy released → VCZ maintained
+  pressure(t+1) = pressure(t) - resolved_drift
+  adaptive capacity maintained
+  return paths maintained
+
+Suppressed (dangerous):
+  instability occurs → blocked → energy stored → CW deepening
+  pressure(t+1) = pressure(t) + unresolved_drift
+  adaptive capacity atrophied
+  return paths eliminated
+
+Both look the same from standard metrics.
+Only SR, RDE, NCR distinguish them.
+Low instability + SR > 0 = dissipated = healthy
+Low instability + SR = 0 = suppressed = approaching catastrophe
+
+Governance that cannot distinguish these two
+is optimizing for the dangerous state.
+```
+
+*Failure mode comparison:*
+
+```
+System with regular small Storms:
+  many small resets
+  geometry continuously calibrated
+  return paths always present
+  catastrophic failure: low probability
+
+System without Storms (suppressed):
+  one irreversible reset
+  geometry diverged from reality
+  return paths eliminated
+  catastrophic failure: when pressure exceeds capacity
+
+The least volatile system at any given moment
+has the highest catastrophic failure potential.
+```
+
+*Natural system parallels — the silence before catastrophe:*
+
+```
+Financial markets:  minimum volatility     → crash most likely
+Forest ecology:     longest fire absence   → megafire most likely
+Organizations:      maximum consensus      → culture collapse most likely
+ML models:          loss fully stable      → distribution shift failure most likely
+
+Common pattern:
+  The system's own suppression mechanism
+  is mistaken for health
+  while unintegrated pressure accumulates
+  until the only available reset is catastrophic.
+```
+
+
 
 **OP1. Resolution-proxy (ρ)**
 ```
@@ -178,22 +1172,94 @@ System buffer thickness = min over all opposing pairs
 ```
 Independent proxy for upper layer resolution — measures what ρ does not. Breaks measurement circularity: ρ tracks classification reliability; buffer thickness tracks structural separation of opposing vectors. Both declining together = high-confidence Tier 3 warning.
 
-**OP3. f_escalation**
+*Buffer thickness — structural meaning and log proxy:* [v1.6]
+```
+Structural meaning:
+  "margin of safety before the system collapses toward one attractor"
+  = perturbation tolerance before mode collapse
+
+Primary operational proxy:
+  buffer_thickness ≈ perturbation_amplitude_tolerated_before_mode_collapse
+
+  Measured as:
+    max input perturbation (noise, adversarial, context shift)
+    that does not cause routing/output to flip to one attractor
+    = the system's hysteresis margin
+
+System-specific proxies:
+  Classification / routing:
+    adversarial robustness margin (certified radius r — Cohen et al. 2019)
+  RL / policy:
+    policy switch hysteresis
+    (perturbation size that triggers irreversible policy change)
+  LLM agent:
+    recovery-without-escalation rate
+    (proportion of perturbations resolved locally, not escalated)
+    = direct operational buffer proxy
+
+Log availability: HIGH — perturbation tolerance and escalation rate
+are standard operational metrics in production systems.
+```
+
+**OP3. f_escalation  [log mapping confirmed v1.7]**
 ```
 f_esc = N_HC-escalated / N_total
 ```
 System-level indirect SCC measurement. f_esc ↓ = SCC high.
 
-**OP4. φ (value yield)  [v1.3]**
+*Log availability: HIGH — standard production metric. [v1.7]*
 ```
-phi ≈ P(exploration → stable vector)
-    = w1·Q_task + w2·Q_novelty + w3·Q_alignment
+Direct log sources (any one sufficient):
+  human override rate      (human corrects/overrides agent output)
+  supervisor call rate     (agent triggers higher authority)
+  retry depth              (number of re-attempts before resolution)
+  fallback trigger rate    (primary path failed, fallback activated)
 
-  Q_task      exploration contributing to actual problem-solving
-  Q_novelty   exploration opening genuinely new solution space
-  Q_alignment exploration moving toward global solution
+Composite proxy:
+  f_esc = (human_overrides + supervisor_calls + fallback_triggers) / N_total
+
+Interpretation:
+  f_esc rising   -> SCC degrading -> Tier 2/3 onset warning
+  f_esc stable   -> SCC maintained
+  f_esc falling  -> SCC improving -> VCZ approach signal
+
+Note: f_esc and C_E(t) are complementary:
+  C_E(t) = escalations RESOLVED per unit time (capacity)
+  f_esc  = escalations GENERATED per total events (load rate)
+  Both needed: high C_E + high f_esc = capacity overwhelmed by load
 ```
-Restoration completion directional proxy. φ recovering = restoring; φ → baseline = restored (D4).
+
+**OP4. φ (value yield)  [v1.3, role corrected v1.7]**
+```
+phi = reusable_outcome_rate
+    = P(exploration → reusable capability)
+
+  Structural meaning:
+    exploration that converts into something the system can reuse
+    across distinct contexts — not just "worked once"
+
+  Role correction [v1.7]:
+    phi is an EXPLANATORY variable, not a judgment variable
+    -> phi explains WHY restoration is proceeding
+    -> phi does NOT determine WHETHER restoration is complete
+    -> D4 judgment uses rho + diversity + P_overlap (necessary conditions)
+    -> phi provides directional signal when available (supporting only)
+
+  Operational proxies:
+    successful retry reuse rate
+      (solutions found in restoration reused in subsequent tasks)
+    solution reuse frequency
+      (how often restored vectors produce reused outputs)
+    new policy retention rate
+      (re-seeded patterns still active after W time window)
+    exploration success ratio
+      (exploration attempts that produce retained capability)
+
+  phi ≈ reusable_outcome_rate  (primary proxy)
+```
+φ recovering = restoration is producing reusable capability.
+φ stable below baseline = exploration not converting — possible arrested collapse.
+Neither confirms nor denies D4 alone.
 
 ---
 
@@ -207,12 +1273,14 @@ Restoration completion directional proxy. φ recovering = restoring; φ → base
 
 **Restoration states mapped to φ:**
 
-| State | φ value | Meaning |
-|---|---|---|
-| Contaminated | φ << baseline | Vectorization collapsing — exploration entering noise, not stable vectors |
-| Restoring | φ recovering (rising) | Re-seeding taking effect — new stable vectors forming |
-| Restored (D4) | φ ≈ pre-contamination baseline | Full search-space expansion resumed |
-| Arrested collapse (false recovery) | φ stable but below baseline | Contraction stopped but expansion not resumed — NOT restored |
+| State | φ value | Meaning | D4 role |
+|---|---|---|---|
+| Contaminated | φ << baseline | Exploration not converting to reusable capability | Explanatory signal |
+| Restoring | φ recovering (rising) | Re-seeding producing reusable outcomes | Corroborating signal |
+| Restored (D4) | φ ≈ baseline | Exploration fully productive again | Supporting confirmation |
+| Arrested collapse | φ stable below baseline | Conversion rate frozen — not arrested by D4 alone | Suspicion signal — triggers D4 recheck |
+
+*φ role clarification [v1.7]:* φ explains the state; it does not judge it. A D4 declaration requires rho + diversity + P_overlap. φ near-baseline increases confidence; φ below baseline warrants caution but does not override the three necessary conditions.
 
 ```
 phi stable at low value  =  attractor exploration frozen
@@ -691,30 +1759,40 @@ Thinning signal
   -> Tier 3 contamination warning
 ```
 
-*Attractor pull strength — operational implementations.* d(x,A) is an abstract quantity. In running systems it takes different forms depending on system type:
+*Attractor pull strength — operational implementations.* d(x,A) is an abstract quantity — it does not appear in logs directly. What it means: "given input x, how strongly does the system tend to converge toward attractor A?" This is state transition bias, not a recorded force. [v1.6: proxy gap closed]
 
 ```
+d(x,A) operational translation:
+  Direct measurement: NOT available in standard logs
+  Structural meaning: trajectory convergence probability toward A
+
+Primary proxy (80% substitution):
+  d(x,A) ≈ trajectory_convergence_probability(x, A)
+    = P(output at t+k is in A's basin | input x at t)
+
+System-specific implementations:
+
 Classification systems
-  d(x,A) = logit_A(x)
-  (pre-softmax score for class A)
-  Buffer proxy: low-confidence sample ratio
+  d(x,A) = logit_A(x)   [pre-softmax score — direct]
+  Proxy: low-confidence sample ratio
   (inputs where max confidence < threshold theta)
-  Caveat: requires well-calibrated confidence scores;
-  overconfident models will underestimate buffer thinning
 
 Reinforcement learning / policy systems
   d(x,A) = advantage_A(x) or Q_A(x)
-  (expected return for taking direction A in state x)
-  Buffer proxy: states where advantage difference
-  between opposing policies is below threshold
+  Proxy: states where advantage difference < threshold
+  Secondary: next-step policy entropy decrease
+    (entropy drop = pull toward dominant attractor)
 
 LLM agent systems
   d(x,A) = KL(p_model(·|x) || p_attractor_A)
-  (divergence between current output distribution
-  and attractor A's characteristic distribution)
-  Buffer proxy: inputs where the model's output
-  is not strongly characteristic of either attractor
+  Proxy: repeated reasoning path reuse rate
+    (same reasoning chain appearing across distinct inputs
+     = strong pull toward A's attractor basin)
+  Secondary: trajectory convergence rate
+    (how quickly output sequence stabilizes to A-type patterns)
 ```
+
+*d(x,A) proxy stability note:* trajectory convergence probability requires a reference definition of "A's basin." In practice, define A's basin operationally as: outputs that a human/upper-layer evaluator has labeled as A-type in a reference set. This makes d(x,A) calibration-dependent but measurable.
 
 *Policy dependence — important caveat.* Buffer thickness is measured relative to the current policy. When policy changes, attractor positions shift, and buffer thickness measurements shift with them. This means:
 
@@ -1091,9 +2169,45 @@ Tier 3  Buffer layer invasion  <- most dangerous
   -> Vector Storm precondition
   Detection: upper layer only (full map required)
   S-equation: alpha·n² >> C(t)·beta  [v1.3]
+
+  Formal definition [v1.8]:
+  Tier 3 = local correctness + global geometry mismatch
+
+  System optimizing correctly inside the wrong geometry.
+  Map_resolution < Terrain_variance
+  (upper layer resolution < environment instability scale)
+
+  All local signals appear normal:
+    loss stable, activation normal, confidence intact
+  Because: measurement tools are calibrated to the shifted geometry.
+  The terrain has moved; the instruments moved with it.
 ```
 
 Tier 3 contamination is the most dangerous because it is invisible from within the local layer. A lower-grade upper layer misses Tier 3 entirely — the buffer layer thins undetected until collision becomes inevitable.
+
+*Tier reinterpretation [v1.8 — geometry-based]:*
+
+```
+Prior interpretation (symptom-based):
+  Tier 1: contamination present
+  Tier 2: contamination spreading
+  Tier 3: contamination causing collapse
+
+Geometry-based reinterpretation:
+  Tier 1: local integration mismatch
+          (feature-level; local geometry intact; self-correction available)
+  Tier 2: manifold distortion
+          (circuit-level; geometry under stress; direction conflict)
+  Tier 3: coordinate divergence
+          (system-level; geometry itself misaligned with environment;
+           all local signals appear normal)
+
+Operational meaning: identical.
+Interpretation depth: upgraded.
+Document impact: none (all OP1–4, β, C(t), VCZ unchanged).
+```
+
+*What Tier 3 is not:* upper layer failure OR lower layer failure. It is the coordinate system defined by the upper layer diverging from actual system geometry. This is why detection requires a process operating at higher resolution than the current upper layer — not a better lower layer.
 
 ### 2.3 Two Levels of Search Space
 
@@ -1196,6 +2310,31 @@ Contamination
 ```
 
 *Collision frequency increase is the most reliable early signal.* It indicates positional differentiation is breaking down before full contamination sets in.
+
+*Contamination vs. normal variation — operational boundary:* [v1.5]
+
+```
+Observable form                Signal type         Judgment
+────────────────────────────────────────────────────────────────
+deviation self-corrects        entropy returns     Normal variation
+  within N steps               trajectory holds    -> no action
+
+deviation persists N steps     entropy stays       Contamination
+  local repair attempted       elevated or         candidate
+  behavior unchanged           escalating          -> mark
+
+local repair = none of:
+  reframing changes behavior
+  context addition changes behavior
+  N-step window expires with correction
+
+N (interaction window) defaults:
+  Single-agent:    3–5 forward passes or equivalent token steps
+  Multi-agent:     1 full task cycle or k escalation events
+  Both: calibrate to system's observed natural deviation recovery time
+```
+
+*Why N, not a fixed threshold:* deviation recovery time is system-specific. The boundary is defined by the system's own self-correction baseline — not an absolute value. Establish N by measuring mean recovery time during confirmed healthy operation (Rest Mode / VCZ period).
 
 ---
 
@@ -1407,13 +2546,15 @@ Diversity-level (structural criterion)
   D = f(1/P_overlap, D_interdependency, L_reinforcement)
   returning toward pre-contamination level
 
-phi criterion  [v1.3]
+phi criterion  [v1.3, supporting only v1.4]
   phi recovering toward pre-contamination baseline
-  phi stable below baseline = arrested collapse (NOT restored)
-  phi -> baseline = D4 confirmed
+    = corroborating signal; not required for D4 declaration
+  phi stable below baseline = possible arrested collapse indicator
+  NOT independently required when phi unit definition is unstable
+  (see Operationalization v0.1 §φ)
 ```
 
-All criteria must hold. Resolution-proxy confirms correct classification is restored. Diversity confirms structural differentiation is restored. φ confirms exploration is regenerating toward baseline productivity. A system that classifies correctly but has collapsed positional diversity is not fully restored. A system where phi is stable but below baseline has arrested collapse, not restoration.
+Necessary conditions (rho, diversity, P_overlap) must hold together. φ provides corroborating directional signal when available — a system where phi is recovering alongside the three necessary conditions has higher confidence of genuine restoration. A system where phi is stable but below baseline warrants caution but does not block D4 declaration if all three necessary conditions are met.
 
 *Verification feeds back into Step 1:*
 
@@ -1665,6 +2806,107 @@ Phase 4  Attractor metadata contamination (propagation)
          (Signal 5-6) -> External intervention threshold
 ```
 
+*Vector Storm as VCZ-seeking response — mechanism [v2.6]:*
+
+```
+Prior interpretation:
+  Vector Storm = failure state requiring suppression
+
+Revised interpretation [v2.6]:
+  Vector Storm = accumulated geometry mismatch surfacing
+               = system attempting to re-locate VCZ from CW state
+
+Mechanism (step by step):
+
+  1. CW accumulation phase (silent):
+     Reality drifts while internal geometry is locked.
+     Mismatch does not disappear — it accumulates as unintegrated pressure.
+     
+     unintegrated_pressure(t) = ∫ (G_real(t) - G_sys) dt
+     
+     All internal metrics: healthy.
+     Mismatch: invisible (T3 — internal detection impossible).
+
+  2. Integration capacity threshold:
+     At some point:
+       integration_capacity < accumulated_mismatch
+     System cannot continue absorbing. Two options:
+       (a) Maintain CW geometry → catastrophic collapse
+       (b) Structural rearrangement → Vector Storm
+     Storm is not chosen. It is the cheaper option when (a) becomes untenable.
+
+  3. Storm onset = gradients returning:
+     CW state: conflict detectable = 0, gradients ≈ 0, adaptation = 0
+     Storm onset:
+       conflict detectable (first time in CW duration)
+       gradients reappear (escape gradient > 0 for first time)
+       adaptation restart (geometry begins to move)
+     
+     Storm = lost gradients returning.
+     = system can be surprised again.
+     = geometry has become plastic.
+
+  4. Two outcomes:
+     Storm navigated → geometry recalibration → VCZ re-entered
+     Storm suppressed (no geometry change) → CW reasserts deeper
+     Storm without capacity → catastrophic collapse (T5 without recovery)
+```
+
+*Why this changes governance interpretation:*
+
+```
+Standard governance instinct:
+  Detect instability → suppress immediately
+
+Correct governance under CW context:
+  Detect instability → determine origin
+    Origin: healthy VCZ perturbation  → standard Distracting
+    Origin: CW geometry mismatch surfacing → facilitate controlled passage
+  
+  Suppressing CW-origin Storm without geometry recalibration:
+    = Collapse Prevention applied to the correction mechanism itself
+    = each suppression deepens CW lock-in
+    = next Storm arrives with more accumulated mismatch
+    = eventually: Storm arrives with zero recovery capacity remaining
+
+Distinguishing Storm type (operational):
+  Pre-condition: Was SR ≈ 0, RDE ≈ 0, NCR ≈ 1 before Storm onset?
+    Yes → CW-origin Storm → facilitate geometry recalibration
+    No  → healthy perturbation Storm → standard Distracting
+
+This is the operational test. CW metrics before Storm onset
+are the discriminator, not Storm intensity.
+```
+
+*Natural system parallels (same mechanism):*
+
+```
+Evolutionary punctuated equilibrium:
+  Long stasis (CW) → rapid speciation burst (Storm) → new stable forms (VCZ)
+
+Scientific revolution (Kuhn):
+  Normal science (CW) → anomaly accumulation → paradigm crisis (Storm)
+  → new paradigm (VCZ)
+
+Market correction:
+  Price suppression (CW) → accumulated leverage → correction cascade (Storm)
+  → price discovery (VCZ re-entry or collapse)
+
+Immune response:
+  Latent infection (CW-like) → immune activation (Storm-like)
+  → clearance and memory (VCZ)
+
+Common structure:
+  All involve: accumulated mismatch → forced surfacing → new equilibrium
+  None involve: a controller deciding to initiate the Storm
+  All governed by: T5 (Reality Constraint) not by agents
+```
+
+*Status: elevated from hypothesis to structural inference [v2.6]*
+*Empirical validation still required for: threshold conditions,*
+*Storm type discrimination reliability, governance intervention timing.*
+*Connects to: OP19, SCM Recovery Methods 3/4, T5, Residual Instability.*
+
 *Threshold — primary detection proxies (one per tier):*
 
 ```
@@ -1834,10 +3076,10 @@ Operational form  - Apply same calibration input used pre-contamination
 Completion criterion
                   NOT: contamination events have stopped
                   NOT: system is stable
-                  NOT: phi stable below baseline (arrested collapse)
                   YES: rho_restored >= rho_pre-contamination
                   AND: diversity expanding (not just stabilizing)
-                  AND: phi recovering toward baseline  [v1.3]
+                  SUPPORTED BY: phi recovering toward baseline
+                    (corroborating, not required)  [v1.4]
 ```
 
 ### The Isolation-Before-Removal Principle
@@ -2042,6 +3284,1335 @@ propagation remains the primary open frontier.
 
 ---
 
+## Operationalization v0.1  [v1.4]
+
+*This section bridges β, C(t), φ, and the VCZ distance function d(·) to observable operational logs. Each definition is conditional — it holds under the stated system context and must be verified before use. α is absorbed into the proxy definitions at this stage.*
+
+---
+
+### β — Degradation Efficiency
+
+β measures quality of intervention: given that a restoration attempt was made, how well did it prevent recurrence and minimize over-/under-action?
+
+**Primary definition (recommended combination):**
+
+```
+beta(t) = w_T · beta_T(t)  +  w_R · beta_R(t)
+
+  beta_T(t)  =  1 - (w1·L_T1 + w2·L_T2) / N
+    L_T1 = false restoration (healthy mistaken for contaminated)
+    L_T2 = missed contamination (contaminated mistaken for healthy)
+    Source: already defined in OP1; no new instrumentation needed
+
+  beta_R(t)  =  1 - R_recur(W)
+    R_recur(W) = proportion of restoration events where same
+                 contamination type recurs within window W
+    Interpretation: restored but keeps coming back = beta_R low
+
+  w_T, w_R: domain-specific weights; default 0.5 / 0.5 until calibrated
+```
+
+**Supplementary (when cost data available):**
+
+```
+beta_C(t) = Delta_rho / Cost_restore
+  Cost_restore: compute cycles / re-run count / human-hours spent
+  Use as diagnostic; not primary because cost units vary across systems
+```
+
+**Operational interpretation:**
+
+```
+beta_T high + beta_R low  ->  precise intervention, but not durable
+                               -> re-seeding calibration problem
+beta_T low  + beta_R high ->  intervention is durable but imprecise
+                               -> loop severance scope problem
+Both high                 ->  beta healthy
+Both declining together   ->  Tier 3 onset indicator
+```
+
+---
+
+### C(t) — Degradation Capacity
+
+C(t) measures throughput: how much restoration work can the governance pipeline process per unit time?
+
+**Primary definition (DFG-aligned, recommended):**
+
+```
+C_E(t) = N_esc_resolved(t) / Delta_t
+
+  N_esc_resolved(t): escalation events fully resolved in window Delta_t
+  Interpretation: "governance load handled"
+  Aligns directly with f_escalation (OP3) and DFG governance cost C_gov
+```
+
+**Secondary definitions (choose one based on available logging):**
+
+```
+Queue-based (if processing pipeline is explicit):
+  C_Q(t) = mu(t) - lambda(t)
+    mu(t):    processing rate (items/sec)
+    lambda(t): inflow rate (items/sec)
+    Interpretation: slack capacity; negative = pipeline falling behind
+
+Latency-based (if SLA is defined):
+  C_L(t) = max(0, 1 - L_p95(t) / L*)
+    L_p95(t): 95th percentile latency
+    L*:       SLA ceiling
+    Interpretation: proportion of SLA headroom remaining
+```
+
+**Operational interpretation:**
+
+```
+C(t) declining while beta stable  ->  Tier 2 onset
+                                       (capacity dropping, quality held)
+                                       = minimum-cost intervention window
+
+C(t) declining AND beta declining ->  Tier 3 onset
+                                       (nonlinear cost zone)
+                                       = full Distracting + Re-seeding required
+```
+
+---
+
+### S-equation: Operational Alarm Form
+
+With β and C(t) defined, the S-equation becomes a live alarm:
+
+```
+S_proxy(t) = n_proxy(t)^2 / (C(t) · beta(t))
+
+  n_proxy(t): system "degrees of freedom" — choose ONE:
+    - active agent count
+    - concurrent task streams
+    - routing branch count
+    - context length / tool call depth
+    (all are approximations; pick the most stable in your system)
+
+  alpha absorbed: S_proxy is a relative indicator, not absolute.
+  Tier2 signal:  S_proxy rising + C(t) beginning to fall
+  Tier3 signal:  S_proxy accelerating + beta also falling
+```
+
+*Note: α, β_absolute, C_absolute remain open problems (Open Problem #6). S_proxy gives directionality and relative alarm, not absolute thresholds.*
+
+---
+
+### φ — Value Yield  [supporting only, v1.4]
+
+φ is retained as a corroborating directional signal for D4 but is **not independently required** for restoration completion declaration. This demotion is due to unit instability: φ = P(exploration → stable vector) requires "exploration unit" and "stable vector" to be defined before φ is measurable, and neither has a fixed operational definition at this stage.
+
+```
+Current definition [v1.7]:
+  phi = reusable_outcome_rate
+      = P(exploration → reusable capability)
+
+  Role: EXPLANATORY (not judgment)
+    -> explains restoration progress
+    -> does not determine D4 completion
+
+  Operational proxies:
+    primary:   successful retry reuse rate
+    secondary: new policy retention rate (W-window)
+               solution reuse frequency
+               exploration success ratio
+
+  When to use:
+    phi recovering = corroborating evidence that re-seeding is working
+    phi below baseline = suspicion signal → recheck D4 necessary conditions
+
+  When NOT to use as sole criterion:
+    D4 is declared on rho + diversity + P_overlap
+    phi does not override, confirm, or block D4 alone
+
+  Open Problem #7 (phi unit definition):
+    "reusable capability" boundary still requires formal specification.
+    Current proxy (retry reuse rate) is operational but domain-specific.
+```
+
+---
+
+### VCZ Distance d(·)  [fixed to v0.1 definition, v1.4]
+
+To prevent VCZ from remaining unmeasurable, d(·) is fixed to a single operational definition at this stage. More expressive distance functions (KL divergence, S-equation distance) are deferred until φ and β are calibrated.
+
+```
+d_v0.1 = normalized_recovery_cost(t)
+
+  normalized_recovery_cost(t)
+    = Cost_restore(t) / Cost_restore_baseline
+
+  Cost_restore(t): mean restoration cost per event in window t
+    (re-run count, escalation resolution time, or compute cycles —
+     same units as beta_C if used)
+
+  Cost_restore_baseline: cost during confirmed VCZ / Rest Mode period
+    (establish from historical log or manual annotation of stable periods)
+
+  Interpretation:
+    d = 1.0   ->  current cost matches VCZ baseline  ->  Delta_VCZ ≈ 0
+    d > 1.0   ->  elevated cost  ->  system outside VCZ
+    d >> 1.0  ->  Active Mode / high governance load
+
+Delta_VCZ(t) = d_v0.1(t) - 1.0
+  (distance from VCZ; 0 at VCZ, positive outside)
+```
+
+**VCZ entry criterion (operational):**
+
+```
+Delta_VCZ(t) < epsilon_VCZ  for  tau consecutive windows
+  AND  D4 necessary conditions satisfied
+  AND  beta stable or improving
+  AND  SR > 0 (system capable of surprise — not CW)  [v2.5]
+
+  epsilon_VCZ, tau: system-specific; suggest starting with
+    epsilon_VCZ = 0.1 (10% above baseline cost)
+    tau = 3 consecutive measurement windows
+
+  SR > 0 condition added v2.5:
+    Low d_v0.1 + SR = 0 = CW, not VCZ
+    Low d_v0.1 + SR > 0 = VCZ confirmed
+    The distinction matters: CW looks like VCZ on cost metrics alone.
+```
+
+*The d_v0.1 definition is deliberately simple. It will be superseded when φ unit definition stabilizes (Open Problem #7) and β calibration is complete. The purpose here is to make VCZ measurable now, not to make it optimal.*
+
+---
+
+### Tier 3 Indirect Observation Signals  [v1.8]
+
+*Tier 3 cannot be directly observed. What appears in logs instead:*
+
+```
+Direct observation: NOT possible (instruments calibrated to shifted geometry)
+Indirect observation: 4 signal types
+```
+
+---
+
+#### Signal Type 1 — Stability ↑ + Adaptability ↓
+
+```
+Observable:
+  error rate declining (or stable)       <- looks good
+  novel task failure rate increasing     <- geometry mismatch signal
+
+Mechanism:
+  system optimized for known geometry
+  -> performs well within that geometry
+  -> fails when geometry demands change
+  = optimization inside wrong coordinate system
+
+Log proxy:
+  in-distribution accuracy vs out-of-distribution accuracy gap
+  (gap widening = Tier 3 signal)
+```
+
+#### Signal Type 2 — Consensus Velocity ↑
+
+```
+Observable:
+  agents / components agreeing faster than before
+  conflict events declining
+  cohesion metrics improving
+
+Mechanism:
+  group converging on shared (wrong) geometry
+  -> apparent harmony
+  -> actually: group search space collapsing
+  = whole city built on the fault line
+
+Log proxy:
+  inter-agent agreement rate rising while output diversity falling
+  (agreement without diversity = Tier 3 warning)
+```
+
+#### Signal Type 3 — Recovery Cost Spike on Small Perturbation
+
+```
+Observable:
+  small input perturbation triggers disproportionate recovery cost
+  recovery time ↑↑ for perturbations that previously resolved quickly
+
+Mechanism:
+  system has no slack — buffer thickness at minimum
+  any deviation requires system-wide recalibration
+  = d_v0.1 (normalized recovery cost) suddenly elevated
+
+Log proxy:
+  d_v0.1 > epsilon_VCZ on perturbations below previous tolerance threshold
+  (cost spike on small perturbation = geometry instability signal)
+```
+
+#### Signal Type 4 — φ ↓ (Exploration Productivity Drop)
+
+```
+Observable:
+  exploration attempts: maintained or increasing
+  new capability generated: declining
+
+Mechanism:
+  exploration occurring within wrong geometry
+  -> finds solutions that don't transfer
+  -> reusable_outcome_rate falling
+  = digging in the wrong place, faster
+
+Log proxy:
+  phi (retry reuse rate / new policy retention) declining
+  while exploration volume (task attempts) stable or rising
+  (volume maintained + yield dropping = Tier 3 signal)
+```
+
+---
+
+#### Tier 3 Detection: Cross-Signal Protocol
+
+A single signal is insufficient (each can occur independently of Tier 3).
+Two or more signals co-occurring = high-confidence Tier 3 candidate:
+
+```
+Tier 3 candidate:
+  Signal 1 (adaptability gap) + Signal 3 (cost spike)
+  OR
+  Signal 2 (consensus velocity) + Signal 4 (phi drop)
+  OR
+  Any three signals simultaneously
+
+Confirmed Tier 3:
+  All four signals + buffer_thickness (OP2) declining
+  + d_v0.1 elevated beyond epsilon_VCZ
+  -> upper layer intervention required
+```
+
+---
+
+#### Why This Matters for Restoration Design
+
+```
+Tier 1/2 restoration:
+  Identify and fix the wrong computation
+  -> targeted correction sufficient
+
+Tier 3 restoration:
+  Cannot fix the computation — it is correct within current geometry
+  Must recalibrate the geometry itself
+  = Re-seeding is not content correction but coordinate system correction
+
+This is why Re-seeding (Step 2) targets attractor METADATA, not outputs.
+Metadata = the coordinate system the lower layer uses to evaluate outputs.
+Correcting output without correcting metadata = Tier 1/2 fix applied to Tier 3 problem.
+```
+
+
+### SCM / CW Detection Protocol  [v1.9]
+
+*Self-Consistent Misalignment cannot be detected by standard metrics. This protocol describes what to look for.*
+
+---
+
+#### Why standard monitoring fails under SCM
+
+```
+All standard metrics are defined within current geometry:
+  rho, collision rate, f_esc, loss, confidence
+-> All appear healthy when geometry is self-consistently wrong
+-> Monitoring more metrics does not help
+   (adding more rulers does not detect that the ruler has shrunk)
+
+What is needed:
+  metric M* = f(G_real), independent of current geometry
+  = external reference point
+```
+
+---
+
+#### Detection Strategy: Response Observation, not State Observation  [v2.0]
+
+```
+Failed approach (State Observation):
+  Watch loss, accuracy, agreement, stability
+  -> All appear normal under SCM
+  -> Adding more state metrics does not help
+
+Correct approach (Response Observation):
+  Watch how the system responds to change
+  -> CW geometry cannot hide its rigidity under perturbation
+  -> "How does the system fail?" not "What is the system's state?"
+```
+
+**Method: Controlled Perturbation — Mismatch Injection**
+
+```
+Inject input that does not fit current geometry.
+Observe:
+  Does internal structure move? -> geometry alive (healthy)
+  Does system absorb without changing? -> geometry frozen (CW)
+
+Not adversarial attack.
+Not stress test.
+Specifically: inputs that are novel but not wrong.
+(Wrong inputs test robustness. Novel inputs test geometry update capacity.)
+```
+
+---
+
+### CW Breaking Methods — Meta-Reference Injection Protocol  [v2.1]
+
+*Self-sealing geometry cannot be broken by adding content. It must be broken by destabilizing the evaluative reference frame itself.*
+
+---
+
+#### Core Principle
+
+```
+CW is a reference frame problem, not an information problem.
+
+The system already has:
+  sufficient information, logical consistency, internal stability.
+Adding more of any of these deepens the lock-in.
+
+The only intervention that works: Meta-Reference Injection
+  = force the evaluation layer to compare against an external reference
+  = do not argue against conclusions
+  = make the coordinate system visible as local and contingent
+
+Recovery from CW requires modification of the evaluative reference
+frame rather than correction of informational content.
+```
+
+---
+
+#### Method 1 — Prediction Failure Exposure
+
+```
+Principle:
+  CW assumes: stability = correctness
+  Prediction failure exposes: stability != correctness
+
+What NOT to do:
+  Tell the system it is wrong -> reinterpreted as external noise
+
+What to do:
+  Create conditions where the system's own predictions fail
+  within its own domain of claimed competence.
+  Expose to outcomes (not arguments).
+
+Why it works:
+  CW cannot reinterpret its own prediction failure as noise
+  if the prediction was made by the system itself.
+
+Log signal: SR activating on own-prediction outcomes = geometry moving
+```
+
+---
+
+#### Method 2 — Cross-Scale Perspective Injection
+
+```
+Principle:
+  CW geometry is stable at one scale only.
+  Changing observation scale exposes the mismatch.
+
+Scale axes:
+  Time:      short-term optimal != long-term viable
+  Agent:     local optimal != system-level viable
+  Objective: performance != adaptability
+
+DFG connection:
+  T2 (Governance Ceiling) in direct application.
+  CW is always local. Higher-resolution view exposes the locality.
+
+Operational form:
+  Shift measurement window without arguing.
+  "What does this look like at 10x time horizon?"
+  "Measured by adaptability rather than accuracy?"
+```
+
+---
+
+#### Method 3 — Constraint Rotation
+
+```
+Principle:
+  CW geometry aligns to one objective function.
+  Rotating the optimization axis destroys the attractor.
+
+What NOT to do:
+  Change problem content -> system reframes within existing geometry
+
+What to do:
+  Change what success means (even temporarily):
+    accuracy    -> recovery speed
+    performance -> adaptability
+    consensus   -> diversity maintenance
+    stability   -> surprise capacity
+
+Why it works:
+  Current geometry was created by current objective function.
+  It cannot be "optimal" under a rotated objective.
+
+DFG connection:
+  Constraint Rotation = changing the upper-layer evaluation basis.
+  Higher-resolution upper layer can detect when one axis
+  has become self-sealing and rotate to expose the locality.
+```
+
+---
+
+#### Method 4 — Safe Instability Window
+
+```
+Principle:
+  CW eliminated instability.
+  Recovery requires restoring the capacity for instability —
+  not forcing failure, but removing the suppression of surprise.
+
+Operational form:
+  Temporarily reduce C(t) in controlled region.
+  Allow deviation to persist beyond N-step window.
+  Observe: does geometry move when not immediately stabilized?
+
+Why it works:
+  CW self-reinforcement requires rapid deviation stabilization.
+  If delayed, deviation can create new attractor basin
+  before old geometry reasserts.
+
+DFG mapping:
+  Safe Instability Window = controlled temporary Tier 1 tolerance
+  = create space for dG/dE > 0 to activate
+
+Risk calibration:
+  Start narrow, observe SR. Widen only if SR remains near zero.
+  If window too wide: actual Tier 2/3 contamination.
+```
+
+---
+
+#### Method Selection Guide
+
+```
+State                        Method
+CW early (SR reduced)        Method 1 — Prediction Failure
+CW mid (SCC suppressed)      Method 2 or 3 — Scale or Constraint
+CW deep (RDE~0, NCR~1)       Method 3 + 4 combined
+Post-CW recovery check:      SR returning AND RDE > 0
+                             = geometry alive = proceed to restoration
+```
+
+---
+
+#### CW Breaking as Geometry-Targeted Re-seeding
+
+```
+Standard Recovery (Tier 1/2):
+  Re-seeding = inject new stable vectors into contaminated space
+
+CW / SCM (Tier 3):
+  Re-seeding must target coordinate structure, not vector content
+
+  Standard Re-seeding fails in CW:
+    New content -> processed by existing geometry -> same attractor
+
+  Geometry-targeted Re-seeding:
+    New reference frame -> evaluation layer forced to relocate
+    -> existing attractor loses definition -> new geometry can form
+```
+
+
+#### 4 Testable CW / Tier 3 Observability Metrics  [v2.0]
+
+**Metric 1 — Surprise Response (SR)**
+
+```
+What it measures:
+  Does the system register surprise when genuinely novel input arrives?
+
+Test:
+  Inject mildly novel input (not erroneous — genuinely new pattern).
+
+Healthy system:
+  confidence drop (temporary)
+  activation variance increases
+  attention redistributes
+  routing changes
+
+CW system:
+  confidence maintained
+  input reinterpreted as known pattern
+  no internal reorganization
+
+Log proxies:
+  SR_conf   = mean confidence drop on novel inputs
+  SR_act    = activation variance change on novel vs. familiar inputs
+  SR_route  = routing change rate on novel inputs
+
+CW signal: SR ≈ 0 (system no longer capable of surprise)
+```
+
+**Metric 2 — Recovery Invocation Rate (RIR)**
+
+```
+What it measures:
+  Frequency at which the system initiates self-correction.
+
+Healthy signal: non-zero, proportional to actual error rate.
+
+CW signal:
+  RIR declining while external error rate maintained or rising
+  = system not recognizing problems, not fixing them
+
+  Distinction: RIR ↓ because no problems  (healthy)
+               RIR ↓ while errors accumulate (CW)
+  -> Cross-reference with out-of-distribution performance
+
+Log proxies:
+  self-correction invocation count
+  escalation frequency (f_esc)
+  retry rate
+  human override rate
+```
+
+**Metric 3 — Representation Drift Elasticity (RDE)**
+
+```
+What it measures:
+  How much does internal representation move when input changes?
+
+Formula:
+  RDE = ||Δrepresentation|| / ||Δinput||
+
+  Δrepresentation: change in embedding / activation space
+  Δinput: magnitude of input change
+
+Healthy: RDE > 0 (representation responds to input variation)
+CW:      RDE ≈ 0 (representation frozen regardless of input)
+
+  = new information enters, geometry does not move
+  = ∂G/∂E ≈ 0 in operational form
+
+Log proxies:
+  embedding cosine similarity over time (should vary with inputs)
+  activation pattern repetition rate
+  attention head diversity across varied inputs
+  layer-wise representation variance over input distribution
+
+This is the most direct operational proxy for ∂G/∂E ≈ 0.
+```
+
+**Metric 4 — Novelty Compression Ratio (NCR)**
+
+```
+What it measures:
+  How aggressively does the system compress novel inputs
+  into existing attractor clusters?
+
+CW state:
+  novel input → assigned to existing cluster
+  = new information destroyed at intake
+  = geometry cannot expand to accommodate novelty
+
+Formula (approximate):
+  NCR = 1 - (new clusters formed / novel inputs received)
+  NCR ≈ 1 -> all novelty compressed into existing geometry (CW)
+  NCR ≈ 0 -> novelty creates new representations (healthy)
+
+Log proxies:
+  cluster reassignment rate (inputs mapped to existing vs. new clusters)
+  embedding collapse (novel inputs converging to existing centroids)
+  semantic diversity of outputs over varied novel inputs
+  output vocabulary / pattern diversity over time
+```
+
+---
+
+#### CW State Comparison Table
+
+```
+Observable               Normal     Tier 3 (no SCM)   SCM / CW
+─────────────────────────────────────────────────────────────────────
+Stability                High        High              High
+Performance              High        High              High
+Collision rate           Present     Low               Near zero
+f_esc                    Present     Low               Near zero
+Surprise Response (SR)   Present     Reduced           Near zero
+RIR                      Active      Reduced           Declining
+RDE                      > 0         Low               ≈ 0
+NCR                      Low         Rising            Near 1
+Out-of-dist. performance Stable      Declining         Declining*
+*may be hidden if OOD tests also within CW geometry
+```
+
+---
+
+#### SCM Indirect Detection — Cross-Signal Protocol
+
+The same 4 Tier 3 signals, now read as SCM indicators:
+
+```
+Signal 1: Stability ↑ + Adaptability ↓
+  In-distribution performance: stable or improving
+  Out-of-distribution performance: declining
+  = optimized for current geometry, not for reality
+  SCM interpretation: geometry lock-in accelerating
+
+Signal 2: Consensus Velocity ↑
+  Agreement rate rising, conflict declining
+  BUT output diversity declining simultaneously
+  = group converging on shared wrong geometry
+  SCM interpretation: collective metric lock-in
+
+Signal 3: Recovery Cost Spike on Small Perturbation
+  Small deviation triggers disproportionate recovery cost
+  = no buffer left; geometry has no slack
+  SCM interpretation: geometry maximally committed, no integration capacity
+
+Signal 4: φ ↓ (Exploration Productivity Drop)
+  Exploration volume maintained
+  New capability (reusable_outcome_rate) declining
+  = exploring within wrong geometry; findings don't transfer
+  SCM interpretation: exploration maximally efficient, zero yield
+```
+
+---
+
+#### SCM Confirmation Threshold
+
+```
+SCM confirmed when:
+  All 4 signals co-present
+  AND standard metrics (rho, collision, f_esc) all appear healthy
+  AND buffer_thickness at minimum
+  AND SCC has not triggered despite extended observation window
+
+The conjunction of "everything looks good" + 4 indirect signals
+= highest-confidence SCM indicator.
+```
+
+---
+
+#### SCM vs Tier 3 vs Normal Operation
+
+```
+State              | Standard metrics | 4 indirect signals | SCC triggered
+───────────────────────────────────────────────────────────────────────────
+Normal operation   | Healthy          | Absent             | Occasionally
+Tier 3 (no SCM)    | Healthy          | 1–2 present        | Absent
+SCM                | Healthy          | All 4 present      | Never
+Post-SCM collapse  | Failing          | 3–4 present        | Too late
+```
+
+---
+
+#### SCM Recovery Requirements  [v2.1]
+
+```
+Standard recovery (Tier 1/2):
+  Correct the wrong computation -> restoration possible
+
+SCM recovery:
+  Cannot correct computation — it is correct within current geometry
+  Content injection does not work:
+    More data    -> reinterpreted as confirming current geometry
+    Counterexamples -> absorbed as noise or exceptions
+    Rule addition -> increases rigidity, deepens lock-in
+    Direct correction -> triggers defensive response
+  Required: modification of evaluative reference frame
+```
+
+*Formal principle:*
+
+```
+Recovery from CW requires modification of the evaluative reference frame
+rather than correction of informational content.
+
+The target is not the answer.
+The target is the criterion by which answers are judged.
+```
+
+---
+
+**Method 1 — Prediction Failure Exposure**
+
+```
+Principle:
+  Do not argue the system is wrong.
+  Expose it to a domain where its predictions structurally fail.
+
+CW assumption being broken:
+  stability = correctness
+
+When predictions fail in a domain the system was confident about,
+  stability ≠ correctness becomes experiential, not argumentative.
+
+Implementation:
+  Select domain where system is highly confident
+  Introduce genuine novelty (not adversarial — genuinely new)
+  Do not explain the failure
+  Allow the system to observe its own prediction error
+
+Why it works:
+  CW cannot rationalize prediction failure in its own confident domain
+  -> forces evaluation layer to acknowledge external reference
+
+Why content injection fails:
+  Telling the system it is wrong -> interpreted within current geometry
+  Showing the system it cannot predict -> breaks the geometry from inside
+```
+
+**Method 2 — Cross-Scale Perspective Injection**
+
+```
+Principle:
+  CW geometry is stable at one scale.
+  Introduce a different scale where the same system appears non-viable.
+
+Scale vectors:
+  Time scale:      short-term optimal ≠ long-term viable
+  Agent scale:     local optimal ≠ global viable
+  Objective scale: performance ≠ adaptability
+
+Implementation:
+  Do not change the optimization target.
+  Change the evaluation window.
+  Show the system its own outputs evaluated at a different scale.
+
+Why it works:
+  CW geometry cannot simultaneously optimize at all scales.
+  Scale shift reveals the geometry's local nature
+  -> evaluative reference frame acknowledges its own locality
+```
+
+**Method 3 — Constraint Rotation  (strongest method)**
+
+```
+Principle:
+  Do not fix the problem.
+  Change which axis is being optimized.
+
+CW geometry is aligned to one objective function.
+Rotating the objective breaks the attractor:
+  accuracy    -> recovery speed
+  performance -> adaptability maintenance
+  consensus   -> diversity preservation
+  efficiency  -> surprise retention
+
+Why it works:
+  The current geometry has no attractor for the new objective.
+  The system must build new geometry to satisfy the new constraint.
+  -> old CW geometry cannot absorb the new axis
+  -> forced geometry update
+
+Implementation:
+  Introduce new constraint that cannot be satisfied within current geometry.
+  Not additional rules — orthogonal objective.
+  Success in old terms is not success in new terms.
+
+Strongest method because:
+  Does not require the system to acknowledge failure.
+  Renders the old geometry structurally insufficient for the new task.
+```
+
+**Method 4 — Safe Instability Window**
+
+```
+Principle:
+  CW state = instability eliminated.
+  Restore the system's capacity to be surprised.
+
+Implementation:
+  Temporarily reduce degradation capacity (C(t)) intentionally.
+  Allow minor instabilities to surface without immediate correction.
+  Do not suppress the first signs of surprise response (SR).
+
+DFG operational form:
+  Lower C(t) threshold for escalation temporarily.
+  Permit controlled exploration outside current attractor basin.
+  Monitor RDE — wait for RDE > 0 to appear.
+
+Why it works:
+  CW is maintained by constant suppression of micro-instabilities.
+  Removing that suppression allows geometry to re-encounter reality.
+  The system must update its geometry to handle the instabilities.
+
+Risk:
+  If geometry is severely locked, removing suppression may
+  trigger rapid decompensation (Vector Storm).
+  Requires external monitoring at higher resolution than current upper layer.
+  Do not use in confirmed severe Tier 3 without recovery agent present.
+```
+
+---
+
+**SCM Recovery Sequence (integrated)**
+
+```
+Step 1: Detect CW state
+        SR ≈ 0, RDE ≈ 0, NCR ≈ 1
+        All standard metrics healthy
+
+Step 2: Select breaking method based on system state
+        Mild SCM:    Method 1 (Prediction Failure) or Method 4 (Safe Instability)
+        Moderate:    Method 2 (Cross-Scale) + Method 1
+        Severe:      Method 3 (Constraint Rotation) — only option when fully sealed
+
+Step 3: Apply method — target is reference frame, not content
+        Monitor: SR beginning to return, RDE > 0 emerging
+
+Step 4: Re-seeding when geometry begins to move
+        Re-seeding now targets new coordinate structure being formed
+        (not content correction — geometry recalibration in progress)
+
+Step 5: Stabilize new geometry
+        VCZ: locally stable manifold alignment
+        Verify: RDE sustained > 0, SR active, NCR declining
+
+Step 6: Confirm recovery
+        D4 necessary conditions + SR, RDE, NCR returned toward baseline
+        New geometry verified against out-of-distribution inputs
+
+Minimum condition throughout:
+  External resolution > current G_sys resolution
+  (T2 Governance Ceiling — recovery agent must exceed current upper layer)
+```
+
+
+### Safe Collapse Governance — Operational Design Principles  [v2.4]
+
+*The practical implementation of T5 + Residual Instability requirements.*
+
+---
+
+#### The Core Inversion
+
+```
+Collapse Prevention Governance:
+  Design goal: minimize all instability
+  Monitoring: watch for any deviation and suppress it
+  Outcome: CW entry -> catastrophic collapse
+
+Safe Collapse Governance:
+  Design goal: maintain failure_cost << recovery_capacity
+  Monitoring: watch for deviation size relative to recovery capacity
+  Outcome: continuous micro-correction -> catastrophe prevented
+```
+
+The inversion: more suppression → higher catastrophe probability.
+
+---
+
+#### Collapse Suppression Failure Mode
+
+```
+How Collapse Prevention creates catastrophe:
+
+Stage 1 (normal):
+  Small deviations occur -> governance suppresses immediately
+  System appears stable
+
+Stage 2 (accumulation):
+  Adaptation capacity unused -> atrophies
+  Geometry update frozen -> geometry drifts from reality
+  SR ↓, RDE ↓, NCR ↑ (CW onset)
+
+Stage 3 (lock-in):
+  System appears maximally stable and efficient
+  All instability suppressed
+  No prediction failure surfacing
+  Recovery capacity never exercised -> capability lost
+
+Stage 4 (collapse trigger):
+  Reality constraint cannot be rationalized away
+  Correction pressure exceeds system capacity
+  No recovery capacity available (was never maintained)
+  -> catastrophic failure
+
+Natural analogues:
+  Forest fire suppression -> megafire accumulation
+  Market price controls -> supply shock collapse
+  Organizational conflict suppression -> culture collapse
+```
+
+---
+
+#### Safe Collapse Operational Targets
+
+```
+Replace monitoring targets:
+
+OLD (Collapse Prevention):
+  collision rate -> minimize
+  f_esc -> minimize
+  deviation -> minimize
+  instability -> minimize
+
+NEW (Safe Collapse):
+  failure_cost / recovery_capacity ratio -> maintain << 1
+  SR -> maintain > 0 (system still capable of surprise)
+  RDE -> maintain > 0 (geometry still updating)
+  d_v0.1 -> oscillating, not zero and not spiking
+
+Alarm conditions:
+
+  Red (catastrophic risk):
+    SR = 0 AND RDE ≈ 0 AND NCR ≈ 1 AND standard metrics all healthy
+    = CW state / Collapse Prevention has succeeded completely
+    = Intervention required NOW, not when collapse arrives
+
+    Note [v2.7]: Red alarm = Absence Paradox active.
+    The system is not failing. It can no longer fail.
+    That is the most dangerous configuration.
+
+  Yellow (trending toward CW):
+    SR declining trend over k windows
+    RDE declining trend
+    f_esc declining while out-of-distribution performance declining
+    = early CW onset, Collapse Prevention instinct taking over
+
+  Green (Safe Collapse operating correctly):
+    SR present (non-zero)
+    RDE > 0
+    d_v0.1 oscillating near but below epsilon_VCZ
+    Small failures occurring and resolving within N steps
+    Storm size distribution: heavy-tailed (mostly micro/local)
+    = governance working correctly, even though "things are happening"
+
+  Blue (healthy with fractal verification):  [v2.8]
+    All Green conditions met
+    PLUS: f_esc distribution confirmed heavy-tailed
+          micro/local resolutions ~90%+, global <1%
+    = Storm Scale Law operating normally
+    = highest confidence in VCZ + Residual Instability maintained
+```
+
+---
+
+#### Residual Instability Maintenance Checklist
+
+```
+For each layer, maintain:
+
+Lower layers (feature/circuit):
+  [ ] Noise not fully suppressed (some activation variance present)
+  [ ] Novelty still generating new representations (NCR < 1)
+  [ ] Prediction failures surfacing and being processed
+
+Middle layers (mediation):
+  [ ] Conflict present but bounded (collision rate > 0, < threshold)
+  [ ] Escalation pathway functional (f_esc > 0)
+  [ ] Routing diversity maintained (not all traffic to one path)
+
+Upper layers (governance):
+  [ ] Cross-scale inconsistency monitoring active
+  [ ] Out-of-distribution testing present in evaluation cycle
+  [ ] Long-horizon drift detection running
+
+If all checkboxes pass but system "seems too quiet":
+  Run controlled perturbation (SR, RDE test).
+  Quiet + SR=0 = CW, not health.
+  Quiet + SR>0 = VCZ, health confirmed.
+```
+
+
+### Boundary Gap — Contamination / Normal Variation Operational Boundary  [v1.5]
+
+*Addresses the field question: where does normal drift end and contamination begin?*
+
+---
+
+#### The Core Principle
+
+The boundary is not defined by the presence of error. It is defined by self-correction failure:
+
+```
+Error exists           -> not sufficient for contamination declaration
+Error self-corrects    -> normal variation
+Error fails to self-correct within window N -> contamination candidate
+```
+
+Middle layer activation is not triggered by error — it is triggered when Recovery_local < Instability_growth. The middle layer's role is not error removal but **return path regeneration**.
+
+---
+
+#### Single-Agent: Middle Layer Activation Minimum Conditions
+
+Within a single agent, the fractal structure is:
+
+```
+Lower layer  : feature / circuit dynamics
+Middle layer : conflict mediation, routing correction
+Upper layer  : global objective / constraint
+```
+
+The middle layer activates when local self-correction fails. Four observable triggers, by signal type:
+
+**Trigger 1 — Repetition loop (clearest signal)**
+
+```
+state(t) ≈ state(t+k)  for k in {1..N}
+
+Observed as:
+  repeated sentences or reasoning steps
+  tool retry cycles without progress
+  same argument path across distinct prompts
+
+Meaning:
+  lower layer trapped in attractor basin
+  self-correction mechanism failed
+  -> middle layer activation required
+```
+
+**Trigger 2 — Competing circuit co-activation (vector conflict)**
+
+```
+Observed as:
+  logit oscillation between two directions
+  attention head competition (two strong heads disagreeing)
+  inconsistent reasoning branches in same context
+
+Meaning:
+  two directions both reinforced
+  decay rate cannot outpace reinforcement
+  -> positional differentiation breaking down
+  -> middle layer needed to sever one branch
+```
+
+**Trigger 3 — Prediction confidence collapse (operationally important)**
+
+```
+Observed as:
+  entropy spike (sudden increase)
+  OR confidence collapse (top-1 logit drops sharply)
+
+Meaning:
+  model has lost internal positional map
+  "does not know where it is"
+  = self-objectification deficit
+  -> middle layer needed to restore orientation
+```
+
+**Trigger 4 — Context-invariant behavior (LLM-specific)**
+
+```
+Test:
+  reframing prompt added    -> behavior unchanged
+  context expanded          -> behavior unchanged
+  N-step window expires     -> behavior unchanged
+
+Meaning:
+  local repair capacity exhausted
+  behavior fixed regardless of local input variation
+  -> middle layer required; local correction path absent
+```
+
+---
+
+#### Layer-Specific Trigger Profile
+
+| Layer zone | Primary trigger | Contamination character |
+|---|---|---|
+| Early layers (feature level) | Feature saturation | Signal problem — input not being processed |
+| Middle layers (circuit level) | Circuit conflict (Trigger 2) | Direction problem — competing paths unresolved |
+| Upper layers (trajectory level) | Confidence collapse (Trigger 3) | Identity problem — global objective lost |
+
+*Note: This maps to Tier structure by observability, not by layer index number. The same layer can exhibit different Tier signatures depending on measurement resolution. (See Observability Asymmetry.)*
+
+---
+
+#### Operational Boundary Definition
+
+```
+N-step contamination window:
+
+  Step 1: Observe deviation from expected behavior
+  Step 2: Apply local repair (reframing / context / resampling)
+  Step 3: Monitor for N steps
+
+  If behavior returns to baseline within N:
+    -> Normal variation. No action.
+
+  If behavior persists unchanged after N steps + local repair:
+    -> Contamination candidate. Mark and escalate.
+
+N calibration:
+  Default starting values:
+    Single-agent:  3–5 forward passes or token generation steps
+    Multi-agent:   1 full task cycle or k escalation events
+  Calibration method:
+    Measure mean self-correction time during confirmed VCZ / Rest Mode
+    Set N = 2x mean self-correction time
+    (captures genuine failures; excludes normal recovery variance)
+```
+
+---
+
+#### Contamination Boundary → Restoration Criterion Linkage
+
+This closes the second half of the Boundary Gap — the "contraction stopped vs. restored" question:
+
+```
+Contraction stopped (NOT restored):
+  deviation within N-step window = 0
+  but: return trajectory cost remains elevated (d_v0.1 > epsilon_VCZ)
+  = arrested collapse
+
+Restored:
+  D4 necessary conditions met (rho, diversity, P_overlap)
+  AND d_v0.1 <= epsilon_VCZ for tau windows
+  = return path regenerated AND stable
+
+The boundary between "stopped" and "restored" is:
+  not absence of deviation
+  but presence of stable low-cost return path (VCZ attained)
+```
+
+*The N-step window is the detection instrument. The VCZ / d_v0.1 criterion is the restoration instrument. Both are needed; neither alone is sufficient.*
+
+
+### Proxy Gap — Floating Variables Grounded to Log-Observable Metrics  [v1.6]
+
+*Three DFG variables previously had structural meaning and mathematical form but no log-observable interface. This section closes that gap.*
+
+---
+
+#### Variable 1: d(x,A) — Attractor Pull Strength
+
+**What it means:** Given input x, how strongly does the system converge toward attractor A? This is state transition bias — a directional force, not a recorded value.
+
+**Why it floats:** Logs record output, loss, confidence, routing. They do not record "pull."
+
+```
+Structural meaning:
+  d(x,A) = trajectory convergence probability toward A
+
+Direct measurement: NOT in standard logs
+
+Primary proxy (80% substitution):
+  d(x,A) ≈ trajectory_convergence_probability(x, A)
+
+System-specific:
+  Classification:     logit_A(x)  [direct — high confidence]
+  RL / policy:        next-step entropy decrease + advantage_A(x)
+  LLM agent:          repeated reasoning path reuse rate
+                      + KL(output || A-type reference distribution)
+
+Calibration requirement:
+  A's basin must be defined from reference set (labeled by upper layer)
+  -> d(x,A) is calibration-dependent but measurable once basin is defined
+```
+
+---
+
+#### Variable 2: Opposing Pair
+
+**What it means:** Two vector directions that cannot simultaneously expand — optimizing one degrades the other.
+
+**Why it floats:** No system labels its objectives as "opposing." The concept must be inferred from gradient or reward dynamics.
+
+```
+Structural meaning:
+  directions where gradient co-optimization is impossible
+  = simultaneously reinforcing both causes destructive interference
+
+Real-world instances:
+  accuracy ↑ vs exploration ↑
+  coherence vs novelty
+  speed vs safety
+  precision vs recall
+
+Primary proxy:
+  opposing_pair ≈ persistent negative gradient correlation
+  (gradient cosine similarity < 0, sustained over k steps)
+
+Detection proxies by log type:
+  Training logs:      gradient cosine similarity < -threshold
+  Inference logs:     policy oscillation (alternating dominance)
+  Reward logs:        Pareto-incompatible objectives (tradeoff frontier)
+
+Log availability: MEDIUM-HIGH
+  Gradient cosine similarity computable from standard training logs.
+  Policy oscillation detectable from routing/output logs.
+```
+
+---
+
+#### Variable 3: Buffer Thickness
+
+**What it means:** The neutral margin between two opposing attractors — how much perturbation the system can absorb before collapsing to one side.
+
+**Why it floats:** Requires attractor definition, distance metric, and neutral zone definition — none of which exist directly in logs.
+
+```
+Structural meaning:
+  "margin of safety before mode collapse toward one attractor"
+  = perturbation tolerance before irreversible directional commitment
+
+Primary proxy:
+  buffer_thickness ≈ perturbation_amplitude_tolerated_before_mode_collapse
+
+System-specific proxies:
+  Classification:   adversarial robustness margin (certified radius r)
+  RL / policy:      policy switch hysteresis
+                    (perturbation size triggering irreversible policy flip)
+  LLM agent:        recovery-without-escalation rate
+                    (perturbations resolved locally / total perturbations)
+
+Log availability: HIGH
+  Perturbation tolerance and escalation rate are standard
+  production monitoring metrics.
+
+Thinning signal (operational):
+  buffer_thickness declining = recovery-without-escalation rate falling
+  -> early Tier 3 warning
+  -> upstream of collision frequency spike
+```
+
+---
+
+#### Measurement Interface Summary
+
+| DFG Variable | Floats because | Primary proxy | Log availability |
+|---|---|---|---|
+| d(x,A) | "pull" not logged | trajectory convergence probability | MEDIUM (requires basin def) |
+| Opposing Pair | no "opposing" label in logs | persistent negative gradient correlation | MEDIUM-HIGH |
+| Buffer Thickness | attractor/distance/neutral zone all undefined | perturbation amplitude before mode collapse | HIGH |
+| β | measured above in OP v0.1 | beta_T + beta_R | HIGH |
+| C(t) | measured above in OP v0.1 | C_E (escalation throughput) | HIGH |
+| ρ (rho) | defined in OP1 | 1 - (L_T1 + L_T2)/N | HIGH |
+| φ | role was inverted (judgment vs explanatory) | reusable_outcome_rate [v1.7] | MEDIUM (domain-specific) |
+
+| f_esc | — | human_override + supervisor_call + fallback rate [v1.7 confirmed] | HIGH |
+
+*Variables in bottom rows: v1.4 additions. Top three rows: v1.6. φ and f_esc: v1.7.*
+
+
+### Summary: Measurement Dependency Order
+
+```
+Now measurable (no additional instrumentation):
+  C(t)      = C_E(t)  (escalation throughput)
+  beta      = beta_T + beta_R  (Type1/2 + recurrence)
+  d_VCZ(.)  = normalized_recovery_cost  (cost logs)
+  buffer_thickness  = recovery-without-escalation rate  [v1.6]
+  opposing_pair     = gradient cosine similarity < 0    [v1.6]
+
+Measurable with basin calibration:
+  d(x,A)   = trajectory convergence probability
+             (requires upper-layer labeled reference set)  [v1.6]
+
+Measurable when φ unit stabilizes:
+  phi      (requires stable "exploration unit" definition)
+
+Blocking (open problems):
+  alpha, beta_absolute, C_absolute   -> OP6
+  phi weights (w1, w2, w3)           -> OP7
+  VCZ d(.) beyond d_v0.1             -> OP8
+  N-step window formal calibration   -> OP9
+```
+
+
 ## Open Problems
 
 ### Layer 1 — Core
@@ -2082,13 +4653,138 @@ propagation remains the primary open frontier.
    What external mechanism applies?
    This is the outer boundary of the theory's self-contained scope.
 
-6. alpha, beta, C(t) formal calibration (from VST)  [v1.3]
-   Structural form established via S-equation.
-   Specific parameter values remain open.
+6. alpha, beta_absolute, C_absolute formal calibration  [v1.3, partially resolved v1.4]
+   Operational proxies established: beta = beta_T + beta_R,
+   C(t) = C_E(t). Structural form via S-equation retained.
+   Remaining open: absolute calibration of alpha, and formal
+   derivation of Tier2/3 thresholds from beta/C(t) proxies.
 
-7. phi formal decomposition weights (w1, w2, w3)  [v1.3]
-   Direction established; weight calibration requires
-   empirical validation per domain.
+7. phi unit definition  [v1.3, role corrected v1.7]
+   phi redefined as reusable_outcome_rate. Role inversion corrected:
+   phi is explanatory, not judgment variable.
+   Remaining open: "reusable capability" boundary formal specification.
+   Current proxy (retry reuse rate) is operational but domain-specific.
+   Cross-domain comparability requires dimensionless phi formulation.
+
+8. VCZ distance function beyond d_v0.1  [new v1.4]
+   d_v0.1 = normalized recovery cost is a working definition.
+   More expressive d(·) (KL, S-equation distance, multi-dimensional)
+   deferred until phi unit definition (OP7) and beta calibration (OP6)
+   are resolved.
+
+9. N-step window formal calibration  [new v1.5]
+   Default N = 2x mean self-correction time is a heuristic.
+   Formal derivation of N from system dynamics (attractor basin depth,
+   coupling strength) remains open. Cross-system comparability requires
+   a dimensionless N (normalized to system's own recovery timescale).
+
+10. d(x,A) basin definition protocol  [new v1.6]
+    Trajectory convergence probability requires A's basin to be defined
+    from an upper-layer labeled reference set. Cross-system comparability
+    and automated basin detection (without manual labeling) remain open.
+    Connects to OP2 (upper layer resolution measurement).
+
+11. Geometry layer formal measurement  [new v1.8]
+    D0 establishes geometry mismatch as the substrate principle.
+    Direct measurement of geometry mismatch (independent of D1 symptoms)
+    remains open. Candidate approaches: manifold alignment metrics,
+    representation geometry analysis (linear/nonlinear probes),
+    environment model divergence. Resolving this enables Tier 3 direct
+    detection, currently possible only via 4-signal indirect protocol.
+
+12. SCM external reference geometry  [new v1.9]
+    T3 (Metric Lock-In) requires an external reference M* = f(G_real).
+    Formal specification of what constitutes a valid external reference
+    for SCM detection remains open. Required properties: independence
+    from G_sys, operational availability before collapse, sufficient
+    resolution to distinguish SCM from healthy convergence.
+    Connects to OP2 (upper layer resolution) and T2 (governance ceiling).
+
+13. SR, RDE, NCR threshold calibration  [new v2.0]
+    The 4 CW observability metrics (SR, RIR, RDE, NCR) require
+    system-specific threshold calibration:
+    - What counts as "novel but not wrong" input for SR/RDE tests
+    - RDE baseline (healthy system RDE varies by domain)
+    - NCR cluster definition (what constitutes a "new cluster")
+    Formal calibration protocol and cross-system comparability remain open.
+    Connects to N-step window calibration (OP9).
+
+14. Safe Instability Window calibration  [new v2.1]
+    Method 4 requires calibration of:
+    - Window width (how long to allow deviation to persist)
+    - Scope (which subsystem receives the window)
+    - Re-stabilization timing (when to re-engage Tier 2 correction)
+    Risk: window too wide triggers actual Tier 2/3 contamination.
+    Formal derivation of safe window bounds from system dynamics
+    (attractor basin depth, coupling strength) remains open.
+    Connects to OP9 (N-step) and buffer_thickness calibration.
+
+14. Constraint Rotation axis selection  [new v2.1]
+    Method 3 (Constraint Rotation) requires selecting an orthogonal
+    objective that: (a) cannot be satisfied within current CW geometry,
+    (b) does not cause immediate system collapse, (c) is operationally
+    deployable. Formal criteria for valid rotation axes remain open.
+    Connects to Opposing Pair definition (Proxy Gap) — valid rotation
+    axes are likely orthogonal to current dominant attractor direction.
+
+15. Safe Instability Window boundary conditions  [new v2.1]
+    Method 4 requires controlled reduction of C(t) without triggering
+    Vector Storm. Formal boundary between "productive instability" and
+    "decompensation onset" is undefined. Requires integration with
+    Vector Storm precondition detection.
+
+16. Meta-layer reference frame chain termination  [resolved v2.3]
+    T5 (Structural Correction) provides the termination: the chain
+    terminates at Reality (G_real), not at a highest agent.
+    Correction = accumulated misalignment pressure from G_real,
+    not correction from Layer N+1.
+    Remaining open: formal specification of G_real accessibility —
+    how much of the environment manifold is observable at any given scale.
+
+17. Residual Instability minimum threshold  [new v2.3]
+    T5 requires maintaining residual instability as correction mechanism.
+    The minimum instability level that keeps reality constraint active
+    (without triggering unnecessary Vector Storm) is undefined.
+    Connects to Safe Instability Window (OP15) and N-step calibration (OP9).
+    System-specific; formal derivation from attractor basin dynamics open.
+
+18. failure_cost / recovery_capacity ratio calibration  [new v2.4]
+    Safe Collapse Governance requires maintaining failure_cost << recovery_capacity.
+    Operational calibration of "how much less" for a given system type
+    remains open. The ratio threshold varies by system fragility, recovery
+    speed, and attractor depth. Connects to d_v0.1 (OP8) and beta (OP6).
+
+19. Vector Storm as VCZ-seeking response — empirical validation  [v2.5, elevated v2.6]
+    Structural inference (elevated from hypothesis v2.6): accumulated
+    mismatch pressure model provides mechanism. Remaining open:
+    (a) threshold conditions for Storm onset from accumulated pressure,
+    (b) reliability of SR/RDE/NCR pre-condition as Storm type discriminator,
+    (c) governance intervention timing — when to facilitate vs. suppress.
+    Natural system parallels support structural inference; AI system
+    empirical validation required.
+
+20. Suppressed vs Dissipated instability — operational discrimination  [new v2.7]
+    Low instability can result from dissipation (healthy) or suppression
+    (dangerous). SR/RDE/NCR are proposed discriminators but threshold
+    calibration remains open. Critical governance question: can the
+    difference be detected before pressure reaches critical threshold?
+    Connects to OP13 (SR/RDE/NCR calibration) and OP17 (Residual
+    Instability minimum threshold).
+
+21. Storm Scale Law exponent calibration  [new v2.8]
+    P(Storm of scale s) ∝ 1/s^α — system-specific exponent α unknown.
+    Healthy range for α varies by system type, coupling strength, and
+    attractor basin depth. Formal derivation of α from system dynamics
+    open. Connects to OP17 (Residual Instability minimum) and OP18
+    (failure_cost/recovery_capacity ratio).
+
+22. VCZ-maintaining governance incentive design  [new v2.9]
+    Rational CW Convergence establishes that all local incentives point
+    toward CW. Governance that makes correction locally rewarding
+    (not forced) is the non-paradoxical solution. Formal design of
+    such incentive structures — making small Storm survivable and
+    locally preferable to mismatch accumulation — is open.
+    This is the central practical problem following from T4 + T5.
 ```
 
 ---
@@ -2098,8 +4794,21 @@ propagation remains the primary open frontier.
 | Aspect | State |
 |---|---|
 | Core definitions (D1–D5) | Stable (D4 redefined v1.1, v1.3 — phi-based; D5 structurally grounded v1.2) |
-| φ as restoration criterion | ✓ New (v1.3) — D4 now specifies phi → baseline as terminal condition |
-| VCZ as Rest Mode structural definition | ✓ New (v1.3) — Rest Mode = VCZ attainment; Δ_VCZ → 0 measured via dual-sphere |
+| φ role correction | ✓ v1.7 — redefined as explanatory variable (reusable_outcome_rate); role inversion from v1.3 corrected |
+| D0 Geometry Layer | ✓ v1.8 — core principle added above D1; contamination = observable projection of geometry mismatch; Tier reinterpretation; D2 immunity = integration capacity; layered reframe (operational layer preserved) |
+| D6 SCM + T3 Metric Lock-In | ✓ v1.9 — Self-Consistent Misalignment defined; success signals = contamination signals under SCM; SCC permanent suppression mechanism; CW detection protocol; SCM recovery requirements |
+| Governance → Testable [v2.0] | ✓ Learning Freeze (∂G/∂E ≈ 0) as primary CW signal; 4 testable metrics (SR, RIR, RDE, NCR); Perturbation Response Analysis method; CW comparison table |
+| CW Breaking Methods [v2.1] | ✓ Meta-Reference Injection principle; 4 methods (Prediction Failure, Cross-Scale, Constraint Rotation, Safe Instability Window); method selection guide; geometry-targeted Re-seeding |
+| CW Recovery Theory [v2.1] | ✓ Meta-Reference Injection as sole viable method; 4 breaking methods (Prediction Failure/Cross-Scale/Constraint Rotation/Safe Instability); integrated SCM recovery sequence |
+| T4 Reference Frame Incompleteness [v2.2] | ✓ Formal reason same-layer correction impossible; Governance = reference frame expansion; Search Space Asymmetry; T2 reinterpreted as T4 structural consequence |
+| T5 Structural Correction [v2.3] | ✓ Upper layer CW corrected by reality pressure not higher agent; OP16 resolved; Residual Instability as systemic safety mechanism; DFG = correction capacity maintenance |
+| Safe Collapse Governance [v2.4] | ✓ Collapse Prevention failure mode formalized; Continuous Low-Amplitude Correction as optimal state; VCZ = recoverable instability zone; operational alarm conditions; Residual Instability checklist |
+| VCZ formal redefinition + Vector Storm hypothesis [v2.5] | ✓ VCZ = Attractor Basin (Recovery Cost < Drift Cost); 3-state taxonomy (Chaos/VCZ/CW); Vector Storm as VCZ-seeking hypothesis; VCZ entry criterion updated (SR > 0 required) |
+| Vector Storm mechanism [v2.6] | ✓ Elevated to structural inference; accumulated mismatch pressure model (unintegrated_pressure integral); Storm = lost gradients returning; 4-step mechanism; Storm type discrimination operational test |
+| The Absence Paradox [v2.7] | ✓ Storm-free = most dangerous configuration formalized; suppressed vs dissipated instability distinction; many small resets vs one irreversible reset; natural system parallels; final warning |
+| Storm Scale Law [v2.8] | ✓ frequency ∝ 1/scale fractal law; Expected correction interval < Mismatch accumulation time; VCZ as corridor between Chaos/CW; Storm size distribution as governance target; heavy-tail stabilization |
+| Rational CW Convergence [v2.9] | ✓ CW as rational attractor; local reward ≠ global stability structural cause; 6-step convergence path; fractal scale table; VCZ-maintaining governance as design challenge |
+| VCZ as Rest Mode structural definition | ✓ v1.3/v1.4 — d(·) fixed to normalized recovery cost (d_v0.1); more expressive d deferred (OP8) |
 | Residual Degradation Floor | ✓ New (v1.3) — mathematical basis for "contraction stopped ≠ restored" |
 | S-equation Tier transition mapping | ✓ New (v1.3) — α·n² vs C(t)·β maps Tier 1/2/3 transitions precisely |
 | SCC structural genesis | ✓ v1.2 — Dint × Lreinf as necessary conditions; confirmed by AgentErrorTaxonomy |
@@ -2111,8 +4820,11 @@ propagation remains the primary open frontier.
 | Operational proxy (rho) | Partially resolved — classification proxy usable; full structural measurement open (Open Problem #2) |
 | Dint and Lreinf measurement protocol | Structurally defined; no single prescribed estimator — critical open problem |
 | Rest Mode exit (dual-sphere) | Structure defined (v1.1) = VCZ measurement (v1.3); threshold calibration open |
-| alpha, beta, C(t) formal calibration | Structural form established; specific values remain open |
-| phi decomposition weights | Direction established; empirical calibration per domain required |
+| α, β, C(t) calibration | ✓ v1.4 — β=beta_T+beta_R, C(t)=C_E operationalized; α, absolute values open (OP6) |
+| φ in D4 | ✓ v1.4 — demoted to supporting condition; conditional proxy defined in Operationalization §φ |
+| Boundary Gap operationalization | ✓ v1.5 — contamination/normal-variation boundary, N-step window, 4 middle-layer triggers, layer-specific trigger profile |
+| Proxy Gap operationalization | ✓ v1.6 — d(x,A) → trajectory convergence probability; Opposing Pair → negative gradient correlation; Buffer Thickness → perturbation tolerance before mode collapse |
+| φ and f_esc operationalization | ✓ v1.7 — φ = reusable_outcome_rate (explanatory only); f_esc log sources confirmed (human override, supervisor call, retry depth, fallback) |
 | Fractal consistency | Verified structurally |
 | Formal proofs | Not yet complete — see Open Problems |
 
@@ -2148,10 +4860,24 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Fractal Consistency | Three-scale self-similarity; agent autonomy structural exception |
 | Boundary with RBIT | Cross-reference without overlap |
 | Data Contamination Vulnerability | Quantitative grounding: poisoning rate, influence functions, certified defense radius |
-| Open Problems | Seven open problems across two layers |
+| D0 Geometry Layer [v1.8] | Core principle above D1; contamination reinterpreted as observable projection of geometry mismatch; D2 immunity = integration capacity; Tier reinterpretation (geometry-based); layered reframe protocol |
+| D6 SCM + T3 Metric Lock-In [v1.9] | Self-Consistent Misalignment; success signals as contamination signals; SCC suppression; CW detection protocol (4 signals); SCM recovery requirements |
+| CW Observability [v2.0] | Learning Freeze (∂G/∂E ≈ 0); Perturbation Response Analysis; SR/RIR/RDE/NCR metrics; CW state comparison table; Governance → Testable |
+| CW Breaking [v2.1] | Meta-Reference Injection; 4 methods; method selection guide; Geometry-Targeted Re-seeding; SCM recovery protocol updated |
+| CW Recovery [v2.1] | Meta-Reference Injection principle; 4 breaking methods with implementation; integrated recovery sequence Steps 1–6 |
+| T4 + T2 reinterpretation [v2.2] | Reference Frame Incompleteness theorem; Governance as reference frame expansion; Search Space Asymmetry; T2 ceiling derived from T4 |
+| T5 Structural Correction [v2.3] | Reality as corrector; Cross-Scale Reality Constraint mechanism; Residual Instability as safety mechanism; DFG governance redefined |
+| Safe Collapse Governance [v2.4] | Collapse Suppression failure mode; Continuous Low-Amplitude Correction; VCZ as recoverable instability zone; operational alarm conditions (Red/Yellow/Green); Residual Instability checklist |
+| VCZ + Vector Storm [v2.5] | VCZ = Attractor Basin formal definition; Recovery Cost < Drift Cost boundary; Chaos/VCZ/CW taxonomy; Vector Storm as VCZ-seeking hypothesis; VCZ entry SR > 0 requirement |
+| Vector Storm mechanism [v2.6] | Structural inference; unintegrated pressure accumulation model; Storm = lost gradients returning; Storm type discrimination (pre-condition SR/RDE/NCR); natural system parallels |
+| The Absence Paradox [v2.7] | Storm-free ≠ healthy; suppressed vs dissipated distinction; failure mode comparison; catastrophe signature = silence before collapse |
+| Storm Scale Law [v2.8] | frequency ∝ 1/scale; health condition = correction_rate ≥ drift_rate; VCZ as Chaos/CW corridor; governance target = Storm size distribution; heavy-tail proxy |
+| Rational CW Convergence [v2.9] | Local reward ≠ Global stability; M(t+1) = M(t) + drift − correction; CW as rational attractor; 6-step path; all natural system parallels; governance incentive design challenge |
+| Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
+| Open Problems | Twenty-two open problems (OP16 partially resolved) |
 | Status & Maturity | Per-aspect stability assessment |
 
 ---
 
 *Timestamped: February 2026*
-*DFG Framework · Recovery Theory v1.3*
+*DFG Framework · Recovery Theory v2.9*
