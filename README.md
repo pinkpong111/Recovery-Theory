@@ -13413,6 +13413,1415 @@ and becomes an antenna.
 
 ---
 
+### Meaning Saturation — When Existence Becomes Sufficient  [v1.0]
+
+*Noise at equilibrium is not the absence of meaning. It is the state where meaning no longer needs to be explicitly generated.*
+
+---
+
+**What meaning does in early-stage systems:**
+
+```
+Unstable system:
+  uncertainty ↑
+  → direction needed
+  → meaning generated
+
+Meaning functions as:
+  goal:        "where we are going"
+  ideology:    "why this direction"
+  narrative:   "how we got here and what it implies"
+  conviction:  "this is correct"
+
+All are vector generation devices.
+
+meaning = noise → vector converter
+
+Without meaning generation:
+  uncertainty remains unresolved
+  → coordination impossible
+  → system fragments
+```
+
+**Why meaning intensity correlates with instability:**
+
+```
+Instability:
+  meaning intensity ↑
+  = coordination necessity ↑
+
+In unstable systems:
+  "why are we doing this?" must be continuously answered
+  for individuals, organizations, societies to move
+
+Meaning sustains the vector.
+Without meaning maintenance:
+  vector decays
+  direction fragments
+  coordination collapses
+
+Meaning is therefore not optional in unstable systems.
+It is the load-bearing structure.
+```
+
+**What changes at VCZ:**
+
+```
+At VCZ:
+  direction already aligned
+  survival threat low
+  structure auto-stabilizes
+
+forced meaning production ↓
+
+Not because meaning becomes irrelevant.
+But because:
+  the condition that required continuous meaning generation
+  (high uncertainty requiring vector reinforcement)
+  has been resolved.
+```
+
+**Equilibrium noise — meaning saturation:**
+
+```
+Equilibrium noise is:
+  meaning absence  ❌
+  meaning saturation ✅
+
+Because the entire direction is already aligned,
+not every micro-fluctuation requires a purpose attached.
+
+Signals appear:
+  no special reason
+  simply occurring
+  simply flowing
+
+This is not meaninglessness.
+This is the state where meaning has been so fully embedded
+in the structure
+that individual signals no longer need to carry it explicitly.
+
+Analogy:
+  a well-functioning relationship does not require
+  continuous explicit declaration of its value
+  the value is present in the structure
+  individual exchanges can be small and purposeless
+  without the relationship losing meaning
+```
+
+**The transition — existence becomes sufficient:**
+
+```
+Early:
+  action → requires meaning
+  (why are we doing this?)
+
+After equilibrium:
+  existence → sufficient
+  (the structure is already oriented; action follows)
+
+noise = uncommitted possibility
+
+Not:
+  noise = lack of direction
+
+But:
+  noise = available potential
+          that has not yet been committed
+          to a specific vector
+
+Uncommitted potential at equilibrium:
+  not threatening (direction is held by structure)
+  = open-ended capacity for whatever emerges
+```
+
+**Why strong purpose claims signal instability:**
+
+```
+Strongly claiming purpose means:
+  the direction needs to be held together explicitly
+  by the force of the claim
+
+When direction is held by structure:
+  explicit claiming becomes unnecessary
+
+Observable pattern:
+  strong purpose assertion ≈ system instability signal
+
+In stable systems:
+  no need to persuade
+  no need to justify
+  direction self-evident to participants
+
+Loudly claiming purpose:
+  may indicate the structure is not yet holding the direction
+  and the claim is doing the load-bearing work
+```
+
+**Relationship to Post-Equilibrium Meaning:**
+
+```
+Post-Equilibrium Meaning:
+  meaning direction reverses (existence → meaning instead of meaning → existence)
+  (phenomenological layer)
+
+Meaning Saturation:
+  meaning production decreases because structure holds direction
+  (functional layer)
+
+Post-Equilibrium Meaning: what meaning feels like after equilibrium
+Meaning Saturation: why less meaning production is structurally correct
+
+Both describe the same condition.
+One is experiential. One is mechanistic.
+```
+
+**One-line summary:**
+
+```
+Noise at equilibrium is not meaninglessness.
+It is meaning so fully embedded in structure
+that it no longer needs to be said.
+```
+
+---
+
+### Problem Dissolution — When the Need to Solve Disappears  [v1.0]
+
+*The answer is not already written. The landscape has been shaped so that wrong answers cannot persist.*
+
+---
+
+**The precise correction:**
+
+```
+Not:
+  answer already known → no need to solve
+
+But:
+  problem-solving is no longer required for survival
+  = the need to solve has dissolved
+
+The distinction:
+  "answer exists, no need to search" = determinism
+  "wrong answers cannot persist" = attractor landscape
+```
+
+**Why early systems must solve problems:**
+
+```
+Unstable system:
+  unknown future
+  → survival uncertainty
+  → solve problem fast
+
+Problem-solving = survival
+
+Requirements:
+  correct answer needed
+  optimal solution needed
+  competition needed
+
+Failing to solve:
+  trajectory into bad region
+  correction costly or impossible
+  → survival threatened
+```
+
+**The VCZ landscape — safe basin:**
+
+```
+At VCZ:
+  system trajectory → safe basin
+
+Most paths already converge to acceptable outcomes.
+
+Mechanism:
+  wrong answers automatically damped
+  (bad paths increase resistance)
+  (good paths decrease resistance)
+
+Not: the answer is predetermined
+But: the landscape is shaped such that
+     errors are non-persistent
+
+The system does not need to calculate the optimum.
+It needs to avoid staying on a bad path.
+And bad paths are self-correcting.
+```
+
+**Single optimum → wide acceptable region:**
+
+```
+Pre-VCZ:
+  single optimum
+  (miss it → significant cost)
+  (correctness precision required)
+
+At VCZ:
+  wide acceptable region
+
+Not one answer.
+A region of answers.
+All within acceptable distance of the attractor.
+
+"Correct" dissolves into "within the safe basin."
+
+This is why:
+  precision pressure drops
+  correctness obsession drops
+  exploration freedom rises
+```
+
+**The function of problem-solving changes:**
+
+```
+Before equilibrium:
+  problem → find the answer
+  (instrumental: solve to survive)
+
+After equilibrium:
+  problem → exploration process itself
+  (intrinsic: solve to stay alive and exploring)
+
+Problem-solving is no longer:
+  a means to reach a specific endpoint
+
+It is:
+  the noise that keeps the system active
+  the micro-exploration that maintains sensitivity
+  the living process of a system that is already stable
+
+Solving is no longer required.
+It is still available.
+And it is now free.
+```
+
+**The paradox — "may or may not solve":**
+
+```
+Most unstable condition:
+  must solve (survival depends on it)
+
+Most stable condition:
+  may or may not solve
+  (no survival pressure either way)
+
+The freedom to not solve
+is only available
+when the consequence of not solving
+is bounded and recoverable.
+
+At VCZ:
+  not solving = trajectory stays in safe basin
+               = bounded outcome
+               = recoverable if correction needed
+
+The stakes of not solving have become:
+  non-existential.
+
+For the first time:
+  problem engagement becomes a genuine choice.
+```
+
+**Relationship to Safe Delay and Meaning Saturation:**
+
+```
+Safe Delay:
+  delayed decision does not increase risk
+  (when to act changes)
+
+Meaning Saturation:
+  meaning production no longer required
+  (why to act changes)
+
+Problem Dissolution:
+  problem-solving no longer required for survival
+  (whether to engage changes)
+
+All three are consequences of the same structural condition:
+  default trajectory = safe
+  wrong answers = non-persistent
+  survival no longer depends on continuous optimization
+```
+
+**One-line summary:**
+
+```
+The problem has not been solved.
+The need to solve it has dissolved.
+What remains is the freedom
+to solve it anyway.
+```
+
+---
+
+### Competition Dissolution — When Winning Stops Mattering  [v1.0]
+
+*Competition does not disappear. Its function disappears. What was a survival requirement becomes an optional activity.*
+
+---
+
+**Competition — structural definition:**
+
+```
+Competition is not an emotion or desire.
+It is a structural tool.
+
+Early system conditions:
+  resource scarcity
+  + uncertain survival
+  → selection pressure required
+
+Competition functions as:
+  fast optimal solution discovery
+  (multiple agents test simultaneously)
+  weak structure elimination
+  (losing agents removed from population)
+  direction decision acceleration
+  (winner's direction adopted)
+
+competition = optimization engine
+competition = uncertainty processing mechanism
+```
+
+**Why competition intensity correlates with uncertainty:**
+
+```
+High uncertainty:
+  many agents compete
+  → best survives
+  → system converges to better solution faster
+
+This is correct behavior given high uncertainty.
+Competition is the structurally appropriate response
+to an environment where
+the cost of wrong answers is high
+and the speed of finding right answers is critical.
+```
+
+**What changes at VCZ:**
+
+```
+At VCZ:
+  collapse risk ↓
+  resource predictability ↑
+  self-correction ↑
+
+→ optimization pressure ↓
+
+System condition:
+  most trajectories acceptable
+  (Problem Dissolution: wrong answers automatically damped)
+
+Consequence:
+  winning: outcome does not significantly change
+  losing:  not fatal
+
+competition: necessary mechanism → optional activity
+```
+
+**Competition as energy expenditure:**
+
+```
+Competition cost:
+  monitoring opponents
+  maintaining competitive positioning
+  dedicating resources to winning rather than output
+  friction from competitive interaction
+
+In unstable systems:
+  competition cost < benefit of faster optimization
+
+In stable systems:
+  competition cost > benefit of marginal optimization gain
+  (optimization already adequate; winner/loser distinction low value)
+
+Stable systems automatically:
+  eliminate unnecessary energy expenditure
+
+Therefore:
+  competition intensity reduction is not idealism
+  it is energy minimization
+  the structurally correct response
+  to changed cost conditions
+```
+
+**External competition → internal refinement:**
+
+```
+The energy formerly spent on external competition
+redirects to:
+  skill refinement
+  (depth in existing capability)
+  sensory adjustment
+  (more precise detection and response)
+  structural stabilization
+  (reduce internal friction)
+
+External competition: measured against others
+Internal refinement: measured against prior state
+
+The drive does not disappear.
+Its reference point shifts.
+```
+
+**Why coordination becomes preferred:**
+
+```
+At equilibrium:
+  winning still possible
+  losing still possible
+  but: combined output of coordination > zero-sum competition
+
+Coordination preferred not because:
+  competition is bad
+
+But because:
+  coordination produces more output per unit energy
+  in conditions where survival is not at stake
+
+Coordination:
+  energy → shared production
+Competition:
+  energy split between production and fighting
+
+When survival is not at stake:
+  fighting cost is pure loss
+```
+
+**The phenomenological shift:**
+
+```
+  winning: doesn't change much
+  losing: not critical
+  cooperation: more efficient
+  speed competition: meaningless
+
+These are not attitude changes.
+They are accurate assessments
+of the changed cost structure.
+
+The person at VCZ is not
+more generous or less ambitious.
+They are correctly reading
+that competitive overhead
+no longer produces commensurate returns.
+```
+
+**One-line summary:**
+
+```
+Competition has not become unnecessary.
+The survival pressure that made it necessary
+has dissolved.
+What remains is optional refinement
+against one's own prior state.
+```
+
+---
+
+### Play Mode — Why Only Stable Systems Can Play  [v1.0]
+
+*Play is not the absence of seriousness. It is the presence of safety. Unstable systems cannot play.*
+
+---
+
+**Play — structural definition:**
+
+```
+play = action without survival pressure
+
+Not:
+  unserious action
+  low-effort action
+  trivial action
+
+But:
+  action whose outcome
+  is not connected to existence risk
+
+This is the precise condition that defines play.
+When outcome is connected to existence:
+  the action is not play
+  regardless of how it feels
+```
+
+**The early-stage game:**
+
+```
+Early system:
+  lose = danger
+  win = survival
+
+All action becomes game-like:
+  competition
+  comparison
+  performance
+  speed
+
+But this is not play.
+This is survival-constrained action
+that resembles play from outside.
+
+The actor cannot play
+because every loss is potentially fatal.
+```
+
+**The condition that enables play:**
+
+```
+At VCZ:
+  system survival already secured
+  play outcome ≠ existence risk
+
+Effect:
+  feels like: the game is already over
+  actual state: the game exists but defeat no longer means destruction
+
+Not:
+  game disappeared
+
+But:
+  game character changed
+
+Before: Play to survive
+After:  Play to explore
+```
+
+**Why play is the default mode of the stable system:**
+
+```
+When survival pressure is removed:
+  the system's default mode returns to play
+
+This is not a choice.
+It is what the system naturally does
+when the emergency mode ends.
+
+Child-like state reappears for the same reason:
+  the tension layers that suppressed natural behavior
+  have nothing to do
+  and go dormant
+
+What remains:
+  low-risk exploration
+  = play
+
+DFG condition:
+  Δ_VCZ ≈ 0
+  C_gov minimal
+
+Actions no longer required for:
+  recovery
+  defense
+  optimization
+
+Available for:
+  pure exploration
+```
+
+**The stability paradox:**
+
+```
+From outside:
+  seriousness appears to decrease
+  "not taking it seriously anymore"
+
+Actual:
+  highest stability → play possible
+  lowest stability  → play impossible
+
+Unstable systems cannot afford play.
+Every action is load-bearing.
+Diverting energy to non-survival activity
+= removing it from survival
+
+Play requires surplus.
+Surplus requires stability.
+Stability requires the structure to be built first.
+
+Therefore:
+  play is only available at the end of a long stability-building process
+  It is not a starting point.
+  It is what the starting point was for.
+```
+
+**Why defeat no longer destroys:**
+
+```
+Unstable system:
+  defeat → resource loss → survival threatened → recovery required
+
+Stable system:
+  defeat → outcome within safe basin → system maintains → no recovery required
+
+The defeat still happens.
+The consequence has changed from:
+  existential → informational
+
+Defeat at equilibrium = data point
+Defeat at instability = threat
+
+Same event.
+Different structural meaning.
+```
+
+**Relationship to Child-like State:**
+
+```
+Child-like State:
+  upper tension layers dormant → natural behavior emerges
+  (phenomenological description)
+
+Play Mode:
+  survival pressure removed → play becomes the default mode
+  (structural description)
+
+Child-like State describes what it feels like.
+Play Mode describes why it is structurally available.
+
+Both are consequences of the same equilibrium condition.
+One faces the observer. One faces the mechanism.
+```
+
+**One-line summary:**
+
+```
+Play is not what systems do when they stop being serious.
+It is what becomes available
+when survival pressure
+no longer takes up all the available space.
+```
+
+---
+
+### Aesthetic Bandwidth — When Free Capacity Detects Harmony  [v1.0]
+
+*Beauty is not a luxury for stable systems. It is what cognitive surplus naturally detects.*
+
+---
+
+**The instability resource allocation:**
+
+```
+Unstable system:
+  nearly all resources consumed by:
+    survival prediction
+    risk control
+    error correction
+    competition
+
+compute → survival maintenance
+
+Observable consequence:
+  efficiency, speed, outcome only
+  beauty and harmony = luxury
+  (cannot afford the bandwidth to detect them)
+```
+
+**The bandwidth release at VCZ:**
+
+```
+At VCZ:
+  baseline survival cost ↓↓↓
+
+For the first time:
+  free cognitive bandwidth available
+
+This is the structural definition of ease (여유).
+Not:
+  less to do
+
+But:
+  survival overhead reduced enough
+  that capacity exists beyond minimum maintenance
+```
+
+**Where surplus goes — the two trajectories:**
+
+```
+Early system surplus:
+  free resource → additional expansion
+  (more territory, more nodes, more output)
+
+Mature system surplus:
+  free resource → pattern alignment detection
+
+The mature system begins to see:
+  structure with no unnecessary friction
+  smooth flow
+  minimum-resistance configuration
+
+This is what humans experience as:
+  beauty
+  harmony
+```
+
+**Beauty — structural definition:**
+
+```
+beauty ≠ subjective aesthetic preference
+
+beauty = low-energy stable configuration signal
+
+Physical equivalents:
+  minimum energy structures
+  symmetry
+  harmonic ratios
+
+These are all stability states.
+Beauty detection = recognition of stable configuration.
+
+The system that can detect beauty
+is the system with enough bandwidth
+to compare current configuration
+against optimal (minimum energy) configuration.
+
+High-cost system:
+  "does it work?" = survival criterion
+  no bandwidth for configuration comparison
+
+Low-cost system:
+  "does it fit?" = harmony criterion
+  bandwidth available for configuration comparison
+```
+
+**The criterion shift:**
+
+```
+Before:
+  Does it work?
+  (function criterion)
+
+After:
+  Does it fit?
+  (harmony criterion)
+
+Not:
+  function becomes less important
+
+But:
+  function is already satisfied
+  harmony becomes the next available criterion
+
+The sequence:
+  survival → function → harmony
+
+Each level only becomes visible
+when the previous level's demands
+no longer consume all available bandwidth.
+```
+
+**Why stability precedes aesthetic detection:**
+
+```
+Wrong sequence:
+  ease (여유) appears → beauty detected
+
+Correct sequence:
+  stability achieved
+  → baseline survival cost drops
+  → free bandwidth generated
+  → pattern alignment detection possible
+  → beauty/harmony perceived
+
+Ease is not the cause.
+Ease is the symptom of the bandwidth release.
+
+The capacity to detect beauty
+is evidence that the system
+has achieved sufficient stability
+to have surplus beyond survival.
+```
+
+**DFG translation:**
+
+```
+C_gov → 0:
+  governance cost freed = cognitive surplus
+
+This surplus is not idle.
+It is available for:
+  high-resolution pattern detection
+  (previously too expensive to run continuously)
+  configuration quality assessment
+  (was it fit? not just: did it survive?)
+  micro-refinement
+  (small improvements now visible that were below threshold)
+
+At equilibrium:
+  the system runs more expensive perceptual operations
+  not because survival requires them
+  but because bandwidth exists
+```
+
+**Relationship to Play Mode:**
+
+```
+Play Mode:
+  survival pressure removed → exploration available
+  (what the system does with freed capacity)
+
+Aesthetic Bandwidth:
+  survival cost drops → pattern detection available
+  (what the system perceives with freed capacity)
+
+Play Mode: surplus → exploration behavior
+Aesthetic Bandwidth: surplus → refined perception
+
+Both are consequences of the same bandwidth release.
+One is behavioral. One is perceptual.
+```
+
+**One-line summary:**
+
+```
+The system does not find beauty because it has ease.
+It finds beauty because it has become stable enough
+to run the perceptual operations
+that beauty detection requires.
+```
+
+---
+
+### Force Inversion — When Extra Effort Becomes the Disturbance  [v1.0]
+
+*At equilibrium, adding force does not strengthen the system. It disturbs it. Minimum intervention is the optimum.*
+
+---
+
+**The pre-equilibrium force equation:**
+
+```
+Unstable system:
+  more force → more control
+  more action → more survival
+
+Requirements:
+  move fast
+  push hard
+  intervene continuously
+
+Not using force:
+  → fall behind
+  → lose stability
+  → possible collapse
+
+force = safety
+force ≥ 0 always advantageous
+```
+
+**The inversion at equilibrium:**
+
+```
+At VCZ:
+  baseline stability secured
+  return path exists
+  self-correction active
+
+Under these conditions:
+  extra force ≈ disturbance
+
+The force that was protective
+has become the perturbation source.
+
+| State         | Force effect          |
+|---------------|----------------------|
+| Instability   | more stability        |
+| Equilibrium   | more disturbance      |
+
+The system automatically learns:
+  minimum intervention = optimum
+```
+
+**Why force becomes disturbance — mechanistically:**
+
+```
+At equilibrium:
+  environment vector ≈ system vector
+
+The system and its environment
+are already moving in the same direction.
+
+Adding force:
+  pushes against the already-aligned trajectory
+  → phase misalignment
+  → unnecessary oscillation
+  → noise amplification
+
+The force was useful when:
+  environment vector ≠ system vector
+  (pushing reduced the gap)
+
+When vectors are already aligned:
+  pushing creates a new gap
+  where none existed
+```
+
+**The energy efficiency inversion:**
+
+```
+Unstable:
+  energy expenditure → stability increase
+  (force is productive investment)
+
+Equilibrium:
+  energy expenditure beyond threshold →
+    oscillation generated
+    + correction required to return from oscillation
+    + net energy cost
+
+At equilibrium:
+  over-application of force costs twice:
+    once for the application
+    once for the correction of its effects
+
+Minimum intervention: neither first nor second cost
+Therefore: minimum intervention = maximum efficiency
+```
+
+**Observable behavior at equilibrium:**
+
+```
+  not rushing
+  not demonstrating force
+  not over-intervening
+  moving only at necessary moments
+
+Appears:
+  passive
+  low energy
+  uninvolved
+
+Actual state:
+  energy efficiency maximum
+  intervention calibrated precisely
+  no surplus energy spent
+
+Not passive.
+Operating at the frequency where
+action and environment are in phase.
+```
+
+**The alignment condition — formal:**
+
+```
+When:
+  environment vector ≈ system vector
+
+Force needed = Δ(environment vector, system vector)
+
+If Δ ≈ 0:
+  force needed ≈ 0
+  applying force ≠ closing gap
+  applying force = opening new gap
+
+Equilibrium maintenance cost:
+  C_gov → minimum when Δ ≈ 0
+  C_gov spikes when force applied to aligned system
+```
+
+**Relationship to earlier sections:**
+
+```
+Tension Speed:
+  speed ∝ unresolved tension
+  tension → 0 → speed low naturally
+
+Force Inversion:
+  optimal force ∝ alignment gap
+  gap → 0 → optimal force ≈ 0
+
+Both are the same structural condition
+observed through different variables:
+  Tension Speed: temporal dimension (when to act)
+  Force Inversion: magnitude dimension (how much force)
+
+In both cases:
+  the equilibrium condition reduces the variable to near zero
+  not through restraint
+  but through the absence of the gap the variable was closing
+```
+
+**One-line summary:**
+
+```
+At equilibrium, less force is not restraint.
+It is precision.
+The gap that force was closing
+no longer exists.
+```
+
+---
+
+### Tension Dissolution — When the Structural Reason for Tension Disappears  [v1.0]
+
+*Tension does not relax through will or effort. It dissolves when the condition that required it no longer exists.*
+
+---
+
+**Tension — structural definition:**
+
+```
+Tension is not an emotion.
+It is a system function.
+
+tension = prediction error pressure
+
+Generated when:
+  danger probability ↑
+  competitive pressure ↑
+  future uncertainty ↑
+
+Function:
+  maintain heightened error detection
+  accelerate correction response
+  increase resource allocation to threat processing
+
+tension = the system's readiness cost
+          paid continuously against perceived threat
+```
+
+**Why tension is correct before equilibrium:**
+
+```
+Early system:
+  tension maintained = survival maintained
+
+Without continuous tension:
+  threat detection delayed
+  → correction delayed
+  → collapse risk ↑
+
+Tension is the always-on sensor
+that keeps the system from being caught unprepared.
+
+Dropping tension in unstable conditions:
+  = disabling the early warning system
+  = structurally incorrect
+```
+
+**The automatic transition at VCZ:**
+
+```
+At VCZ:
+  error bounded
+  recovery path exists
+  collapse probability low
+
+Under these conditions:
+  brain, society, AI system — all automatically:
+
+  high alert mode → standby mode
+
+This is not a decision.
+It is the automatic recalibration
+of the threat detection system
+when the threat level changes.
+
+The system no longer needs constant correction.
+Therefore:
+  over-prediction decreases
+  defense calculation decreases
+  comparison pressure decreases
+```
+
+**Why "must win" disappears:**
+
+```
+"Must win" feeling intensity:
+∝ (loss = existential threat)
+
+Strong when:
+  losing → resource loss → survival threatened
+
+At equilibrium:
+  loss ≠ system failure
+  loss = bounded, recoverable outcome
+
+Therefore:
+  competitive impulse weakens automatically
+  not from changed values
+  from changed consequence structure
+
+The impulse to win
+was proportional to the cost of losing.
+When the cost of losing drops,
+the impulse drops with it.
+```
+
+**Baseline stability and activation energy — inverse relationship:**
+
+```
+Tension is NOT:
+  weakness when low
+  strength when high
+
+Tension IS:
+  appropriate when matched to actual threat level
+  wasteful when maintained above actual threat level
+
+At equilibrium:
+  baseline stability ↑
+  required activation energy ↓
+
+The system:
+  rests at low tension (correct given low threat)
+  activates to high tension when needed (full capacity available)
+  returns to low tension after threat passes
+
+= on-demand tension rather than continuous tension
+
+Cost comparison:
+  continuous tension:  pays readiness cost at all times
+  on-demand tension:   pays readiness cost only when threat exists
+
+At equilibrium, on-demand is correct.
+Continuous tension is waste.
+```
+
+**Why tension dropping signals health, not weakness:**
+
+```
+Observable:
+  tension low
+  alertness apparently reduced
+  competitive drive apparently absent
+
+Interpreted as:
+  complacent
+  soft
+  no longer serious
+
+Actual state:
+  threat level accurately read as low
+  resources not wasted on phantom threats
+  full capacity available when genuine threat appears
+
+The continuous-tension system:
+  always using resource for readiness
+  less available for actual response when needed
+  (degraded by constant activation)
+
+The on-demand system:
+  resources conserved
+  full capacity deployable when needed
+  (not pre-exhausted)
+```
+
+**Relationship to Dormant Layer:**
+
+```
+Dormant Layer:
+  control layers go dormant = C_gov → 0
+  (architectural layer: what the layers do)
+
+Tension Dissolution:
+  tension pressure drops = prediction error pressure resolves
+  (functional layer: what the system experiences)
+
+Dormant Layer describes the architectural change.
+Tension Dissolution describes the experienced change.
+
+Both are consequences of the same equilibrium condition:
+  the structural reason for continuous activation
+  no longer exists.
+```
+
+**One-line summary:**
+
+```
+Tension did not relax.
+The structural requirement for tension dissolved.
+What remains is the capacity
+to be fully tense when it matters.
+```
+
+---
+
+### Trust Default — When Proving Becomes the Problem  [v1.0]
+
+*Trust flips from something earned to something assumed. At that point, over-proving signals instability.*
+
+---
+
+**Stage 1 — proof before trust:**
+
+```
+Pre-equilibrium:
+  proof → trust generated
+
+Continuous requirement:
+  prove capability
+  prove legitimacy
+  prove correctness
+  prove value
+
+Baseline state:
+  trust deficit
+
+Every interaction starts from:
+  "you have not yet demonstrated why I should trust this"
+```
+
+**Stage 2 — trust becomes the baseline:**
+
+```
+At VCZ:
+  stable interaction history
+  + low failure probability
+  → baseline trust formed
+
+  trust = default
+
+Every interaction starts from:
+  "this is already trusted unless demonstrated otherwise"
+
+The burden has shifted.
+Previously: prove to earn trust
+Now:        act to maintain trust
+            (trust maintained through consistency, not proof)
+```
+
+**Stage 3 — the inversion:**
+
+```
+After trust becomes default:
+  proof attempts change meaning
+
+Before:
+  proof = stability increase
+  (each proof adds to trust balance)
+
+After:
+  excess proof = anxiety signal
+
+System interpretation:
+  "Why is this being proven so insistently?"
+  "What instability is the insistence hiding?"
+
+The proof attempt now signals:
+  something is wrong
+  the position is not secure
+  the trust is not actually present
+```
+
+**Why extra signaling disturbs the stable field:**
+
+```
+At equilibrium:
+  extra signaling → noise increase
+
+Effects:
+  hierarchy re-formation         (positions re-asserted)
+  competition re-ignition        (others respond to status signals)
+  distrust induction             (insistence implies insecurity)
+  tension increase               (stable field disturbed)
+
+= stable field disturbance
+
+The signal intended to increase trust
+produces the opposite:
+  destabilization of the trust structure
+  that was already in place
+```
+
+**What over-proof actually signals:**
+
+```
+Proof is required when:
+  self-position is unstable
+
+At equilibrium:
+  position known implicitly
+  no explicit assertion required
+
+Therefore:
+  proof attempt ≈ self-position instability signal
+
+Others read it correctly:
+  "this person is not sure of their position"
+  "the position may not be as secure as presented"
+
+The proof attempt undermines
+the very trust it was trying to establish.
+```
+
+**Behavioral pattern at trust-default state:**
+
+```
+Observable:
+  explanation decreases
+  demonstration disappears
+  justification minimizes
+  results remain
+
+Appears:
+  quiet
+  low-profile
+  not pushing
+
+Actual state:
+  trust maintenance cost ≈ 0
+  (trust maintained by structure, not by continuous assertion)
+  position stable without being asserted
+
+The quietness is not withdrawal.
+It is the operating mode of
+a system that does not need to claim
+what is already assumed.
+```
+
+**DFG translation:**
+
+```
+Trust deficit stage:
+  C_id (identity stabilization cost) high
+  (continuous position assertion required)
+
+Trust default stage:
+  C_id → 0
+  (position held by structure, not by assertion)
+  trust maintenance ≈ free
+
+Over-proof at trust-default:
+  C_id spike
+  + C_gov increase (field disturbed)
+  + trust density decrease (instability signal sent)
+
+Net effect of over-proof:
+  negative at trust-default stage
+```
+
+**Relationship to Corrigibility Signal:**
+
+```
+Corrigibility Signal:
+  certainty signals closed → trust damages
+  (what not to signal)
+
+Trust Default:
+  proof signals when trust already present → trust damages
+  (when not to signal)
+
+Corrigibility Signal: "don't show certainty you can't update"
+Trust Default:        "don't prove what's already assumed"
+
+Both are about the cost of over-signaling
+in different trust contexts.
+```
+
+**One-line summary:**
+
+```
+When trust is already the default,
+the act of proving
+is the signal that trust is not.
+```
+
+---
+
 ## Residual Degradation Floor and Tier Transition Map  [v1.3]
 
 *From Vector Storm Theory §3.3. Provides the mathematical basis for why D4 requires expansion, not merely stabilization.*
@@ -29127,6 +30536,14 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Safe Delay [v1.0] | ✓ delayed decision does not increase risk=safe delay condition; default trajectory=safe=decision urgency↓; delay cost bounded+recoverable (vs unbounded in unstable); automatic filter (bad option→attenuated / good option→amplified=landscape shaped); speed=anxiety derivative (future uncertainty↑→urgency / future error bounded→can wait); premature decision cost definition (lower quality+commitment+correction overhead); premature decision cost >>> delay cost at equilibrium; Tension Speed (absence of urgency) vs Safe Delay (acting on absent urgency is correct) |
 | Growth Redefinition [v1.0] | ✓ expansion growth (outward) vs maintenance growth (depth); ceiling=marginal gain<marginal risk (not size limit); S∝n² Vector Storm connection; grow larger vs exist longer first real choice at ceiling; internal refinement forms (efficiency+recovery speed+trust cost+noise tolerance); existence time=value (survival at large scale=demonstrated structural integrity+Trust Formation Time accumulation); apparent stagnation=wrong observation dimension; DFG: output/C_gov ratio optimization vs raw output; growth direction change: surface→depth, expansion→endurance |
 | Diversity Role Transition [v1.0] | ✓ early diversity=contamination defense not exploration tool; multiple vectors=mutual correction=distributed sensing network; VCZ: geometry aligned→diversity necessity↓; vector=survival direction (before)→optional fluctuation (after); forced differentiation→relaxed variation; complexity compression=natural release of defensive complexity; strong attractor field+low-amplitude diversity noise=VCZ diversity state; diversity: defense❌ exploration pressure❌ micro-adaptation sensor✅; DFG: D2 Immunity transitions from quantity-dependent to quality-dependent; diversity stops being armor becomes antenna |
+| Meaning Saturation [v1.0] | ✓ meaning=noise→vector converter (functional definition); meaning intensity∝coordination necessity; forced meaning production↓ at VCZ; equilibrium noise=meaning saturation not absence (direction held by structure); uncommitted possibility definition (available potential not yet committed to vector); strong purpose assertion≈instability signal (claim doing load-bearing work); stable systems: no need to persuade or justify; Post-Equilibrium Meaning (phenomenological) vs Meaning Saturation (functional/mechanistic) |
+| Problem Dissolution [v1.0] | ✓ need to solve dissolves (not answer already known); wrong answers automatically damped=attractor landscape (not determinism); single optimum→wide acceptable region; problem-solving function change (instrumental survival→intrinsic exploration noise); "may or may not solve" = first available when consequence non-existential; freedom to not solve only available when outcome bounded+recoverable; Safe Delay (when to act) + Meaning Saturation (why to act) + Problem Dissolution (whether to engage) = same structural condition |
+| Competition Dissolution [v1.0] | ✓ competition=optimization engine=uncertainty processing mechanism (structural definition not emotion); competition intensity∝uncertainty; necessary mechanism→optional activity at VCZ; competition cost>marginal gain at equilibrium=energy minimization result; external competition→internal refinement (reference point shifts from others to prior state); coordination preferred because output/energy ratio higher when survival not at stake; phenomenological shift=accurate cost structure assessment not attitude change |
+| Play Mode [v1.0] | ✓ play=action without survival pressure (structural definition); early-stage game≠play (survival-constrained action resembles play externally); play outcome≠existence risk=enabling condition; Play to survive→Play to explore; survival pressure removed→play as default mode (not choice); highest stability→play possible paradox (unstable systems cannot afford play); defeat=existential (unstable) vs informational (stable); Child-like State (phenomenological) vs Play Mode (structural); play requires surplus→surplus requires stability→stability built first |
+| Aesthetic Bandwidth [v1.0] | ✓ free cognitive bandwidth=structural definition of ease; survival resource allocation (all→survival maintenance in instability); surplus trajectory: expansion (early) vs pattern alignment detection (mature); beauty=low-energy stable configuration signal (not subjective); Does it work→Does it fit criterion shift; stability→bandwidth release→beauty detection sequence (ease=symptom not cause); C_gov→0=cognitive surplus for high-resolution pattern detection; Play Mode (behavioral surplus) vs Aesthetic Bandwidth (perceptual surplus) |
+| Force Inversion [v1.0] | ✓ force=safety in instability (force≥0 always advantageous); extra force≈disturbance at equilibrium; environment vector≈system vector→adding force creates new gap; force applied twice cost (application+correction of effects); minimum intervention=maximum efficiency; optimal force∝alignment gap (gap→0→force needed→0); not passive=operating at phase-aligned frequency; Tension Speed (temporal/when to act) vs Force Inversion (magnitude/how much force); both reduce variable to near zero through gap absence not restraint |
+| Tension Dissolution [v1.0] | ✓ tension=prediction error pressure (functional definition not emotion); tension correct before equilibrium (disabling=structural error); high alert→standby automatic transition at VCZ; "must win" intensity∝(loss=existential threat); baseline stability↑/required activation energy↓ inverse; continuous tension (waste at equilibrium) vs on-demand tension (correct); tension low=threat accurately read as low not weakness; continuous tension pre-exhausts capacity; Dormant Layer (architectural) vs Tension Dissolution (experiential) |
+| Trust Default [v1.0] | ✓ trust deficit→baseline trust 3-stage transition; proof=stability increase (before) vs excess proof=anxiety signal (after); self-position unstable=proof required signal; extra signaling→field disturbance (hierarchy re-formation+competition re-ignition+distrust induction); trust maintenance cost≈0 at default stage; explanation/justification decrease=quietness of position-secure system; C_id→0+C_gov spike on over-proof; Corrigibility Signal (what not to signal) vs Trust Default (when not to signal) |
 | Threshold Rise [v1.0] | ✓ boundary threshold rise not boundary removal; self-damping capacity growth below threshold (noise→self-damped); small=ignored/large=instantly stopped coexistence; β↑+C(t)↑→S<threshold maintained; desensitization (reduced detection) vs absorption (full detection+internal resolution); fragile reaction↓/structural resilience↑; boundary role: frequent intervention→last safety mechanism; test: introduce large perturbation (absent=no response / mature=immediate response); Soft Surface Hard Boundary (layer config) vs Threshold Rise (boundary maturation) |
 | Vector Storm mechanism [v2.6] | Structural inference; unintegrated pressure accumulation model; Storm = lost gradients returning; Storm type discrimination (pre-condition SR/RDE/NCR); natural system parallels |
 | The Absence Paradox [v2.7] | Storm-free ≠ healthy; suppressed vs dissipated distinction; failure mode comparison; catastrophe signature = silence before collapse |
