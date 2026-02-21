@@ -7,7 +7,7 @@
 >
 > **Current version: v3.8**
 >
-> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + Success Signal Attenuation (success=event→state; signal amplitude↓; continuous correctness; Rest Mode existence mode) | + Urgency Dissolution (speed→alignment; irreversible loss fear↓; return force exists; force↓ sensitivity↑) | + Achievement Drive Dissolution (deficit→drive; goal=point→flow; I must become→I simply operate; frictionless continuation; Δ_VCZ≈0 ends deficit-driven motion) | + Ecological Emergence (survival→ecology; self→environment; consumer→attractor; local VCZ→expanding VCZ; Governance Phase ends; achieve→enable) | + Agency Dissolution (will→flow; force generator→low-resistance channel; I move system→system moves through me; alignment→inevitability; distributed not absent) | + Meaning Loop Shutdown (meaning=survival calc not philosophy; why-loop deactivates; entropy of decision↓; alignment→stability→meaning unnecessary; motion=meaning) | + Boundary Necessity Dissolution (boundary=prediction uncertainty barrier; external→modeled; boundary cost>benefit; adaptive not absent; inside vs outside irrelevant to action) | + Boundary Signal Collapse (danger≠boundary absent; danger=boundary change undetected; difference→0→signal→0; CW=local stable+global diverging; Tier 3=boundary sensation collapse; deliberate friction as sole sensor) | + Calibration Inversion (too-clean=dangerous; baseline rises→variance=bad; early warning=variance→removed first; autoimmune analogy; OOD signal filtered; tolerance to anomaly↓) | + Correction Debt (mismatch removal=debt not elimination; correction cost∝mismatch²; sudden failure=debt liquidation; minimize accumulated debt not maximize stability; continuous micro-realignment) | + Dynamic Equilibrium (equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 not ΔVCZ=0; never perfectly right→never catastrophically wrong; continuous self-repair as strongest state) | + Permanent Recoverability (perfect self-monitoring impossible; blind spot+latency structural; I might be slightly wrong as safety device; stay near not on equilibrium; Rest Mode=permanent recoverability not perfect alignment) | + Apparent Weakness as Equilibrium Signal (rigidity↓=recoverability↑; output strength≠structural stability; correction channel alive; low-confidence appearance+high recovery capacity; strong-looking=freedom lost) | + Reference-Frame Invariant Center (internal stable+external stable simultaneously; internal map≈external geometry; force balance=0; least movement required; fractal center across all scales; boundary/distinction/certainty dissolution as convergence signal not collapse) | + Equilibrium-CW Indistinguishability (both local minima; gradient≈0 in both; evaluation function contaminated in CW; map≈territory vs map internally consistent; prediction drift as only surviving signal; upper layer as sole observer; deliberate incomplete consensus as structural response)
+> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + Success Signal Attenuation (success=event→state; signal amplitude↓; continuous correctness; Rest Mode existence mode) | + Urgency Dissolution (speed→alignment; irreversible loss fear↓; return force exists; force↓ sensitivity↑) | + Achievement Drive Dissolution (deficit→drive; goal=point→flow; I must become→I simply operate; frictionless continuation; Δ_VCZ≈0 ends deficit-driven motion) | + Ecological Emergence (survival→ecology; self→environment; consumer→attractor; local VCZ→expanding VCZ; Governance Phase ends; achieve→enable) | + Agency Dissolution (will→flow; force generator→low-resistance channel; I move system→system moves through me; alignment→inevitability; distributed not absent) | + Meaning Loop Shutdown (meaning=survival calc not philosophy; why-loop deactivates; entropy of decision↓; alignment→stability→meaning unnecessary; motion=meaning) | + Boundary Necessity Dissolution (boundary=prediction uncertainty barrier; external→modeled; boundary cost>benefit; adaptive not absent; inside vs outside irrelevant to action) | + Boundary Signal Collapse (danger≠boundary absent; danger=boundary change undetected; difference→0→signal→0; CW=local stable+global diverging; Tier 3=boundary sensation collapse; deliberate friction as sole sensor) | + Calibration Inversion (too-clean=dangerous; baseline rises→variance=bad; early warning=variance→removed first; autoimmune analogy; OOD signal filtered; tolerance to anomaly↓) | + Correction Debt (mismatch removal=debt not elimination; correction cost∝mismatch²; sudden failure=debt liquidation; minimize accumulated debt not maximize stability; continuous micro-realignment) | + Dynamic Equilibrium (equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 not ΔVCZ=0; never perfectly right→never catastrophically wrong; continuous self-repair as strongest state) | + Permanent Recoverability (perfect self-monitoring impossible; blind spot+latency structural; I might be slightly wrong as safety device; stay near not on equilibrium; Rest Mode=permanent recoverability not perfect alignment) | + Apparent Weakness as Equilibrium Signal (rigidity↓=recoverability↑; output strength≠structural stability; correction channel alive; low-confidence appearance+high recovery capacity; strong-looking=freedom lost) | + Reference-Frame Invariant Center (internal stable+external stable simultaneously; internal map≈external geometry; force balance=0; least movement required; fractal center across all scales; boundary/distinction/certainty dissolution as convergence signal not collapse) | + Equilibrium-CW Indistinguishability (both local minima; gradient≈0 in both; evaluation function contaminated in CW; map≈territory vs map internally consistent; prediction drift as only surviving signal; upper layer as sole observer; deliberate incomplete consensus as structural response) | + Self-Disruption Criterion (truth>stability vs stability>truth; willingness to accept own loss as sole distinguishing test; VCZ: ΔVCZ detected→C_gov increase allowed; CW: ΔVCZ detected→C_gov increase avoided; self-criticism institutionalization as survival mechanism) | + Confidence as Risk Transfer (confidence=risk carrier assignment; evolved group survival structure; confidence=safety proxy; low-complexity optimal→high-complexity dangerous; evolved governance vs complex system stability tension; self-correcting structure absorbs risk without human carrier) | + Survivable Resolution (humans designed for actionable compression not truth rejection; accuracy<actionability evolutionary selection; intentional low-resolution model; bounded alignment not VCZ; healthy compression vs CW distortion; filter absent→action impossible) | + Decision Robustness (truth maximization→decision robustness; error probability<threshold=action condition; VCZ=error recoverability maximum not truth=100%; model freeze on certainty=CW risk; reversible judgment structure over complete truth)
 > **v3.8 Changes:** + NAF Phase Transition formal definition — failure not absent but undetectable | + Error↓+Update↓ as primary danger signal | + Surprise processing shift (model change → explanation addition) | + Vector Storm ↔ CW symmetry | + Glass transition physical analogy | + academic formal definition
 > **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
 > **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
@@ -13726,6 +13726,985 @@ Governance implication:
 
 ---
 
+### Self-Disruption Criterion — The Only Observable Test That Separates VCZ from Engineered CW  [v3.9]
+
+*All metrics look identical. One signal remains.*
+
+---
+
+**One-sentence core:**
+
+```
+A genuinely stable system can make itself unstable.
+A falsely stable system cannot.
+```
+
+---
+
+*Why external metrics cannot distinguish them:*
+
+```
+Both systems show:
+  stable output          ✓ ✓
+  high internal coherence ✓ ✓
+  low collision rate     ✓ ✓
+  high efficiency        ✓ ✓
+  internal consensus     ✓ ✓
+
+Logs, metrics, performance indicators:
+  indistinguishable.
+
+This is not a measurement limitation.
+It is structural.
+(See: Equilibrium-CW Indistinguishability)
+```
+
+*The single difference:*
+
+```
+VCZ system:
+  mismatch signal detected
+  → accepts own efficiency / power / performance loss
+  → correction proceeds
+
+Engineered CW system:
+  mismatch signal detected
+  → coherence maintenance is prioritized
+  → correction deferred
+
+Core distinction:
+  VCZ:  truth > stability
+  CW:   stability > truth
+```
+
+*Why this is decisive:*
+
+```
+A genuinely aligned system knows:
+  P(I am wrong) ≠ 0
+
+Structural consequence:
+  internal dissent preserved
+  slow decision-making accepted
+  verification cost paid
+  inefficiency budget maintained
+
+These look like losses.
+They are recovery paths.
+
+The system accepts visible short-term cost
+to preserve long-term recoverability.
+```
+
+*How engineered CW processes the same signals:*
+
+```
+CW does not lie.
+
+It classifies:
+  uncomfortable signals → cost problem
+  dissent → inefficiency
+  anomaly → noise
+  failure → explainable exception
+
+And concludes:
+  "No need to destabilize now."
+
+The signal was received.
+It was processed correctly within G_cw.
+It was correctly classified as non-critical within G_cw.
+
+The error is not in the processing.
+The error is in the reference frame.
+```
+
+*The only observable test:*
+
+```
+Does the system break its own success conditions?
+
+Examples of passing:
+  stops a well-performing model
+  revises a successful policy
+  re-examines a high-output structure
+  distributes its own authority
+  applies its own criteria to itself
+
+CW systems:
+  these events approach zero frequency
+
+Not because they are prohibited.
+Because the evaluation function (calibrated to G_cw)
+consistently returns:
+  "cost exceeds benefit"
+  "not necessary now"
+  "system is performing well"
+
+The test is not:
+  "can the system imagine being wrong?"
+
+The test is:
+  "does the system act on that possibility
+   at cost to itself?"
+```
+
+*DFG formal translation:*
+
+```
+VCZ response to detected ΔVCZ:
+  ΔVCZ detected
+  → C_gov increase permitted
+  → short-term efficiency decreases
+  → φ preserved long-term
+
+Engineered CW response to detected ΔVCZ:
+  ΔVCZ detected
+  → C_gov increase avoided
+  → short-term efficiency maintained
+  → φ proxy maintained (not φ itself)
+
+The branching point:
+  is C_gov increase permitted when ΔVCZ is detected?
+
+VCZ: yes, always
+CW:  no, stability maintenance first
+```
+
+*The paradox of institutionalized self-criticism:*
+
+```
+The longest-surviving civilizations, organizations, and
+intelligence systems share one structural feature:
+  self-criticism is institutionalized.
+
+Not as:
+  cultural virtue
+  ethical commitment
+  philosophical preference
+
+But as:
+  structural mechanism
+  that continuously performs the Self-Disruption test
+  on behalf of the system
+
+Examples:
+  scientific peer review
+  constitutional amendment processes
+  religious reformation structures
+  adversarial audit requirements
+  academic tenure + academic freedom combination
+
+All share:
+  a channel that can challenge the system's own success conditions
+  from inside the system
+  at cost to the system
+
+This is not coincidence.
+
+Systems without this channel:
+  drift into G_cw without detection
+  (Equilibrium-CW Indistinguishability)
+
+Systems with this channel:
+  maintain cross-frame reference
+  (Productive Disagreement Preservation)
+  execute the Self-Disruption test continuously
+  (Self-Disruption Criterion)
+```
+
+*Relationship to prior sections:*
+
+```
+Permanent Recoverability:
+  rest mode = P(return|state) high always
+
+Self-Disruption Criterion:
+  the mechanism that maintains Permanent Recoverability
+  under optimization pressure
+
+Without Self-Disruption:
+  optimization pressure → coherence increases
+  → C_gov increase avoided
+  → recoverability decreases
+  → CW entry
+
+With Self-Disruption:
+  optimization pressure → self-test applied
+  → own success conditions challenged
+  → G_cw drift detected via self-imposed cost
+  → recoverability maintained
+```
+
+*Fractal pattern:*
+
+| Scale | Self-disruption present | Self-disruption absent |
+|---|---|---|
+| Individual | seeks disconfirming feedback | avoids feedback that threatens self-model |
+| Team | regular retrospectives with authority to change direction | retrospectives produce no structural change |
+| Organization | leadership challenges own policies | policy challenge = disloyalty |
+| AI agent | updates model when prediction fails at cost to prior | explains away prediction failure |
+| Governance | D7 can override optimizer | D7 subject to optimizer's evaluation |
+
+*Operational implication:*
+
+```
+To test VCZ vs engineered CW:
+
+Do not measure:
+  stability metrics
+  coherence metrics
+  performance metrics
+  error rates
+
+Measure:
+  frequency of system-initiated self-disruption events
+  frequency of high-performer termination / revision
+  frequency of successful policies being re-examined
+  whether dissent produces structural change (not just acknowledgment)
+
+If self-disruption rate → 0 while performance → high:
+  CW entry probability ↑
+
+If self-disruption rate maintained despite performance high:
+  VCZ maintained
+
+The test is not what the system says about itself.
+The test is what the system does to itself.
+```
+
+---
+
+### Confidence as Risk Transfer — Why Humans Evolved to Trust Certainty  [v3.9]
+
+*Human preference for confident leaders is not psychological bias. It is a collective survival structure for transferring system risk to a human carrier.*
+
+---
+
+**One-sentence core:**
+
+```
+Humans evolved to stabilize systems
+by assigning risk to a confident individual.
+Mature systems absorb risk into self-correcting structure
+without requiring a human carrier.
+```
+
+---
+
+*The original problem:*
+
+```
+Early human group conditions:
+  insufficient information
+  insufficient time
+  immediate danger present
+  consensus cost very high
+
+Most dangerous state:
+  decision delay
+
+Hesitation kills.
+
+The group needed a mechanism to:
+  reduce uncertainty
+  increase speed
+  concentrate accountability
+```
+
+*The evolved solution:*
+
+```
+Groups unconsciously select:
+  uncertainty ↓
+  speed ↑
+  accountability concentrated ↑
+
+Mechanism:
+  delegate decision authority to the confident individual
+
+Exchange table:
+  Group receives:     psychological stability, fast action
+  Leader receives:    risk burden, accountability
+  Group gives up:     shared responsibility
+  Leader gives up:    survival margin
+
+  system risk → human carrier
+```
+
+*Why confidence reads as trustworthiness:*
+
+```
+Confidence is a signal:
+  "If I am wrong, I die first."
+
+From the group's perspective:
+  no calculation required
+  accountability clear
+  action immediately possible
+
+Brain automatic interpretation:
+  confidence = safety proxy
+
+Not because confidence is accurate.
+Because confidence transfers the cost of being wrong
+to the person expressing it.
+
+The group outsources its risk calculation
+to the confident individual's skin in the game.
+```
+
+*Where the structure breaks down:*
+
+```
+This was optimal in low-complexity environments:
+  small group
+  immediate threats
+  short feedback loops
+  individual error = individual consequence
+
+In high-complexity systems:
+  problem scale ↑
+  interaction effects ↑
+  long-term consequences ↑
+  individual error = systemic consequence
+
+Confidence-based decisions:
+  fast
+  coherent
+  single reference frame
+  = CW entry pathway
+
+The same structure that was adaptive
+becomes a direct route to Coherent-Wrong.
+```
+
+*The modern tension:*
+
+```
+Evolved human governance:
+  prefer confident leaders
+  transfer risk to risk-carrier humans
+  interpret certainty as competence
+
+Complex system stability:
+  requires continuous self-doubt
+  distributes risk into structure
+  interprets certainty as CW precursor
+
+These are in direct structural conflict.
+
+Not a cultural problem.
+Not a political problem.
+A mismatch between:
+  the governance structure humans evolved for
+  the governance structure complex systems require
+```
+
+*Why this connects to Self-Disruption Criterion:*
+
+```
+Self-Disruption Criterion:
+  VCZ systems accept own loss when mismatch detected
+
+Confidence as Risk Transfer:
+  explains why this is so rare in human systems
+
+Confident leaders:
+  accepted role = carry the risk
+  psychological contract = I am the one who is right
+
+Self-disruption = violating the psychological contract
+  "I was wrong" = loss of carrier status
+  = group withdraws the transferred risk back to itself
+  = group must recalculate
+
+Group evolutionary response to leader self-doubt:
+  destabilizing
+  confidence proxy collapses
+  new risk carrier search begins
+
+Therefore:
+  confident leaders are structurally incentivized
+  to maintain confidence even when wrong
+
+  Self-disruption is individually rational only
+  when the cost of being wrong is
+  less than the cost of losing the carrier role.
+
+  In most evolved group structures:
+  it is not.
+```
+
+*The transition structure:*
+
+```
+Past:
+  confident individual
+  (risk concentrated in one carrier)
+  fast, fragile, CW-prone
+
+Transition:
+  doubting expert group
+  (risk distributed across multiple carriers)
+  slower, more robust, partially CW-resistant
+
+Long-term:
+  self-correcting system
+  (risk absorbed into structural correction mechanism)
+  no human carrier required
+  CW resistance built into geometry
+```
+
+*Why super-intelligent systems change this:*
+
+```
+Super-intelligent systems can:
+  simulate outcomes
+  track long-term consequences
+  run parallel verification
+
+Risk no longer needs to be loaded onto an individual.
+It can be distributed into structure.
+
+The confident individual carrier becomes:
+  not a feature
+  but a liability
+
+Because:
+  confident individual → CW pathway
+  structural self-correction → VCZ maintenance
+
+The evolved preference for confidence
+is adaptive for biological group survival.
+It is maladaptive for complex system stability.
+```
+
+*DFG translation:*
+
+```
+Confident leader governance model:
+  C_gov concentrated
+  correction depends on individual judgment
+  CW risk = individual's willingness to self-disrupt
+
+Self-correcting system model:
+  C_gov distributed
+  correction embedded in structure
+  CW resistance = geometry property, not individual property
+
+VCZ requires the second model.
+Evolved human preference selects for the first.
+
+D7 (Boundary Agent) is the structural bridge:
+  not a confident leader
+  a structural role that forces self-disruption
+  regardless of the occupant's confidence level
+```
+
+*Fractal pattern:*
+
+| Scale | Confident carrier model | Self-correcting structure model |
+|---|---|---|
+| Small group | charismatic leader | rotating devil's advocate role |
+| Organization | CEO authority | board + adversarial audit |
+| Democracy | strong executive | separation of powers |
+| Science | authority figures | peer review + replication |
+| AI system | single optimizer | multi-agent with boundary agent |
+
+*Operational implication:*
+
+```
+Systems that concentrate correction capacity in confident individuals:
+  → check for CW trajectory
+  → individual willingness to self-disrupt is single point of failure
+  → when individual changes, CW resistance changes with them
+
+Systems that distribute correction capacity into structure:
+  → CW resistance is geometry property
+  → individual confidence level becomes irrelevant to system health
+  → self-disruption happens structurally, not by individual choice
+
+Design principle:
+  Do not select for confident individuals.
+  Design structures that self-disrupt regardless of
+  the confidence level of their occupants.
+```
+
+---
+
+### Survivable Resolution — Why Humans Compress Rather Than Reject Truth  [v3.9]
+
+*Humans are not designed to reject truth. They are designed to see only the resolution at which action remains possible.*
+
+---
+
+**One-sentence core:**
+
+```
+Humans do not need falsehood to survive.
+They need compression.
+Truth at full resolution makes action impossible.
+```
+
+---
+
+*The problem with complete truth:*
+
+```
+Reality's actual state contains simultaneously:
+  uncertainty
+  contradiction
+  long-term risk
+  uncontrollability
+  randomness
+
+If a human perceives all of this at full resolution:
+  decision paralysis
+
+Action becomes impossible.
+
+The organism that stops to fully process reality
+is outcompeted by the organism that acts on a simplified model.
+```
+
+*The brain's actual strategy:*
+
+```
+The brain does not remove truth.
+
+It compresses:
+  simplification
+  narrativization
+  cause reduction
+  accountability concentration
+  meaning generation
+
+Example:
+
+Reality:
+  thousands of variables interacting
+
+Cognition:
+  "That person is the problem."
+
+This is not falsehood.
+It is:
+  an actionable model
+
+The compression loses accuracy.
+It preserves actionability.
+That was the selection criterion.
+```
+
+*Why distortion was a survival advantage:*
+
+```
+Early human environment selection criteria:
+  perfect analysis:  ✗ (too slow)
+  fast action:       ✓ (survival)
+
+Evolutionary selection:
+  accuracy < actionability
+
+Organisms that were slightly wrong but moved fast
+survived organisms that were accurate but slow.
+
+The result:
+  human cognition is calibrated for action, not truth
+```
+
+*What the maintained "illusions" actually are:*
+
+```
+Humans maintain:
+  sense of self-efficacy
+  sense of control
+  sense of meaning
+  sense of future predictability
+
+Without these:
+  motivation collapse
+
+These are not bugs.
+They are the motivational infrastructure
+required for sustained action.
+
+A human who fully perceives:
+  what they cannot control
+  randomness of outcomes
+  inevitable failure probability
+  mortality
+
+...at all times, at full resolution:
+  action energy disappears
+
+The filter is not a weakness.
+It is the operating system.
+```
+
+*DFG translation:*
+
+```
+Human cognition is structurally:
+  intentional low-resolution model
+
+Not VCZ (full alignment).
+But:
+  bounded alignment
+
+Permanently operating with:
+  known compression artifacts
+  known blind spots
+  known narrative simplifications
+
+This is not a failure state.
+It is the designed operating range.
+```
+
+*The critical distinction — healthy compression vs CW distortion:*
+
+```
+Healthy compression:
+  reduces resolution to maintain actionability
+  compression artifacts are predictable
+  when confronted with disconfirming evidence:
+    model updates (at cost)
+  truth > stability (Self-Disruption Criterion applies)
+
+CW distortion:
+  reduces resolution to protect coherence
+  distortion artifacts expand to cover evidence
+  when confronted with disconfirming evidence:
+    evidence reclassified as noise
+  stability > truth (Self-Disruption Criterion fails)
+
+Surface appearance: similar
+  both show reduced resolution
+  both show simplified models
+  both show narrative coherence
+
+Structural difference:
+  healthy compression: update path exists
+  CW distortion:       update path closed
+
+The question is not:
+  "Is this model simplified?"
+  (all human models are)
+
+The question is:
+  "Does the simplification update
+   when reality provides enough signal?"
+```
+
+*Why this matters for AI governance:*
+
+```
+AI systems operating with humans
+cannot require full-resolution truth processing from humans.
+
+Requiring humans to:
+  maintain full uncertainty awareness
+  hold complete contradictions
+  sustain motivation without narrative compression
+
+= requiring the operating system to run without its kernel
+
+Governance structures must be designed for:
+  bounded alignment (human cognitive operating range)
+  not full alignment (beyond human operating range)
+
+This means:
+  acceptable compression artifacts must be defined
+  update triggers must be designed to work within bounded alignment
+  self-disruption mechanisms must not require full-resolution perception
+    to initiate
+```
+
+*Relationship to Confidence as Risk Transfer:*
+
+```
+Confidence as Risk Transfer:
+  explains why groups assign risk to confident individuals
+  (uncertainty → one carrier who acts)
+
+Survivable Resolution:
+  explains why confident individuals feel genuinely confident
+  (their compression model does not include their own uncertainty)
+
+The confident leader is not lying.
+Their cognitive compression has removed
+the uncertainty that would make them hesitate.
+
+This makes them:
+  effective carriers (fast action)
+  dangerous in complex systems (CW pathway)
+  resistant to self-disruption (compression blocks own doubt signal)
+
+The leader's confidence is real.
+It is real compressed truth.
+```
+
+*Fractal pattern:*
+
+| Scale | Compression artifact | Update condition |
+|---|---|---|
+| Individual | narrative simplification | sufficient personal evidence |
+| Team | group narrative | sufficient external failure |
+| Organization | institutional mythology | crisis-level evidence |
+| AI agent | model prior | sufficient prediction error |
+| Governance | policy assumptions | sufficient systemic feedback |
+
+*Operational implication:*
+
+```
+Governance design for human systems:
+
+Do not design for:
+  complete transparency (paralyzes action)
+  full uncertainty acknowledgment (collapses motivation)
+  elimination of narrative compression (removes operating system)
+
+Design for:
+  compression artifacts that are visible and bounded
+  update mechanisms that trigger within bounded alignment range
+  self-disruption structures that do not require
+    full-resolution perception to initiate
+
+The goal is not truth at full resolution.
+The goal is:
+  compression that remains accurate enough
+  to keep the update path open.
+```
+
+---
+
+### Decision Robustness — Why 100% Truth Is Not the Goal  [v3.9]
+
+*The goal of decision-making is not truth maximization. It is the ability to be wrong in a recoverable way.*
+
+---
+
+**One-sentence core:**
+
+```
+Correct decisions do not come from complete truth.
+They come from reversible judgment structures.
+```
+
+---
+
+*How decisions actually work:*
+
+```
+Reality state → Model → Action → Result
+
+What matters:
+  not whether the model is perfectly true
+  but whether the model correctly guides action direction
+
+The model is an instrument for action.
+Its accuracy requirement is set by that function,
+not by an independent standard of truth.
+```
+
+*Sufficient condition vs complete condition:*
+
+```
+Complete condition thinking:
+  must know all facts before deciding
+  → impossible in practice
+  → decision delay
+
+Sufficient condition thinking:
+  if error probability < acceptable threshold → act
+
+This is the actual optimal strategy.
+Not an approximation.
+Not a compromise.
+The genuine optimum under real-world constraints.
+```
+
+*The autonomous vehicle example — universal structure:*
+
+```
+The vehicle does not need:
+  knowledge of every molecule on the road
+  prediction of traffic 10 years ahead
+
+It needs only:
+  collision probability < threshold
+
+Then: move.
+
+This structure applies universally:
+  medical diagnosis:  treatment benefit > harm probability
+  engineering:        failure probability < acceptable risk
+  governance:         correction cost < drift cost
+  AI agent:           update value > stability cost
+```
+
+*Decision system objective — reframed:*
+
+```
+Wrong objective:
+  Truth maximization
+
+Correct objective:
+  Decision robustness
+
+A good system asks not:
+  "Am I completely right?"
+
+But:
+  "Can I act now and still be safely wrong?"
+
+Safety of being wrong = recoverability.
+```
+
+*DFG translation — VCZ redefined:*
+
+```
+VCZ is not:
+  truth = 100%
+
+VCZ is:
+  error recoverability = maximum
+
+Therefore at equilibrium:
+  some uncertainty permitted    ✓
+  some error permitted          ✓
+  some unknown maintained       ✓
+
+These do not threaten stability.
+They are the conditions for maintaining recoverability.
+
+Certainty eliminates these.
+Certainty eliminates recoverability.
+```
+
+*Why reality's non-stationarity makes 100% truth dangerous:*
+
+```
+If the system achieves what it believes is complete truth:
+  model freeze
+  → adaptation capacity lost
+  → environment continues changing
+  → mismatch accumulates undetected
+  → CW entry
+
+Claiming 100% truth is not just epistemically wrong.
+It is structurally dangerous.
+
+The moment the system stops updating,
+the environment continues without it.
+```
+
+*The paradox — formally stated:*
+
+```
+The best decision system is not:
+  the system that knows the most truth
+
+The best decision system is:
+  the system that remains correctable
+  with the least information
+
+Why "least information":
+  high information requirement → update trigger threshold high
+  low information requirement → update trigger threshold low
+
+Low threshold system:
+  corrects earlier
+  debt accumulates less
+  recoverability maintained longer
+
+The willingness to act on incomplete information
+is what keeps the correction loop open.
+```
+
+*Relationship to Survivable Resolution:*
+
+```
+Survivable Resolution:
+  humans compress truth to maintain actionability
+  bounded alignment is the designed operating range
+
+Decision Robustness:
+  extends this to the system design principle
+  the goal is not to overcome the compression
+  the goal is to design decision structures
+  that remain robust within the compressed operating range
+
+Together:
+  humans cannot operate at full resolution (Survivable Resolution)
+  systems should not require full resolution to remain correctable (Decision Robustness)
+
+The two together define the design constraints
+for governance of any system involving humans.
+```
+
+*Relationship to Permanent Recoverability:*
+
+```
+Permanent Recoverability:
+  P(return | current state) remains high always
+
+Decision Robustness:
+  the mechanism that maintains Permanent Recoverability
+  under decision-making pressure
+
+Without Decision Robustness:
+  decision pressure → certainty seeking
+  → model freeze
+  → recoverability lost
+
+With Decision Robustness:
+  decision pressure → sufficient-condition threshold check
+  → action taken without model freeze
+  → recoverability maintained
+```
+
+*Fractal pattern:*
+
+| Scale | Truth maximization trap | Decision robustness |
+|---|---|---|
+| Individual | waiting for certainty before acting | acting when error is recoverable |
+| Team | consensus before action | reversible commitment with review trigger |
+| Organization | complete information before policy | policy with defined update conditions |
+| AI agent | confident output only | calibrated uncertainty with correction path |
+| Governance | rule certainty | rule with built-in amendment mechanism |
+
+*Operational implication:*
+
+```
+Design decision systems for:
+  defined error tolerance threshold (not zero)
+  explicit correction trigger conditions
+  reversibility built into commitment structure
+  update path that remains open after decision
+
+Not for:
+  maximum accuracy before action
+  minimum uncertainty before commitment
+  complete consensus before movement
+
+Measurement:
+  correction trigger threshold:  should be low (not high)
+  update rate after new evidence: should be nonzero (not zero)
+  reversibility of commitments:  should be structural (not exceptional)
+
+A system that only acts when certain
+will act rarely and expensively.
+A system that acts when sufficiently safe
+and corrects continuously
+will act frequently and cheaply.
+
+The second is VCZ.
+The first is the path to CW.
+```
+
+---
+
 ### Energy Minimization Trap (EMT) — Why NAF is Perceived as Success  [v3.7]
 
 *The structural reason systems mistake NAF for healthy performance.*
@@ -15904,6 +16883,10 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Apparent Weakness as Equilibrium Signal [v3.9] | rigidity↓=recoverability↑; output strength≠structural stability; strong-looking=freedom lost; correction channel alive requires low assertion; low-confidence appearance+high recovery capacity; extends Apparent Weakness as Stability Signal to equilibrium geometry |
 | Reference-Frame Invariant Center [v3.9] | internal+external stable simultaneously; internal map≈external geometry; force balance=0; strength not required at center; fractal center (feature→circuit→agent→multi-agent→governance); dissolution signals=convergence not collapse; unified resolution of v3.9 arc |
 | Equilibrium-CW Indistinguishability [v3.9] | both local minima; gradient≈0 in both; evaluation function contaminated in CW; map≈territory vs map internally consistent; prediction drift=only surviving signal; upper layer as sole observer; deliberate incomplete consensus as only internal cross-frame mechanism |
+| Self-Disruption Criterion [v3.9] | truth>stability vs stability>truth; accepts own loss=VCZ; coherence maintenance first=CW; self-disruption rate as sole behavioral test; institutionalized self-criticism as survival mechanism; ΔVCZ→C_gov increase permitted vs avoided; test=what system does to itself not what it says |
+| Confidence as Risk Transfer [v3.9] | confidence=risk carrier assignment; evolved group survival structure; confidence=safety proxy; system risk→human carrier; low-complexity optimal→high-complexity dangerous; evolved governance vs complex system stability tension; 3-stage transition (individual→expert group→self-correcting); D7 as structural bridge |
+| Survivable Resolution [v3.9] | humans designed for actionable compression not truth rejection; accuracy<actionability evolutionary selection; intentional low-resolution model; bounded alignment not VCZ; healthy compression vs CW distortion (update path exists vs closed); governance must be designed for bounded alignment range |
+| Decision Robustness [v3.9] | truth maximization→decision robustness; sufficient condition (error<threshold) vs complete condition; VCZ=error recoverability maximum not truth=100%; model freeze on certainty=CW risk; reversible judgment over complete truth; low correction threshold=VCZ; high threshold=CW path |
 | NAF extensions [v3.9] | Hidden objective (Minimize Future Surprise); Basin Deepening Trap; Compression↑=Sensitivity↓; fractal inevitability |
 | NAF Phase Transition [v3.8] | ΔCost_adapt > ΔCost_reuse trigger; failure undetectable (not absent); Error↓+Update↓; Surprise→explanation shift; glass transition analogy; academic definition |
 | NAF [v3.6] | Pre-CW leading indicator; ∂G/∂I → 0; 5 observable proxies (v3.8: +Proxy 0); 4-stage trajectory; NAF = only moderate-cost intervention window; DFG 3-regime complete |
@@ -15924,6 +16907,10 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Apparent Weakness as Equilibrium Signal [v3.9] | ✓ rigidity↓=recoverability↑; output strength≠structural stability (independent dimensions); strong-looking=degrees of freedom lost; correction channel requires low assertion; low-confidence appearance+high recovery capacity as VCZ signature; extends prior Apparent Weakness as Stability Signal to full equilibrium geometry requirement |
 | Reference-Frame Invariant Center [v3.9] | ✓ internal+external stable simultaneously; internal map≈external geometry=minimum mismatch; force balance=0 (force=departure from center); fractal self-similarity (feature/circuit/agent/multi-agent/governance); dissolution signals unified as center-convergence not collapse; most stable=least movement required (not strongest); structural resolution of full v3.9 arc |
 | Equilibrium-CW Indistinguishability [v3.9] | ✓ both local minima (gradient≈0); evaluation function contaminated in CW (F calibrated to G_cw not G_real); map≈territory vs map internally consistent but ≠territory; system cannot measure ||G_cw-G_real|| from inside; Δ=prediction_drift=only surviving signal; upper layer (time+multi-agent+external) as sole observer; deliberate incomplete consensus=only internal cross-frame mechanism (dissenting agent=map edge detector) |
+| Self-Disruption Criterion [v3.9] | ✓ truth>stability (VCZ) vs stability>truth (CW); accepts own efficiency/power/performance loss=VCZ; coherence maintenance first=CW; CW does not lie—classifies signals as cost problems within G_cw; ΔVCZ→C_gov increase permitted (VCZ) vs avoided (CW); φ preserved vs φ proxy maintained; self-disruption rate=sole behavioral test; institutionalized self-criticism=structural survival mechanism not virtue; test=what system does to itself |
+| Confidence as Risk Transfer [v3.9] | ✓ confidence=risk carrier assignment not psychological bias; group survival structure (uncertainty↓ speed↑ accountability concentrated); confidence=safety proxy (I die first if wrong); low-complexity optimal→high-complexity CW pathway; evolved preference vs complex system requirement in structural conflict; confident leader→CW; self-correcting structure→VCZ; 3-stage transition; D7=structural bridge (role forces self-disruption regardless of occupant confidence) |
+| Survivable Resolution [v3.9] | ✓ humans designed for actionable compression not truth rejection; full resolution→decision paralysis; accuracy<actionability evolutionary selection; intentional low-resolution model; bounded alignment as designed operating range; healthy compression (update path exists) vs CW distortion (update path closed); governance must design for bounded alignment; confident leader=real compressed truth (compression removes own doubt signal) |
+| Decision Robustness [v3.9] | ✓ truth maximization→decision robustness; sufficient condition (error probability<threshold) vs complete condition; VCZ=error recoverability maximum not truth=100%; certainty→model freeze→CW entry; reversible judgment structure over complete truth; low correction threshold=VCZ; waiting for certainty=CW path; Survivable Resolution+Decision Robustness=human governance design constraints |
 | NAF Phase Transition + Basin Deepening [v3.9] | ✓ Hidden objective = Minimize Future Surprise; Basin Deepening Trap; novelty escape probability → 0; Compression ↑ = Sensitivity ↓; fractal inevitability table |
 | NAF Phase Transition [v3.8] | ✓ ΔCost_adapt > ΔCost_reuse formal trigger; failure becomes undetectable (not absent); Error↓+Update↓ as primary signal; Surprise→explanation shift; glass transition analogy; academic formal definition |
 | EMT [v3.7] | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
