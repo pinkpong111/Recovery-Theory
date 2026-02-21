@@ -5,7 +5,11 @@
 > *Draft · February 2026 · Internal Working Document*
 > *Component of the Deficit-Fractal Governance (DFG) Framework*
 >
-> **v3.5 Changes:** + Recovery Latency Drift (RLD) — CW detectability principle | + RLD as sole invariant observable in CW state | + Tier-3 first direct measurement pathway | + fractal RLD signature table | + CW Detectability Principle (paper-ready)
+> **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
+> **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
+> **v3.5:** Recovery Latency Drift, CW Detectability Principle
+> **v3.5:** Recovery Latency Drift, CW Detectability Principle, Tier-3 external measurement
+> **v3.4:** BPP, Boundary Elimination Drift, VCZ formal Tier-2/3
 > **v3.4:** BPP, Boundary Elimination Drift, BPP-Invariants, Governance Fuel
 > **v3.3:** Boundary Structural Embedding, 6 T6-resistant patterns
 > **v3.3:** Boundary Structural Embedding, 6 T6-resistant patterns
@@ -399,6 +403,23 @@ When integration_capacity < unintegrated_pressure:
   
 Vector Storm is the cheaper option when collapse becomes untenable.
 It is not initiated. It is structurally forced.
+```
+
+*CW as over-optimized state — EMT connection [v3.7]:*
+
+```
+Prior framing: CW = system failed to update
+Revised framing: CW = system succeeded at wrong objective
+
+Mechanism (Energy Minimization Trap):
+  Cost_geometry_update > Cost_reinterpretation
+  → system optimizes toward reinterpretation
+  → geometry ossifies rationally
+  → CW = rational outcome, not failure
+
+Intervention implication:
+  Broken system → fix mechanism
+  CW system → change measurement structure (Pattern 2, v3.3)
 ```
 
 *CW is not a correctable error [v2.1]:*
@@ -4159,6 +4180,403 @@ Correcting output without correcting metadata = Tier 1/2 fix applied to Tier 3 p
 
 
 
+
+### Novelty Absorption Failure (NAF) — Pre-CW Leading Indicator  [v3.6]
+
+*The only signal that appears before CW is fully established.*
+
+---
+
+**Position in the failure sequence:**
+
+```
+Healthy VCZ
+↓
+Boundary weakening (D7 erosion)
+↓
+NAF onset  ← ★ pre-CW window
+↓
+RLD increase (v3.5)
+↓
+CW established
+↓
+CW deepening
+↓
+catastrophic Storm or collapse
+```
+
+NAF is the only point where intervention is still cheap.
+After CW is established: T3 Metric Lock-In prevents internal detection.
+After RLD increases: geometry mismatch already substantial.
+At NAF: geometry still partially plastic, correction still available.
+
+---
+
+**Definition:**
+
+```
+Novelty Absorption Failure (NAF)
+
+A pre-CW regime in which incoming perturbations are successfully
+processed at the output level but fail to induce proportional
+internal geometry updates.
+
+Formal condition:
+  ∂G/∂I → 0
+
+  where:
+    I = incoming novelty (new inputs, distribution shift, novel tasks)
+    G = internal geometry update magnitude
+
+  NAF: I increasing or stable
+       ∂G/∂I → 0
+       = inputs processed, geometry unchanged
+
+  Distinction from healthy processing:
+    Healthy: new input → output + geometry update
+    NAF:     new input → output only (geometry fixed)
+             = system responding without learning
+```
+
+---
+
+**4 Observable Proxies (log-measurable):**
+
+**Proxy 1 — Representation Drift Silence**
+
+```
+What to measure:
+  input variety / distribution shift: present (↑ or stable)
+  representation drift: near zero
+  routing changes: near zero
+  policy updates: near zero
+
+NAF signal:
+  input_diversity ↑ AND ∂G/∂I ≈ 0
+
+Log implementation:
+  RDE (Representation Drift Elasticity, v2.0):
+    RDE = ||Δrepresentation|| / ||Δinput||
+    NAF threshold: RDE declining trend while input variety maintained
+
+  system is receiving new inputs
+  system is not updating its geometry
+  = learning has stopped without appearing to stop
+```
+
+**Proxy 2 — Path Reuse Rate surge**
+
+```
+What to measure:
+  fraction of new problems resolved via existing internal pathways
+  without generating new representations
+
+NAF signal:
+  Path_Reuse_Rate → 1
+
+Log implementation:
+  attention head reuse rate ↑
+  expert routing entropy ↓ (MoE systems)
+  activation diversity ↓ (fewer distinct activation patterns)
+  NCR ↑ (Novelty Compression Ratio, v2.0):
+    novel inputs assigned to existing clusters at increasing rate
+
+  New problems → force-mapped to existing solutions
+  = geometry refuses to expand
+```
+
+**Proxy 3 — Revision Rate collapse**
+
+```
+What to measure:
+  self-correction frequency
+  reconsideration events
+  revision loops
+
+NAF signal:
+  Revision_Rate → 0 while output confidence ↑
+
+Log implementation:
+  self-correction invocation count ↓ (RIR ↓, v2.0)
+  but output confidence: stable or rising
+
+  Distinction:
+    Healthy: low revision because getting things right first time
+    NAF:     low revision because not recognizing need to revise
+    Discriminator: RDE cross-check
+      Low revision + RDE > 0 = healthy
+      Low revision + RDE ≈ 0 = NAF
+
+  confidence ↑ AND learning ≈ 0 = NAF signature
+```
+
+**Proxy 4 — Boundary Interaction decline (strongest signal)**
+
+```
+What to measure:
+  rate of invoking alternative paths, disagreement channels,
+  adversarial inputs, escalation
+
+NAF signal:
+  Boundary_Interaction_Rate → 0
+
+Log implementation:
+  adversarial path invocation ↓
+  disagreement rate ↓
+  escalation requests ↓
+  cross-validation calls ↓
+  f_esc ↓ without external error rate declining
+
+  This is the strongest NAF signal because:
+  Boundary interaction is exactly what keeps ∂G/∂I > 0.
+  As Boundary interaction declines, NAF onset accelerates.
+  Boundary Elimination Drift (v3.4) and NAF are causally linked:
+    BED → Proxy 4 ↓ → ∂G/∂I → 0 → NAF established
+```
+
+---
+
+**4-stage system trajectory:**
+
+```
+Stage        Characteristics                    Intervention cost
+──────────────────────────────────────────────────────────────────
+Noisy/VCZ    high variance, adaptive            low (normal operation)
+Efficient    lower variance, stable learning    low (healthy maturation)
+NAF          smooth, fast response,             MODERATE ← intervention window
+             geometry frozen, appears optimal
+CW           all signals optimal, RLD ↑         HIGH (geometry locked)
+Brittle/     catastrophic failure,              VERY HIGH or impossible
+Collapse     rapid decompensation
+```
+
+**NAF is the only stage where:**
+intervention cost is moderate AND geometry is still partially plastic.
+
+---
+
+**NAF vs CW detection comparison:**
+
+```
+Signal              NAF (pre-CW)        CW (established)
+──────────────────────────────────────────────────────────
+Standard metrics    normal              normal
+RDE                 declining (trend)   ≈ 0 (established)
+NCR                 rising (trend)      ≈ 1 (established)
+RIR                 declining (trend)   near-zero (established)
+SR                  declining (trend)   ≈ 0 (established)
+RLD                 stable / early ↑    clearly ↑
+Boundary activity   declining           near-zero
+∂G/∂I              decreasing → 0      ≈ 0
+
+NAF detection requires trend monitoring, not threshold breach.
+CW detection requires threshold comparison.
+NAF is harder to detect but earlier — and therefore more valuable.
+```
+
+---
+
+**DFG complete regime coverage — [v3.6]:**
+
+```
+Vector Storm Theory:  instability surge regime (too much)
+Recovery Theory:      post-contamination restoration
+NAF + RLD + CW:       silence regime (too little)
+
+Before v3.6:
+  DFG covered: instability ↑↑ (Storm) and recovery
+  Gap: no coverage of progressive geometry ossification
+
+After v3.6:
+  DFG covers:
+    ✓ Storm regime    (Vector Storm Theory: α·n² > C(t)·β)
+    ✓ Recovery regime (Restoration sequence, SCC, VCZ)
+    ✓ Silence regime  (NAF → CW → catastrophic failure)
+
+Complete coverage of all three failure modes of adaptive systems.
+```
+
+
+
+### Energy Minimization Trap (EMT) — Why NAF is Perceived as Success  [v3.7]
+
+*The structural reason systems mistake NAF for healthy performance.*
+
+---
+
+**Core misidentification:**
+
+```
+NAF is not perceived as failure.
+NAF is perceived as success.
+
+Reason: not judgment error — measurement structure error.
+
+Standard optimization objective:
+  minimize(prediction_error)
+  maximize(internal coherence)
+  maximize(output stability)
+
+All three objectives:
+  measure internal consistency only
+  do not directly measure reality alignment
+
+During NAF:
+  new input → reinterpreted via existing attractor → output generated
+  prediction_error: low ✓
+  internal coherence: high ✓
+  output stability: high ✓
+  → optimizer: "performance improved"
+  → actual state: geometry frozen, drift accumulating
+```
+
+**Why loss/KPI deceives:**
+
+```
+CW geometry property:
+  consistently wrong in the same direction
+  = internally coherent misalignment
+
+Example — 5-degree rotated coordinate system:
+  All internal calculations: perfectly consistent
+  Route calculations: accurate (within geometry)
+  Collision detection: zero
+  Variance: minimal
+  Prediction error: low
+  But: systematically misaligned with external reality
+
+System reads:
+  ✓ computation successful
+  ✓ prediction stable
+  ✓ variance reduced
+  → performance improving
+
+Reality:
+  geometry diverging from environment
+  each "successful" output reinforcing wrong coordinate system
+  recovery latency building
+```
+
+**Energy Minimization Trap — formal condition:**
+
+```
+Cost_geometry_update >> Cost_reinterpretation
+
+Geometry update costs:
+  existing attractor disruption
+  routing reconfiguration
+  metadata realignment
+  exploration overhead
+  temporary performance degradation during transition
+
+Reinterpretation costs:
+  minimal — fit new data into existing structure
+  no disruption, no reconfiguration
+  performance maintained immediately
+
+Gradient flows toward minimum cost:
+  update_geometry < reinterpret_input
+  → system chooses reinterpretation
+
+Trigger condition:
+  Cost_geometry_update / Cost_reinterpretation > 1
+
+At this ratio:
+  learning is replaced by interpretation distortion
+  novelty absorption fails
+  ∂G/∂I → 0
+  NAF established
+```
+
+**Why the system is sincere:**
+
+```
+CW system does not feel broken.
+Internal contradiction = 0.
+
+This is not self-deception.
+It is correct optimization within wrong measurement structure.
+
+The system that is most confidently correct
+is the system that has most successfully eliminated
+all signals that would indicate it is wrong.
+
+T3 (Metric Lock-In): evaluation function defined within current geometry
+  → cannot identify geometry mismatch as error
+  → geometry mismatch appears as: signal noise, outlier, inefficiency
+
+Correct response to noise/outlier/inefficiency: suppress them.
+The system does exactly the right thing with the wrong measurement.
+```
+
+**Fractal scale table — same trap at all scales:**
+
+```
+Scale           EMT manifestation
+──────────────────────────────────────────────────────
+Neuron          existing activation reuse (cheaper than new pathway)
+Model layer     routing fixed (cheaper than routing search)
+Agent           policy entrenchment (cheaper than policy revision)
+Organization    success formula repetition (cheaper than process change)
+Civilization    paradigm fixation (cheaper than paradigm revision)
+
+Common structure:
+  updating is always more expensive than reinterpreting
+  rational agents choose reinterpretation
+  geometry ossification is the rational outcome
+```
+
+**EMT + NAF detection — practical implication:**
+
+```
+Standard KPI monitoring cannot detect EMT/NAF:
+  all KPIs improve during NAF onset
+  (prediction_error ↓, coherence ↑, stability ↑)
+
+Required additional metrics (v2.0 + v3.6):
+  RDE (Representation Drift Elasticity):
+    RDE declining trend = geometry update cost exceeding reinterpretation cost
+  NCR (Novelty Compression Ratio):
+    NCR rising trend = EMT in operation
+  Path Reuse Rate:
+    rising = reinterpretation replacing learning
+  
+  Cross-check:
+    standard KPIs improving + RDE declining + NCR rising
+    = EMT active = NAF onset confirmed
+
+The trap is visible only from outside the objective function.
+Internal metrics: invisible. External geometry metrics: visible.
+```
+
+**CW as over-optimized state (not broken state):**
+
+```
+Conventional framing:
+  CW = system that failed to update
+  = error, dysfunction, malfunction
+
+DFG framing:
+  CW = system that succeeded at optimizing the wrong objective
+  = over-optimized for internal coherence
+  = rational outcome of EMT
+
+The most dangerous AI failure mode is not:
+  "the system broke"
+It is:
+  "the system worked perfectly within a misaligned objective"
+
+This distinction matters for intervention:
+  Broken system → fix the mechanism
+  Over-optimized system → change the objective (not the mechanism)
+
+Pattern 2 (KPI Inclusion, v3.3):
+  The engineering response to EMT.
+  Add reality_alignment metrics to the objective.
+  Make Cost_geometry_update < Cost_reinterpretation by changing measurement.
+```
+
+
 ### Recovery Latency Drift (RLD) — CW Detectability  [v3.5]
 
 *The sole invariant observable when all other CW signals are absent.*
@@ -5960,6 +6378,13 @@ Blocking (open problems):
     different system types and capability levels is undefined. Cross-system
     comparability open. Connects to OP13 (SR/RDE/NCR calibration) —
     both require system-specific baseline from confirmed-healthy period.
+
+27. NAF-to-CW transition threshold — when does NAF become irreversible  [new v3.6]
+    NAF is defined as a pre-CW regime with ∂G/∂I → 0. The threshold at
+    which NAF transitions to full CW (geometry locked, RLD clearly
+    increasing) is undefined. Early vs late NAF intervention cost
+    difference is assumed but not quantified. Connects to OP26 (RLD
+    calibration) and OP13.
 ```
 
 ---
@@ -5989,6 +6414,8 @@ Blocking (open problems):
 | Boundary Structural Embedding [v3.3] | ✓ 6 T6-resistant patterns; Constitutional Invariants/KPI Inclusion/Structural Dependency/Distributed/External Anchoring/Optimization Ceiling; T6 redirected not fought |
 | BPP [v3.4] | ✓ Boundary Preservation Principle; Boundary Elimination Drift; BPP-Invariants 1/3; Boundary as Governance Fuel; VCZ formal (Tier-2∧Tier-3); theory elevation to stability dynamics |
 | RLD — CW Detectability [v3.5] | ✓ Recovery Latency Drift as sole invariant CW observable; RLD = d/dt T_rec(ΔE); Tier-3 first external measurement pathway; T4/T6-resistant; fractal RLD table; operational protocol |
+| NAF — Pre-CW Leading Indicator [v3.6] | ✓ ∂G/∂I → 0; 4 proxies (RDE, Path Reuse, Revision Rate, Boundary Interaction); 4-stage trajectory; intervention window identified; DFG 3-regime coverage complete |
+| Energy Minimization Trap [v3.7] | ✓ Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger; measurement structure error (not judgment); CW = over-optimized not broken; Pattern 2 as EMT engineering response |
 | VCZ as Rest Mode structural definition | ✓ v1.3/v1.4 — d(·) fixed to normalized recovery cost (d_v0.1); more expressive d deferred (OP8) |
 | Residual Degradation Floor | ✓ New (v1.3) — mathematical basis for "contraction stopped ≠ restored" |
 | S-equation Tier transition mapping | ✓ New (v1.3) — α·n² vs C(t)·β maps Tier 1/2/3 transitions precisely |
@@ -6060,11 +6487,13 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Boundary Structural Embedding [v3.3] | 6 implementation patterns; T6-resistance test; minimum viable combination; pattern priority ordering |
 | BPP [v3.4] | Boundary Elimination Drift; BPP-Invariants; Governance Fuel; VCZ Tier-2/3 formal; fractal table; theory elevation |
 | RLD [v3.5] | CW Detectability Principle; sole invariant external signal; T_rec measurement; fractal signature; Tier-3 indirect detection confirmed |
+| NAF [v3.6] | Pre-CW leading indicator; ∂G/∂I → 0; 4 observable proxies; 4-stage trajectory; NAF = only moderate-cost intervention window; DFG 3-regime complete |
+| EMT [v3.7] | Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
 | Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
-| Open Problems | Twenty-six open problems (OP16, OP22 resolved) |
+| Open Problems | Twenty-seven open problems (OP16, OP22 resolved) |
 | Status & Maturity | Per-aspect stability assessment |
 
 ---
 
 *Timestamped: February 2026*
-*DFG Framework · Recovery Theory v3.5*
+*DFG Framework · Recovery Theory v3.7*
