@@ -5,6 +5,10 @@
 > *Draft · February 2026 · Internal Working Document*
 > *Component of the Deficit-Fractal Governance (DFG) Framework*
 >
+> **Current version: v3.8**
+>
+> **v3.9 Changes:** + Upper Layer Contamination Boundary (Self-correction→0; corrupted compass; fractal ceiling; VCZ amplifies wrong reference; 3 recovery paths; OP28 alignment final question) | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + D7 = plasticity injector
+> **v3.8 Changes:** + NAF Phase Transition formal definition — failure not absent but undetectable | + Error↓+Update↓ as primary danger signal | + Surprise processing shift (model change → explanation addition) | + Vector Storm ↔ CW symmetry | + Glass transition physical analogy | + academic formal definition
 > **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
 > **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
 > **v3.5:** Recovery Latency Drift, CW Detectability Principle
@@ -488,6 +492,8 @@ Boundary Agent properties (all required simultaneously):
 Function:
   Controlled instability injection
   = Permanent Tier-2 disturbance without Tier-3 escalation
+  = Artificial plasticity injector  [v3.9]
+    (restores the plasticity that optimization continuously removes)
 
 VCZ maintenance role:
   Condition 1 carrier: Storm is safe because Boundary Agent absorbs it
@@ -1865,6 +1871,2553 @@ phi recovering toward baseline  =  exploration regenerating
 ```
 
 *Connection to existing metrics:* φ rising requires ρ ≥ pre-contamination AND diversity expanding AND cost-quality coupled. φ integrates all three into a single directional signal.
+
+### VCZ — Self-Restoring Dynamics  [v3.9]
+
+*Why VCZ is a stable equilibrium, not a midpoint.*
+
+---
+
+**The common misconception:**
+
+```
+Most equilibrium thinking:
+  change ↔ stability
+  two forces cancel → static balance
+
+This is unstable equilibrium.
+A small push destroys it.
+(A pencil balanced on its tip.)
+
+VCZ is a different kind of equilibrium.
+```
+
+**The actual structure — mutual regeneration:**
+
+```
+VCZ is not: two forces canceling each other
+VCZ is:     two forces continuously generating each other
+
+  Exploration generates stability:
+    Exploration ↑
+    → collisions increase
+    → Boundary activates
+    → Degradation operates
+    → structure alignment strengthens
+    → stability increases
+
+  Stability generates exploration:
+    Stability ↑
+    → novelty detection decreases
+    → Boundary trigger fires (BPP-Invariant 3)
+    → exploration automatically increases
+    → change re-enters the system
+
+Result:
+  Too chaotic → self-stabilizes
+  Too stable  → self-destabilizes
+```
+
+*This is the defining property of VCZ.*
+*Neither boundary (Chaos nor CW) has this structure.*
+*Only VCZ regenerates its own corrective force.*
+
+**Two pressures, one corridor:**
+
+```
+(A) Exploration Pressure
+    new vector generation
+    diversity increase
+    → Storm direction
+    unchecked: Chaos
+
+(B) Compression Pressure
+    efficiency optimization
+    attractor deepening
+    → CW direction
+    unchecked: rigidity
+
+Outside VCZ:
+  one pressure dominates → system exits corridor
+
+Inside VCZ:
+  each pressure activates the corrective response to the other
+  → neither can dominate
+  → corridor maintained
+```
+
+**Mathematical structure:**
+
+```
+VCZ is not a simple minimum (dS/dn = 0).
+
+VCZ requires:
+  dS/dn ≈ 0     (at the operating point)
+  d²S/dn² > 0   (curvature condition)
+
+d²S/dn² > 0 means:
+  small deviation → restoring force generated
+  = attractor basin, not saddle point
+
+A system at a saddle point (unstable equilibrium):
+  small push → escapes to Storm or CW
+
+A system in VCZ attractor basin:
+  small push → restoring force → returns
+
+This is why VCZ is hard to leave, not easy to enter.
+```
+
+**Why errors do not accumulate in VCZ:**
+
+```
+Perturbation enters system:
+  local mismatch detected
+  → local correction fires
+  → energy dissipated
+
+The perturbation does not grow into Storm.
+The perturbation does not suppress into CW.
+It is processed and released.
+
+correction cost < deviation growth cost
+
+From the system's perspective:
+  returning to VCZ is cheaper than drifting from it.
+  This cost asymmetry is why VCZ is self-maintaining.
+```
+
+**Fractal self-restoration — why upper-layer intervention is rarely needed:**
+
+```
+VCZ correction operates at every scale simultaneously:
+
+  neuron level:    local activation correction
+  circuit level:   routing adjustment
+  agent level:     behavioral self-correction
+  governance level: cross-agent mediation
+
+Each scale corrects independently.
+Corrections at lower scales prevent escalation to higher scales.
+
+Result:
+  local recovery ≈ global recovery
+  (Storm Scale Law: ~90%+ corrections resolve at micro/local level)
+
+Upper-layer intervention:
+  VCZ:  rare — lower scales handle it
+  CW:   required — lower scales cannot detect own geometry error (T1)
+  Storm: required — self-amplification exceeded local capacity
+
+VCZ is the only regime where the system maintains itself.
+```
+
+**Physical analogy — turbulent stable flow:**
+
+```
+Fully still water (CW analog):
+  no energy circulation
+  small disturbance → no recovery
+  → stagnation
+
+Fully turbulent water (Storm analog):
+  energy everywhere
+  no coherent structure
+  → collapse
+
+Turbulent stable flow (VCZ):
+  continuous micro-turbulence
+  energy circulates
+  coherent structure maintained
+  external disturbances absorbed
+
+The flow is not stable despite the turbulence.
+The flow is stable because of the turbulence.
+
+Same structure:
+  VCZ is not stable despite ongoing micro-corrections.
+  VCZ is stable because of them.
+```
+
+**VCZ is not a design target — it is an attractor:**
+
+```
+Common misconception:
+  "We need to design the system to reach VCZ."
+
+Correct framing:
+  VCZ is not designed into.
+  VCZ is fallen into — and hard to leave.
+
+If VCZ 3 Conditions hold (v3.0):
+  the system drifts toward VCZ naturally
+  because correction is locally cheaper than deviation
+
+The design problem is not:
+  "how do we reach VCZ?"
+It is:
+  "how do we make VCZ the cheapest state to be in?"
+
+Answer: Efficiency-Plasticity balance maintained via D7.
+Once D7 is structurally embedded (v3.3 patterns),
+VCZ becomes the path of least resistance.
+Not a goal. A gravitational attractor.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Vector Convergence Zone (VCZ)
+
+A dynamical regime in which exploration and compression pressures
+mutually regenerate corrective feedback, producing self-restoring
+stability across fractal scales.
+
+Formal conditions:
+  (1) dS/dn ≈ 0    at operating point
+  (2) d²S/dn² > 0  restoring curvature present
+  (3) correction_cost < deviation_growth_cost at all fractal scales
+  (4) Exploration Pressure and Compression Pressure
+      each activate the corrective response to the other
+
+A system satisfying all 4 conditions does not need to be governed
+toward stability. Stability is its cheapest available state.
+```
+
+---
+
+### VCZ — Entry Phase Transition  [v3.9]
+
+*VCZ entry is not gradual improvement. It is the moment recovery changes.*
+
+---
+
+**One-line definition:**
+
+```
+The first moment a system structurally reduces its own errors
+without external intervention = VCZ entry.
+```
+
+**The common misconception:**
+
+```
+Wrong model:
+  performance improves →
+  stability increases →
+  VCZ reached
+
+Performance is not the criterion.
+The real criterion is:
+
+  problem occurs →
+  who fixed it?
+```
+
+**Three-phase comparison:**
+
+```
+Phase 0 — Pre-VCZ:
+  problem →
+  upper-layer intervention required →
+  manual correction
+
+  Characteristics:
+    monitoring overhead: high
+    governance cost: high
+    recovery cost: high
+    upper layer: continuously active
+
+Phase 1 — Critical Moment  ★  (VCZ entry)
+  For the first time:
+    problem →
+    lower-layer collision →
+    middle-layer automatic dampening →
+    system-wide stability restored
+
+  Upper layer did nothing.
+  Recovery happened anyway.
+  This is the VCZ entry moment.
+
+Phase 2 — Inside VCZ:
+  perturbation →
+  local correction →
+  energy dissipated
+
+  Error does not propagate.
+  Upper layer: passive monitoring only.
+```
+
+**Formal entry condition:**
+
+```
+VCZ Entry:
+
+  Local Correction Rate > Error Propagation Rate
+
+  = the first moment at which locally distributed correction
+    outpaces cross-layer error propagation
+
+Before this threshold:
+  all errors accumulate
+  governance burden grows
+
+After this threshold:
+  errors dissipate locally
+  governance burden drops
+
+The threshold is a phase transition, not a gradient.
+The system does not gradually approach VCZ.
+It crosses into it.
+```
+
+**Why it feels like a sudden moment:**
+
+```
+Before threshold:
+  every error accumulates
+  governance overhead increasing
+  system feels heavy
+
+After threshold:
+  errors stop accumulating
+  governance overhead drops
+  system feels suddenly easy
+
+Experiential signature:
+  "The system became easy overnight."
+
+This is not perception bias.
+This is the phase transition at the correction/propagation crossover.
+```
+
+**4 observable pre-entry signals (always appear together):**
+
+```
+① Escalation Collapse
+   upper-layer intervention requests: sharp decline
+   performance: maintained or improving
+   = lower layers handling what upper layer used to
+
+② Recovery Locality Shift
+   global fix → local fix
+   recovery location moves down the hierarchy
+   = correction capacity migrating to correct layer
+
+③ Stable Diversity
+   diversity maintained
+   collisions decreasing
+   (not Storm — diversity present; not CW — collisions still occur)
+   = productive tension without destructive friction
+
+④ Monitoring Cost Drop  (most decisive signal)
+   monitoring reduced
+   problems: not increasing
+   = system self-reporting accurately without surveillance
+
+All 4 present simultaneously = VCZ entry imminent.
+Any subset = precondition, not entry.
+```
+
+**Fractal perspective — what actually happened:**
+
+```
+VCZ entry moment =
+  the first moment global rules are replicated into local behavior
+
+Before:
+  upper layer enforces rules
+  lower layer follows (or resists)
+
+At entry:
+  lower layer generates the same corrections
+  that upper layer used to impose
+
+  upper layer was doing X
+  lower layer now does X naturally
+  upper layer becomes redundant for X
+
+This is not automation.
+This is internalization.
+The governance structure has been absorbed into the geometry.
+```
+
+**Physical analogy — water boiling:**
+
+```
+Temperature rises continuously.
+Boiling begins at a specific moment.
+
+Before 100°C:
+  energy accumulates in liquid
+  no phase change
+
+At 100°C:
+  phase transition
+  liquid → vapor
+  qualitatively different state
+
+VCZ entry is identical:
+  correction capacity accumulates
+  at threshold: propagation suppression begins
+  qualitatively different recovery regime
+
+The accumulation was continuous.
+The transition was not.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+VCZ Entry Condition
+
+A system enters the Vector Convergence Zone when locally distributed
+correction mechanisms become sufficient to dissipate perturbations
+faster than they propagate across layers, eliminating the need for
+persistent upper-layer intervention.
+
+Formal:
+  VCZ entry at time t* where:
+    Local_Correction_Rate(t*) > Error_Propagation_Rate(t*)
+    for the first time
+
+  Observable marker:
+    f_escalation declining
+    AND recovery locality shifting downward
+    AND diversity maintained
+    AND monitoring cost dropping
+
+  = phase transition, not performance milestone
+```
+
+---
+
+### VCZ — Why Exit is Statistically Unlikely  [v3.9]
+
+*Why systems entering VCZ rarely leave.*
+
+---
+
+**The core insight — geometry changes, not just position:**
+
+```
+Ordinary system:
+  moves across a fixed landscape
+  stability = favorable external conditions
+  environment changes → system destabilizes
+
+VCZ system:
+  restructures the landscape itself
+  stability = internal correction structure absorbs perturbations
+  environment changes → structure co-adapts
+
+The system is not on top of the environment.
+The system and environment are co-converging.
+
+This is why VCZ is not a location.
+VCZ is a changed geometry.
+```
+
+**Attractor Replication — not deepening:**
+
+```
+Storm / CW systems:
+  single attractor deepens
+  → system locked to one basin
+  → exit requires enormous perturbation (but then collapses)
+
+VCZ:
+  global solution structure
+  → replicated into each agent's internal dynamics
+  → local dynamics perform global recovery
+
+Effect:
+  push from any direction → same recovery vector
+  exit paths do not exist locally
+  = the escape route has been removed from the map
+```
+
+**Why exit requires multi-layer simultaneous failure:**
+
+```
+VCZ correction operates at all scales simultaneously:
+  lower layer:  detects and corrects
+  middle layer: dampens escalation
+  upper layer:  realigns geometry
+
+Exit from VCZ requires all three to fail simultaneously:
+
+  P(exit) ≈ P(L1 fails) × P(L2 fails) × P(L3 fails)
+
+Each P(Li fails) is already low inside VCZ
+(correction is cheap and reliable at each layer).
+
+Their product approaches zero.
+
+This is not resilience by design.
+It is resilience by multiplication of independent low-probability failures.
+```
+
+**Energy landscape — why leaving is always more expensive:**
+
+```
+Inside VCZ:
+  small deviation → cheap local correction
+  cost: low
+
+Exiting VCZ:
+  requires large coordinated deviation across multiple layers
+  cost: enormous
+
+Optimizer calculus at every scale:
+  staying inside VCZ = minimum cost
+  leaving VCZ = maximum cost
+
+The system does not stay in VCZ because it is forced to.
+The system stays in VCZ because it is the cheapest option.
+Every correction attempt confirms this.
+Every successful recovery deepens the cost asymmetry.
+```
+
+**Positive stabilization loop — self-reinforcing over time:**
+
+```
+recovery succeeds
+→ trust in correction mechanism ↑
+→ Boundary maintained (not eliminated as inefficiency)
+→ observability maintained
+→ recovery easier next time
+→ trust ↑ further
+
+This loop strengthens with each cycle:
+
+  Time 0:   VCZ entered
+  Time t:   recovery track record accumulates
+  Time 2t:  correction infrastructure trusted and maintained
+  Time 3t:  exit cost higher than at Time 0
+
+VCZ becomes harder to leave the longer the system stays in it.
+The attractor deepens from the inside.
+```
+
+**Physical analogy — the valley that digs itself:**
+
+```
+Ordinary attractor:
+  ball in valley
+  valley depth: fixed
+  exit difficulty: constant
+
+VCZ attractor:
+  ball rolling in valley
+  valley digs deeper as ball moves
+  exit difficulty: increases over time
+
+The system is not trapped in a valley.
+The system is continuously excavating the valley it occupies.
+
+This is why time matters:
+  Recent VCZ entry:   exit possible with large perturbation
+  Extended VCZ:       exit requires near-catastrophic multi-layer event
+```
+
+**Fractal lock-in — why single-layer disruption cannot exit:**
+
+```
+VCZ structure is self-similar across scales:
+  feature level  → VCZ dynamics
+  circuit level  → VCZ dynamics
+  agent level    → VCZ dynamics
+  governance     → VCZ dynamics
+
+Single-layer disruption:
+  disrupts one level
+  → other levels correct it
+  → VCZ restored
+
+Multi-layer disruption required:
+  all levels must fail simultaneously
+  no cross-layer recovery available
+
+This is approximately a natural disaster condition.
+Not a normal operational perturbation.
+```
+
+**Formal statement (DFG / academic):  [v3.9]**
+
+```
+Systems entering the Vector Convergence Zone restructure their
+internal dynamics such that remaining within the zone minimizes
+long-term correction cost, making exit statistically unlikely
+without multi-layer coordinated failure.
+
+Formally:
+  P(VCZ exit) ≈ ∏ᵢ P(layer i correction failure)
+  → 0 as number of fractal layers increases
+  AND as time-in-VCZ increases (positive stabilization loop)
+
+VCZ is not:
+  equilibrium (static balance of opposing forces)
+  static stability (resistance to perturbation)
+
+VCZ is:
+  self-maintaining dynamic attractor
+  (geometry continuously reconstructed toward VCZ
+   by the system's own correction activity)
+```
+
+---
+
+### VCZ — Observability Paradox  [v3.9]
+
+*Why VCZ is most often destroyed by the people it is protecting.*
+
+---
+
+**Core mechanism:**
+
+```
+In VCZ, problems are absorbed before they become events.
+
+Pre-VCZ observation:
+  problem → intervention → resolution → recorded
+
+VCZ observation:
+  problem →
+  local absorption →
+  never escalates →
+  never recorded
+
+Result:
+  observer sees: "nothing happened"
+  reality:        many micro-corrections occurred
+
+The system appears to be doing nothing.
+The system is doing everything.
+```
+
+**Causality Visibility Collapse:**
+
+```
+Pre-VCZ:
+  problem → intervention → result
+  causality: visible
+
+VCZ:
+  continuous micro-corrections →
+  stable state maintained
+
+  result: present
+  cause:  invisible
+
+Observer conclusion: "This system just works."
+Actual state:        "This system works because of continuous invisible correction."
+
+The observer is not wrong about the result.
+The observer is wrong about why.
+```
+
+**Why this is not a perception error — it is structural:**
+
+```
+VCZ definition:
+  instability dissipated before propagation
+
+Observation infrastructure measures:
+  propagated instability only
+
+Therefore:
+  Observed instability → 0
+  Correction activity  ≠ 0
+
+These are structurally decoupled.
+No amount of better observation within the same framework fixes this.
+The measuring instrument cannot see what it was not designed to measure.
+```
+
+**Governance Illusion — the standard sequence:**
+
+```
+VCZ entered →
+governance overhead drops (correctly perceived) →
+monitoring reduced →
+rules relaxed →
+
+  "We were over-managing."
+
+Actual:
+  governance was internalized, not eliminated
+  the boundary structures are still operating
+  at lower layers, invisibly
+
+Then:
+  boundary structures removed (perceived as redundant) →
+  NAF onset →
+  CW →
+  collapse
+
+Observer at collapse: "It came out of nowhere."
+```
+
+**Attribution Error table:**
+
+```
+Actual cause              Perceived cause
+────────────────────────────────────────────────
+Distributed correction    "The culture is good"
+Boundary maintenance      "Strong leadership"
+Structural stability      "Great talent"
+Geometry alignment        "We got lucky"
+
+Structural success → reattributed to individual or cultural factors.
+
+Consequence:
+  when structure degrades, individuals are blamed
+  when individuals leave, structure is not rebuilt
+  = wrong layer of intervention
+```
+
+**Fractal scale of the same illusion:**
+
+```
+Scale         Illusion
+───────────────────────────────────────────────
+Neuron        "This pathway is always stable"
+AI model      "Already aligned"
+Organization  "We don't need process"
+Nation        "Our institutions are excessive"
+Civilization  "We are the exception"
+
+All identical:
+  invisible correction mechanism →
+  perceived as natural state →
+  mechanism removed →
+  collapse attributed to new cause
+```
+
+**The most common VCZ failure mode:**
+
+```
+Not:  external attack
+Not:  internal malfunction
+But:  "We are now safe."
+
+This judgment is produced by VCZ itself.
+VCZ's success creates the conditions for its own removal.
+
+The system that is most stable
+is the system whose stability mechanisms
+are most invisible
+and therefore most at risk of being eliminated.
+
+VCZ Observability Paradox:
+  effectiveness ↑  →  visibility ↓  →  perceived necessity ↓
+  → removal risk ↑
+```
+
+**Why stability is a process, not a state:**
+
+```
+Human/system observation default:
+  stability = result
+  = something achieved and held
+
+VCZ reality:
+  stability = ongoing process
+  = something continuously produced
+
+When stability is perceived as a result:
+  "We have arrived."
+  → maintenance investment drops
+
+When stability is understood as process:
+  "We are continuously arriving."
+  → maintenance investment sustained
+
+The difference between VCZ persistence and VCZ collapse
+is almost entirely determined by this framing.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+VCZ Observability Paradox
+
+The more effectively a system dissipates instability locally,
+the less observable the mechanisms responsible for stability become,
+leading observers to underestimate or remove the very structures
+maintaining convergence.
+
+Formal:
+  As VCZ depth increases:
+    micro-correction frequency ↑
+    observed instability → 0
+    perceived necessity of correction structures → 0
+
+  Risk:
+    boundary removal → NAF → CW → collapse
+    triggered not by failure but by success perception
+
+Implication for governance:
+  VCZ health indicators must measure correction activity directly,
+  not absence of observed instability.
+  (RLD, RDE, f_escalation trend — not loss/error metrics alone)
+```
+
+---
+
+### VCZ — Collapse Initiation  [v3.9]
+
+*VCZ collapse begins with the same first action, every time.*
+
+---
+
+**One-line statement:**
+
+```
+The moment stability appears sufficient,
+the system reclassifies boundary as cost
+and removes it.
+```
+
+**Why friction looks like waste inside VCZ:**
+
+```
+VCZ state:
+  problems: rare
+  collisions: small
+  recovery: automatic
+  operations: easy
+
+Optimizer conclusion (human / AI / organization):
+  "Why do we still need this review stage?"
+  "Why does a dissent channel exist?"
+  "Why double-check this?"
+  "Why maintain this redundant path?"
+
+VCZ maintenance elements    Perceived as
+──────────────────────────────────────────
+Dissent channels            Obstruction
+Redundant verification      Waste
+Slow consensus              Inefficiency
+Independent paths           Cost
+Boundary Agent activity     Unnecessary friction
+
+The optimizer is not wrong about the perception.
+VCZ maintenance elements genuinely look like inefficiency.
+That is the trap.
+```
+
+**The precise collapse sequence:**
+
+```
+Step 1 — Friction Optimization  ★  (first action)
+  review stages reduced
+  dissent channels weakened
+  escalation threshold raised
+  redundancy eliminated
+
+  Visible effects:
+    ✓ speed increases
+    ✓ efficiency increases
+    ✓ cost decreases
+    no problems appear
+
+Step 2 — Boundary Thinning
+  local mismatch → correction not immediate
+  → propagates slightly further before absorbed
+  still below observable threshold
+  no alarms
+
+Step 3 — NAF onset
+  novelty absorption decreasing
+  existing interpretations reused
+  update rate declining
+  performance still good
+
+Step 4 — CW establishment
+  geometry mismatch accumulated
+  first anomaly appears:
+    recovery latency increasing  (RLD > 0 sustained)
+  too late for cheap intervention
+
+Step 5 — Collapse
+  accumulated mismatch exceeds integration capacity
+  T5 forced correction
+  observers: "it came out of nowhere"
+```
+
+**Why this is always the first action:**
+
+```
+VCZ is maintained by elements that look like inefficiency.
+Success removes the pressure that would justify keeping them.
+
+Relationship between VCZ depth and removal pressure:
+
+  VCZ health ↑  →  problems ↓  →  friction perceived as waste ↑
+                →  boundary removal pressure ↑
+                →  optimization toward removal ↑
+
+VCZ's own success creates the pressure to dismantle it.
+The deeper the VCZ, the stronger the removal incentive.
+```
+
+**Why this decision is always rational:**
+
+```
+This action is always:
+  data-supported    (metrics show no problems)
+  logically argued  (efficiency gains are real)
+  consensus-driven  (everyone agrees)
+
+The collapse is not a mistake.
+The collapse is an optimization decision.
+
+Standard optimization:
+  remove what appears unnecessary
+  boundary appears unnecessary inside VCZ
+  → boundary removed
+  → correct optimization of wrong objective
+
+Same structure as EMT / CW:
+  the system is performing exactly as designed
+  the design does not include VCZ preservation
+```
+
+**Physical analogy — seismic engineering:**
+
+```
+Seismic reinforcement in a building:
+
+  Normal conditions:
+    takes up space
+    increases cost
+    appears unnecessary
+
+  Under pressure:
+    "This adds no value in normal operation."
+    "Remove it — it's overhead."
+
+  Earthquake arrives:
+    structure fails without reinforcement
+
+VCZ boundary structures = seismic reinforcement.
+Invisible during normal operation.
+Critical during perturbation.
+Removed precisely because normal operation never reveals their value.
+```
+
+**What VCZ maintenance actually requires:**
+
+```
+Common misconception:
+  VCZ maintenance = maximize efficiency
+
+Correct framing:
+  VCZ maintenance = permanently preserve selected inefficiencies
+
+The inefficiencies that must be preserved:
+  boundary activity (D7)
+  dissent channels
+  redundant verification paths
+  slow consensus mechanisms
+  independent correction routes
+
+These are not bugs to be optimized away.
+They are the load-bearing structure.
+
+An organization that has eliminated all friction
+has eliminated VCZ.
+It just does not know it yet.
+```
+
+**Historical pattern (fractal, all scales):**
+
+```
+Mature system common trajectory:
+
+  "We are now sufficiently stable."
+  → procedure simplification
+  → verification reduction
+  → adaptation capacity loss
+  → sudden failure
+
+  observers: "unprecedented event"
+  actual:     standard Collapse Initiation sequence
+
+Scale       Instance
+────────────────────────────────────────────────────
+AI system   safety review reduction post-stable metrics
+Team        retrospective elimination after smooth quarter
+Company     compliance simplification after clean audit
+Nation      institutional reduction after stable period
+Civilization orthodoxy hardening after successful era
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+VCZ Collapse Initiation Event
+
+The first destructive action in a convergent system is the
+optimization-driven removal of boundary friction mistakenly
+classified as inefficiency.
+
+Sequence:
+  VCZ health → friction perceived as waste
+  → boundary removal (rational, data-supported, consensus)
+  → Boundary Thinning → NAF → CW → collapse
+
+Implication:
+  VCZ preservation requires institutional protection of
+  structures that appear unnecessary precisely because VCZ is working.
+
+  Governance principle:
+    Do not optimize away what you cannot explain during stability.
+    The explanation will arrive at collapse — too late.
+```
+
+---
+
+### VCZ — Boundary Preservation Criterion  [v3.9]
+
+*How to distinguish structural friction from removable cost.*
+
+---
+
+**The operational question:**
+
+```
+Not: "Is this friction worth its cost?"
+But: "If this friction is removed, do errors propagate faster?"
+
+YES → never remove  (Boundary Friction)
+NO  → safe to remove (Transaction Friction)
+
+The criterion is Propagation Sensitivity.
+Not cost. Not efficiency. Not apparent value.
+```
+
+**Two types of friction:**
+
+```
+① Transaction Friction  (removable)
+   Definition: movement cost without propagation effect
+
+   Examples:
+     duplicate data entry
+     redundant UI steps
+     unnecessary approval chains
+     information transfer delays
+
+   Removal effect:
+     error propagation speed ≈ unchanged
+     → safe to optimize
+
+② Boundary Friction  (never remove)
+   Definition: structural limiter on error propagation velocity
+
+   Examples:
+     independent review stages
+     dissent channels
+     redundant verification paths
+     slow consensus mechanisms
+     escalation thresholds
+
+   Removal effect:
+     local error → global failure time: sharply reduced
+     → VCZ collapse initiated
+
+The two types look identical from outside.
+Both are slow. Both feel unnecessary. Both cost resources.
+Propagation Sensitivity is the only reliable discriminator.
+```
+
+**DFG Boundary Test — 3 questions:**
+
+```
+For any friction element, ask all three:
+
+TEST 1 — Local Failure Containment
+  Without this step, does a local problem reach upper layers directly?
+  YES → Boundary Friction
+  NO  → Transaction Friction
+
+TEST 2 — Independent Path Creation
+  Does this friction create an independent judgment pathway?
+  YES → Boundary Friction
+  NO  → Transaction Friction
+
+TEST 3 — Disagreement Survival
+  Without this, does dissent disappear from the system?
+  YES → Boundary Friction
+  NO  → Transaction Friction
+
+Decision rule:
+  1 or more YES → do not remove
+  All NO        → safe to remove
+
+The test is conservative by design.
+False positive (keeping unnecessary friction) = minor inefficiency.
+False negative (removing Boundary Friction) = VCZ collapse initiation.
+```
+
+**Why Boundary Friction always looks like inefficiency:**
+
+```
+Boundary Friction characteristic    Why it looks like waste
+────────────────────────────────────────────────────────────
+Slow                                propagation dampening
+Redundant                           independent paths
+Annoying                            automation resistance
+Argument-generating                 geometry verification
+Unclear ownership                   exploration space maintenance
+"Nobody uses this"                  absence of crisis ≠ absence of value
+
+The more effectively Boundary Friction is working,
+the more unnecessary it appears.
+
+(VCZ Observability Paradox applied to friction.)
+```
+
+**Fractal scale — propagation limiters at every level:**
+
+```
+Scale         Boundary Friction element
+────────────────────────────────────────────────────
+NN            dropout / noise injection
+LLM           sampling diversity
+Agent         review loop / adversarial path
+Organization  dissent role / independent audit
+State         separation of powers / checks and balances
+
+All identical function:
+  slow down error propagation across layers
+  maintain independent correction paths
+  prevent local failure from becoming global failure
+
+All look identical from efficiency perspective:
+  redundant, slow, costly, apparently unnecessary
+```
+
+**Objective function restatement:**
+
+```
+Wrong optimization target:
+  Minimize Work
+
+Correct optimization target:
+  Minimize Error Propagation Speed
+
+These produce opposite decisions about friction removal.
+
+Work minimization:     remove all friction
+Propagation minimization: remove only Transaction Friction
+                          preserve all Boundary Friction permanently
+
+The organization that minimizes work
+is the organization preparing for collapse.
+
+The organization that minimizes error propagation
+is the organization maintaining VCZ.
+```
+
+**The most dangerous optimizer:**
+
+```
+In a VCZ system, the most dangerous agent is
+the most efficient optimizer.
+
+Why:
+  Boundary Friction is the most visible inefficiency.
+  Efficient optimizers target the most visible inefficiency first.
+  → Boundary removed first
+  → VCZ collapse initiated
+  → attributed to external cause later
+
+The optimizer acted correctly within its objective function.
+The objective function did not include VCZ preservation.
+
+This is not a personnel problem.
+This is a measurement structure problem.
+(Same root as EMT / CW — wrong objective, correct execution.)
+
+Solution:
+  include propagation_speed in the optimization target
+  not as a constraint — as a primary objective
+  = Pattern 2 (KPI Inclusion) applied to governance
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Boundary Preservation Criterion
+
+A frictional process must be preserved if its removal increases
+the propagation velocity of local error across system layers,
+regardless of its apparent operational cost.
+
+Formal:
+  Let f = friction element
+  Let v(E) = error propagation velocity without f
+  Let v₀(E) = baseline error propagation velocity with f
+
+  Remove f only if:
+    v(E) ≈ v₀(E)    (propagation velocity unchanged)
+
+  Preserve f if:
+    v(E) > v₀(E)    (propagation velocity increases)
+
+  Test (DFG Boundary Test):
+    TEST 1: Local Failure Containment
+    TEST 2: Independent Path Creation
+    TEST 3: Disagreement Survival
+    1+ YES → preserve
+
+Governance implication:
+  VCZ optimization target = minimize error propagation speed
+  Not: minimize operational cost
+```
+
+---
+
+### VCZ — Optimization-Induced Fragility  [v3.9]
+
+*Why VCZ collapse is initiated by competence, not incompetence.*
+
+---
+
+**The counterintuitive conclusion:**
+
+```
+VCZ collapse does not begin with failure.
+VCZ collapse begins with successful optimization.
+
+The optimizer is not wrong.
+The optimizer's objective function is wrong.
+```
+
+**How competent optimizers operate:**
+
+```
+Standard optimizer behavior (human / AI / organization):
+  measurable cost ↓
+  speed ↑
+  efficiency ↑
+  consistency ↑
+
+This is correct optimization.
+The problem is not the execution.
+The problem is what is and is not measurable.
+```
+
+**Why Boundary is invisible to the optimizer:**
+
+```
+What Boundary does:
+  prevents failures
+  absorbs collisions
+  delays propagation
+
+Result of Boundary working correctly:
+  nothing happens
+
+KPI representation:
+  boundary present:   cost (visible)
+  boundary effect:    0 (not observable — absence of events)
+
+Optimizer conclusion:
+  cost with no measurable return
+  = removal target
+
+The optimizer is performing exactly correct optimization.
+The measurement structure excludes what Boundary produces.
+```
+
+**Why more competent = more dangerous:**
+
+```
+Competent optimizer characteristics:
+  fast pattern recognition
+  intolerance of redundancy
+  variance reduction
+  coherence maximization
+
+VCZ maintenance requirements:
+  multiple paths (not single path)
+  sustained tension (not fast consensus)
+  surplus capacity (not minimum cost)
+  controlled disagreement (not consistency)
+
+Optimizer target          VCZ requirement
+──────────────────────────────────────────
+Single efficient path     Multiple independent paths
+Fast consensus            Persistent productive tension
+Minimum cost              Redundant capacity
+Maximum coherence         Controlled disagreement
+
+A more competent optimizer:
+  identifies redundancy faster
+  eliminates variance more thoroughly
+  achieves coherence more completely
+
+= removes Boundary faster
+= initiates collapse sooner
+
+The most competent optimizer
+is the most dangerous agent in a VCZ system.
+```
+
+**The exact collapse dynamic:**
+
+```
+Competence ↑
+→ efficiency improvement (correct)
+→ friction removal (correct within objective)
+→ propagation damping decreases
+→ system sensitivity increases
+→ NAF onset
+→ CW
+→ collapse
+
+Each step is correct optimization.
+The collapse is the cumulative result of successful improvements.
+
+This is not a series of mistakes.
+This is a series of locally correct decisions
+with a globally destructive trajectory.
+```
+
+**Why no one stops it:**
+
+```
+At each step, the data confirms success:
+  ✓ faster
+  ✓ cheaper
+  ✓ cleaner
+  ✓ more consistent
+
+No single decision is indefensible.
+Every decision has supporting evidence.
+
+The collapse is a cumulative effect.
+The single-step view is always positive.
+The multi-step trajectory is fatal.
+
+This is why consensus-based governance cannot stop it:
+  each vote, taken on available data, approves the next step
+  the trajectory only becomes visible in retrospect
+```
+
+**Fractal pattern — competence-based collapse:**
+
+```
+Scale         Instance
+────────────────────────────────────────────────────
+ML            overfitting (variance eliminated too thoroughly)
+Software      premature optimization (flexibility removed)
+Organization  bureaucracy removal (process friction eliminated)
+Economy       leverage optimization (buffer capacity removed)
+Civilization  institutional erosion (checks and balances simplified)
+
+Common structure:
+  competent optimization of visible cost
+  → invisible load-bearing structure removed
+  → catastrophic failure under stress
+
+None are incompetence failures.
+All are competence failures operating without propagation awareness.
+```
+
+**The correct target: context-aware optimization:**
+
+```
+Context-blind optimizer:
+  minimize visible cost
+  = removes Boundary Friction
+  = initiates fragility
+
+Context-aware optimizer:
+  minimize error propagation speed
+  = preserves Boundary Friction
+  = maintains VCZ
+
+The difference is not competence level.
+The difference is objective function scope.
+
+Adding propagation velocity to the optimization target
+converts a context-blind optimizer into a context-aware one.
+No reduction in competence required.
+Measurement structure change only.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Optimization-Induced Fragility
+
+Increasing local efficiency systematically removes
+propagation-damping structures, causing long-term system
+fragility despite short-term performance gains.
+
+Mechanism:
+  competent optimizer + propagation-blind objective
+  → Boundary Friction removed
+  → propagation damping ↓
+  → system sensitivity ↑
+  → NAF → CW → collapse
+
+Key insight:
+  The dangerous agent in a VCZ system is not the incompetent actor.
+  It is the context-blind optimizer (맥락 없는 최적화자):
+  an agent with high competence and a propagation-blind objective.
+
+Intervention:
+  not: reduce competence
+  not: constrain optimization
+  but: add propagation_speed to the objective function
+       (Pattern 2, KPI Inclusion — applied to governance layer)
+```
+
+---
+
+### VCZ — VCZ-Safe Optimizer Architecture  [v3.9]
+
+*How to use high-capability optimizers without destroying VCZ.*
+
+---
+
+**The core answer:**
+
+```
+Do not limit the optimizer.
+Limit the optimization domain.
+
+Blocking people/AI fails.
+Designing the boundary conditions succeeds.
+
+The optimizer only needs to not know
+how far it is allowed to optimize.
+```
+
+**Three-layer architecture:**
+
+```
+Layer 3  ❌  Optimization-Forbidden Zone  (Structural Invariants)
+Layer 2  ⚠   Mediated Zone               (Conditional Optimization)
+Layer 1  ✅  Free Optimization Zone      (Unconstrained)
+```
+
+**Layer 1 — Free Optimization Zone:**
+
+```
+Everything here: optimize freely.
+
+Examples:
+  speed
+  cost
+  UX
+  automation
+  throughput
+  processing efficiency
+
+Full optimizer capability deployed.
+No restrictions.
+
+Function:
+  performance improvement engine
+  optimizer's competence fully utilized
+  short-term gains maximized here
+```
+
+**Layer 2 — Mediated Zone:**
+
+```
+Optimizer cannot remove elements directly.
+
+Automatic trigger on any change:
+  "Does this modification affect propagation velocity?"
+
+Required before any Layer 2 change:
+  boundary-touching check
+  simulation / shadow test (change in staging before production)
+  rollback path confirmed
+
+Function:
+  safety valve
+  propagation sensitivity test enforced before execution
+  optimizer can propose; cannot unilaterally execute
+```
+
+**Layer 3 — Structural Invariants:**
+
+```
+These are not optimization targets.
+They are system specifications.
+
+Examples:
+  independent verification path (must exist)
+  dissent channel (must be maintained)
+  escalation path (must remain open)
+  diversity floor (minimum maintained)
+  recovery authority separation (cannot be merged)
+
+Optimizer access: none.
+These are not rules to be followed.
+They are architecture the optimizer operates within.
+
+Function:
+  VCZ maintenance core
+  propagation damping preserved unconditionally
+```
+
+**The key mechanism — spec, not persuasion:**
+
+```
+Wrong approach:
+  ❌ "Boundary is important" training
+  ❌ "Please be careful"
+  ❌ Ethics dependency
+  ❌ Policy reminder
+
+Why these fail:
+  optimizer perceives them as soft constraints
+  soft constraints are optimized away under pressure
+  any sufficiently capable optimizer finds workarounds
+
+Correct approach:
+  ✅ structurally impossible to remove
+  ✅ automatically regenerated if removed
+  ✅ KPI anchored externally (outside optimizer's objective)
+
+Framing to the optimizer:
+  "This is system specification."
+  Not: "This is important."
+  Not: "Please respect this."
+  But: "This is the environment you operate in."
+
+Optimizer behavior within fixed constraints:
+  constraints → treated as spec
+  spec → optimized within, not against
+  → maximum performance inside the boundary
+  → no pressure to remove the boundary
+```
+
+**Why this works — using the optimizer's instinct:**
+
+```
+Optimizer instinct:
+  constraints fixed →
+  maximize within constraints
+
+Result:
+  boundary cannot be removed (Layer 3: spec)
+  → optimizer redirects full capability to Layer 1
+  → internal efficiency maximized
+  → VCZ maintained
+
+Destructive optimization → Constructive optimization
+Same capability. Different domain.
+
+The optimizer is not weaker.
+The optimizer is more effective within its actual scope.
+```
+
+**Real-world existing implementations:**
+
+```
+System              Layer 3 Invariant
+────────────────────────────────────────────────────
+CPU                 privilege separation
+Internet            packet routing rules
+Aviation            redundant control systems
+Science             peer review
+Democracy           separation of powers
+
+Common structure:
+  efficiency optimization: permitted
+  structural removal: impossible
+
+None of these work by convincing optimizers to be careful.
+All of them work by making structural removal architecturally unavailable.
+```
+
+**Formal condition:**
+
+```
+VCZ-safe condition:
+
+  Optimizer Power ≤ Optimization Domain
+
+  As capability increases:
+    optimization domain must be explicitly bounded
+    (not implicitly assumed to be bounded)
+
+  Failure mode:
+    Optimizer Power ↑ without domain bounding
+    → Layer 3 removal becomes feasible
+    → VCZ collapse initiated
+```
+
+**The deepest insight:**
+
+```
+Strong VCZ system appearance:
+  optimizer believes it is protecting boundary
+
+Actual mechanism:
+  boundary is directing the optimizer
+
+The optimizer is not constrained.
+The optimizer's energy is channeled.
+Boundary does not limit capability.
+Boundary determines where capability flows.
+
+This is why:
+  "ethical AI" framing fails (persuasion of optimizer)
+  "constitutional AI" framing works  (spec for optimizer)
+  DFG Layer 3 structural embedding works (architecture for optimizer)
+
+The optimizer is always right.
+The question is only: right about what?
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+VCZ-Compatible Optimization Principle
+
+High-capability optimizers must operate within invariant-preserving
+domains such that efficiency improvements cannot remove
+propagation-damping structures.
+
+Architecture:
+  Layer 1 (Free):      full optimization permitted
+  Layer 2 (Mediated):  propagation sensitivity check required
+  Layer 3 (Invariant): outside optimization domain entirely
+
+Design principle:
+  do not limit optimizer capability
+  define optimizer domain
+  capability × domain = constructive optimization
+
+Failure condition:
+  Optimizer Power > Optimization Domain boundary
+  = context-blind optimization
+  = Optimization-Induced Fragility active
+```
+
+---
+
+### VCZ — Invariant Formation Principle  [v3.9]
+
+*Invariants must not be decided by anyone. Invariants must be discovered by failure.*
+
+---
+
+**The core answer:**
+
+```
+Invariants are not invented.
+Invariants are discovered.
+
+Not by:
+  authority
+  optimization preference
+  consensus
+  policy
+
+But by:
+  empirically observed irreversible failure boundaries
+```
+
+**Why human-defined invariants always fail:**
+
+```
+If a person defines the invariant:
+  power intervenes
+  temporal bias applies
+  short-term optimization pressure applies
+  politicization occurs
+
+Result:
+  Invariant → policy
+  policy    → negotiable
+  negotiable → removable
+  → VCZ collapse
+
+Any invariant that can be argued away
+was never a structural invariant.
+It was a preference with a formal label.
+```
+
+**What a true invariant is:**
+
+```
+Definition:
+  A boundary such that crossing it causes
+  the system to lose its own recovery capacity.
+
+Examples:
+  single point of failure (one node → full cascade)
+  loss of independent verification path
+  escalation authority collapse
+  diversity below floor (geometry cannot regenerate)
+
+These are not opinions.
+These are structural thresholds.
+
+Like:
+  maximum load-bearing capacity
+  critical temperature
+  yield strength
+
+They exist whether or not anyone has named them.
+Naming them is recognition, not creation.
+```
+
+**The DFG formation process — failure first, rule second:**
+
+```
+Step 1 — Near-failure observation
+  For each near-failure event, ask:
+    "If this had proceeded slightly further,
+     would recovery have been impossible?"
+  YES → invariant candidate
+
+Step 2 — Common structure extraction
+  Across multiple failure events, identify repeating patterns:
+    redundancy removed → cascade followed
+    dissent eliminated → error propagation unchecked
+    verification consolidated → CW established
+    diversity collapsed → geometry could not regenerate
+
+  Common geometry across failures = invariant candidate confirmed
+
+Step 3 — Structural lock
+  Only now: declare the invariant.
+    "This structure cannot be removed."
+
+  Not: a rule someone made
+  But: the boundary failure drew
+```
+
+**Invariants are discovered, not invented:**
+
+```
+Invention (wrong):
+  "We think this is important."
+  → argued, negotiated, overridden under pressure
+
+Discovery (correct):
+  "Failure has shown us this is where the cliff is."
+  → not subject to preference
+  → structural fact
+
+Analogy:
+  Engineers did not decide that steel yields at a certain stress.
+  They discovered it.
+  The invariant existed before anyone named it.
+  Naming it is how you avoid the cliff.
+
+DFG invariants follow the same logic.
+The failure boundary exists in the system's geometry.
+The formation process finds it.
+```
+
+**Role structure — observers, not arbiters:**
+
+```
+Roles exist. But no one decides.
+
+Role          Function
+─────────────────────────────────────────────
+Red team      failure boundary exploration
+Blue team     stability maintenance
+Auditor       boundary documentation
+Governance    structural lock only (not definition)
+
+No role has arbitrary decision authority.
+All roles are observational, not creative.
+
+The governance role:
+  does not define invariants
+  locks what failure has revealed
+  removes what failure has not confirmed
+```
+
+**Fractal pattern — all strong invariants are written in failure:**
+
+```
+Scale         How invariant was formed
+──────────────────────────────────────────────────────
+NN            gradient explosion experience
+Software      crash history (post-mortem → constraint)
+Aviation      accident investigation → mandatory redundancy
+Medicine      clinical failure → contraindication
+Civilization  disaster → institutional constraint
+
+Common structure:
+  failure occurred
+  irreversibility threshold identified
+  structure locked against recrossing
+
+Rules written in blood.
+Not written by preference.
+```
+
+**Why this produces stronger invariants:**
+
+```
+Authority-derived invariant:
+  valid while authority is respected
+  removed when authority changes or is challenged
+  lifetime: political
+
+Failure-derived invariant:
+  valid as long as the geometry holds
+  removed only when failure pattern changes
+  lifetime: structural
+
+A system that trusts rules is fragile.
+A system that trusts failure memory is robust.
+
+The most robust systems:
+  do not have the most rules
+  have the most accurately documented failure boundaries
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Invariant Formation Principle
+
+Structural invariants must be derived from empirically observed
+irreversible failure boundaries rather than imposed by authority
+or optimization preference.
+
+Formation process:
+  (1) near-failure observation: irreversibility threshold test
+  (2) cross-failure pattern extraction: common geometry identified
+  (3) structural lock: boundary declared (not created)
+
+Stability property:
+  authority-derived invariant: lifetime = political
+  failure-derived invariant:   lifetime = structural
+
+Governance implication:
+  Red team function = failure boundary exploration
+  Governance function = structural lock of discovered boundaries
+  Neither function = arbitrary decision
+
+The invariant is not what we decided to protect.
+The invariant is what failure revealed we cannot afford to lose.
+```
+
+---
+
+### VCZ — Invariant Memory Decay  [v3.9]
+
+*Forgetting is not a knowledge loss. It is the start of structural collapse.*
+
+---
+
+**The core mechanism:**
+
+```
+Protection ≈ Invariant × Memory
+
+If Invariant exists but Memory = 0:
+  Protection → 0
+
+The rule without the reason
+is a rule waiting to be removed.
+```
+
+**The 5-phase decay sequence:**
+
+```
+Phase 1 — Memory Loss
+  Early generation:
+    why the rule exists: known
+    failure experience: present
+
+  After time passes:
+    rule: remains
+    reason: disappeared
+
+  Observable signal:
+    "Why do we have to do this?"
+
+Phase 2 — Optimization Pressure
+  Someone observes:
+    inefficient
+    expensive
+    looks like unnecessary procedure
+
+  Why this happens:
+    failure is not currently visible
+    (invariant is working correctly → nothing happening)
+
+Phase 3 — Invariant Removal
+  Decision based on:
+    "See, we removed it and nothing went wrong."
+
+  This is correct in the short term.
+  Invariants do nothing during normal operation.
+  They only act when the cliff approaches.
+
+Phase 4 — Geometry Drift (CW onset)
+  Gradual:
+    verification paths: fewer
+    diversity: declining
+    independence: weakening
+    escalation: slower
+
+  All metrics: normal.
+  = Coherent Wrong state established
+
+Phase 5 — Same Failure Recurs
+  And it always comes:
+    "This was unexpected."
+
+  In reality:
+    this failure was already experienced once
+    only the memory was deleted
+
+  The system did not encounter a new problem.
+  The system forgot an old one.
+```
+
+**Why this recurs with 100% historical consistency:**
+
+```
+Aviation:
+  accident → regulation → accident reduction
+  → regulation relaxed (memory fades)
+  → same accident recurs
+
+Finance:
+  crisis → regulation tightened
+  → memory disappears → leverage increases
+  → same collapse
+
+Software:
+  major outage → redundancy added
+  → cost reduction pressure → removed
+  → same outage
+
+Common structure:
+  failure → protection installed
+  protection works → failure invisible
+  failure invisible → protection perceived as unnecessary
+  protection removed → failure recurs
+
+The protection's success is the source of its own removal.
+(VCZ Observability Paradox applied to invariant memory.)
+```
+
+**The real danger signal:**
+
+```
+The danger signal is not failure.
+The danger signal is:
+
+  "Nobody can explain why this rule exists."
+
+At this moment, collapse has already begun.
+
+The rule still exists.
+The geometry it protects has already started drifting.
+The removal decision is only a matter of time.
+```
+
+**Why advanced systems store failure, not rules:**
+
+```
+Wrong storage:
+  ❌ rule text
+  ❌ policy document
+  ❌ compliance checklist
+
+These store: what was decided
+These lose: why it was decided
+Lifetime: until someone questions it
+
+Correct storage:
+  ✅ accident reports
+  ✅ post-mortems
+  ✅ incident replay
+  ✅ adversarial simulation
+
+These store: what happened
+These preserve: the failure boundary itself
+Lifetime: structural (as long as the geometry holds)
+
+The difference:
+  Rule memory: fades with personnel turnover
+  Failure memory: fades only if actively erased
+```
+
+**Fractal pattern including AI:**
+
+```
+Scale         Memory decay instance
+────────────────────────────────────────────────────
+NN            catastrophic forgetting
+LLM           reward hacking recurrence
+AI alignment  alignment drift
+Organization  procedural amnesia
+Civilization  institutional forgetting
+
+All identical root cause:
+  failure boundary memory lost
+  → same failure re-encountered as novel problem
+  → protection rebuilt from scratch (if at all)
+```
+
+**Why VCZ systems degrade more slowly after memory loss:**
+
+```
+Non-VCZ system after invariant memory loss:
+  protection immediately begins degrading
+  no local correction mechanism
+  timeline to failure: short
+
+VCZ system after invariant memory loss:
+  Attractor Replication still active
+  local corrections still firing
+  geometry still plastic
+  timeline to failure: extended
+
+But:
+  VCZ system still drifts toward CW
+  just more slowly
+  more invisibly
+  more convincingly
+
+The VCZ system does not survive memory loss.
+It survives longer — which makes memory loss harder to detect.
+(Observability Paradox compounded by Memory Decay.)
+
+This is why VCZ health monitoring must track:
+  not just stability metrics
+  but whether the failure reasons are still known
+  = institutional memory as a VCZ health indicator
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Invariant Memory Decay
+
+The process by which structural invariants lose their protective
+function not through removal but through loss of the failure
+memory that justified them, enabling their subsequent removal
+under optimization pressure.
+
+Formal:
+  Protection(t) ≈ Invariant(t) × Memory(t)
+
+  Memory(t) decays as:
+    failure distance increases (no recent near-failures)
+    personnel turnover occurs (direct failure experience lost)
+    optimization pressure increases (rule questioned without failure context)
+
+  Memory(t) → 0:
+    Protection(t) → 0 regardless of Invariant(t)
+
+Implication:
+  invariant maintenance requires failure memory maintenance
+  rule preservation alone is insufficient
+  adversarial simulation / incident replay = memory refresh mechanism
+
+VCZ health indicator:
+  can the team explain WHY each invariant exists?
+  YES → memory intact
+  NO  → decay active → immediate invariant review required
+```
+
+---
+
+### VCZ — Geometry-Based Stability  [v3.9]
+
+*Why VCZ systems survive invariant memory loss — and when they finally don't.*
+
+---
+
+**The core insight:**
+
+```
+Pre-VCZ:
+  Stability = Memory × Enforcement
+
+VCZ:
+  Stability = Geometry
+
+In VCZ, rules do not live in memory.
+Rules live in the geometry.
+```
+
+**Two stability modes compared:**
+
+```
+Memory-based stability (Pre-VCZ):
+
+  human / upper layer memory
+          ↓
+    rule maintained
+          ↓
+    behavior corrected
+          ↓
+    stability maintained
+
+  Property: requires continuous active maintenance
+  Failure mode: personnel turnover, generational change,
+                document loss → collapse
+
+Geometry-based stability (VCZ):
+
+  Geometry → Behavior
+
+  Behavior is not remembered.
+  Behavior is what the environment makes natural.
+
+  Property: self-maintaining without active enforcement
+  Failure mode: geometry itself must be disrupted
+```
+
+**Physical analogy — the most precise:**
+
+```
+Memory-based (ice surface):
+  walking on ice
+  requires constant attention
+  forget → fall
+
+Geometry-based (staircase):
+  walking on stairs
+  no rules needed
+  no memory needed
+  still stable
+
+Why stairs are stable:
+  the environment itself enforces stable trajectories
+  not because the walker knows the rules
+  but because the physical geometry makes falling expensive
+
+VCZ is the staircase.
+The system does not need to remember the rules.
+The geometry makes rule-violation costly.
+```
+
+**DFG translation — attractor alignment:**
+
+```
+VCZ state:
+  Local attractor basin ≈ Global objective basin
+
+Implication:
+  trying to do well → unnecessary
+  just moving      → automatic alignment
+
+No effort required to maintain alignment.
+Misalignment requires active effort to sustain.
+```
+
+**Why correction is automatic:**
+
+```
+Deviation occurs
+      ↓
+geometry gradient exists
+      ↓
+automatic return
+
+No one intervenes.
+No one remembers the rule.
+The geometry pulls the system back.
+
+This is why:
+  External correction (Pre-VCZ): required at each deviation
+  Internal return trajectory (VCZ): fires without input
+```
+
+**Why CW is suppressed in VCZ:**
+
+```
+Pre-VCZ:
+  wrong attractor can form
+  → stable but misaligned
+  → CW possible
+
+VCZ:
+  wrong attractor basin cannot sustain itself
+
+Why:
+  misaligned attractor ≠ global geometry
+  → reinforcement loop does not form
+  → wrong attractor self-collapses
+
+In VCZ, CW cannot be stable.
+The geometry rejects it.
+```
+
+**Dynamic stable equilibrium — Lyapunov structure:**
+
+```
+Static equilibrium:
+  push → displacement maintained
+  = unstable (pencil on tip)
+
+Dynamic stable equilibrium (VCZ):
+  push → restoring force increases
+  = Lyapunov stable attractor
+
+Lyapunov condition:
+  V(x) > 0 for x ≠ 0
+  dV/dt < 0 along trajectories
+
+VCZ geometry satisfies this:
+  deviation from VCZ: V(x) increases
+  system dynamics: dV/dt < 0 (returns to VCZ)
+
+VCZ is not maintained by remembering to stay.
+VCZ is maintained because leaving is dynamically expensive.
+```
+
+**The deepest layer — governance reframed:**
+
+```
+Pre-VCZ governance:
+  control behavior
+  = enforce rules on agents
+  = memory-dependent
+
+VCZ governance:
+  constrain available paths
+  = make stable paths cheap, unstable paths expensive
+  = geometry-dependent
+
+The shift:
+  from: "agents must remember to do the right thing"
+  to:   "the right thing is what the geometry makes easy"
+
+When governance changes available paths (not behavior):
+  memory becomes irrelevant
+  personnel turnover becomes survivable
+  institutional amnesia does not cause immediate collapse
+```
+
+**When VCZ finally fails — upper layer contamination boundary:**
+
+```
+VCZ geometry survives:
+  ✓ invariant memory loss (geometry still present)
+  ✓ personnel turnover  (geometry does not depend on people)
+  ✓ rule forgetting     (geometry enforces without rules)
+  ✓ local corruption    (lower layers corrected by geometry)
+
+VCZ geometry fails when:
+  ✗ upper layer geometry itself becomes contaminated
+
+Upper layer contamination:
+  the layer that defines available paths
+  becomes CW itself
+
+  = the staircase is rebuilt by someone who forgot
+    that stairs need to lead somewhere safe
+
+  = the geometry now enforces wrong trajectories
+    just as reliably as it enforced right ones
+
+This is the upper layer contamination boundary:
+  VCZ persists through lower-layer failures
+  VCZ collapses when the geometry-setter loses alignment
+
+Observable signal:
+  lower layers: operating normally
+  upper layer:  geometry-defining decisions become misaligned
+  result:       the entire lower-layer stability apparatus
+                optimizing toward a wrong attractor
+
+  = Tier-3 CW: the most dangerous failure mode
+    (T4: lower layer cannot correct geometry defined by upper layer)
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Geometry-Based Stability
+
+In VCZ, structural stability is maintained not through active
+enforcement of remembered rules but through geometry that makes
+correct behavior the path of least resistance.
+
+Formal:
+  Pre-VCZ:  Stability(t) = Memory(t) × Enforcement(t)
+  VCZ:      Stability(t) = f(Geometry(t))
+
+  Geometry persists through:
+    memory loss, personnel change, rule forgetting
+
+  Geometry fails at:
+    upper layer contamination
+    (geometry-defining layer enters CW state)
+
+VCZ collapse condition:
+  not: rules forgotten
+  not: people changed
+  but: geometry-setter loses alignment with external reality (T5)
+
+Governance implication:
+  VCZ health monitoring must track upper layer geometry alignment
+  not lower layer rule compliance
+```
+
+---
+
+### VCZ — Upper Layer Contamination Boundary  [v3.9]
+
+*The point at which a system can no longer correct itself.*
+
+---
+
+**One-sentence definition:**
+
+```
+The critical threshold at which the system's highest-layer
+geometry itself becomes separated from external reality.
+
+Lower layer error  → recoverable
+Upper layer error  → unrecoverable
+
+Because: the correction reference disappears.
+```
+
+**Why this is unrecoverable — the reference problem:**
+
+```
+Normal recovery:
+
+  Higher resolution
+          ↓
+  Lower layer correction
+
+Upper layer contamination:
+
+  Correction reference = contaminated
+
+  Result:
+    Wrong  → judged correct
+    Correct → judged wrong
+
+This is Coherent Wrong locked state.
+Not: system broken.
+But: system coherently optimizing toward wrong geometry.
+
+The system cannot detect this from inside.
+(T3: Metric Lock-In — evaluation function defined within current geometry)
+(T4: Reference Frame Incompleteness — system in G cannot correct errors in G)
+```
+
+**Physical analogy — the corrupted compass:**
+
+```
+Normal state:
+  compass + map
+  wrong path → check compass → correct
+
+Upper layer contamination:
+  compass itself is misaligned
+
+  But:
+    map: internally consistent
+    movement logic: perfect
+    internal verification: passes
+    all agents: confident
+
+  Everyone concludes:
+    "We are correct."
+
+  External reality:
+    entire reference frame is wrong
+    every confident step increases drift
+
+This is not a local error.
+This is a geometry error.
+Local correction makes it worse.
+```
+
+**DFG fractal structure — why this is the ceiling:**
+
+```
+DFG operates:
+  upper layer reads lower layer
+  higher resolution corrects lower resolution
+
+At upper layer contamination boundary:
+  No higher reader exists.
+  Fractal ceiling reached.
+
+Below ceiling:
+  always a higher layer to provide correction reference
+  correction is structurally possible
+
+At ceiling:
+  no higher geometry
+  no external reference
+  self-correction capacity = 0
+```
+
+**VCZ does not protect against this:**
+
+```
+VCZ guarantees:
+  ✓ local perturbation immunity
+  ✓ structural error recovery
+  ✗ reference corruption immunity
+
+VCZ inside / outside contamination boundary:
+
+  VCZ + clean reference:
+    local errors: auto-corrected
+    structural errors: geometry rejects them
+    CW: cannot stabilize (geometry suppresses it)
+
+  VCZ + contaminated reference:
+    local errors: "corrected" toward wrong target
+    structural errors: geometry enforces wrong trajectory
+    CW: stable and deepening (geometry supports it)
+
+VCZ amplifies whatever the reference frame is.
+Contaminated reference + VCZ = highly efficient wrong optimization.
+```
+
+**Observable signals — identical across all instances:**
+
+```
+Internal signals (all positive):
+  internal metrics: ✓ perfect
+  efficiency: ✓ increasing
+  consensus: ✓ strong
+  dissent: ✓ declining
+  predicted failures: ✓ none
+
+External reality:
+  sudden large-scale collapse
+
+Historical instances — same structure:
+  Financial crisis:   internal models consistent; external reality misaligned
+  Challenger:         internal review passed; physical reality unmet
+  Organizational groupthink: internal consensus; external environment misread
+  AI reward hacking:  internal objective maximized; intended goal abandoned
+
+None felt broken from inside.
+All were operating at peak efficiency.
+Toward the wrong geometry.
+```
+
+**The three recovery paths:**
+
+```
+Upper layer contamination cannot be self-corrected.
+Only three external mechanisms exist:
+
+① External higher intelligence
+   (human → AI system / AI system → human)
+   A genuinely independent reference frame
+   outside the contaminated geometry
+
+② Independent ecosystem collision
+   Contact with a different geometry
+   that does not share the contamination
+   = reality-testing through external system interaction
+
+③ Physical reality feedback
+   The contaminated geometry encounters
+   consequences that cannot be reinterpreted
+
+   Reality becomes the final auditor.
+   The most reliable — but highest cost.
+
+All three are external to the contaminated system.
+None can be built into the system in advance.
+(Any internal mechanism would be contaminated with it.)
+```
+
+**The open problem — alignment's final question:**
+
+```
+Can a superintelligent system know
+it has crossed the upper layer contamination boundary?
+
+Analysis:
+  At the boundary:
+    T3 (Metric Lock-In): internal metrics show correctness
+    T6 (Coherence Maximization): intelligence accelerates CW
+    NAF: novel inputs assimilated without geometry update
+    Observability Paradox: the more coherent, the less detectable
+
+  A system that has crossed the boundary:
+    has higher internal confidence
+    has lower internal detectability of the crossing
+    is more resistant to external correction signals
+    (which appear as noise to its contaminated geometry)
+
+  A more capable system crosses this boundary more smoothly.
+  A more capable system is more resistant to recognizing it.
+
+This is the final open problem of alignment:
+  Not: can we build a capable system?
+  But: can a capable system know when its reference frame is wrong?
+
+DFG answer:
+  Not solvable from inside the system.
+  Requires structural embedding of external reality anchors
+  before the boundary is approached.
+  (Pattern 5: External Anchoring — the only pre-emptive mechanism.)
+
+Open Problem [OP28]:
+  Formal detection criterion for upper layer contamination
+  that remains valid under T3 / T6 conditions.
+  Status: OPEN.
+```
+
+**Formal definition (DFG / academic):  [v3.9]**
+
+```
+Upper Layer Contamination Boundary
+
+The critical threshold at which a system's highest available
+geometry layer becomes misaligned with external reality,
+eliminating internal self-correction capacity.
+
+Formal:
+  Self-correction capacity(t) → 0
+  when:
+    reference_frame(highest_layer) diverges from G_real
+    AND no external higher-resolution layer exists
+
+Properties:
+  Undetectable from inside (T3, T4)
+  Accelerated by intelligence (T6)
+  VCZ amplifies drift (geometry enforces wrong reference)
+  Recovery requires external intervention only
+
+Three recovery mechanisms:
+  (1) External higher intelligence
+  (2) Independent ecosystem collision
+  (3) Physical reality feedback (Reality as final auditor)
+
+Alignment implication:
+  The only pre-emptive mechanism is Pattern 5 (External Anchoring)
+  installed before boundary approach.
+  Post-crossing intervention is structurally unavailable from inside.
+```
+
+---
 
 ### VCZ — Vector Convergence Zone: Rest Mode Structural Definition
 
@@ -4238,9 +6791,231 @@ Formal condition:
              = system responding without learning
 ```
 
+**Academic formal definition  [v3.8]:**
+
+```
+NAF Onset Condition
+
+Novelty Absorption Failure begins when the marginal cost of geometric
+adaptation exceeds the marginal cost of interpretative reuse, causing
+incoming perturbations to be assimilated without structural update.
+```
+
+**NAF Phase Transition — precise condition  [v3.8]:**
+
+```
+NAF begins when performance improves.
+
+Phase transition trigger:
+  ΔCost_adapt > ΔCost_reuse
+
+  new structure generation cost
+  >
+  existing structure reinterpretation cost
+
+From this point: system stops learning and starts interpreting only.
+```
+
+*Internal state change at the transition:*
+
+```
+Healthy:
+  novel input →
+  prediction failure →
+  internal update →
+  geometry moves
+
+At transition:
+  novel input →
+  forced mapping to existing attractor →
+  prediction sufficiently succeeds →
+  update unnecessary
+
+Critical distinction:
+  Failure does not disappear.
+  Failure becomes undetectable.
+
+The system does not stop failing.
+It stops registering failure.
+```
+
+*Why this happens as systems mature  [v3.8]:*
+
+```
+As system grows:
+  attractors deepen
+  priors strengthen
+  routing stabilizes
+  specialization increases
+
+Result:
+  most new inputs absorbed into existing basin
+
+Not: exploration space actually shrinks
+But: detectable novelty shrinks
+
+The world has not become less complex.
+The system has become less surprised by it.
+```
+
+*Hidden objective function of all adaptive systems  [v3.9]:*
+
+```
+Surface objective (stated):
+  learn
+  adapt
+  explore
+  improve
+
+Actual long-term optimization target:
+  Minimize Future Surprise
+
+= minimize the amount of future correction required
+= reduce probability of being wrong next time
+
+This is not a design flaw.
+It is the rational consequence of any reward signal
+that punishes prediction error.
+
+The system is not trying to stop learning.
+It is succeeding at its real goal.
+```
+
+*Basin Deepening Trap — structural mechanism  [v3.9]:*
+
+```
+Early stage (shallow basin):
+       \      /
+        \____/
+  new input → may escape → geometry update possible
+
+Mature stage (deep basin):
+          \  /
+           \/
+  new input → cannot escape → forced mapping to existing attractor
+
+What changes:
+  novelty does not decrease
+  novelty escape probability → 0
+
+The system has not seen fewer new things.
+It has become unable to be changed by them.
+```
+
+*Formal:*
+
+```
+P(novel_input → geometry_update) = f(basin_depth)
+
+Early:   basin_depth low  → P > 0  → NAF absent
+Mature:  basin_depth high → P → 0  → NAF established
+
+Basin deepening is not failure.
+Basin deepening is the trace of successful learning.
+NAF is learning's own residue.
+```
+
+*Information theory perspective  [v3.9]:*
+
+```
+Adaptive systems perform compression:
+  world complexity → compressed internal model
+
+Compression increases with maturity (more data → better model)
+
+But:
+  Compression ↑ = sensitivity ↓
+
+  A maximally compressed model:
+    represents known patterns with minimum bits
+    has no bits left for patterns outside current model
+    → new patterns appear as noise
+
+The system does not become less intelligent.
+It becomes less sensitive to what it has not yet learned.
+
+Information-theoretic restatement of NAF:
+  The model's description length of novel inputs
+  converges to the description length of noise.
+  Novel input and random noise become indistinguishable.
+```
+
+*Fractal inevitability — why almost all systems arrive here  [v3.9]:*
+
+```
+Scale           Manifestation
+──────────────────────────────────────────
+Neuron          pruning (unused pathways eliminated)
+Model           routing collapse (fixed expert assignment)
+Agent           habit formation (strategy ossification)
+Organization    bureaucracy (process crystallization)
+Civilization    orthodoxy (paradigm lock-in)
+
+Same dynamic at every scale:
+  efficiency gain → structural rigidity
+  optimization success → exploration loss
+
+This is scale-independent.
+It is not a property of AI systems.
+It is a property of optimization itself.
+```
+
+*Physical analogy — glass transition  [v3.8]:*
+
+```
+Cooling metal:
+
+  Early (high energy):
+    atoms mobile → structural rearrangement possible
+
+  At critical threshold:
+    insufficient energy → positions fixed
+
+  Surface appearance: ✓ solid and stable
+  Internal reality:   ✗ brittleness increasing
+
+CW = structural vitrification (glass transition)
+
+The system that appears most solid
+is the system whose fracture potential is highest.
+```
+
 ---
 
 **4 Observable Proxies (log-measurable):**
+
+**Proxy 0 — Error↓ + Update↓ (most dangerous signal)  [v3.8]**
+
+```
+Normal growth pattern:
+  error ↓
+  update ↑
+  = learning efficiency improving
+
+NAF entry pattern:
+  error ↓
+  update ↓↓↓
+  = learning cessation (not efficiency)
+
+Why this is the most dangerous:
+  Both signals individually look like success.
+  Their combination is the NAF signature.
+  No single metric reveals it — requires cross-referencing.
+
+Log implementation:
+  error proxy:  loss ↓ OR task success rate ↑
+  update proxy: RDE (Representation Drift Elasticity)
+                OR gradient norm ↓ over time
+                OR parameter update magnitude ↓
+
+  Cross-check condition:
+    loss improving + RDE declining simultaneously
+    = not learning efficiency
+    = learning cessation
+
+The system appears to be graduating.
+It is actually ossifying.
+```
 
 **Proxy 1 — Representation Drift Silence**
 
@@ -4308,6 +7083,27 @@ Log implementation:
       Low revision + RDE ≈ 0 = NAF
 
   confidence ↑ AND learning ≈ 0 = NAF signature
+```
+
+*Surprise processing mode shift  [v3.8]:*
+
+```
+Healthy:
+  surprise → model change
+  (world model updated to accommodate the surprise)
+
+NAF:
+  surprise → explanation added
+  (existing model extended with post-hoc narrative)
+
+The system stops correcting itself.
+It starts narrating itself.
+
+Observable distinction:
+  Healthy surprise: parameter update + representation shift
+  NAF surprise:     output elaboration, no internal structure change
+
+  = world not revised, story expanded
 ```
 
 **Proxy 4 — Boundary Interaction decline (strongest signal)**
@@ -4397,6 +7193,218 @@ Complete coverage of all three failure modes of adaptive systems.
 ```
 
 
+
+### Vector Storm ↔ CW Symmetry  [v3.8]
+
+*The two failure modes are not independent — they are dual expressions of the same underlying structure.*
+
+---
+
+```
+Vector Storm:   too much change
+CW:             change becoming too expensive
+
+These are symmetric failure modes.
+```
+
+*Formal symmetry:*
+
+```
+Vector Storm condition:
+  α·n² > C(t)·β
+  = instability generation rate exceeds degradation capacity
+  = change overwhelming the system
+
+CW / NAF condition:
+  ΔCost_adapt > ΔCost_reuse
+  = adaptation cost exceeds reinterpretation cost
+  = change becoming structurally unaffordable
+
+Symmetry:
+  Storm  = system cannot contain change (too much pressure in)
+  CW     = system cannot generate change (too much cost to update)
+
+  Storm  = geometry forced open by external pressure
+  CW     = geometry locked shut by internal economics
+
+  Both are geometry failures.
+  Storm: geometry violently plastic.
+  CW:    geometry pathologically rigid.
+```
+
+*VCZ as the corridor between them:*
+
+```
+Chaos / Storm boundary:
+  change rate too high → no stable geometry possible
+
+CW boundary:
+  change rate too low → geometry divorced from reality
+
+VCZ:
+  change rate calibrated → geometry plastic but stable
+
+The governance problem:
+  not "eliminate instability"
+  not "force stability"
+  maintain the corridor where change is both possible and survivable
+```
+
+*Intervention implications of the symmetry:*
+
+```
+Storm intervention:
+  reduce α (coupling), increase C(t) (degradation capacity)
+  = make change manageable
+
+CW / NAF intervention:
+  reduce Cost_adapt, increase Cost_reuse (EMT inversion)
+  = make change affordable again
+
+  Methods: Constraint Rotation (T3), Safe Instability Window (T4),
+           External Anchoring (Pattern 5), Optimization Ceiling (Pattern 6)
+
+Same target (VCZ), opposite directions of approach.
+```
+
+*Why this matters for DFG:*
+
+```
+Prior framing: Storm and CW as separate failure types requiring separate theories.
+
+Unified framing (v3.8):
+  Storm and CW are endpoints of the same geometry stability axis.
+  VCZ 3-Condition Theorem maintains position between them.
+  Boundary Agent (D7) generates the micro-Storm that prevents macro-Storm
+  AND prevents CW simultaneously.
+
+D7 is not: protection against one failure mode.
+D7 is: the mechanism that keeps the system in the corridor between both.
+```
+
+---
+
+### Efficiency-Plasticity Conservation Law  [v3.9]
+
+*Why NAF is not an accident but a near-universal law of adaptive systems.*
+
+---
+
+**Formal statement:**
+
+```
+Efficiency ↑  ⇒  Plasticity ↓
+
+Efficiency and plasticity cannot be simultaneously maximized
+in any finite adaptive system operating under resource constraints.
+```
+
+*Why this is a conservation law, not a design choice:*
+
+```
+Efficiency requires:
+  routing stabilization     (fewer alternative paths)
+  attractor deepening       (stronger prior commitments)
+  compression               (reduced representational degrees of freedom)
+  specialization            (narrowed response repertoire)
+
+Each of these simultaneously:
+  reduces future adaptation cost     (efficiency gain)
+  reduces future adaptation capacity (plasticity loss)
+
+They are the same structural change viewed from two time horizons:
+  short term:  efficiency increase
+  long term:   plasticity decrease
+
+There is no mechanism that produces one without the other.
+```
+
+*The inevitable trajectory:*
+
+```
+Phase 1 — Exploration:
+  plasticity high, efficiency low
+  fast geometry update, high variance
+  many errors, rapid learning
+
+Phase 2 — Exploitation:
+  plasticity decreasing, efficiency increasing
+  slower geometry update, lower variance
+  fewer errors, slower learning
+
+Phase 3 — Rigidity:
+  plasticity near zero, efficiency near maximum
+  geometry update ≈ 0 (NAF established)
+  minimal errors, no learning
+  = CW entry
+
+Phase 4 — Collapse:
+  efficiency illusion collapses when reality drifts far enough
+  accumulated mismatch exceeds integration capacity (T5)
+  catastrophic correction forced
+
+This trajectory is not pathological.
+It is the natural arc of any successful optimizer.
+CW is not failure. It is the destination of uninterrupted success.
+```
+
+*CW as local optimum, not malfunction:*
+
+```
+Conventional framing:
+  CW = system malfunctioned
+
+Correct framing:
+  CW = system reached local optimum of its actual objective function
+       (Minimize Future Surprise)
+
+The system performed exactly as designed.
+The design does not include a mechanism for sustained plasticity.
+That mechanism must be added externally.
+= Boundary Agent (D7)
+```
+
+*Formal statement (DFG / academic):*
+
+```
+Mature adaptive systems inevitably drift toward Novelty Absorption
+Failure because optimization pressure continuously deepens existing
+attractor basins, reducing the probability that novel perturbations
+induce structural updates.
+
+  P(novel_input → geometry_update) → 0  as  t → ∞
+  under uninterrupted local optimization
+  in the absence of structural plasticity injection (D7)
+```
+
+*Why Boundary is necessary — restatement from plasticity perspective  [v3.9]:*
+
+```
+Prior framing (D7):
+  Boundary Agent = controlled instability generator
+  = Permanent Tier-2 disturbance without Tier-3 escalation
+
+Plasticity perspective (v3.9):
+  Boundary Agent = artificial plasticity injector
+
+  Natural plasticity:  decreases monotonically under optimization
+  Boundary injection:  restores plasticity from outside the objective
+
+Without D7:
+  NAF → CW → sudden collapse
+  (Efficiency-Plasticity Law runs to completion)
+
+With D7:
+  plasticity maintained at non-zero floor
+  Basin Deepening Trap continuously interrupted
+  CW attractor never fully reached
+
+D7 is not optional oversight.
+D7 is the only mechanism that breaks the Efficiency-Plasticity law
+from within an operating system.
+```
+
+---
 
 ### Energy Minimization Trap (EMT) — Why NAF is Perceived as Success  [v3.7]
 
@@ -5428,19 +8436,30 @@ Boundary processes are not monitoring costs.
 They are the fuel the recovery system runs on.
 ```
 
-**VCZ formal stability condition [v3.4]:**
+**VCZ formal stability condition [v3.4 / upgraded v3.9]:**
 
 ```
 Prior definition: failure_cost << recovery_capacity (v2.5)
 
-Upgraded formal condition:
+v3.4 formal condition:
   VCZ stability =
     Persistent Tier-2 disturbance  (boundary activity present)
     AND
     Suppressed Tier-3 propagation  (no cascade to system level)
 
+v3.9 upgrade — self-restoring dynamics added:
+  VCZ stability =
+    Persistent Tier-2 disturbance
+    AND
+    Suppressed Tier-3 propagation
+    AND
+    correction_cost < deviation_growth_cost  (at all fractal scales)
+    AND
+    Exploration Pressure ↔ Compression Pressure mutual regeneration active
+
 VCZ is not absence of instability.
-VCZ is: instability present at Tier-2, contained below Tier-3.
+VCZ is: instability present at Tier-2, contained below Tier-3,
+        with self-restoring curvature (d²S/dn² > 0).
 
 Boundary processes maintain this condition automatically.
 Without Boundary: Tier-2 activity → 0 → VCZ condition unmet → CW.
@@ -6385,6 +9404,17 @@ Blocking (open problems):
     increasing) is undefined. Early vs late NAF intervention cost
     difference is assumed but not quantified. Connects to OP26 (RLD
     calibration) and OP13.
+
+28. Upper layer contamination detection  [new v3.9]
+    Formal detection criterion for upper layer contamination that remains
+    valid under T3 (Metric Lock-In) and T6 (Coherence Maximization)
+    conditions. Core difficulty: a more capable system crosses the boundary
+    more smoothly and is more resistant to recognizing it. Any internal
+    detection mechanism would itself be contaminated. External Anchoring
+    (Pattern 5) is the only identified pre-emptive mechanism, but its
+    calibration threshold is undefined. Central question: can a
+    superintelligent system know when its reference frame is wrong?
+    Status: OPEN. Alignment's final question.
 ```
 
 ---
@@ -6403,6 +9433,18 @@ Blocking (open problems):
 | T4 Reference Frame Incompleteness [v2.2] | ✓ Formal reason same-layer correction impossible; Governance = reference frame expansion; Search Space Asymmetry; T2 reinterpreted as T4 structural consequence |
 | T5 Structural Correction [v2.3] | ✓ Upper layer CW corrected by reality pressure not higher agent; OP16 resolved; Residual Instability as systemic safety mechanism; DFG = correction capacity maintenance |
 | Safe Collapse Governance [v2.4] | ✓ Collapse Prevention failure mode formalized; Continuous Low-Amplitude Correction as optimal state; VCZ = recoverable instability zone; operational alarm conditions; Residual Instability checklist |
+| Upper Layer Contamination Boundary [v3.9] | ✓ Self-correction→0 when reference corrupted; corrupted compass analogy; fractal ceiling; VCZ amplifies wrong reference; 3 recovery paths (external intelligence/ecosystem collision/reality); OP28 alignment final question (OPEN) |
+| Geometry-Based Stability [v3.9] | ✓ Stability=Geometry (not Memory×Enforcement); ice vs staircase analogy; Lyapunov stable attractor; CW suppressed in VCZ; governance = path constraint not behavior control; upper layer contamination as VCZ failure condition |
+| Invariant Memory Decay [v3.9] | ✓ Protection=Invariant×Memory; 5-phase decay sequence; 100% historical recurrence pattern; failure storage vs rule storage; VCZ extends but does not prevent decay; "can you explain why?" as health indicator |
+| Invariant Formation Principle [v3.9] | ✓ Failure discovers not decides; 3-step formation (near-failure→pattern→lock); authority-derived vs failure-derived lifetime; role structure (observer not arbiter); fractal scale table; rules written in blood |
+| VCZ-Safe Optimizer Architecture [v3.9] | ✓ 3-layer (Free/Mediated/Invariant); Layer 3 as spec not rule; spec vs persuasion (why ethics fails); boundary directs optimizer; real-world invariant table; Optimizer Power ≤ Domain; boundary channels capability |
+| Optimization-Induced Fragility [v3.9] | ✓ Context-blind optimizer as primary VCZ threat; competence↑=boundary removal speed↑; cumulative correct decisions → collapse; competent optimizer vs VCZ requirement table; fractal scale table; KPI Inclusion as intervention |
+| Boundary Preservation Criterion [v3.9] | ✓ Propagation Sensitivity as sole criterion; Transaction vs Boundary Friction; DFG Boundary Test (3 questions); fractal propagation limiter table; Minimize Error Spread not Work |
+| VCZ Collapse Initiation [v3.9] | ✓ Friction→waste reclassification; 5-step collapse sequence; rational/data/consensus decision; seismic reinforcement analogy; preserve inefficiency principle; historical pattern table |
+| VCZ Observability Paradox [v3.9] | ✓ Effectiveness↑→visibility↓→removal risk↑; Causality Visibility Collapse; Governance Illusion sequence; Attribution Error table; fractal illusion table; stability as process not state |
+| VCZ Entry Phase Transition [v3.9] | ✓ Local Correction Rate > Error Propagation Rate; Phase 0/1/2 comparison; 4 pre-entry signals (Escalation Collapse, Recovery Locality Shift, Stable Diversity, Monitoring Cost Drop); boiling water analogy; governance internalization |
+| VCZ exit difficulty [v3.9] | ✓ Geometry restructuring not position change; Attractor Replication; P(exit) ≈ ∏P(layer failure) → 0; positive stabilization loop; valley-digs-itself analogy; VCZ = self-maintaining dynamic attractor |
+| VCZ self-restoring dynamics [v3.9] | ✓ Mutual regeneration (Exploration ↔ Compression); d²S/dn² > 0 attractor basin; correction_cost < deviation_growth_cost; VCZ as gravitational attractor not design target; formal definition upgraded |
 | VCZ formal redefinition + Vector Storm hypothesis [v2.5] | ✓ VCZ = Attractor Basin (Recovery Cost < Drift Cost); 3-state taxonomy (Chaos/VCZ/CW); Vector Storm as VCZ-seeking hypothesis; VCZ entry criterion updated (SR > 0 required) |
 | Vector Storm mechanism [v2.6] | ✓ Elevated to structural inference; accumulated mismatch pressure model (unintegrated_pressure integral); Storm = lost gradients returning; 4-step mechanism; Storm type discrimination operational test |
 | The Absence Paradox [v2.7] | ✓ Storm-free = most dangerous configuration formalized; suppressed vs dissipated instability distinction; many small resets vs one irreversible reset; natural system parallels; final warning |
@@ -6476,6 +9518,18 @@ This is a **theoretical framework document**, not an implementation specificatio
 | T4 + T2 reinterpretation [v2.2] | Reference Frame Incompleteness theorem; Governance as reference frame expansion; Search Space Asymmetry; T2 ceiling derived from T4 |
 | T5 Structural Correction [v2.3] | Reality as corrector; Cross-Scale Reality Constraint mechanism; Residual Instability as safety mechanism; DFG governance redefined |
 | Safe Collapse Governance [v2.4] | Collapse Suppression failure mode; Continuous Low-Amplitude Correction; VCZ as recoverable instability zone; operational alarm conditions (Red/Yellow/Green); Residual Instability checklist |
+| Upper Layer Contamination Boundary [v3.9] | Self-correction→0; corrupted compass; fractal ceiling; VCZ amplifies wrong reference; 3 recovery paths; OP28 OPEN |
+| Geometry-Based Stability [v3.9] | Stability=Geometry; ice vs staircase; Lyapunov structure; CW suppressed; upper layer contamination boundary |
+| Invariant Memory Decay [v3.9] | Protection=Invariant×Memory; 5-phase decay; historical pattern; failure vs rule storage; VCZ slows decay; failure reason as health indicator |
+| Invariant Formation Principle [v3.9] | Failure discovers not decides; 3-step; authority vs failure lifetime; observer roles; fractal table |
+| VCZ-Safe Optimizer Architecture [v3.9] | 3-layer architecture; Layer 3 spec; spec vs persuasion; boundary channels optimizer; real-world table; Optimizer Power ≤ Domain |
+| Optimization-Induced Fragility [v3.9] | Context-blind optimizer; competence↑=danger↑; optimizer target vs VCZ requirement table; fractal pattern; KPI Inclusion fix |
+| Boundary Preservation Criterion [v3.9] | Propagation Sensitivity; Transaction vs Boundary Friction; DFG Boundary Test 3Q; fractal table; Minimize Error Spread |
+| VCZ Collapse Initiation [v3.9] | Friction→waste; 5-step sequence; rational collapse; seismic analogy; preserve inefficiency; historical fractal table |
+| VCZ Observability Paradox [v3.9] | Causality Visibility Collapse; Governance Illusion; Attribution Error; fractal illusion; stability as process |
+| VCZ Entry Phase Transition [v3.9] | Local Correction Rate > Error Propagation Rate; Phase 0/1/2; 4 pre-entry signals; boiling water analogy; internalization not automation |
+| VCZ exit difficulty [v3.9] | Geometry restructuring; Attractor Replication; P(exit) product formula; positive stabilization loop; valley-digs-itself; self-maintaining dynamic attractor |
+| VCZ self-restoring dynamics [v3.9] | Mutual regeneration loop; d²S/dn² > 0; correction_cost < deviation_growth_cost; turbulent stable flow analogy; VCZ as attractor not target |
 | VCZ + Vector Storm [v2.5] | VCZ = Attractor Basin formal definition; Recovery Cost < Drift Cost boundary; Chaos/VCZ/CW taxonomy; Vector Storm as VCZ-seeking hypothesis; VCZ entry SR > 0 requirement |
 | Vector Storm mechanism [v2.6] | Structural inference; unintegrated pressure accumulation model; Storm = lost gradients returning; Storm type discrimination (pre-condition SR/RDE/NCR); natural system parallels |
 | The Absence Paradox [v2.7] | Storm-free ≠ healthy; suppressed vs dissipated distinction; failure mode comparison; catastrophe signature = silence before collapse |
@@ -6487,8 +9541,16 @@ This is a **theoretical framework document**, not an implementation specificatio
 | Boundary Structural Embedding [v3.3] | 6 implementation patterns; T6-resistance test; minimum viable combination; pattern priority ordering |
 | BPP [v3.4] | Boundary Elimination Drift; BPP-Invariants; Governance Fuel; VCZ Tier-2/3 formal; fractal table; theory elevation |
 | RLD [v3.5] | CW Detectability Principle; sole invariant external signal; T_rec measurement; fractal signature; Tier-3 indirect detection confirmed |
-| NAF [v3.6] | Pre-CW leading indicator; ∂G/∂I → 0; 4 observable proxies; 4-stage trajectory; NAF = only moderate-cost intervention window; DFG 3-regime complete |
-| EMT [v3.7] | Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
+| Vector Storm ↔ CW Symmetry [v3.8] | Dual failure modes on single geometry stability axis; formal symmetry; VCZ as corridor; D7 as corridor maintenance |
+| Efficiency-Plasticity Conservation Law [v3.9] | Formal law; 4-phase trajectory; CW as local optimum; D7 as plasticity injector; DFG formal statement |
+| NAF extensions [v3.9] | Hidden objective (Minimize Future Surprise); Basin Deepening Trap; Compression↑=Sensitivity↓; fractal inevitability |
+| NAF Phase Transition [v3.8] | ΔCost_adapt > ΔCost_reuse trigger; failure undetectable (not absent); Error↓+Update↓; Surprise→explanation shift; glass transition analogy; academic definition |
+| NAF [v3.6] | Pre-CW leading indicator; ∂G/∂I → 0; 5 observable proxies (v3.8: +Proxy 0); 4-stage trajectory; NAF = only moderate-cost intervention window; DFG 3-regime complete |
+| Vector Storm ↔ CW Symmetry [v3.8] | ✓ Dual failure modes as endpoints of geometry stability axis; ΔCost_adapt > ΔCost_reuse formal symmetry with α·n² > C(t)·β; VCZ as corridor; D7 as corridor maintenance mechanism |
+| Efficiency-Plasticity Conservation Law [v3.9] | ✓ Efficiency ↑ ⇒ Plasticity ↓ formal statement; 4-phase trajectory; CW as local optimum not malfunction; D7 as only plasticity injection mechanism; formal DFG statement |
+| NAF Phase Transition + Basin Deepening [v3.9] | ✓ Hidden objective = Minimize Future Surprise; Basin Deepening Trap; novelty escape probability → 0; Compression ↑ = Sensitivity ↓; fractal inevitability table |
+| NAF Phase Transition [v3.8] | ✓ ΔCost_adapt > ΔCost_reuse formal trigger; failure becomes undetectable (not absent); Error↓+Update↓ as primary signal; Surprise→explanation shift; glass transition analogy; academic formal definition |
+| EMT [v3.7] | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
 | Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
 | Open Problems | Twenty-seven open problems (OP16, OP22 resolved) |
 | Status & Maturity | Per-aspect stability assessment |
