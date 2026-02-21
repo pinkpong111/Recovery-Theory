@@ -2,8 +2,12 @@
 
 **Contamination, Immunity, and Restoration in Multi-Agent AI Systems**
 
-> *Draft · February 19, 2026 · Internal Working Document*
+> *Draft · February 2026 · Internal Working Document*
 > *Component of the Deficit-Fractal Governance (DFG) Framework*
+>
+> **v1.3 Changes:** + φ (phi) as restoration completion criterion | + VCZ as Rest Mode structural definition | + Residual Degradation Floor grounds "contraction stopped ≠ restored" | + S-equation maps Tier 2→3 transition
+> **v1.2:** SCC genesis (Dint×Lreinf), Type 1/2 vector degradation, multi-agent empirics
+> **v1.1:** cost-quality coupling baseline, dual-sphere fractal convergence
 
 ---
 
@@ -27,10 +31,10 @@ Restoration sequence
   Distracting (loop severance + contrast amplification)
   -> Re-seeding (metadata restoration)
   -> Re-absorption
-  -> Verification (rho recovery + diversity expansion)
+  -> Verification (phi recovery + diversity expansion)
 
 Core novelty
-  Restoration complete = expansion resumes (not contraction stops)
+  Restoration complete = phi -> baseline (not contraction stops)
   Contamination is relative to the upper-layer map
   Tier 3 failures are structurally unobservable from local layer
   Governance ceiling is fractal: each scale has its own ceiling
@@ -52,7 +56,7 @@ First, immunity is redefined as *absorption capacity*, not rejection capacity. A
 
 Second, detection is *inherent* in the fractal layer architecture. The upper layer is the lower layer's detection system by virtue of higher resolution — not by virtue of a separate monitoring architecture.
 
-Third, restoration completion is operationally defined. A system has not recovered when contraction stops. It has recovered when search-space *expansion resumes*.
+Third, restoration completion is operationally defined. A system has not recovered when contraction stops. It has recovered when search-space *expansion resumes* — and, from v1.3, when φ recovers toward baseline.
 
 *The foundational assumption.* In DFG systems, contamination is not an anomaly but a persistent structural condition. Any finite system operating under resource constraints, with bounded resolution and structural blind spots, will experience contamination as a normal consequence of operation — not as an exceptional failure. Recovery is therefore not an emergency response but a continuous maintenance process. The question is not whether contamination occurs, but whether the system detects and restores early enough to prevent search-space collapse.
 
@@ -84,7 +88,7 @@ Any process operating at higher effective resolution than the layer it governs. 
 
 ## Minimal Formal Core
 
-*The section above provides the minimum vocabulary for reading Recovery Theory (Contamination, Immunity, Buffer, Collision Frequency, Resolution tiers summary, Upper Layer). This section states the theory's essential claims in compact form: what the framework asserts (D1–D5), what it structurally claims (T1–T2), and how those claims are measured (OP1–OP2). The remainder of the document develops and justifies each item here. Readers familiar with DFG may use this section as a reference map.*
+*The section above provides the minimum vocabulary for reading Recovery Theory (Contamination, Immunity, Buffer, Collision Frequency, Resolution tiers summary, Upper Layer). This section states the theory's essential claims in compact form: what the framework asserts (D1–D5), what it structurally claims (T1–T2), and how those claims are measured (OP1–OP4). The remainder of the document develops and justifies each item here. Readers familiar with DFG may use this section as a reference map.*
 
 ---
 
@@ -106,18 +110,29 @@ Strong immunity absorbs more, not less.
 **D3. Buffer Layer**
 A directionally neutral zone maintained between opposing vector pairs by the upper layer. Functions simultaneously as: immune training ground, friction absorber, and latent vector cultivation space. Buffer thickness is the observable proxy for upper layer resolution precision.
 
-**D4. Restoration Complete**
+**D4. Restoration Complete (v1.1 / v1.3)**
 Restoration is complete when search-space *expansion resumes* — not when contamination stops, not when the system stabilizes. Formally:
 ```
 Restoration complete
   iff  rho_restored >= rho_pre-contamination
   AND  output diversity expanding (not merely stable)
   AND  P_overlap(t) declining
+  AND  phi recovering toward pre-contamination baseline  [v1.3]
 ```
 This definition distinguishes genuine recovery from arrested collapse.
 
+*The phi condition makes the completion criterion directional, not just threshold-based. A system where phi is stable but below baseline has arrested collapse — not restored search space.*
+
 **D5. Self-Correction Capacity (SCC)**
-The system's ability to restore itself without external intervention. SCC is hypothesized to have a monotone relationship with upper layer resolution. High SCC = early detection (signals 1–3), precise intervention, fast restoration. Low SCC = late detection (signals 5–6), over-disruption risk, slow restoration.
+The system's ability to restore itself without external intervention. SCC is not an independent property — it emerges when Dint AND Lreinf are simultaneously sufficient (v1.2). High SCC = early detection (signals 1–3), precise intervention, fast restoration. Low SCC = late detection (signals 5–6), over-disruption risk, slow restoration.
+```
+SCC emerges from:
+  Dint   — internal diversity: each vector occupies distinct position
+            provides contrast baseline for contamination detection
+  Lreinf — mutual reinforcement loops: vectors linked through
+            active interdependencies; provides corrective pull
+  Both conditions required simultaneously — SCC = 0 if either absent
+```
 
 ---
 
@@ -162,6 +177,127 @@ d(x,A) = attractor pull strength of input x toward direction A
 System buffer thickness = min over all opposing pairs
 ```
 Independent proxy for upper layer resolution — measures what ρ does not. Breaks measurement circularity: ρ tracks classification reliability; buffer thickness tracks structural separation of opposing vectors. Both declining together = high-confidence Tier 3 warning.
+
+**OP3. f_escalation**
+```
+f_esc = N_HC-escalated / N_total
+```
+System-level indirect SCC measurement. f_esc ↓ = SCC high.
+
+**OP4. φ (value yield)  [v1.3]**
+```
+phi ≈ P(exploration → stable vector)
+    = w1·Q_task + w2·Q_novelty + w3·Q_alignment
+
+  Q_task      exploration contributing to actual problem-solving
+  Q_novelty   exploration opening genuinely new solution space
+  Q_alignment exploration moving toward global solution
+```
+Restoration completion directional proxy. φ recovering = restoring; φ → baseline = restored (D4).
+
+---
+
+## φ (Value Yield) and the Vector Convergence Zone  [v1.3]
+
+*Integrated from Vector Storm Theory. Directly strengthens D4 (restoration completion criterion) and the Rest Mode structural definition.*
+
+### φ — Why "contraction stopped ≠ restored"
+
+φ is the probability that a unit of exploration converts from noise into a stable, useful vector.
+
+**Restoration states mapped to φ:**
+
+| State | φ value | Meaning |
+|---|---|---|
+| Contaminated | φ << baseline | Vectorization collapsing — exploration entering noise, not stable vectors |
+| Restoring | φ recovering (rising) | Re-seeding taking effect — new stable vectors forming |
+| Restored (D4) | φ ≈ pre-contamination baseline | Full search-space expansion resumed |
+| Arrested collapse (false recovery) | φ stable but below baseline | Contraction stopped but expansion not resumed — NOT restored |
+
+```
+phi stable at low value  =  attractor exploration frozen
+                         =  system not discovering new stable vectors
+                         =  contamination impact persists even if collisions decrease
+
+phi recovering toward baseline  =  exploration regenerating
+                                 =  new positions forming
+                                 =  restoration in progress
+```
+
+*Connection to existing metrics:* φ rising requires ρ ≥ pre-contamination AND diversity expanding AND cost-quality coupled. φ integrates all three into a single directional signal.
+
+### VCZ — Vector Convergence Zone: Rest Mode Structural Definition
+
+The VCZ is the structural state toward which recovery is aimed — the condition under which φ is maximized and governance cost is minimized.
+
+| VCZ property | Definition | Recovery Theory meaning |
+|---|---|---|
+| Global solution → local attractor replication | Each agent's local attractor basin aligned with global governance objective | Contamination resistance is structural — Distracting no longer required |
+| Exploration dimensionality n unconstrained | Search space not suppressed | φ at structural maximum — high exploration productivity |
+| Deviations self-correcting | Return trajectories exist at low cost | SCC sufficient — perturbations absorbed without upper-layer involvement |
+| Self-similar across fractal layers | Same convergence structure at all scales | Dual-sphere convergence confirmed = VCZ attained |
+
+**VCZ as governance cost function:**
+```
+C_gov = f(Delta_VCZ)   where Delta_VCZ = distance from current state to VCZ
+
+System inside VCZ:    Delta_VCZ → 0  →  phi ↑  →  C_gov ↓  (Rest Mode)
+System contaminated:  Delta_VCZ ↑   →  phi ↓  →  C_gov ↑  (Active Mode)
+Restoration progress: Delta_VCZ decreasing  →  phi recovering  →  C_gov decreasing
+```
+
+| Dimension | Vector Storm regime (contaminated) | VCZ (restored) |
+|---|---|---|
+| φ | φ << baseline — exploration not converting to stable vectors | φ ≈ baseline — exploration maximally productive |
+| Search space | Collapsing or chaotic | Maximally open |
+| Recovery cost | High — contamination propagated | Low — return trajectory short |
+| Governance load | High — active intervention required | Minimal — passive monitoring sufficient |
+| SCC | Low or zero — Dint/Lreinf substrate degraded | High — Dint + Lreinf intact |
+
+---
+
+## Residual Degradation Floor and Tier Transition Map  [v1.3]
+
+*From Vector Storm Theory §3.3. Provides the mathematical basis for why D4 requires expansion, not merely stabilization.*
+
+### The Asymptotic Lower Bound
+
+In a fractal architecture, the instability equation has a structural lower bound:
+```
+dS/dt = alpha·n² − beta·C(t)
+
+lim(t→inf) dS/dt  >=  alpha·n² − beta·C_max  >  0
+
+where C_max = ceiling imposed by lowest layer's minimum-viable degradation state
+```
+
+The right-hand side never reaches zero as long as n > 0. This is not an engineering gap — it is a structural property of fractal architecture. **Zero-storm is not a valid design target.**
+
+*Governance implication:* intervention thresholds should be calibrated floor-relative, not zero-noise. A diversity metric at floor level is normal; only below-floor contraction signals contamination. This is why D4 requires diversity *expanding*, not merely diversity present.
+
+### S-Equation: Tier 2 → Tier 3 Transition Map
+
+```
+S = (alpha · n²) / (C(t) · beta)
+
+Tier 2 onset:  alpha · n² > C(t) · beta   at local layer
+               self-amplification begins — agents strengthen own fields
+               = Signals 3-4  (minimum-cost intervention window)
+
+Tier 3 onset:  alpha · n² >> C(t) · beta
+               self-amplification outpaces all local degradation capacity
+               buffer invasion begins
+               = Signals 5-6  (nonlinear cost zone)
+```
+
+| Lever | Action in Recovery context | Tradeoff |
+|---|---|---|
+| Reduce α | Lower inter-agent coupling during Distracting | May reduce coordination speed temporarily |
+| Reduce n | Not recommended — sacrifices search space | Governance failure mode: stability via stagnation |
+| Increase β | Improve degradation quality: stronger Seed injection | Requires re-seeding investment |
+| Increase C(t) | Add upper-layer oversight capacity | Resource investment; justified at confirmed Tier 3 |
+
+*Note: α, β, C(t) are not yet formally calibrated — open problem inherited from VST. The structural form of the transitions is established.*
 
 ---
 
@@ -604,7 +740,7 @@ under current policy, not absolute structural safety.
 Cross-time comparisons require policy-stable evaluation sets.
 ```
 
-*Connection to RBIT rho section.* Buffer thickness and rho measure different aspects of the same underlying system state: rho tracks classification boundary performance (vector-level), buffer thickness tracks structural separation between opposing attractor pairs (system-level). A system with high rho but declining buffer thickness is in early Tier 3 risk. A system with low rho but stable buffer thickness has classification noise but not yet structural collapse. See RBIT §Buffer Layer and §Resolution-proxy for the corresponding definitions.
+*Connection to RBIT rho section.* Buffer thickness and rho measure different aspects of the same underlying system state: rho tracks classification boundary performance (vector-level), buffer thickness tracks structural separation between opposing attractor pairs (system-level). A system with high rho but declining buffer thickness is in early Tier 3 risk. A system with low rho but stable buffer thickness has classification noise but not yet structural collapse.
 
 ### 1.5 Vector Trimming: Preventive Stability
 
@@ -662,7 +798,7 @@ Trim signal
   rho declining              -> s_min undercut
 ```
 
-*Connection to Distracting.* Reactive Distracting severs a loop after contamination forms. Preventive Distracting trims an excessive vector before the loop forms. Same mechanism, different timing. Preventive Distracting is cheaper: no loop to sever, no re-seeding needed, buffer layer never thinned. *Connection to RBIT upscaling section.*
+*Connection to Distracting.* Reactive Distracting severs a loop after contamination forms. Preventive Distracting trims an excessive vector before the loop forms. Same mechanism, different timing. Preventive Distracting is cheaper: no loop to sever, no re-seeding needed, buffer layer never thinned.
 
 ### 1.6 Latent Vector Identification and Cultivation
 
@@ -817,7 +953,7 @@ Step 4  Position assignment (Taxonomy expansion)
 ```
 
 | DFG Term | ML / Operational Term |
-|----------|----------------------|
+|---|---|
 | Latent vector | Out-of-distribution cluster / Emerging category |
 | Structural potential | Consistent residual error / Low-confidence cluster coherence |
 | Buffer isolation | Held-out evaluation set / Active learning pool |
@@ -825,8 +961,6 @@ Step 4  Position assignment (Taxonomy expansion)
 | Gradual formation | Incremental fine-tuning / Curriculum learning |
 | Position assignment | New class addition / Taxonomy expansion |
 | Cultivation failure | Catastrophic forgetting / Cluster absorption into noise |
-
-*Connection to RBIT buffer layer section and rho measurement.*
 
 ---
 
@@ -905,6 +1039,7 @@ Step 3  Re-absorption
 Step 4  Verification
         Type1/Type2 decrease
         Positional overlap decreases
+        phi recovering toward baseline
         Group search space expands again
         Restoration complete only when expansion resumes
         Not merely when contraction stops
@@ -945,6 +1080,7 @@ Tier 2  Positional convergence
   -> Self-reinforcing loop forms
   -> Individual search space contracts
   Detection: local layer (collision frequency spike)
+  S-equation: alpha·n² > C(t)·beta  [v1.3]
 
 Tier 3  Buffer layer invasion  <- most dangerous
   Excessive vector expands into buffer zone
@@ -954,6 +1090,7 @@ Tier 3  Buffer layer invasion  <- most dangerous
   -> Group search space contracts
   -> Vector Storm precondition
   Detection: upper layer only (full map required)
+  S-equation: alpha·n² >> C(t)·beta  [v1.3]
 ```
 
 Tier 3 contamination is the most dangerous because it is invisible from within the local layer. A lower-grade upper layer misses Tier 3 entirely — the buffer layer thins undetected until collision becomes inevitable.
@@ -1015,7 +1152,7 @@ The attractor metadata is the transmission vector. High interdependency between 
 ### 2.6 Contamination by Data Type
 
 | Type | Contamination Mechanism | Detection Difficulty | Propagation Risk |
-|------|------------------------|---------------------|-----------------|
+|---|---|---|---|
 | Mathematical | Incorrect calculation absorbed as fact | Low | Low — local error |
 | Noise | Discarded material re-enters at full resolution as vector | Medium | Medium — storm precondition |
 | Tacit Knowledge | Wrong pattern learned, mechanism corrupted | High — latent until triggered | High — spreads through practice |
@@ -1040,7 +1177,7 @@ which confirm the upper layer's lower-grade judgment.
 The system is coherent and wrong.
 ```
 
-*Definition (for reference throughout this document):* **Coherent-and-wrong** is the state in which all internal consistency metrics are satisfied — low collision frequency, stable rho, normal escalation pattern — while the system's direction is systematically incorrect. It is the hardest contamination state to detect because it produces no local anomaly signals. All subsequent references to "coherent and wrong" refer to this definition. See also: Vector Storm §Relationship to DFG Component Theories for operational detection proxies.
+*Definition (for reference throughout this document):* **Coherent-and-wrong** is the state in which all internal consistency metrics are satisfied — low collision frequency, stable rho, normal escalation pattern — while the system's direction is systematically incorrect. It is the hardest contamination state to detect because it produces no local anomaly signals.
 
 ### 2.7 Contamination vs. Normal Variation
 
@@ -1148,6 +1285,7 @@ In order of detection timing (earliest to latest):
    Multiple locals converging on same direction
    -> Upper layer detects aggregate pattern
    -> Distributed contamination identified
+   -> S-equation: alpha·n² crossing C(t)·beta  [v1.3]
 
 4. Attractor metadata direction shift
    Contamination has reached the attractor
@@ -1169,7 +1307,7 @@ Waiting until signals 5–6: system-wide restoration, external intervention may 
 *Contamination tier — signal mapping:*
 
 | Contamination tier | Primary signals | Detection layer | Intervention scope |
-|-------------------|----------------|----------------|-------------------|
+|---|---|---|---|
 | Tier 1 (classification failure) | 1–2 | Local layer | Targeted local correction |
 | Tier 2 (positional convergence) | 1–3 | Local layer + upper reads aggregate | Cross-agent Distracting |
 | Tier 3 (buffer invasion) | 3–4 | Upper layer only | Full Distracting + Re-seeding |
@@ -1268,11 +1406,14 @@ Resolution-proxy (operational criterion)
 Diversity-level (structural criterion)
   D = f(1/P_overlap, D_interdependency, L_reinforcement)
   returning toward pre-contamination level
+
+phi criterion  [v1.3]
+  phi recovering toward pre-contamination baseline
+  phi stable below baseline = arrested collapse (NOT restored)
+  phi -> baseline = D4 confirmed
 ```
 
-Both criteria must hold. Resolution-proxy confirms correct classification is restored. Diversity confirms structural differentiation is restored. A system that classifies correctly but has collapsed positional diversity is not fully restored. A system that has recovered diversity but in the wrong direction is not fully restored.
-
-These two criteria together operationalize the principle stated in the opening section: restoration is complete not when contraction stops, but when expansion resumes. rho returning to baseline confirms classification is restored; diversity expanding confirms the system is genuinely growing again, not merely stable.
+All criteria must hold. Resolution-proxy confirms correct classification is restored. Diversity confirms structural differentiation is restored. φ confirms exploration is regenerating toward baseline productivity. A system that classifies correctly but has collapsed positional diversity is not fully restored. A system where phi is stable but below baseline has arrested collapse, not restoration.
 
 *Verification feeds back into Step 1:*
 
@@ -1296,22 +1437,29 @@ retroactively calibrates Step 1 precision.
 
 ### 3.5 Self-Correction Capacity and Upper Layer Resolution
 
-Self-Correction Capacity (SCC) measures the system's ability to restore itself without external intervention. SCC is hypothesized to have a monotone relationship with upper layer resolution: higher resolution is expected to produce higher SCC, but the precise functional form remains unspecified pending formal measurement of both quantities.
+Self-Correction Capacity (SCC) measures the system's ability to restore itself without external intervention. SCC is not an independent property — it emerges when Dint AND Lreinf are simultaneously sufficient (v1.2). Higher upper layer resolution enables higher SCC, but the precise functional form remains unspecified pending formal measurement of both quantities.
 
 ```
-High SCC (upper layer high resolution)
+High SCC (Dint high + Lreinf strong)
   Early detection (signals 1–3)
   Contamination contained before propagation
   Loop severed precisely
   Re-seeding targeted and effective
   Restoration fast
+  S-equation: alpha·n² just crossing C(t)·beta  [v1.3]
 
-Low SCC (upper layer low resolution)
+Low SCC (Dint low OR Lreinf weak)
   Late detection (signals 5–6)
   Contamination already propagated
   Loop boundary unclear -> over-disruption risk
   Re-seeding requires system-wide recalibration
   Restoration slow and costly
+  S-equation: alpha·n² >> C(t)·beta  [v1.3]
+
+SCC = 0 (both absent)
+  Detection-purification loop has no substrate
+  Full re-cultivation or Seed reinstallation required
+  (confirmed empirically: AgentErrorTaxonomy arXiv 2509.25370)
 ```
 
 *Improving SCC requires improving the upper layer first, not the lower layer.* A lower layer improvement without a corresponding upper layer improvement only increases the resolution gap — making the upper layer less able to read the lower layer, reducing SCC even as lower layer capability increases. This applies specifically to governance functions (cross-local detection, mediation, restoration): local task performance may persist, but system-wide SCC is bounded by the governance ceiling at each fractal scale.
@@ -1337,11 +1485,22 @@ Restoration cost per event
 ### 3.6 Contamination and Rest Mode
 
 ```
-Rest Mode active
+Rest Mode active = VCZ attained (Delta_VCZ ≈ 0)  [v1.3]
   Upper layer resolution sufficient for self-detection
   -> Contamination detected at signals 1–2
   -> System restores without external intervention
   -> Rest Mode maintained
+
+Entry conditions (dual-sphere fractal convergence):
+  Outer sphere convergence confirmed
+    -> resource spike profile flat + f_escalation <= theta
+  Inner sphere convergence confirmed
+    -> HUG -> 0 + alignment-uniformity balance stable
+  Fractal alignment confirmed
+    -> external behavior change and internal representation
+       change proportional
+
+  All three confirmed = Delta_VCZ ≈ 0 = phi ≈ baseline = D4 satisfied
 
 Contamination contained within lower layer
   -> Rest Mode unaffected
@@ -1359,35 +1518,118 @@ Upper layer itself contaminated
 
 ---
 
+## SCC: Structural Genesis  [v1.2]
+
+| Condition | Definition | Role in SCC |
+|---|---|---|
+| Dint — Internal Diversity | Each vector occupies a distinct, well-defined position; adjacent vectors differ in known, stable ways | Provides contrast baseline for contamination detection |
+| Lreinf — Mutual Reinforcement Loops | Vectors linked through active interdependencies; each vector's stability partly maintained by neighbors | Provides corrective pull — contaminated vector pulled back toward stable neighborhood |
+
+**SCC failure conditions:**
+
+| Failed condition | Consequence |
+|---|---|
+| Dint too low | No contrast baseline → detection fails silently |
+| Lreinf too low | No corrective pull → contamination propagates even if detected |
+| Both absent | SCC = 0 — detection-purification loop has no substrate (empirically confirmed: AgentErrorTaxonomy arXiv 2509.25370) |
+
+---
+
+## Vector Degradation: Type 1 and Type 2  [v1.2]
+
+*Provides structural grounding for the k=3 unrecoverable vector criterion in Step 3 (Re-absorption).*
+
+### Type 1 — Alignment Severance (Reversible)
+
+Vector information intact in weights; activation pathway severed.
+
+| Trigger | Mechanism | Signal |
+|---|---|---|
+| New task fine-tuning | Orthogonal weight updates disrupt instruction-to-rationale mapping | Performance drop without underlying knowledge loss |
+| Conflict log stagnation | Vector loses activation alignment from lack of reinforcement | Vector in weights; inaccessible at runtime |
+| Seed reconfiguration | Classification pathway routing altered | Domain-specific failure; adjacent domains intact |
+
+```
+Test: partial rationale injection / task-agnostic prefix / Seed routing fix
+  Performance recovers     ->  Type 1  ->  alignment repair
+  No recovery after k=2-3  ->  Type 2  ->  see below
+```
+
+### Type 2 — Weight Overwrite (Irreversible)
+
+Weight representation physically overwritten. Knowledge gone, not merely inaccessible.
+
+| Trigger | Mechanism | Signal |
+|---|---|---|
+| Catastrophic forgetting | Gradient interference destroys prior vector representation | Performance drop not recoverable with prompting |
+| Rapid successive task learning | Each task overwrites previous without consolidation | Monotonic decay across earlier domains |
+| High-sparsity pruning | Forced sparsification removes dormant vectors | Targeted capability loss in pruned domains |
+
+```
+->  Seed reinstallation  (if meta-rule structure for domain intact)
+OR
+->  Full re-cultivation from noise  (restart conflict log accumulation)
+```
+
+**k=3 structural grounding:** 2–3 targeted alignment interventions is the Type 1/Type 2 diagnostic window. k=3 is the diagnostic threshold, not an arbitrary retry count. This structurally grounds the unrecoverability criterion in Step 3 (Re-absorption).
+
+---
+
+## Multi-Agent Empirical Grounding  [v1.2]
+
+| Tier | Mechanism | Empirical source | Status |
+|---|---|---|---|
+| Tier 1 — Classification failure | Noise absorbed without degradation | Steinhardt et al. 2017; Koh & Liang 2017 | Previously established |
+| Tier 2 — Positional convergence | Self-reinforcing collision loops | MAST taxonomy — NeurIPS 2025 (1,642 traces) | Established (multi-agent) |
+| Tier 3 — Buffer invasion | Lreinf collapse → coordinator failure propagation | Faulty agent cascade — arXiv 2408.00989 | Established (multi-agent) |
+| SCC = 0 | Detection-purification loop substrate absent | AgentErrorTaxonomy — arXiv 2509.25370 | Established (multi-agent) |
+
+**MAST taxonomy (NeurIPS 2025) — Tier 2 direct empirics:**
+
+| MAST failure mode | DFG equivalent |
+|---|---|
+| Role drift — planner starts writing code | Position ambiguity → Poverlap rising → vector field collision (Tier 2 onset) |
+| Conversation reset loop | f_escalation cycling without resolution (Tier 2 self-reinforcing) |
+| Information withholding between agents | Lreinf falling — mutual reinforcement loops collapsing (Tier 2 → Tier 3 precondition) |
+| Task derailment | Local attractor diverging from global objective (Tier 2 systemic) |
+
+*Key finding: 41–86.7% failure rates across SOTA open-source MAS frameworks — empirical signature of Tier 2 contamination at scale.*
+
+---
+
 ## Structural Correspondences
 
 *These correspondences locate Recovery Theory within existing intellectual traditions while identifying its specific extension. Each analogy names a shared structural pattern; the DFG-specific extension is what Recovery Theory adds beyond that pattern. None of the cited fields proposed the multi-agent recovery application described here.*
 
 | Theory Concept | Related Field | Shared pattern | DFG-specific extension |
-|---------------|--------------|----------------|----------------------|
+|---|---|---|---|
+| φ (value yield) [v1.3] | Vector Storm Theory / Information theory | P(exploration → stable vector) as productivity measure | Restoration complete = φ → baseline; not collision-count based |
+| VCZ [v1.3] | Vector Storm Theory / Dynamical systems | Stable manifold — perturbations self-correct within zone | VCZ = structural definition of Rest Mode; Δ_VCZ → 0 = dual-sphere confirmed |
+| Residual Floor [v1.3] | Vector Storm Theory / Statistical mechanics | Asymptotic lower bound on instability | Grounds D4: expansion required not by norm but by structural necessity |
+| SCC genesis [v1.2] | Governance Rules Theory / Dynamical systems — Lyapunov | Structural conditions for autonomous recovery | SCC = Dint × Lreinf simultaneously; not independent |
+| Type 1 / Type 2 [v1.2] | Continual learning — ICLR 2025, EMNLP 2025 | Spurious forgetting vs. catastrophic forgetting | k=3 diagnostic window structurally grounded as Type 1/2 boundary |
 | Immunity as absorption capacity | Immunology | Adaptive immune response absorbs without rejection | Immunity measured by structural integrity after absorption, not rejection rate |
 | Upper layer as inherent detection system | Neuroscience | Hierarchical predictive processing — higher layers predict lower | Detection is a structural consequence of resolution, not a separate architecture |
 | Authority separation (mark/judge/execute) | Constitutional law | Separation of powers prevents single-actor capture | Three-way split tied to resolution level, not role assignment |
-| Metadata conversion as degradation | Resolution-Based Information Theory | Calibrated degradation mechanism | Immunity = application of degradation to external inputs (not just internal transmission) |
 | Self-reinforcing contamination loop | Dynamical systems | Limit cycle attractors | Loop severance requires orthogonal injection from outside the loop's resolution layer |
 | Attractor metadata as transmission path | Network theory | Hub-based contagion | Contamination travels via seeds downward, not just laterally through network |
 | Group search space contraction | Information theory | Collective entropy reduction | Contraction is recoverable only when expansion (not merely stabilization) resumes |
-| Upper layer resolution as governance ceiling (fractal) | Organizational theory | Managerial capability constraint | Ceiling propagates top-down through gradient signal; applies at each fractal scale independently; strengthening lower layers alone cannot raise it |
+| Upper layer resolution as governance ceiling (fractal) | Organizational theory | Managerial capability constraint | Ceiling propagates top-down through gradient signal; applies at each fractal scale independently |
 | Immunity capacity (absorption without collapse) | ML security — Certified defense | Maximum certified perturbation radius r (Cohen et al. 2019) | r is a single-layer guarantee; DFG extends to multi-layer attractor propagation |
 | High-Context contamination contribution | ML security — Influence functions | Influence score: per-point output impact (Koh & Liang 2017) | High influence = seed contamination risk; DFG adds directional propagation via attractor metadata |
 | Contamination onset threshold | ML security — Data poisoning | ~3-5% poisoning triggers sharp drop (Steinhardt et al. 2017) | Threshold is buffer-thickness-dependent in DFG; thicker buffer tolerates higher rate before Tier 3 onset |
-| Cross-vector immune verification | Uncertainty quantification — Deep Ensembles | Disagreement score as anomaly signal (Lakshminarayanan et al. 2017) | DFG adds: quorum size by contamination tier, and restoration completion criterion (rho + diversity) |
+| Cross-vector immune verification | Uncertainty quantification — Deep Ensembles | Disagreement score as anomaly signal (Lakshminarayanan et al. 2017) | DFG adds: quorum size by contamination tier, and restoration completion criterion (rho + diversity + phi) |
 
 ---
 
 ## Relationship to DFG Component Theories
 
 | Theory | Connection | Operational form |
-|--------|-----------|-----------------|
+|---|---|---|
 | **Resolution-Based Information Theory** | Degradation mechanism = immunity mechanism; negative resolution gap = contamination precondition; upper layer resolution = detection capacity and governance ceiling (fractal) | rho decline = contamination onset proxy; buffer_thickness(A,B) = upper layer resolution proxy; trim range derivable from F_RBIT B(l) and M(l) terms |
-| **Vector Storm Theory** | Vector Storm = contamination at critical threshold; Distracting = loop severance (Step 1); Attracting = re-seeding (Step 2) | Threshold: mutual adaptation rate > individual convergence rate; gradient cosine similarity < -threshold. Minimum-cost intervention window = Signal 3-4 (amplification onset, before attractor metadata contamination). Past Signal 5: system-wide restoration required |
-| **Network Architecture Theory** | Escalation pattern anomaly = contamination propagation signal; data type classification determines contamination profile | Unusual escalation volume = contamination reaching attractor; High-Context + Tacit combination = highest propagation risk (self-reinforcing loop at system scale, coherent and wrong) |
-| **Governance Rules Theory** | Seed contamination = highest-risk contamination type; seed handover condition: lower layer max resolution <= upper layer resolution; Rest Mode exits under contamination exceeding upper layer resolution | Seed contamination signal: corrective seeds producing inconsistent results across locals (Signal 6); handover condition verifiable via rho comparison across layers |
+| **Vector Storm Theory [v1.3]** | φ = restoration completion criterion; VCZ = Rest Mode structural definition; Residual Floor = D4 mathematical basis; S-equation = Tier 2→3 transition map | φ ≈ P(exploration→stable vector); Δ_VCZ → 0 = restored; α·n² > C(t)·β = Tier 2 onset; α·n² >> C(t)·β = Tier 3 |
+| **Network Architecture Theory** | Escalation pattern anomaly = contamination propagation signal; data type classification determines contamination profile; f_escalation → SCC indirect proxy | Unusual escalation volume = contamination reaching attractor; High-Context + Tacit combination = highest propagation risk (coherent and wrong) |
+| **Governance Rules Theory [v1.2]** | SCC genesis: Dint + Lreinf → detection-purification substrate; Type 1/2 degradation → k=3 basis; MAST/cascade/taxonomy → multi-agent empirics | SCC = P(autonomous recovery within W) \| Dint ≥ θ AND Lreinf ≥ θ; seed contamination signal: corrective seeds producing inconsistent results across locals (Signal 6) |
 
 > **The upper layer is both the governance ceiling and the detection system.**
 > These are not two separate properties — they are the same property viewed from two angles.
@@ -1413,6 +1655,7 @@ Phase 3  Interference -> Amplification  <- Vector Storm threshold
          Both converge on same attractor
          Buffer invasion begins (Tier 3)
          Group search space contracting (Signal 3-4)
+         S-equation: alpha·n² crossing C(t)·beta  [v1.3]
          -> Minimum-cost intervention window
          -> Distracting + Re-seeding before propagation
 
@@ -1529,7 +1772,10 @@ What to avoid     Direct removal of the contaminated agent/vector
                   -> Adjacent vectors collide to fill the gap
                   -> Instability increases rather than decreases
 
-*Note.* This step specifies structural ordering, not algorithmic determinism. When to intervene, which vectors to inject, and how much disruption is appropriate are determined by system-specific cost budgets and Type1/Type2 tolerance (see Step 4 feedback loop).
+*Note.* This step specifies structural ordering, not algorithmic determinism.
+When to intervene, which vectors to inject, and how much disruption is
+appropriate are determined by system-specific cost budgets and
+Type1/Type2 tolerance (see Step 4 feedback loop).
 
 Step 2  Re-seeding — Metadata Restoration
 ────────────────────────────────────────────────────────────────────
@@ -1548,8 +1794,6 @@ Operational form  - Modify system-level prompts or evaluation criteria
 What to avoid     General governance updates applied system-wide
                   -> Re-seeding must be targeted to the specific
                      contaminated attractor, not broadcast
-
-*Note.* This step specifies structural ordering, not algorithmic determinism. The exact seed content and resolution calibration are context-dependent; the structural requirement is that seeds target the specific contaminated attractor at the receiver's current resolution.
 
 Step 3  Re-absorption
 ────────────────────────────────────────────────────────────────────
@@ -1571,30 +1815,29 @@ Recoverability judgment
                   Operational proxy for unrecoverability:
                     rho does not recover after k re-absorption cycles
                     with matched calibration input
-                    where k is determined by:
-                      cost budget available for restoration
-                      AND acceptable Type2 error bound
-                    (k=3 is a working default, not a formal criterion)
+                    (k=3 is the Type 1/Type 2 diagnostic threshold —
+                     not an arbitrary retry count)
                     -> Discard; grow replacement from buffer
-
-*Note.* This step specifies structural ordering, not algorithmic determinism. The re-absorption procedure and recoverability threshold depend on system context; the structural requirement is isolation before re-processing and position-matched replacement.
 
 Step 4  Verification
 ────────────────────────────────────────────────────────────────────
-Theory            Confirm both resolution-proxy and diversity
-                  criteria are met
+Theory            Confirm resolution-proxy, diversity,
+                  and phi criteria are all met
 Operational form  - Apply same calibration input used pre-contamination
                   - Measure Type1 (false restoration) and
                     Type2 (missed contamination) rates
                   - Measure output diversity across agents
                     (positional overlap proxy)
-                  - Compare both metrics to pre-contamination baseline
+                  - Monitor phi trajectory toward baseline  [v1.3]
+                  - Compare all metrics to pre-contamination baseline
 
 Completion criterion
                   NOT: contamination events have stopped
                   NOT: system is stable
+                  NOT: phi stable below baseline (arrested collapse)
                   YES: rho_restored >= rho_pre-contamination
                   AND: diversity expanding (not just stabilizing)
+                  AND: phi recovering toward baseline  [v1.3]
 ```
 
 ### The Isolation-Before-Removal Principle
@@ -1620,11 +1863,9 @@ Correct sequence
 
 The principle: *never create a vacuum before having a replacement ready.* Isolation maintains positional structure while restoration prepares the replacement.
 
-*Connection to DFG deficit dynamics.* In RBIT terms, direct removal creates an unseeded positional deficit — an empty slot without an attractor. Deficit positions attract collision from adjacent vectors attempting to fill the gap, generating secondary contamination. Isolation holds the position occupied (inactively) until a replacement vector is ready to fill it with a calibrated seed. This is the deficit-driven dynamics principle applied to restoration: deficits must be seeded, not left open.
+*Connection to DFG deficit dynamics.* In RBIT terms, direct removal creates an unseeded positional deficit — an empty slot without an attractor. Deficit positions attract collision from adjacent vectors attempting to fill the gap, generating secondary contamination.
 
 ### Diversity-Based Detection: The Resolution-Through-Contrast Method
-
-The question "can you detect contamination by introducing diverse vectors?" points to a real technique, but the mechanism is more specific than it might appear.
 
 Introducing diverse vectors does not directly reveal contamination. What it does is *raise the contrast* between contaminated and healthy behavior:
 
@@ -1653,7 +1894,7 @@ The implication: in systems where contamination risk is high, maintaining *perma
 Recovery Theory applies at system scale, agent scale, and metadata scale. The mechanisms are self-similar across all three — this is the isomorphic fractal structure that makes governance ceiling analysis recursive (see Structural Constraint §Fractal ceiling structure).
 
 | System Scale | Agent Scale | Metadata Scale |
-|-------------|------------|----------------|
+|---|---|---|
 | Contaminated agent isolated | Contaminated vector isolated | Contaminated metadata criterion isolated |
 | Excessive agent trimmed | Excessive vector trimmed | Overweighted metadata criterion trimmed |
 | Latent agent cultivated | Latent vector cultivated | Latent judgment criterion cultivated |
@@ -1662,13 +1903,11 @@ Recovery Theory applies at system scale, agent scale, and metadata scale. The me
 | Seed calibrated to agent maturity | Seed calibrated to layer resolution | Seed calibrated to criteria complexity |
 | Restoration: agent reintegrated | Restoration: vector re-absorbed | Restoration: criterion recalibrated |
 
-*Single-agent correspondence.* The metadata scale maps directly to the internal layer structure of a single model. Contamination at the metadata scale — judgment criteria corrupted — is the single-agent equivalent of High-Context contamination at system scale. As shown in the Observability Note and Structural Constraint sections, a contaminated internal layer cannot detect its own distortion: its measurement tools are part of the distorted space. This is the same asymmetry that makes Tier 3 invisible from within a local layer, operating one scale down.
+*Single-agent correspondence.* The metadata scale maps directly to the internal layer structure of a single model. Contamination at the metadata scale — judgment criteria corrupted — is the single-agent equivalent of High-Context contamination at system scale. A contaminated internal layer cannot detect its own distortion: its measurement tools are part of the distorted space. This is the same asymmetry that makes Tier 3 invisible from within a local layer, operating one scale down.
 
-*Fractal ceiling structure connection.* The governance ceiling described in the Structural Constraint section is itself fractal: each scale has its own bounded field of view with its own blind spots. The cross-validation ensemble at each scale (local agents checking each other, internal vectors cross-validating, metadata criteria cross-checking) partially covers the blind spots of the scale above — but that coverage has its own ceiling. System-wide blind spots are regions that are simultaneously blind spots at all scales. This is why governance authority cannot be fully delegated downward: the lower scale can cover some of the upper scale's blind spots, but not the ones that are also blind spots at the lower scale.
+*Fractal ceiling structure connection.* The governance ceiling is itself fractal: each scale has its own bounded field of view with its own blind spots. The cross-validation ensemble at each scale partially covers the blind spots of the scale above — but that coverage has its own ceiling. System-wide blind spots are regions that are simultaneously blind spots at all scales.
 
 *The one structural difference: agent autonomy*
-
-The three-scale self-similarity has one exception. At system scale, agents have autonomy and cannot be directly overwritten. At agent scale, vectors have no autonomy and can be force-placed. This changes the restoration *method* but not the restoration *structure*:
 
 ```
 Agents have autonomy -> cannot be force-placed
@@ -1690,7 +1929,7 @@ Recovery at agent scale
 Same sequence. Autonomy determines method, not structure.
 ```
 
-This confirms fractal consistency: the contamination-restoration cycle operates identically at both scales, adjusted only for the presence or absence of agent autonomy. The only structural difference (agent autonomy) is precisely what requires Attracting and deficit-based design.
+This confirms fractal consistency: the contamination-restoration cycle operates identically at both scales, adjusted only for the presence or absence of agent autonomy.
 
 ---
 
@@ -1699,7 +1938,7 @@ This confirms fractal consistency: the contamination-restoration cycle operates 
 Recovery Theory and RBIT share structural foundations but occupy distinct theoretical spaces:
 
 | RBIT | Recovery Theory |
-|------|----------------|
+|---|---|
 | Defines *when* degradation is functional vs. harmful | Defines *how* failed degradation is detected and reversed |
 | Defines resolution growth conditions (R_{t+1} = R_t + f(...)) | Defines restoration completion conditions |
 | Defines seed calibration principles | Defines re-seeding as targeted attractor restoration |
@@ -1773,7 +2012,7 @@ DFG correspondence
 ### Mapping to DFG Concepts
 
 | ML Security Measure | DFG Concept | Direction of correspondence |
-|--------------------|-------------|---------------------------|
+|---|---|---|
 | Poisoning rate p | Contaminated vector proportion | p rising -> rho declining |
 | Performance drop at threshold | Tier 3 contamination onset | Sharp nonlinearity = Vector Storm precondition |
 | Influence score | High-Context contamination weight | High score = seed contamination risk |
@@ -1834,12 +2073,22 @@ propagation remains the primary open frontier.
 4. Unrecoverable vector determination
    What is the formal criterion for declaring a contaminated
    vector unrecoverable vs. re-absorbable through the buffer layer?
+   Structurally grounded via Type 1/2 diagnostic window (k=2-3).
+   Formal derivation of k value still open.
 
 5. Upper layer self-contamination boundary
    If the upper layer itself becomes contaminated,
    authority separation fails at that level.
    What external mechanism applies?
    This is the outer boundary of the theory's self-contained scope.
+
+6. alpha, beta, C(t) formal calibration (from VST)  [v1.3]
+   Structural form established via S-equation.
+   Specific parameter values remain open.
+
+7. phi formal decomposition weights (w1, w2, w3)  [v1.3]
+   Direction established; weight calibration requires
+   empirical validation per domain.
 ```
 
 ---
@@ -1847,47 +2096,62 @@ propagation remains the primary open frontier.
 ## Status & Maturity
 
 | Aspect | State |
-|--------|-------|
-| Core definitions (vector, position, contamination) | Stable |
+|---|---|
+| Core definitions (D1–D5) | Stable (D4 redefined v1.1, v1.3 — phi-based; D5 structurally grounded v1.2) |
+| φ as restoration criterion | ✓ New (v1.3) — D4 now specifies phi → baseline as terminal condition |
+| VCZ as Rest Mode structural definition | ✓ New (v1.3) — Rest Mode = VCZ attainment; Δ_VCZ → 0 measured via dual-sphere |
+| Residual Degradation Floor | ✓ New (v1.3) — mathematical basis for "contraction stopped ≠ restored" |
+| S-equation Tier transition mapping | ✓ New (v1.3) — α·n² vs C(t)·β maps Tier 1/2/3 transitions precisely |
+| SCC structural genesis | ✓ v1.2 — Dint × Lreinf as necessary conditions; confirmed by AgentErrorTaxonomy |
+| Type 1 / Type 2 vector degradation | ✓ v1.2 — k=3 criterion structurally grounded as diagnostic window |
+| Multi-agent empirics | ✓ v1.2 — Tier 2 (MAST NeurIPS 2025), Tier 3 (cascade), SCC=0 (taxonomy) |
 | Three-tier contamination structure | Stable |
-| Restoration sequence (4 steps) | Defined, formal quantification pending |
+| Restoration sequence (4 steps) | Stable; formal quantification pending |
 | Immunity mechanism | Defined |
 | Operational proxy (rho) | Partially resolved — classification proxy usable; full structural measurement open (Open Problem #2) |
-| SCC formal quantification | Pending full resolution measurement |
+| Dint and Lreinf measurement protocol | Structurally defined; no single prescribed estimator — critical open problem |
+| Rest Mode exit (dual-sphere) | Structure defined (v1.1) = VCZ measurement (v1.3); threshold calibration open |
+| alpha, beta, C(t) formal calibration | Structural form established; specific values remain open |
+| phi decomposition weights | Direction established; empirical calibration per domain required |
 | Fractal consistency | Verified structurally |
 | Formal proofs | Not yet complete — see Open Problems |
 
 This is a **theoretical framework document**, not an implementation specification.
 
-*For the information-theoretic foundation, see:* [Resolution-Based Information Theory (RBIT)](../rbit/)
-*For the governance architecture, see:* [Three-Layer Governance Architecture](../three-layer-architecture/)
+*For the information-theoretic foundation, see:* Resolution-Based Information Theory (RBIT)
+*For the governance architecture, see:* Three-Layer Governance Architecture
 
 ---
 
 ## Document Structure
 
 | Section | Contents |
-|---------|----------|
+|---|---|
 | What This Is | Framework summary, position in DFG stack |
-| Why This Framework Is Needed | Design error analysis, three reframings |
-| Definitions | Vector, position, seed, resolution tiers, collision frequency, buffer layer |
-| **Minimal Formal Core** | **D1–D5 definitions, T1–T2 structural claims, OP1–OP2 operational proxies** |
+| Why This Framework Is Needed | Design error analysis, three reframings, foundational assumption |
+| Definitions | Minimum vocabulary: Contamination, Immunity, Buffer, Collision Frequency, Resolution tiers, Upper Layer |
+| **Minimal Formal Core** | **D1–D5 definitions, T1–T2 structural claims, OP1–OP4 operational proxies (including phi v1.3)** |
+| φ and VCZ [v1.3] | Value yield as D4 completion criterion; Vector Convergence Zone as Rest Mode structural definition |
+| Residual Degradation Floor [v1.3] | Mathematical basis for "contraction stopped ≠ restored"; S-equation Tier 2→3 transition map |
 | Observability Note | Tier 3 structural unobservability; single-agent correspondence (CKA, adversarial examples, covariate shift) |
 | Structural Constraint | Upper layer as governance ceiling (fractal); single-agent correspondence (Neural Collapse, gradient masking, distillation ceiling); bootstrap problem |
 | Part 1: Immunity | Absorption capacity, metadata conversion, three components with measurement proxies, buffer functions and thickness measurement, trim range from F_RBIT, latent vector cultivation with operational translation (§1.7) |
 | Worked Example | Multi-agent research system: contamination onset through restoration sequence |
-| Part 2: Contamination | Definition with relativity note, three tiers, two search space levels, self-reinforcing loop, attractor metadata propagation, data type profiles, normal variation distinction |
-| Part 3: Restoration | Inherent detection, authority separation, early warning indicators (6 signals), four-step restoration sequence with feedback loop, SCC proxies, Rest Mode |
-| Structural Correspondences | Eleven analogies: shared pattern + DFG-specific extension for each |
-| DFG Relationships | Connections to RBIT, Vector Storm, Network Architecture, Governance Rules — with operational form column; Vector Storm interference-to-amplification transition subsection |
+| Part 2: Contamination | Definition with relativity note, three tiers with S-equation mapping, two search space levels, self-reinforcing loop, attractor metadata propagation, data type profiles, normal variation distinction |
+| Part 3: Restoration | Inherent detection, authority separation, early warning indicators (6 signals), four-step restoration sequence with feedback loop, SCC proxies, VCZ entry / Rest Mode |
+| SCC Genesis [v1.2] | Dint × Lreinf as necessary conditions; empirical grounding |
+| Type 1 / Type 2 [v1.2] | Alignment severance vs weight overwrite; k=3 structural grounding |
+| Multi-Agent Empirics [v1.2] | MAST Tier 2, cascade Tier 3, AgentErrorTaxonomy SCC=0 |
+| Structural Correspondences | Sixteen analogies: shared pattern + DFG-specific extension |
+| DFG Relationships | RBIT, Vector Storm Theory (v1.3), Network Architecture, Governance Rules; VST interference-to-amplification transition |
 | Operational Translation | Detection signal table, restoration step-by-step operational forms, isolation-before-removal principle, diversity-based detection |
-| Fractal Consistency | Three-scale self-similarity: system / agent / metadata; single-agent correspondence |
+| Fractal Consistency | Three-scale self-similarity; agent autonomy structural exception |
 | Boundary with RBIT | Cross-reference without overlap |
 | Data Contamination Vulnerability | Quantitative grounding: poisoning rate, influence functions, certified defense radius |
-| Open Problems | Five open problems across two layers |
-| Status & Maturity | Stability assessment per aspect |
+| Open Problems | Seven open problems across two layers |
+| Status & Maturity | Per-aspect stability assessment |
 
 ---
 
-*Timestamped: February 19, 2026*
-*DFG Framework · Recovery Theory v1.0*
+*Timestamped: February 2026*
+*DFG Framework · Recovery Theory v1.3*
