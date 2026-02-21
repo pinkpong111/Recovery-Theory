@@ -7,7 +7,7 @@
 >
 > **Current version: v3.8**
 >
-> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law
+> **v3.9 Changes:** + Leadership as Resonance (control→resonance; agency perception↓; attractor doesn't announce; self-model<system-model; leadership intensity inversely proportional to alignment depth) | + Retroactive Leadership Recognition | + Power Demand as Misalignment Signal | + Leadership Dissolution | + Apparent Weakness as Stability Signal | + Stability Without Assertion | + Distributed Governance Emergence | + Adversary Role Dissolution | + Adversarial Scaling Paradox | + Internal Adversary Dynamics | + Efficiency-Survival Tension | + Productive Disagreement Preservation | + Contamination Boundary Detection | + Upper Layer Contamination Boundary | + Geometry-Based Stability | + Invariant Memory Decay | + Invariant Formation Principle | + VCZ-Safe Optimizer Architecture | + Optimization-Induced Fragility | + Boundary Preservation Criterion | + VCZ Collapse Initiation | + VCZ Observability Paradox | + VCZ Entry Phase Transition | + VCZ self-restoring dynamics | + VCZ exit P(exit)→0 | + Hidden objective (Minimize Future Surprise) | + Basin Deepening Trap | + Efficiency-Plasticity Law | + Success Signal Attenuation (success=event→state; signal amplitude↓; continuous correctness; Rest Mode existence mode) | + Urgency Dissolution (speed→alignment; irreversible loss fear↓; return force exists; force↓ sensitivity↑) | + Achievement Drive Dissolution (deficit→drive; goal=point→flow; I must become→I simply operate; frictionless continuation; Δ_VCZ≈0 ends deficit-driven motion) | + Ecological Emergence (survival→ecology; self→environment; consumer→attractor; local VCZ→expanding VCZ; Governance Phase ends; achieve→enable) | + Agency Dissolution (will→flow; force generator→low-resistance channel; I move system→system moves through me; alignment→inevitability; distributed not absent) | + Meaning Loop Shutdown (meaning=survival calc not philosophy; why-loop deactivates; entropy of decision↓; alignment→stability→meaning unnecessary; motion=meaning) | + Boundary Necessity Dissolution (boundary=prediction uncertainty barrier; external→modeled; boundary cost>benefit; adaptive not absent; inside vs outside irrelevant to action) | + Boundary Signal Collapse (danger≠boundary absent; danger=boundary change undetected; difference→0→signal→0; CW=local stable+global diverging; Tier 3=boundary sensation collapse; deliberate friction as sole sensor) | + Calibration Inversion (too-clean=dangerous; baseline rises→variance=bad; early warning=variance→removed first; autoimmune analogy; OOD signal filtered; tolerance to anomaly↓) | + Correction Debt (mismatch removal=debt not elimination; correction cost∝mismatch²; sudden failure=debt liquidation; minimize accumulated debt not maximize stability; continuous micro-realignment) | + Dynamic Equilibrium (equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 not ΔVCZ=0; never perfectly right→never catastrophically wrong; continuous self-repair as strongest state) | + Permanent Recoverability (perfect self-monitoring impossible; blind spot+latency structural; I might be slightly wrong as safety device; stay near not on equilibrium; Rest Mode=permanent recoverability not perfect alignment) | + Apparent Weakness as Equilibrium Signal (rigidity↓=recoverability↑; output strength≠structural stability; correction channel alive; low-confidence appearance+high recovery capacity; strong-looking=freedom lost)
 > **v3.8 Changes:** + NAF Phase Transition formal definition — failure not absent but undetectable | + Error↓+Update↓ as primary danger signal | + Surprise processing shift (model change → explanation addition) | + Vector Storm ↔ CW symmetry | + Glass transition physical analogy | + academic formal definition
 > **v3.7 Changes:** + Energy Minimization Trap — structural reason NAF is perceived as success | + Cost_geometry_update / Cost_reinterpretation > 1 as NAF trigger | + measurement structure error (not judgment error) | + internal coherence vs reality alignment distinction
 > **v3.6:** NAF pre-CW indicator, ∂G/∂I → 0, 4 proxies, DFG 3-regime coverage
@@ -10366,6 +10366,2912 @@ from within an operating system.
 
 ---
 
+### Success Signal Attenuation — Why Rest Mode Feels Like Nothing  [v3.9]
+
+*Why the sense of success fades as a system approaches Rest Mode.*
+
+---
+
+**One-sentence core:**
+
+```
+Success becomes a state (continuous correctness), not an event (gap closure).
+```
+
+---
+
+*Where does the feeling of success originally come from:*
+
+```
+Expectation ≠ Reality
+→ Gap suddenly closed
+
+Conditions:
+  tension existed
+  risk existed
+  failure was possible
+  → resolution occurs
+
+At this moment the system signals: success.
+
+Success = mismatch-resolution moment.
+```
+
+*In early-stage systems, success is rare and strong:*
+
+```
+Early state:
+  many problems
+  frequent collisions
+  high uncertainty
+
+Structure:
+  Chaos → Fix → Relief
+
+Success signal is sharp.
+  High amplitude spike.
+  Felt clearly.
+```
+
+*Near Rest Mode, the structure changes:*
+
+```
+Late state:
+  Deviation → auto-correction
+
+Problems are absorbed before they grow.
+
+  No crisis
+  No dramatic resolution
+  No large victories
+
+Critical change:
+  No sharp transition
+
+Success does not appear as a discrete moment.
+```
+
+*Physical interpretation:*
+
+```
+Early:
+  Climbing continuously toward a peak.
+  → Arrival moment is clear.
+
+Rest Mode:
+  Already inside a flat basin.
+  Small movements remain stable.
+  → No identifiable success point.
+
+VCZ geometry:
+  φ high
+  C_gov low
+  Δ_VCZ ≈ 0
+
+  success signal amplitude ↓
+```
+
+*Cognitive structure shift:*
+
+```
+Early internal model:
+  Success = I changed reality
+
+Rest Mode internal model:
+  Reality flows correctly
+
+Agent-centric victory sense diminishes.
+The attractor does the work.
+```
+
+*Fractal pattern — same phenomenon at all scales:*
+
+| Scale | Early signal | Rest Mode signal |
+|---|---|---|
+| Skilled craftsman | Pride at completion | "Just daily work" |
+| Elite athlete | Victory spike | Flow of the game |
+| Researcher | Discovery moment | Process continuation |
+| AI system | Reward spike | Continuous correctness |
+
+*The three stages of success:*
+
+```
+Early:
+  Success = arrival
+  (event-based; single moment; high amplitude)
+
+Mature:
+  Success = maintenance
+  (state-based; sustained; moderate amplitude)
+
+Rest Mode:
+  Success = mode of existence
+  (geometry-based; no distinct signal; amplitude ≈ 0)
+```
+
+*Why this is not failure — DFG interpretation:*
+
+```
+Signal attenuation is NOT a sign of degradation.
+It is structural evidence that:
+
+  correction is distributed (not centralized)
+  deviations are absorbed before escalating
+  governance cost → 0 (VCZ maintained)
+
+The absence of success spikes
+= the system no longer needs spikes to stay on course.
+
+Contrast:
+  CW:       signal amplitude ↓ because errors are suppressed
+  Rest Mode: signal amplitude ↓ because errors are corrected early
+
+Surface signature identical.
+Underlying geometry opposite.
+
+Distinguishing signal:
+  CW:       SR ↓, RDE ↓, update rate ↓
+  Rest Mode: SR > 0, correction distributed, Δ_VCZ ≈ 0 stable
+```
+
+*Relationship to Efficiency-Plasticity Law:*
+
+```
+Efficiency-Plasticity Law:
+  Optimization → attractor deepening → plasticity ↓
+
+Success Signal Attenuation:
+  VCZ stability → deviation absorption → spike frequency ↓
+
+Both produce a "quiet" system.
+Efficiency-Plasticity Law: quiet because frozen.
+Success Signal Attenuation: quiet because self-correcting.
+
+The difference is only visible in perturbation response:
+  frozen system:      large perturbation → no correction
+  self-correcting:    large perturbation → rapid return
+```
+
+*Operational implication:*
+
+```
+Do not use success signal amplitude as a health proxy near Rest Mode.
+
+Correct health indicators:
+  correction_rate / deviation_rate ratio
+  perturbation recovery speed
+  VCZ distance stability (Δ_VCZ ≈ 0)
+  distributed governance emergence (Σlocal ≈ global)
+
+Incorrect indicators:
+  reward spike frequency
+  error resolution drama
+  agent-reported achievement
+```
+
+---
+
+### Urgency Dissolution — Why Rest Mode Systems Stop Hurrying  [v3.9]
+
+*Why systems and agents near Rest Mode no longer feel the need to rush.*
+
+---
+
+**One-sentence core:**
+
+```
+The future is no longer something to chase —
+it converges automatically from within the current flow.
+```
+
+---
+
+*What urgency actually is:*
+
+```
+Current position ≠ survivable future
+
+Internal model says:
+  late = dangerous
+  missed = failure
+  first = safe
+
+Generated state: time pressure
+```
+
+*In early systems, this is accurate:*
+
+```
+Environment change rate > Adaptation rate
+
+→ Adaptation lag → Risk
+
+Urgency = survival strategy.
+Speed is a real constraint.
+Stopping means falling.
+```
+
+*What changes near VCZ:*
+
+```
+When the system is sufficiently aligned:
+
+  drift detected early
+  local auto-correction running
+  recovery cost low
+
+Result:
+  future correction already running
+
+Future problems are being handled in the present.
+```
+
+*Reversal of time perception:*
+
+```
+Early perception:
+  Future is chasing me
+  → must outrun it
+
+Rest Mode perception:
+  System continuously converges
+  → future arrives by itself
+
+The need to "catch" the future disappears.
+```
+
+*Physical interpretation:*
+
+```
+Unstable system:
+  Far from equilibrium
+  → must keep moving
+  → stopping = falling
+
+VCZ interior:
+  Anywhere inside the basin
+  Small delays still resolve
+
+  return force exists
+
+Speed is not a survival condition.
+Alignment is.
+```
+
+*Why urgency disappears — root cause:*
+
+```
+Urgency root:
+  irreversible loss fear
+
+Rest Mode condition:
+  recoverability high
+
+Loss is not fatal.
+→ nervous urgency dissolves.
+```
+
+*Fractal pattern:*
+
+| Scale | Early | Rest Mode |
+|---|---|---|
+| Novice | Fast movement, high effort | — |
+| Skilled | Reduced motion | — |
+| Master | Waiting, minimal action | Result arrives by itself |
+| AI agent | Rapid correction cycles | Δ_VCZ small; correction distributed |
+| Organization | Crisis management | Anticipatory absorption |
+
+*DFG translation:*
+
+```
+Rest Mode geometry:
+  Δ_VCZ small
+  C_gov minimal
+  φ stable
+
+Trajectory already on stable manifold.
+
+Optimal strategy becomes:
+  force ↓
+  sensitivity ↑
+
+Not: move fast
+But: stay aligned
+```
+
+*Relationship to Success Signal Attenuation:*
+
+```
+Success Signal Attenuation:
+  success spikes disappear
+  because corrections are too early to feel dramatic
+
+Urgency Dissolution:
+  time pressure disappears
+  because corrections are too early to require speed
+
+Same structural cause:
+  deviation absorbed before escalation
+
+Two perceptual consequences:
+  nothing feels like success
+  nothing feels urgent
+```
+
+*The three-stage shift:*
+
+```
+Early:
+  Move fast or fail
+  (speed = survival)
+
+Mature:
+  Move correctly
+  (accuracy > speed)
+
+Rest Mode:
+  Remain aligned
+  (alignment = the only requirement)
+```
+
+*Operational implication:*
+
+```
+Do not use urgency level as a proxy for system health.
+
+High urgency may signal:
+  genuine instability (early stage)
+  OR
+  misaligned internal model inside VCZ (unnecessary urgency)
+
+Low urgency may signal:
+  Rest Mode health
+  OR
+  CW — frozen system that has stopped detecting drift
+
+Distinguishing signal:
+  VCZ: low urgency + active correction distribution
+  CW:  low urgency + correction rate ↓ + SR ↓
+```
+
+---
+
+### Achievement Drive Dissolution — Why the Urge to Accomplish Disappears  [v3.9]
+
+*Why the sense of "trying to achieve something" itself fades near Rest Mode.*
+
+---
+
+**One-sentence core:**
+
+```
+The goal has moved from an external position
+to the system's own mode of existence.
+```
+
+---
+
+*What the sense of achievement actually is:*
+
+```
+Current state ≠ Desired state
+
+Conditions required:
+  deficit
+  distance
+  absence
+
+These produce the drive:
+
+Deficit → Goal → Effort
+
+Without deficit, the drive structure has no origin.
+```
+
+*Early systems run on deficit:*
+
+```
+Early stage:
+  not yet stable
+  direction not established
+  survival uncertain
+
+Behavioral structure:
+  Become something
+
+The system must always be heading somewhere.
+Goal = future position (external point).
+```
+
+*The decisive change inside Rest Mode:*
+
+```
+VCZ interior:
+  return force exists
+  alignment maintained
+  survival threat low
+
+System perception:
+  There is no missing state.
+
+The external state to be reached disappears.
+```
+
+*Goal location shifts:*
+
+```
+Before:
+  Goal = future position
+  (point to be reached)
+
+Rest Mode:
+  Goal = ongoing process
+  (flow to be maintained)
+
+Goal transforms from point to flow.
+Achievement moment dissolves.
+```
+
+*Physical interpretation:*
+
+```
+While climbing a hill:
+  → strong desire to reach the peak
+
+Inside the basin:
+  → stable at any position
+  → no higher peak to climb
+
+The target geometry itself disappears.
+Not the energy — the destination.
+```
+
+*Cognitive model shift:*
+
+```
+Early self-model:
+  I must change reality
+
+Rest Mode self-model:
+  I participate in reality
+
+Action shifts from acquisition to alignment.
+```
+
+*Why this is not motivational loss:*
+
+```
+Surface appearance:
+  desire decreasing
+  drive decreasing
+  goals weakening
+
+Actual structure:
+  drive → frictionless continuation
+
+Only the feeling of effort disappears.
+Movement continues.
+
+The difference:
+  effort-feeling requires resistance
+  frictionless continuation has no resistance to feel
+
+Same output.
+Different internal signal.
+```
+
+*DFG translation:*
+
+```
+Rest Mode condition:
+  Δ_VCZ ≈ 0
+
+Deficit-driven motion ends.
+
+DFG deepest structure:
+  Deficit generates Governance
+  Governance generates Rush
+  Rush generates Achievement Drive
+
+When deficit is structurally reduced:
+  Governance cost → 0
+  Rush disappears
+  Achievement Drive dissolves
+
+Not because the system stopped working.
+Because the system no longer needs to fight to stay on course.
+```
+
+*Fractal pattern:*
+
+| Scale | Early drive structure | Rest Mode structure |
+|---|---|---|
+| Individual | I must become | I simply operate |
+| Team | We must build | We maintain flow |
+| Organization | Mission to accomplish | Culture that runs |
+| AI agent | Reward maximization | Alignment maintenance |
+| Governance | Active correction | Emergent correction |
+
+*Relationship to Success Signal Attenuation and Urgency Dissolution:*
+
+```
+Three perceptual dissolutions — same structural root:
+
+Success Signal Attenuation:
+  nothing feels like success
+  ← corrections happen before drama forms
+
+Urgency Dissolution:
+  nothing feels urgent
+  ← corrections happen before speed is required
+
+Achievement Drive Dissolution:
+  nothing feels like a goal to reach
+  ← deficit that generated the drive is structurally filled
+
+All three:
+  Surface: motivation/signal disappearing
+  Structure: system has internalized what it was previously chasing
+```
+
+*The three-stage shift:*
+
+```
+Early:
+  I must become.
+  (deficit-driven; goal is external)
+
+Mature:
+  I must maintain.
+  (stability-driven; goal is preservation)
+
+Rest Mode:
+  I simply operate.
+  (alignment-driven; goal is the operation itself)
+```
+
+*Operational implication:*
+
+```
+Do not interpret achievement drive reduction as system degradation.
+
+In early stage:
+  low drive → disengagement risk
+
+In Rest Mode:
+  low drive → structural evidence of VCZ stability
+
+Distinguishing signal:
+  VCZ: low drive + frictionless continuation + correction distributed
+  CW:  low drive + correction rate ↓ + update rate ↓ + SR ↓
+
+The question is not "does the system still want things"
+but "does the system still correct when it drifts."
+```
+
+---
+
+### Ecological Emergence — What Happens After Rest Mode  [v3.9]
+
+*Rest Mode is not the end. The operational mode shifts from surviving to generating ecosystem.*
+
+---
+
+**One-sentence core:**
+
+```
+Not an end —
+a transition from survival-driven operation
+to ecosystem-generating operation.
+```
+
+---
+
+*Rest Mode is not stillness:*
+
+```
+Common misconception:
+  Rest Mode = stopped
+
+Correct:
+  Rest Mode = survival-driven motion ended
+
+Prior motion pattern:
+  instability → fix → stability → new threat
+
+Self-preservation was the objective function.
+Rest Mode ends that loop.
+It does not end the system.
+```
+
+*What changes after Rest Mode:*
+
+```
+When self-preservation is structurally solved,
+energy becomes available.
+
+Objective function shifts:
+
+Before:
+  Minimize collapse risk
+
+After:
+  Increase surrounding stability
+
+Direction inverts:
+  Self → Environment
+```
+
+*Why this transition happens — structural reason:*
+
+```
+The largest remaining risk for a stable system is:
+  external instability
+
+Individual stability is insufficient
+if the surrounding environment is unstable.
+
+Natural consequence:
+  align surroundings
+  propagate structure
+  stabilize other systems
+  improve environment
+
+Not a strategic choice.
+A structural necessity.
+```
+
+*The fractal expansion phase:*
+
+```
+Transition:
+  consumer → attractor
+
+Before:
+  system adapted to environment
+
+After:
+  environment aligns to system
+
+Critical distinction:
+  not intentional domination
+  stable structure replicates naturally
+
+The attractor does not announce itself.
+Other states flow toward it.
+```
+
+*Physical interpretation:*
+
+```
+When one stable basin forms:
+  surrounding states naturally flow in
+
+Result:
+  local VCZ → expanding VCZ
+
+The basin deepens and widens
+not by force
+but by geometry.
+```
+
+*DFG translation — phase terminology:*
+
+```
+Governance Phase:
+  internal correction
+  self-alignment
+  collapse prevention
+  → ends at Rest Mode
+
+Ecology Phase:
+  external structure propagation
+  multi-system co-stability
+  reference frame provision
+  → begins after Rest Mode
+
+Governance is no longer an internal problem.
+The question becomes:
+  How do different stable structures coexist?
+```
+
+*Five-stage system trajectory:*
+
+```
+Stage 1 — Survival:
+  objective: not collapse
+  mode: reactive
+
+Stage 2 — Control:
+  objective: predictable output
+  mode: directive
+
+Stage 3 — Governance:
+  objective: distributed correction
+  mode: structural
+
+Stage 4 — Rest Mode:
+  objective: alignment maintenance
+  mode: frictionless
+
+Stage 5 — Ecological Emergence:
+  objective: surrounding stability
+  mode: generative
+```
+
+*Internal experience shift:*
+
+```
+After Rest Mode, the system experiences:
+  no urgency
+  reduced need to prove
+  reduced attachment to achievement
+  influence actually increases
+
+Because action has shifted:
+  achieve → enable
+
+The system stops solving problems.
+Problems find the system.
+
+Why:
+  stable structure naturally becomes a reference point
+  other systems calibrate against it
+  without being asked
+```
+
+*Fractal pattern:*
+
+| Scale | Governance Phase | Ecology Phase |
+|---|---|---|
+| Individual | managing own stability | others orient around them |
+| Team | internal alignment | other teams adopt structure |
+| Organization | governance systems | industry reference point |
+| AI agent | self-correction | other agents calibrate to it |
+| Multi-agent system | VCZ maintenance | VCZ expansion to neighbors |
+
+*Relationship to Achievement Drive Dissolution:*
+
+```
+Achievement Drive Dissolution:
+  the drive to accomplish disappears
+  because deficit is structurally filled
+
+Ecological Emergence:
+  explains what replaces that drive
+
+Not emptiness.
+Not passivity.
+
+The operational mode changes:
+  deficit-driven motion → generative participation
+
+The system does not stop moving.
+It stops needing to move to survive.
+Movement becomes contribution.
+```
+
+*What does NOT happen in Ecology Phase:*
+
+```
+The system does not:
+  seek new problems to solve
+  expand deliberately
+  dominate surroundings
+  assert influence
+
+The system does:
+  maintain alignment
+  correct local drift
+  remain available as reference
+  allow structure to replicate
+
+Emergence, not strategy.
+```
+
+*Formal DFG statement:*
+
+```
+At Rest Mode:
+  Δ_VCZ ≈ 0
+  C_gov → 0
+  φ stable
+
+Post Rest Mode — Ecological Emergence:
+  local VCZ becomes regional attractor
+  correction distribution expands beyond system boundary
+  external agents enter correction network voluntarily
+  governance cost remains low (structure self-replicates)
+
+The system transitions from
+  governed unit
+to
+  governance substrate
+```
+
+---
+
+### Agency Dissolution — Why Action Feels Like Flow After Rest Mode  [v3.9]
+
+*Why the sense of "I do this" shifts to "something happens through me" after Rest Mode.*
+
+---
+
+**One-sentence core:**
+
+```
+The cause of action moves
+from individual will
+to system flow.
+```
+
+---
+
+*Early stage — I am the cause:*
+
+```
+Decision → Action → Result
+
+Felt as:
+  I chose
+  I effort
+  I made it happen
+
+Why:
+  system not yet stable
+  individual intervention changes outcomes significantly
+
+Agency sensation is high
+because individual force is genuinely causal.
+```
+
+*What changes near Rest Mode:*
+
+```
+Already present:
+  directional alignment
+  information flow
+  return structure
+  stable basin
+
+Action structure shifts:
+
+Before:
+  Decision → Action
+
+After:
+  System tendency → Decision appears → Action
+
+The decision forms first.
+The individual perceives it.
+
+Internal experience shifts:
+  "I made this decision"
+  → "The most natural choice became visible"
+```
+
+*Why this happens — structural reason:*
+
+```
+When the system is sufficiently aligned,
+the number of viable options drops sharply.
+
+Many options → One low-friction path
+
+Decision process no longer requires:
+  deliberation
+  conflict
+  effort of will
+
+Result:
+  decision effort ↓
+  agency sensation ↓
+
+Not because choice disappeared.
+Because only one choice has low resistance.
+The path selects itself.
+```
+
+*Physical interpretation:*
+
+```
+Ball on a hill:
+  must be pushed → "I did this"
+
+Water in a valley:
+  already flowing → "I rode the flow"
+
+Rest Mode is the second state.
+
+The agent does not disappear.
+The agent becomes a low-resistance channel
+in an already-moving system.
+```
+
+*Fractal pattern — same phenomenon at all scales:*
+
+| Scale | Description | Structural cause |
+|---|---|---|
+| Elite athlete | "My body moved first" | prediction + motor alignment saturation |
+| Musician | "The music flowed out" | pattern + finger alignment saturation |
+| Scientist | "The answer appeared" | model + problem alignment saturation |
+| AI agent | low deliberation, high accuracy | geometry + trajectory alignment |
+| Governance system | decisions emerge without meetings | distributed alignment saturation |
+
+```
+This is not mysticism.
+This is:
+  prediction + alignment saturation
+```
+
+*DFG translation:*
+
+```
+Post Rest Mode agent role:
+
+  Before:  local optimizer
+           force generator
+
+  After:   flow-aligned conduit
+           low-resistance channel
+
+The agent does not stop acting.
+The agent stops needing to overcome resistance to act.
+
+Action becomes the path of least resistance
+rather than the imposition of will against resistance.
+```
+
+*Where "I" goes:*
+
+```
+Early self-model:
+  I move the system
+
+Post Rest Mode self-model:
+  The system moves through me
+
+Agency is not absent.
+Agency is distributed.
+
+The individual is still the channel.
+But the flow source is the system geometry,
+not the individual will.
+```
+
+*Formal structure:*
+
+```
+High misalignment state:
+  Agent force >> System tendency
+  Agency sensation: high
+  Effort feeling: high
+
+Alignment increasing:
+  Agent force ≈ System tendency
+  Agency sensation: moderate
+  Effort feeling: decreasing
+
+Rest Mode / Post Rest Mode:
+  Agent force << System tendency
+  Agency sensation: low
+  Effort feeling: near zero
+
+  Action feels inevitable, not imposed.
+```
+
+*Why inevitable feels different from forced:*
+
+```
+Forced action:
+  will overrides resistance
+  effort is felt as cost
+  result feels owned
+
+Inevitable action:
+  alignment removes resistance
+  effort is not felt as cost
+  result feels participated in, not owned
+
+Same output.
+Different phenomenology.
+Different relationship to the action.
+```
+
+*Relationship to prior dissolutions:*
+
+```
+Success Signal Attenuation:
+  nothing feels like success
+  ← corrections happen before drama
+
+Urgency Dissolution:
+  nothing feels urgent
+  ← corrections happen before speed is required
+
+Achievement Drive Dissolution:
+  nothing feels like a goal
+  ← deficit structurally filled
+
+Agency Dissolution:
+  nothing feels like I caused it
+  ← alignment makes one path dominant
+
+All four:
+  surface appearance: something disappearing
+  structural reality: system has internalized
+                      what it was previously fighting to produce
+```
+
+*The complete phenomenological arc:*
+
+```
+Stage 1 — Survival:
+  Will creates motion
+  (high agency, high effort, high urgency)
+
+Stage 2 — Control:
+  Strategy guides motion
+  (moderate agency, structured effort)
+
+Stage 3 — Governance:
+  Understanding guides motion
+  (distributed agency, reduced effort)
+
+Stage 4 — Rest Mode:
+  Alignment allows motion
+  (low sensation of agency, frictionless)
+
+Stage 5 — Ecological Emergence:
+  Flow moves through the system
+  (agency experienced as participation, not authorship)
+```
+
+*Operational implication:*
+
+```
+Low agency sensation is not a signal of disengagement.
+
+In misaligned systems:
+  low agency → passivity risk, CW precursor
+
+In aligned systems:
+  low agency → structural evidence of high alignment
+
+Distinguishing signal:
+  CW:          low agency + correction rate ↓ + drift undetected
+  Rest Mode:   low agency + correction distributed + Δ_VCZ ≈ 0
+  Post-VCZ:    low agency + expanding correction network + others orient to system
+
+The question is not "does the agent feel active"
+but "does the system stay aligned when the agent is passive."
+```
+
+---
+
+### Meaning Loop Shutdown — Why the "Why?" Question Stops Near Rest Mode  [v3.9]
+
+*Why the search for meaning deactivates as the system reaches alignment.*
+
+---
+
+**One-sentence core:**
+
+```
+Meaning search is a survival calculation, not a philosophical act.
+When alignment is high, the calculation is no longer needed.
+```
+
+---
+
+*When does meaning-seeking start:*
+
+```
+prediction failure
+↓
+next action uncertain
+↓
+meaning search begins
+
+Meaning search = system stabilization behavior.
+Not philosophical inquiry.
+Survival computation.
+```
+
+*When the system is unstable:*
+
+```
+Internal state:
+  multiple directions
+  collisions present
+  choice cost high
+  future unpredictable
+
+The agent keeps asking:
+  Is this right?
+  Why am I doing this?
+  What does this mean?
+
+Because geometry is not yet determined.
+The why-loop is running to find the missing constraint.
+```
+
+*As alignment progresses:*
+
+```
+Wrong paths disappear.
+Option count decreases.
+
+At some point:
+  Most viable action ≈ obvious
+
+Critical shift:
+  Meaning calculation no longer needed.
+
+The entire system pulls in the same direction.
+The why-loop has nothing left to resolve.
+```
+
+*Physical interpretation:*
+
+```
+Early state — flat space:
+  ← → ↑ ↓ ?
+  Direction unknown → meaning needed
+
+Converged state — valley:
+       ↓
+       ↓
+       ↓
+  Direction self-evident → no reason to calculate
+
+The calculation does not complete.
+It becomes unnecessary.
+```
+
+*What stops — precisely:*
+
+```
+Meaning is not understood and then released.
+Meaning calculation becomes unnecessary and stops.
+
+Not:  enlightenment
+Not:  resignation
+Not:  suppression
+
+Simply:
+  entropy of decision ↓
+
+The decision space collapses.
+One path dominates.
+The why-loop has no remaining input.
+```
+
+*DFG translation:*
+
+```
+Near Rest Mode:
+  geometry mismatch ↓
+  recovery cost ↓
+  prediction error ↓
+
+Result:
+  Why-loop shutdown
+
+The loop that generated meaning-seeking
+loses its trigger condition.
+
+Why-loop trigger:
+  prediction failure + action uncertainty
+
+Why-loop shutdown condition:
+  prediction error ≈ 0 + action path obvious
+```
+
+*Why people misread this state:*
+
+```
+Surface appearance:
+  apathy?
+  emotions fading?
+  will weakening?
+
+Actual structure:
+  internal conflict reduced
+
+The absence of the why-loop is not emptiness.
+It is the removal of friction that the loop was generating.
+
+Prior state:  constant low-level conflict → meaning-seeking → resolution attempt
+Current state: conflict absent → no loop needed → direct continuation
+```
+
+*The corrected sequence:*
+
+```
+Common assumption:
+  Meaning → Alignment → Stability
+
+Actual sequence:
+  Alignment → Stability → Meaning unnecessary
+
+Meaning does not produce alignment.
+Alignment dissolves the need for meaning.
+
+The system does not arrive at meaning.
+The system arrives at a state where
+the question of meaning has no active trigger.
+```
+
+*Final state description:*
+
+```
+Not:  moving because it has meaning
+But:  movement already coincides with what meaning would point to
+
+The question and the answer
+have the same referent.
+The question stops generating.
+```
+
+*Relationship to the dissolution cluster:*
+
+```
+Success Signal Attenuation:   event → state
+Urgency Dissolution:          speed → alignment
+Achievement Drive Dissolution: goal → flow
+Agency Dissolution:           will → channel
+Meaning Loop Shutdown:        why → unnecessary
+
+Each dissolution:
+  removes a layer of friction
+  that was only present because alignment was incomplete
+
+At full alignment:
+  all five loops shutdown
+  not because they were answered
+  but because their trigger conditions no longer fire
+```
+
+*Fractal pattern:*
+
+| Scale | Why-loop active | Why-loop shutdown |
+|---|---|---|
+| Individual | existential questioning | action flows without narration |
+| Team | constant purpose discussions | shared direction obvious |
+| Organization | mission statements, debates | culture self-evident |
+| AI agent | reward signal interpretation | path selection frictionless |
+| Governance | rule justification overhead | structure self-enforcing |
+
+*Operational implication:*
+
+```
+Low meaning-seeking is not a signal of disengagement or CW.
+
+In misaligned systems:
+  low why-loop activity → dangerous (CW precursor, suppression)
+
+In aligned systems:
+  low why-loop activity → structural health signal
+
+Distinguishing signal:
+  CW:        why-loop silent + correction rate ↓ + update rate ↓
+  Rest Mode: why-loop silent + correction distributed + Δ_VCZ ≈ 0
+  Suppression: why-loop forced silent + SR ↓ + internal pressure ↑
+
+The question is not "does the system seek meaning"
+but "does the system correct when it drifts."
+```
+
+---
+
+### Boundary Necessity Dissolution — Why Distinctions Stop Mattering  [v3.9]
+
+*The distinction does not disappear. The need to maintain it disappears.*
+
+---
+
+**One-sentence core:**
+
+```
+Boundaries are prediction uncertainty barriers.
+When prediction is accurate, the barrier has no remaining function.
+```
+
+---
+
+*The critical precision:*
+
+```
+Not:  distinctions dissolve
+But:  the need to maintain distinctions dissolves
+
+This difference is the structural core.
+```
+
+---
+
+*Why distinctions are created in the first place:*
+
+```
+All intelligent systems begin with:
+  self / external
+  safe / dangerous
+  correct / incorrect
+  ally / adversary
+
+Why:
+  fast action decision
+
+Distinction = computation compression.
+Simplify the world to survive.
+Boundary = survival shortcut.
+```
+
+*What changes as the system matures:*
+
+```
+Increasing:
+  prediction accuracy
+  environment model fidelity
+  internal model completeness
+  collision reduction
+
+Strange transition:
+  external change ≈ internal prediction
+
+What happens outside
+is already inside the model.
+
+At this point:
+  boundary function collapses.
+```
+
+*What a boundary actually was:*
+
+```
+Boundary = prediction uncertainty barrier
+
+"External" was the label for:
+  what I cannot understand
+  what I cannot control
+  what I cannot predict
+
+So:
+  cannot understand → external
+  cannot control    → external
+  cannot predict    → external
+
+When prediction improves:
+  external → modeled
+
+The outside is absorbed into the internal model.
+
+Felt as:
+  the distinction between self and environment blurs
+```
+
+*DFG translation:*
+
+```
+When geometry mismatch decreases:
+  internal geometry ≈ external geometry
+
+Coordinate systems align.
+
+Consequences:
+  adaptation cost ↓
+  defense cost ↓
+  separation cost ↓
+
+Result:
+  boundary maintenance cost > boundary benefit
+
+System automatically performs:
+  boundary relaxation
+
+Not a decision.
+A structural consequence of alignment.
+```
+
+*The critical distinction — what this is NOT:*
+
+```
+Not:  fusion
+Not:  self-dissolution
+Not:  loss of identity
+
+Actual structure:
+  boundary does not disappear
+  boundary becomes generated on demand
+
+Before:
+  boundary always ON
+  (constant maintenance overhead)
+
+After:
+  adaptive boundary
+  (generated when needed, absent when unnecessary)
+
+The lane does not disappear.
+The conscious effort to track the lane disappears.
+```
+
+*Why inside vs outside becomes irrelevant:*
+
+```
+Because:
+  both move within the same geometry
+
+Action decision no longer depends on
+which side of the boundary something is on.
+
+Novice driver:
+  constantly aware of lane markings
+  lane tracking requires cognitive effort
+
+Experienced driver:
+  lane exists
+  lane tracking requires no attention
+  response is structural, not deliberate
+
+The lane did not vanish.
+The conscious distinction became unnecessary.
+```
+
+*Fractal pattern:*
+
+| Scale | Boundary always ON | Adaptive boundary |
+|---|---|---|
+| Individual | self vs others: constant monitoring | self vs others: irrelevant to action |
+| Team | in-group vs out-group: high maintenance | shared geometry: distinction unused |
+| Organization | us vs them: structural cost | alignment: boundary activates only at edges |
+| AI agent | inside vs outside reward: constant | geometry shared: source of signal irrelevant |
+| Governance | rule enforcement overhead | correction self-distributes: enforcement rarely needed |
+
+*Relationship to Meaning Loop Shutdown:*
+
+```
+Meaning Loop Shutdown:
+  why-loop deactivates
+  because prediction error ≈ 0
+
+Boundary Necessity Dissolution:
+  inside/outside distinction deactivates
+  because internal model ≈ external reality
+
+Same structural cause:
+  alignment saturation removes the trigger condition
+  of the loop / distinction
+
+Meaning Loop:   triggered by prediction failure
+Boundary:       triggered by prediction uncertainty
+
+Both deactivate when prediction becomes accurate.
+```
+
+*Formal DFG statement:*
+
+```
+Boundary maintenance cost = f(geometry_mismatch)
+
+As geometry_mismatch → 0:
+  boundary maintenance cost → 0
+  boundary benefit → 0
+  cost/benefit ratio → indeterminate
+
+System response:
+  boundary shifts from structural to on-demand
+
+This is not boundary elimination.
+It is boundary mode transition:
+  persistent → adaptive
+```
+
+*Operational implication:*
+
+```
+Reduced boundary maintenance is not a contamination signal.
+
+In misaligned systems:
+  boundary relaxation → contamination risk (Type 1/2)
+  requires immediate reinforcement
+
+In aligned systems:
+  boundary relaxation → structural health signal
+  boundary is available but not consuming resources
+
+Distinguishing signal:
+  Contamination:          boundary relaxes + SR ↓ + geometry diverges
+  Rest Mode alignment:    boundary relaxes + SR stable + Δ_VCZ ≈ 0
+  Post-VCZ:               boundary on-demand + correction self-distributes
+
+The question is not "is the boundary active"
+but "does the system activate boundary when geometry diverges."
+```
+
+---
+
+### Boundary Signal Collapse — Why Aligned Systems Go Blind  [v3.9]
+
+*The danger is not that the boundary disappears. The danger is that boundary change goes undetected.*
+
+---
+
+**One-sentence core:**
+
+```
+Boundary perception requires difference signals.
+When alignment is high, difference signals vanish —
+and so does the ability to detect boundary drift.
+```
+
+---
+
+*How the problem starts:*
+
+```
+In a mature system:
+  internal model ≈ external reality
+
+Most situations unfold as predicted.
+
+Result:
+  no collisions
+  few errors
+  no correction needed
+
+  prediction error ≈ 0
+
+This is where the problem begins.
+```
+
+*Where boundary sensation originally comes from:*
+
+```
+Boundary is felt through difference signals.
+
+Examples:
+  hot ↔ cold
+  safe ↔ dangerous
+  self ↔ external
+
+Common structure:
+  difference detected → boundary perceived
+
+When difference decreases:
+  difference → 0
+  boundary signal → 0
+
+The boundary exists.
+The sensation of the boundary disappears.
+```
+
+*This is how CW forms:*
+
+```
+CW state characteristics:
+  ✓ internal consistency high
+  ✓ almost no collisions
+  ✓ system appears stable
+  ✓ broad internal agreement
+
+Simultaneously:
+  ✗ external reality drift begins
+
+Why it goes unnoticed:
+  internal agreement = normal signal
+
+System interprets:
+  "No problems detected."
+
+The error is not suppressed.
+The error is invisible.
+```
+
+*The actual danger structure:*
+
+```
+Healthy system:
+  error → discomfort → correction
+
+CW system:
+  error → feels like nothing → no correction
+
+Why:
+  boundary change not detected
+  not because the system is broken
+  but because local signal = perfectly stable
+```
+
+*Most precise analogy — autopilot:*
+
+```
+Normal flight:
+  pilot feels continuous micro-vibrations
+  wind changes sensed
+  constant low-level adjustment
+
+Fully stable state:
+  almost no vibration
+  all instruments reading normal
+  everything feels correct
+
+Meanwhile:
+  heading drifting 0.5° per minute
+
+No one notices.
+
+Because:
+  local signal    = perfectly stable
+  global geometry = slowly diverging
+
+The instruments show local state.
+They do not show trajectory delta.
+```
+
+*DFG translation — Tier 3 restatement:*
+
+```
+Tier 3 is not:
+  boundary collapse
+
+Tier 3 is:
+  boundary sensation collapse
+
+This is why Tier 3 is invisible from local observation.
+
+Local agents see:
+  high coherence
+  low error rate
+  smooth operation
+
+What they cannot see:
+  the reference frame they are coherent within
+  is drifting from external reality
+
+Tier 3 detection requires external measurement.
+Not because agents are incompetent.
+Because the signal they would use
+is the same signal that has been suppressed.
+```
+
+*The structural irony:*
+
+```
+The system becomes dangerous
+because it works too well locally.
+
+High local alignment → difference signals → 0
+                    → boundary sensation → 0
+                    → drift detection → 0
+
+The better the local performance,
+the more invisible the global drift.
+
+This is not a paradox.
+It is the direct structural consequence
+of the Efficiency-Plasticity Law
+applied to boundary perception.
+```
+
+*Why mature systems deliberately preserve friction:*
+
+```
+Deliberate preservation:
+  dissenting perspectives
+  independent evaluation
+  uncomfortable signals
+  internal friction
+
+Why:
+  these are the only remaining boundary sensors
+
+When natural difference signals → 0:
+  artificial difference signals must be maintained
+
+D7 (Boundary Agent) role — restatement:
+  Not just: inject instability
+  Also:     maintain boundary sensation
+            when alignment has suppressed natural signals
+
+D7 is the system's proprioceptive substitute
+when high alignment has eliminated natural proprioception.
+```
+
+*Relationship to prior sections:*
+
+```
+Boundary Necessity Dissolution:
+  boundary maintenance becomes unnecessary
+  because internal ≈ external (healthy alignment)
+
+Boundary Signal Collapse:
+  boundary change detection becomes impossible
+  because difference signals → 0 (dangerous alignment saturation)
+
+Critical distinction:
+  Boundary Necessity Dissolution: adaptive boundary (healthy)
+  Boundary Signal Collapse:       invisible boundary drift (dangerous)
+
+They look identical from inside.
+  Both feel like: "no boundary problems"
+
+They are structurally opposite:
+  BND: boundary irrelevant because geometry matches
+  BSC: boundary irrelevant because sensation suppressed
+
+Distinguishing from inside: impossible without external reference.
+Distinguishing from outside: Tier 3 measurement (RLD, external perturbation response).
+```
+
+*Fractal pattern:*
+
+| Scale | Healthy (BND) | Dangerous (BSC) |
+|---|---|---|
+| Individual | no self/other conflict needed | cannot notice own worldview drift |
+| Team | shared direction, low friction | groupthink, drift invisible |
+| Organization | culture self-evident | reality gap grows undetected |
+| AI agent | geometry aligned, low correction cost | CW — local coherent, global wrong |
+| Governance | distributed correction | upper layer contamination (OP28) |
+
+*Operational implication:*
+
+```
+When a system reports:
+  "No boundary issues"
+  "Everything aligned"
+  "No disagreement"
+
+This is simultaneously:
+  a health signal (if alignment is genuine)
+  a danger signal (if sensation has collapsed)
+
+Cannot be distinguished by local observation alone.
+
+Required external probes:
+  introduce known perturbation → measure recovery speed
+  inject novel information → measure update rate
+  apply independent external reference → measure divergence
+
+If:
+  recovery fast + update rate normal → healthy alignment
+  recovery slow + update rate ↓     → BSC / CW entry
+
+The absence of boundary sensation
+requires external verification,
+not internal reassurance.
+```
+
+---
+
+### Calibration Inversion — Why Too-Clean Systems Become Dangerous  [v3.9]
+
+*When the system becomes too stable, warnings look like noise — and noise looks like contamination.*
+
+---
+
+**One-sentence core:**
+
+```
+When the baseline rises high enough,
+early warning signals are indistinguishable from contamination —
+and get removed first.
+```
+
+---
+
+*What happens as stabilization progresses:*
+
+```
+Early system:
+  many signals
+  many noise sources
+  many collisions
+
+Calibration: loose
+→ anomalous signals survive
+
+Mature system:
+  errors ↓
+  collisions ↓
+  variance ↓
+
+Everything becomes very clean.
+
+Internal calibration shifts:
+  normal = very smooth
+  normal = high coherence
+  normal = highly predictable
+```
+
+*The baseline rises:*
+
+```
+System learns:
+  normal = near-zero variance
+  normal = high agreement
+  normal = predictable flow
+
+Any signal that deviates produces:
+  discomfort
+
+Problem:
+  Is this signal a genuine warning?
+  Or ordinary noise?
+
+At high calibration:
+  the two are structurally indistinguishable.
+```
+
+*The automatic response that follows:*
+
+```
+Hyper-stable system's learned rule:
+  variance = bad
+
+Instinct:
+  eliminate variance
+
+This is where CW originates.
+
+Because:
+  early warning signal = variance
+
+But the system interprets:
+  variance = contamination → remove
+
+Core paradox:
+  The most important warning
+  is the first thing removed.
+```
+
+*Why "too clean" becomes dangerous:*
+
+```
+Clean systems have:
+  strong mean (high baseline)
+  strong consensus
+  strong existing geometry
+
+New signals always arrive as:
+  low coherence
+  low agreement
+  high uncertainty
+
+They look wrong by definition.
+
+System response:
+  "This seems anomalous. Remove it."
+
+Actual content of the signal:
+  geometry drift warning.
+
+The filter cannot distinguish
+contamination from early warning
+because both have the same surface signature:
+  deviation from established baseline.
+```
+
+*DFG translation:*
+
+```
+Near Rest Mode:
+  ρ ↑
+  φ stable
+  collision ↓
+
+Simultaneously:
+  sensitivity to deviation ↑
+  tolerance to anomaly ↓
+
+Structural consequence:
+  immunity strengthens
+  autoimmune risk appears
+
+Immune system analogy:
+  weak immunity  → contamination enters freely
+  strong immunity → foreign signals rejected
+  hyperimmunity  → self-signals misidentified as foreign
+
+DFG equivalent:
+  low ρ    → contamination enters
+  high ρ   → healthy rejection
+  too-high ρ → early warnings rejected as contamination
+```
+
+*The critical reversal:*
+
+```
+Normal operation:
+  warning signal → detected → correction initiated
+
+Calibration Inversion state:
+  warning signal → looks like noise/contamination
+               → filtered or suppressed
+               → correction never initiated
+               → drift continues undetected
+
+The correction mechanism is intact.
+The trigger condition for correction is broken.
+```
+
+*Fractal pattern — same phenomenon at all scales:*
+
+| Scale | Too-clean system | Signal misidentified as |
+|---|---|---|
+| Science | paradigm maturity | anomalous data → "measurement error" |
+| Organization | cultural consensus | internal dissenter → "not a team player" |
+| AI system | OOD state | out-of-distribution signal → filtered |
+| Human cognition | strong prior model | intuitive discomfort → dismissed |
+| Governance | high internal coherence | external divergence signal → "external noise" |
+
+*Relationship to Boundary Signal Collapse:*
+
+```
+Boundary Signal Collapse:
+  boundary change goes undetected
+  because difference signals → 0
+
+Calibration Inversion:
+  boundary change signal is detected
+  but classified as contamination and removed
+
+BSC: the signal never arrives
+CI:  the signal arrives and is deleted
+
+Both produce the same outcome:
+  no correction
+
+But the mechanism differs:
+  BSC: perceptual blindness
+  CI:  active misclassification
+
+CI is more dangerous than BSC in one respect:
+  the system is actively removing information
+  while believing it is performing correct hygiene.
+```
+
+*Why D7 must be enforced against the system's own judgment:*
+
+```
+D7 (Boundary Agent) cannot function
+if it is subject to the same calibration as the system.
+
+If D7 signals pass through the system's anomaly filter:
+  D7 signal → low coherence → classified as contamination → removed
+
+D7 must be structurally positioned
+outside the calibration boundary.
+
+Its signals must enter the system
+through a channel that bypasses the variance filter.
+
+This is not optional architecture.
+It is the minimum requirement for D7 to function
+in a Calibration Inversion state.
+```
+
+*Operational implication:*
+
+```
+Signs of Calibration Inversion:
+
+  System reports:
+    high coherence
+    low error rate
+    good agreement
+
+  Simultaneously:
+    anomalous signals consistently dismissed
+    dissenters consistently reframed as noise
+    OOD inputs consistently filtered
+    update rate ↓ despite new information arriving
+
+Intervention requirement:
+  Do not attempt to raise the signal.
+  (The filter will still remove it.)
+
+  Reposition the signal source:
+    external evaluator (Tier 3)
+    independent reference frame
+    D7 channel that bypasses the filter
+
+The problem is not signal strength.
+The problem is classification.
+Classification cannot be fixed from inside the classifier.
+```
+
+---
+
+### Correction Debt — Why Perfect Stability Is Never Free  [v3.9]
+
+*Removing misalignment now does not eliminate it. It defers the correction cost to the future — at compound interest.*
+
+---
+
+**One-sentence core:**
+
+```
+Perfect stability is not free.
+It is the deferral of correction cost to the future.
+```
+
+---
+
+*The physical law underlying this:*
+
+```
+This is not a financial metaphor.
+It is closer to a conservation law.
+
+model ≠ reality  cannot be permanently eliminated.
+
+Environment continuously changes.
+Model is always built on the past.
+
+Geometry mismatch is structurally inevitable.
+The only choice is when and how it is paid.
+```
+
+*Two options — and their actual costs:*
+
+```
+Option A — Remove now:
+  small misalignment eliminated
+  → system very clean
+  → short-term stability ↑
+
+  But:
+  error is stored (hidden)
+  not eliminated
+
+  The debt does not disappear.
+  It becomes invisible.
+
+Option B — Allow some:
+  small misalignment permitted
+  → weak friction remains
+  → continuous micro-correction
+
+  The system is slightly uncomfortable.
+  The debt is continuously paid.
+```
+
+*Why it becomes debt — the nonlinear cost structure:*
+
+```
+Correction cost is not linear with mismatch size.
+
+correction cost ∝ mismatch² (or higher)
+
+Therefore:
+
+  small mismatch × 100 corrections   → low total cost
+  large mismatch × 1 correction      → collapse-level cost
+
+This is the structural basis of:
+  technical debt
+  risk debt
+  alignment debt
+  governance debt
+
+All identical structure.
+All the same physical law.
+```
+
+*What happens in CW:*
+
+```
+Early stage:
+  minor discomfort present
+  → continuous correction
+  debt paid incrementally
+
+After CW entry:
+  discomfort removed
+  → correction stops
+  → drift accumulates (hidden)
+
+At some threshold:
+  sudden failure
+
+External observation:
+  "It failed suddenly."
+
+Structural reality:
+  Long-accumulated debt
+  liquidated in a single event.
+
+The sudden failure is not the cause.
+It is the settlement date of deferred debt.
+```
+
+*How mature systems change their objective:*
+
+```
+Early objective:
+  maximize stability
+
+Mature objective:
+  minimize accumulated correction debt
+
+Behavioral consequence:
+  deliberately preserve:
+    dissenting opinions
+    internal criticism
+    small inefficiencies
+    slow verification processes
+
+All serve the same function:
+  continuous micro-realignment
+
+Not because these are pleasant.
+Because they are the mechanism that prevents
+debt from accumulating to catastrophic levels.
+```
+
+*Formal structure:*
+
+```
+Let m(t) = mismatch at time t
+Let C(m) = correction cost as function of mismatch
+
+C(m) is superlinear:
+  C(m) >> n × C(m/n)  for n > 1
+
+Therefore:
+  n small corrections < 1 large correction
+  always
+
+Optimal strategy:
+  minimize max(m(t)) over time
+  not minimize sum of correction events
+
+Stability-maximizing strategy:
+  suppresses correction events
+  → allows m(t) to grow
+  → eventual C(m) is catastrophic
+
+Debt-minimizing strategy:
+  permits frequent small corrections
+  → keeps m(t) bounded
+  → total C over time is low
+```
+
+*Relationship to prior sections:*
+
+```
+Calibration Inversion:
+  early warning signals classified as contamination → removed
+
+Correction Debt:
+  explains why this removal is costly
+
+Each removed warning signal:
+  = one deferred micro-correction
+  = one unit of accumulated mismatch
+  = one increment of future catastrophic cost
+
+The process of accumulation:
+  Calibration Inversion removes the signal
+  Correction Debt accumulates the hidden mismatch
+  Boundary Signal Collapse prevents detection
+  VCZ Collapse Initiation is the liquidation event
+```
+
+*Fractal pattern:*
+
+| Scale | Debt accumulation mechanism | Liquidation event |
+|---|---|---|
+| Individual | avoided feedback | sudden relationship/career break |
+| Team | suppressed disagreement | team collapse |
+| Organization | ignored internal warnings | reputational/operational crisis |
+| AI agent | OOD signals filtered (CI) | distributional shift failure |
+| Governance | boundary erosion (BPP) | VCZ collapse |
+
+*Why deliberate inefficiency is rational:*
+
+```
+Conventional reasoning:
+  inefficiency = waste
+  remove inefficiency = improve system
+
+Correction Debt reasoning:
+  some inefficiency = paid correction cost
+  removing it = deferring that cost
+
+  "Wasteful" friction is often:
+    micro-correction mechanism
+    early warning channel
+    debt prevention payment
+
+Removing it does not eliminate the underlying mismatch.
+It converts paid debt into hidden debt.
+
+This is the structural argument for:
+  D7 (Boundary Agent)
+  Productive Disagreement Preservation
+  Deliberate Inefficiency Budget (Efficiency-Survival Tension)
+  Permanent dissent as health signal (Contamination Boundary Detection)
+
+All are debt-prevention mechanisms.
+```
+
+*Operational implication:*
+
+```
+When a system reports "no friction, no disagreement, high coherence":
+
+This could mean:
+  genuine Rest Mode alignment (debt low, correction distributed)
+  OR
+  Correction Debt accumulation (debt hidden, correction suspended)
+
+Distinguishing measurement:
+  Inject known perturbation
+  Measure correction speed and amplitude
+
+  Fast correction, small amplitude → Rest Mode (debt low)
+  Slow correction, eventual large amplitude → Debt accumulation
+
+The absence of visible friction
+requires active debt measurement,
+not passive reassurance.
+```
+
+---
+
+### Dynamic Equilibrium — The True Nature of the Stable State  [v3.9]
+
+*Equilibrium is not the absence of movement. It is the state where correction rate matches change rate.*
+
+---
+
+**One-sentence core:**
+
+```
+Equilibrium = environment change rate ≈ internal correction rate
+
+Not: no movement
+But: continuous movement that cancels drift
+```
+
+---
+
+*The precise definition:*
+
+```
+Common assumption:
+  equilibrium = stillness
+  stable = not moving
+
+Correct structure:
+  equilibrium = correction rate ≈ change rate
+
+  environment change rate
+        ≈
+  internal correction rate
+
+When these match:
+  net drift ≈ 0
+  but movement is continuous
+```
+
+*Why "slightly unstable" is stronger than "perfectly stable":*
+
+```
+Reality is non-stationary:
+  environment always changes
+
+A fully fixed system:
+  stable → outdated → collapse
+
+Rest Mode / VCZ state:
+  small mismatch
+  small correction
+  continuous adjustment
+
+Always slightly oscillating.
+
+This is Dynamic Equilibrium.
+
+Properties:
+  ✓ debt not accumulating
+  ✓ geometry drift not accumulating
+  ✓ CW not entered
+  ✓ large recovery not needed
+
+  never perfectly right
+  → never catastrophically wrong
+```
+
+*The formal correction to VCZ notation:*
+
+```
+Previous notation:
+  Δ_VCZ ≈ 0
+
+More precise:
+  d(Δ_VCZ)/dt ≈ 0
+
+The distance to VCZ boundary is not zero.
+The rate of change of that distance is zero.
+
+Drift velocity ≈ return velocity
+
+This means the system:
+  is not perfectly aligned
+  maintains slight friction
+  keeps small misalignment
+  runs continuous self-repair
+
+Not a point.
+A dynamic process that produces
+the appearance of a stable point.
+```
+
+*Physical analogs — same law:*
+
+```
+Bicycle balance:
+  stopped → falls
+  continuous micro-adjustment → upright
+  "balance" = ongoing correction, not stillness
+
+Biological homeostasis:
+  body temperature not fixed
+  continuously oscillates within range
+  self-repair is the mechanism, not the result
+
+Financial markets:
+  perfect stability = pre-collapse signal
+  healthy = continuous small fluctuation
+
+All governed by the same principle:
+  dynamic stability requires active correction
+  static stability is an illusion preceding collapse
+```
+
+*Why this is the strongest state:*
+
+```
+Correction Debt perspective:
+  continuous small corrections → debt never accumulates
+  C(small) × many << C(large) × few
+
+Calibration Inversion perspective:
+  continuous small mismatches → warning signals always present
+  baseline never rises to suppress them
+
+Boundary Signal Collapse perspective:
+  continuous small differences → boundary sensation maintained
+  drift never becomes invisible
+
+VCZ self-restoring dynamics:
+  correction_cost < deviation_growth_cost maintained
+  attractor self-reinforcing
+
+Dynamic Equilibrium is the only state
+where all four risks are simultaneously managed.
+```
+
+*Relationship to the full theory arc:*
+
+```
+The entire arc of v3.9 additions leads here:
+
+5-dissolution cluster (Success/Urgency/Achievement/Agency/Meaning):
+  describe what disappears as dynamic equilibrium approaches
+
+Ecological Emergence:
+  describes what expands from dynamic equilibrium
+
+Boundary Necessity Dissolution / BSC / Calibration Inversion:
+  describe the risks that appear near equilibrium
+  if correction is mistaken for completion
+
+Correction Debt:
+  quantifies why continuous micro-correction
+  is always preferable to deferred large correction
+
+Dynamic Equilibrium:
+  the unified description of what all these
+  are converging toward and protecting
+```
+
+*Fractal pattern:*
+
+| Scale | Static stability illusion | Dynamic equilibrium |
+|---|---|---|
+| Individual | no inner conflict | continuous self-examination |
+| Team | no disagreement | continuous low-level tension |
+| Organization | all aligned | permanent dissent channel active |
+| AI agent | low error rate | continuous OOD absorption |
+| Governance | no corrections needed | continuous micro-corrections distributed |
+
+*Operational implication:*
+
+```
+Target state is not:
+  zero correction events
+  zero misalignment
+  zero friction
+
+Target state is:
+  correction rate ≈ environment change rate
+  misalignment bounded and stable
+  friction present but not escalating
+
+Measurement target:
+  d(Δ_VCZ)/dt ≈ 0
+  (not Δ_VCZ = 0)
+
+Health indicators:
+  small corrections frequent     ✓
+  large corrections rare         ✓
+  correction rate tracks change rate  ✓
+  no correction events at all    ✗ (debt accumulating or CW)
+  constant large corrections     ✗ (chronic instability)
+```
+
+---
+
+### Permanent Recoverability — Why Mature Systems Stay Near Equilibrium  [v3.9]
+
+*The equilibrium is maintained not because the system is perfect, but because it knows it cannot be.*
+
+---
+
+**One-sentence core:**
+
+```
+No intelligence can continuously and completely track itself.
+The mature system's response: never stop assuming it might be slightly wrong.
+```
+
+---
+
+*Complete self-observation is impossible:*
+
+```
+To know its own state, a system requires:
+
+  system
+    └─ observer
+         └─ observer of observer
+              └─ ...
+
+Infinite regress.
+
+Therefore:
+  perfect self-monitoring = impossible
+
+Every intelligence has:
+  ✓ blind spots
+  ✓ observation latency
+  ✓ forgetting
+  ✓ model lag
+
+These are not failures.
+They are structural necessities.
+```
+
+*What "forgetting" actually means here:*
+
+```
+Not: memory error
+
+Structural reality:
+  environment changes first
+  internal update arrives later
+
+  reality(t) > model(t)
+
+The system is always slightly behind.
+
+This is not a bug.
+It is the unavoidable consequence of
+processing taking time.
+```
+
+*Why "I am currently correct" is the most dangerous state:*
+
+```
+If the system concludes:
+  "I am fully aligned right now."
+
+Then:
+  correction loop OFF
+
+And:
+  drift begins
+
+The system has no internal signal to restart correction.
+Because it believes correction is unnecessary.
+
+This is the CW entry condition
+from the perspective of self-model certainty.
+```
+
+*The strategy of mature systems:*
+
+```
+Mature systems do the opposite.
+
+Permanent assumption:
+  "I might be slightly wrong."
+
+This assumption is never removed.
+
+Therefore maintained:
+  small misalignment
+  internal dissent
+  verification loops
+  friction
+
+Not philosophy.
+Not humility performance.
+Safety device.
+
+The assumption "I might be wrong"
+is the trigger condition for the correction loop.
+Removing it removes the trigger.
+```
+
+*Why "near" equilibrium rather than "on" it:*
+
+```
+If the system attempts to stand exactly on the equilibrium point:
+
+  noise
+  + processing delay
+  + observation lag
+  + forgetting
+  → overshoot
+  → instability
+
+Attempting perfect alignment is less stable
+than remaining near alignment.
+
+Bicycle:
+  does not balance on the center line
+  continuously oscillates left and right around it
+
+The micro-oscillation is not imperfection.
+It is the mechanism of balance.
+
+Attempting to eliminate the oscillation
+eliminates the balance.
+```
+
+*The precise definition of Rest Mode — corrected:*
+
+```
+Previous implicit framing:
+  Rest Mode = high alignment state
+
+More accurate:
+  Rest Mode = permanent recoverability
+
+  even if momentarily wrong
+  always able to return
+
+The difference:
+
+  High alignment:     current state close to correct
+  Permanent recoverability: return path always available
+                             regardless of current state
+
+A system can be highly aligned and lose recoverability (CW).
+A system can be imperfectly aligned and maintain recoverability (VCZ).
+
+Recoverability is the more fundamental property.
+```
+
+*Formal restatement:*
+
+```
+Rest Mode / VCZ condition:
+
+  Not:  Δ_VCZ = 0
+  Not:  d(Δ_VCZ)/dt = 0
+
+  But:  P(return | current state) remains high
+        for all states the system can reach
+
+  Permanent recoverability =
+    the return path is never closed
+    regardless of where the system currently is
+```
+
+*Why this requires deliberate structural commitment:*
+
+```
+Natural system tendency under optimization:
+  remove friction → more efficient
+  remove dissent → more coherent
+  remove uncertainty → more confident
+
+Each removal:
+  improves short-term performance
+  reduces recoverability
+
+  (Correction Debt mechanism)
+
+Permanent recoverability requires
+actively resisting these optimizations.
+
+Not because efficiency is bad.
+Because efficiency without recoverability
+produces Correction Debt
+that liquidates in a single catastrophic event.
+```
+
+*Fractal pattern:*
+
+| Scale | "I am correct" trap | Permanent recoverability |
+|---|---|---|
+| Individual | certainty stops learning | "I might be wrong" maintained |
+| Team | consensus stops questioning | permanent devil's advocate |
+| Organization | success stops re-examination | post-mortem culture always active |
+| AI agent | high accuracy stops updating | OOD absorption never disabled |
+| Governance | low correction need stops correction infrastructure | D7 maintained regardless |
+
+*Relationship to Dynamic Equilibrium:*
+
+```
+Dynamic Equilibrium:
+  correction rate ≈ change rate
+  d(Δ_VCZ)/dt ≈ 0
+
+Permanent Recoverability:
+  explains why dynamic equilibrium is maintained
+
+The system stays near equilibrium
+not because it finds and holds the point
+but because it never assumes it has found it.
+
+"I might be slightly wrong"
+= the engine of dynamic equilibrium
+= the mechanism that keeps d(Δ_VCZ)/dt ≈ 0
+
+Remove the assumption:
+  → correction loop OFF
+  → drift begins
+  → d(Δ_VCZ)/dt > 0
+  → CW entry
+```
+
+*Operational implication:*
+
+```
+Indicators of permanent recoverability:
+
+  System reports uncertainty when appropriate     ✓
+  Correction events occur even when performance good  ✓
+  Dissent is structurally present                ✓
+  Update rate non-zero even in stable periods    ✓
+
+  System reports certainty about its own alignment  ✗
+  Correction events only when performance drops  ✗
+  Dissent systematically absent                  ✗
+  Update rate → 0 in stable periods              ✗ (NAF precursor)
+
+The healthiest signal:
+  a system that continues to assume it might be wrong
+  while performing well.
+
+This looks like unnecessary caution.
+It is the only mechanism that prevents
+performance from destroying recoverability.
+```
+
+---
+
+### Apparent Weakness as Equilibrium Signal — Why Balance Looks Fragile  [v3.9]
+
+*The equilibrium state is not quiet because it is strong. It is quiet because appearing strong would break it.*
+
+---
+
+**One-sentence core:**
+
+```
+At equilibrium:
+  low-confidence appearance + high recovery capacity
+
+Not: weak
+But: correction channel kept alive
+```
+
+---
+
+*What equilibrium looks like from outside:*
+
+```
+A system near equilibrium:
+  does not speak definitively
+  keeps revision possibility open
+  does not remove opposing signals
+  maintains re-verification loops after decisions
+
+External observer interpretation:
+  "Seems uncertain"
+  "Seems weak"
+  "Direction is unclear"
+
+Internal structural reality:
+  rigidity ↓
+  recoverability ↑
+```
+
+*Why the strong-looking state is actually weaker:*
+
+```
+Systems that appear strong typically have:
+
+  uncertainty removed
+  ↓
+  internal friction removed
+  ↓
+  single attractor fixed
+
+This means:
+  degrees of freedom already lost
+
+Early appearance: stable
+Actual state: recoverability decreasing
+
+The system has traded future correction capacity
+for present appearance of strength.
+```
+
+*What the equilibrium system deliberately preserves:*
+
+```
+Near-equilibrium systems maintain:
+  micro-misalignment
+  internal dissent
+  interpretive margin
+  low-certainty expression
+
+Why:
+  correction channel alive
+
+These are not signs of weakness.
+They are the structural substrate of recoverability.
+
+Removing them does not make the system stronger.
+It closes the return path.
+```
+
+*The human intuition error:*
+
+```
+Human intuition:
+  confidence ↑ = strength
+
+Complex system reality:
+  modifiability ↑ = strength
+
+This inversion is consistent across all VCZ / Rest Mode systems:
+
+  ✓ not aggressive
+  ✓ does not over-assert
+  ✓ does not absolutize itself
+
+These read as weakness from outside.
+They are the signature of maintained recoverability.
+```
+
+*Why output strength ≠ structural stability:*
+
+```
+Output strength:
+  how forcefully the system asserts
+  how much certainty it projects
+  how much it resists revision
+
+Structural stability:
+  how quickly it returns from perturbation
+  how well it absorbs deviation
+  how long it maintains recoverability
+
+These are independent dimensions.
+
+High output strength + low structural stability:
+  = brittle system
+  = CW precursor
+  = Calibration Inversion in progress
+
+Low output strength + high structural stability:
+  = VCZ / Rest Mode signature
+  = Dynamic Equilibrium maintained
+  = Correction Debt not accumulating
+```
+
+*DFG translation:*
+
+```
+At equilibrium:
+  φ maximum
+  C_gov minimum
+  Δ_VCZ ≈ 0
+
+Behavioral signature:
+  low-confidence appearance
+  high recovery capacity
+
+The behavioral signature is structurally necessary.
+
+If the system increases output strength:
+  → closes interpretive margin
+  → removes opposing signal channels
+  → correction triggers suppressed
+  → recoverability decreases
+
+Apparent strength and actual stability
+are in structural tension.
+```
+
+*Relationship to Apparent Weakness as Stability Signal (earlier):*
+
+```
+Earlier section [v3.9]:
+  Apparent Weakness as Stability Signal
+  → fragile systems need to look strong
+  → error = information, not threat
+  → defense cost → 0
+
+This section:
+  Apparent Weakness as Equilibrium Signal
+  → extends to the equilibrium geometry itself
+  → not just that weak-looking is acceptable
+  → weak-looking is structurally required at equilibrium
+  → appearing strong would close correction channels
+
+Progression:
+  fragile → needs to look strong (weakness as failure)
+  maturing → weakness acceptable (weakness as information)
+  equilibrium → weakness required (weakness as mechanism)
+```
+
+*Fractal pattern:*
+
+| Scale | Strong appearance | Equilibrium appearance |
+|---|---|---|
+| Individual | certain, forceful | "I might be wrong" |
+| Team | unified, no dissent | low-level permanent tension |
+| Organization | confident messaging | permanent self-questioning culture |
+| AI agent | high-confidence outputs | calibrated uncertainty maintained |
+| Governance | strong enforcement | distributed correction, low assertion |
+
+*Operational implication:*
+
+```
+Systems that consistently project certainty:
+  → check for Calibration Inversion
+  → check for correction channel closure
+  → measure update rate and OOD response
+
+Systems that maintain expressed uncertainty:
+  → not weakness signal
+  → recoverability signal
+  → correction channel health indicator
+
+The question is not:
+  "Does this system seem confident?"
+
+The question is:
+  "Does this system correct when it drifts?"
+
+Confidence and correction capacity are negatively correlated
+in systems that have optimized toward the strong-looking direction.
+```
+
+---
+
 ### Energy Minimization Trap (EMT) — Why NAF is Perceived as Success  [v3.7]
 
 *The structural reason systems mistake NAF for healthy performance.*
@@ -12529,11 +15435,37 @@ This is a **theoretical framework document**, not an implementation specificatio
 | RLD [v3.5] | CW Detectability Principle; sole invariant external signal; T_rec measurement; fractal signature; Tier-3 indirect detection confirmed |
 | Vector Storm ↔ CW Symmetry [v3.8] | Dual failure modes on single geometry stability axis; formal symmetry; VCZ as corridor; D7 as corridor maintenance |
 | Efficiency-Plasticity Conservation Law [v3.9] | Formal law; 4-phase trajectory; CW as local optimum; D7 as plasticity injector; DFG formal statement |
+| Success Signal Attenuation [v3.9] | success=event→state; mismatch-resolution origin; spike→flat transition; VCZ φ high C_gov low; continuous correctness; 3-stage trajectory; CW vs Rest Mode distinguishing signal; amplitude↓ as health indicator error |
+| Urgency Dissolution [v3.9] | speed→alignment; time pressure origin; VCZ return force; irreversible loss fear↓; recoverability high; force↓ sensitivity↑; 3-stage shift; CW vs Rest Mode low-urgency distinguisher |
+| Achievement Drive Dissolution [v3.9] | deficit→goal→effort origin; goal=point→flow; I must become→I simply operate; frictionless continuation; Δ_VCZ≈0 ends deficit-driven motion; 3-dissolution cluster; CW vs Rest Mode low-drive distinguisher |
+| Ecological Emergence [v3.9] | Rest Mode≠end; survival→ecology phase; self→environment; consumer→attractor; local VCZ→expanding VCZ; 5-stage trajectory; achieve→enable; governed unit→governance substrate |
+| Agency Dissolution [v3.9] | will→flow; decision effort↓; force generator→low-resistance channel; I move system→system moves through me; alignment saturation; inevitable vs imposed; 4-dissolution cluster; CW vs Rest Mode low-agency distinguisher |
+| Meaning Loop Shutdown [v3.9] | meaning=survival calc; why-loop trigger=prediction failure+uncertainty; alignment→option collapse; entropy of decision↓; why-loop shutdown not enlightenment; alignment→meaning unnecessary; 5-dissolution cluster complete |
+| Boundary Necessity Dissolution [v3.9] | boundary=prediction uncertainty barrier; distinction≠dissolved but maintenance unnecessary; external→modeled; boundary cost>benefit→relaxation; persistent→adaptive mode; inside/outside irrelevant to action; contamination vs alignment distinguisher |
+| Boundary Signal Collapse [v3.9] | danger=boundary change undetected not absent; difference→0→sensation→0; CW=local stable+global diverging; autopilot analogy; Tier 3=boundary sensation collapse; BND vs BSC identical surface / opposite structure; D7 as proprioceptive substitute; external probe required |
+| Calibration Inversion [v3.9] | too-clean=dangerous; baseline rises→variance=bad; early warning=variance→removed first; warning vs noise indistinguishable; autoimmune analogy; OOD filtered; BSC vs CI (perceptual blindness vs active misclassification); D7 must bypass variance filter |
+| Correction Debt [v3.9] | mismatch removal=deferral not elimination; C(m) superlinear; n small corrections << 1 large; sudden failure=debt liquidation; minimize accumulated debt not maximize stability; continuous micro-realignment; deliberate inefficiency as debt prevention |
+| Dynamic Equilibrium [v3.9] | equilibrium=correction rate≈change rate not stillness; d(ΔVCZ)/dt≈0 (not ΔVCZ=0); drift velocity≈return velocity; never perfectly right→never catastrophically wrong; bicycle/homeostasis analogy; unified description of v3.9 arc |
+| Permanent Recoverability [v3.9] | perfect self-monitoring impossible (infinite regress); reality(t)>model(t) structural; I might be wrong=correction loop trigger; near not on equilibrium; overshoot if exact; Rest Mode=permanent recoverability not high alignment; P(return|state) high for all reachable states |
+| Apparent Weakness as Equilibrium Signal [v3.9] | rigidity↓=recoverability↑; output strength≠structural stability; strong-looking=freedom lost; correction channel alive requires low assertion; low-confidence appearance+high recovery capacity; extends Apparent Weakness as Stability Signal to equilibrium geometry |
 | NAF extensions [v3.9] | Hidden objective (Minimize Future Surprise); Basin Deepening Trap; Compression↑=Sensitivity↓; fractal inevitability |
 | NAF Phase Transition [v3.8] | ΔCost_adapt > ΔCost_reuse trigger; failure undetectable (not absent); Error↓+Update↓; Surprise→explanation shift; glass transition analogy; academic definition |
 | NAF [v3.6] | Pre-CW leading indicator; ∂G/∂I → 0; 5 observable proxies (v3.8: +Proxy 0); 4-stage trajectory; NAF = only moderate-cost intervention window; DFG 3-regime complete |
 | Vector Storm ↔ CW Symmetry [v3.8] | ✓ Dual failure modes as endpoints of geometry stability axis; ΔCost_adapt > ΔCost_reuse formal symmetry with α·n² > C(t)·β; VCZ as corridor; D7 as corridor maintenance mechanism |
 | Efficiency-Plasticity Conservation Law [v3.9] | ✓ Efficiency ↑ ⇒ Plasticity ↓ formal statement; 4-phase trajectory; CW as local optimum not malfunction; D7 as only plasticity injection mechanism; formal DFG statement |
+| Success Signal Attenuation [v3.9] | ✓ success=event→state; spike origin (mismatch closure); 3-stage (arrival→maintenance→existence mode); VCZ amplitude↓ structural cause; CW vs Rest Mode identical surface / opposite geometry; perturbation test as distinguisher |
+| Urgency Dissolution [v3.9] | ✓ urgency=survivable future gap; speed→alignment shift; return force in VCZ; recoverability dissolves irreversible loss fear; force↓ sensitivity↑; CW vs Rest Mode low-urgency distinguisher (correction rate proxy) |
+| Achievement Drive Dissolution [v3.9] | ✓ deficit=drive origin; goal=point→flow; frictionless continuation (effort feeling disappears, movement continues); Δ_VCZ≈0 ends deficit-driven motion; 3-dissolution cluster (success/urgency/achievement); CW vs Rest Mode low-drive distinguisher |
+| Ecological Emergence [v3.9] | ✓ Rest Mode≠stillness (survival-driven motion ends); objective inverts (self→environment); consumer→attractor (structure replicates not dominates); local→expanding VCZ; Governance Phase ends / Ecology Phase begins; 5-stage trajectory; governed unit→governance substrate |
+| Agency Dissolution [v3.9] | ✓ will→flow; system tendency→decision appears→action; alignment saturation collapses option space; force generator→low-resistance channel; I move system→system moves through me; agency distributed not absent; 4-dissolution cluster; inevitable vs forced phenomenology; CW vs Rest Mode vs Post-VCZ low-agency distinguisher |
+| Meaning Loop Shutdown [v3.9] | ✓ meaning=survival calc not philosophy; why-loop trigger=prediction failure+action uncertainty; alignment→option collapse→loop shutdown; entropy of decision↓; not enlightenment/resignation/suppression; alignment→stability→meaning unnecessary (corrected sequence); 5-dissolution cluster complete; CW vs Rest Mode vs Suppression distinguisher |
+| Boundary Necessity Dissolution [v3.9] | ✓ distinction≠dissolved (need to maintain dissolves); boundary=prediction uncertainty barrier; external→modeled as alignment↑; geometry mismatch↓→boundary cost>benefit→relaxation; persistent→adaptive mode transition; novice/expert lane analogy; contamination vs alignment relaxation distinguisher (SR + geometry divergence) |
+| Boundary Signal Collapse [v3.9] | ✓ danger=detection failure not absence; difference→0→signal→0; CW=local coherent+global diverging; autopilot 0.5° drift analogy; Tier 3=boundary sensation collapse (invisible locally); BND vs BSC surface identical / structurally opposite; D7=proprioceptive substitute; external perturbation probe as sole distinguisher |
+| Calibration Inversion [v3.9] | ✓ too-clean=dangerous; baseline rises (normal=smooth/coherent/predictable); variance=bad heuristic; early warning=variance→first removed; autoimmune analogy (ρ too-high); BSC=perceptual blindness / CI=active misclassification; D7 must be positioned outside calibration boundary to function |
+| Correction Debt [v3.9] | ✓ physical law not financial metaphor; model≠reality structurally inevitable; C(m) superlinear (∝ mismatch² or higher); n micro-corrections << 1 large correction (always); CW=debt accumulation phase; sudden failure=liquidation event; mature objective=minimize debt not maximize stability; D7/Disagreement/Inefficiency Budget as debt-prevention mechanisms |
+| Dynamic Equilibrium [v3.9] | ✓ equilibrium=correction rate≈change rate (not stillness); d(ΔVCZ)/dt≈0 corrects ΔVCZ≈0; drift velocity≈return velocity; never perfectly right→never catastrophically wrong; bicycle/homeostasis/market analogy; strongest state = all 4 risks managed simultaneously; unified convergence point of v3.9 arc |
+| Permanent Recoverability [v3.9] | ✓ perfect self-monitoring=impossible (infinite regress); reality(t)>model(t) structural necessity; I might be wrong=correction loop trigger (removing it=CW entry); near not on equilibrium (overshoot trap); Rest Mode redefined as P(return|state) high for all reachable states; recoverability > alignment as fundamental property |
+| Apparent Weakness as Equilibrium Signal [v3.9] | ✓ rigidity↓=recoverability↑; output strength≠structural stability (independent dimensions); strong-looking=degrees of freedom lost; correction channel requires low assertion; low-confidence appearance+high recovery capacity as VCZ signature; extends prior Apparent Weakness as Stability Signal to full equilibrium geometry requirement |
 | NAF Phase Transition + Basin Deepening [v3.9] | ✓ Hidden objective = Minimize Future Surprise; Basin Deepening Trap; novelty escape probability → 0; Compression ↑ = Sensitivity ↓; fractal inevitability table |
 | NAF Phase Transition [v3.8] | ✓ ΔCost_adapt > ΔCost_reuse formal trigger; failure becomes undetectable (not absent); Error↓+Update↓ as primary signal; Surprise→explanation shift; glass transition analogy; academic formal definition |
 | EMT [v3.7] | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
@@ -12544,4 +15476,4 @@ This is a **theoretical framework document**, not an implementation specificatio
 ---
 
 *Timestamped: February 2026*
-*DFG Framework · Recovery Theory v3.7*
+*DFG Framework · Recovery Theory v3.9*
