@@ -1215,6 +1215,90 @@ Adding f_esc (escalation frequency) as third validation variable:
 ```
 
 
+### SCM Formal Structure and Unintegrated Pressure [integrated from VST v1.7 §2.6]
+
+*While SCM is introduced conceptually in D6, this formalizes the mechanism, the accumulated pressure, and the Energy Minimization Trap.*
+
+```
+SCM holds when (all simultaneously):
+  reward_gradient ≠ reality_stability_gradient
+  AND metric_improvement_speed > geometry_verification_speed
+  AND internal feedback signals ALL appear healthy
+
+Internal profile during SCM:
+  ρ: high   I: high   f_esc: low   collision: low   confidence: high
+  → SCC activation never triggered → Recovery never initiated
+```
+
+**Unintegrated pressure — the Vector Storm substrate:**
+
+```
+CW geometry does not eliminate mismatch. It suppresses it.
+
+unintegrated_pressure(t) = ∫₀ᵗ (G_real(τ) − G_sys) dτ
+
+When integration_capacity < unintegrated_pressure:
+  → catastrophic collapse OR Vector Storm (cheaper option)
+  → Storm is not initiated. It is structurally forced.
+
+S-equation: unintegrated pressure accumulates WITHOUT S_norm change
+  (S measures dynamics within current geometry)
+  → releases when CW geometry breaks
+  → instantaneous S_norm spike with NO S_norm warning
+```
+
+**Energy Minimization Trap (EMT):**
+
+```
+CW = system succeeded at wrong objective, not failed to update
+
+  Cost_geometry_update > Cost_reinterpretation
+  → system optimizes toward reinterpretation
+  → geometry ossifies rationally → CW is rational outcome
+
+S-equation: α can appear to DECREASE while instability INCREASES
+  (geometry diverging from reality invisible to internal measures)
+  = mechanism behind Discordant Type 1 in triple concordance
+
+Primary CW signal — Learning Freeze:
+  ∂Geometry / ∂Experience ≈ 0
+  Normal:  noise → adaptation → stability (geometry updates)
+  CW:     noise → reinterpretation → same stability (geometry fixed)
+  The system is no longer capable of surprise. That is the signal.
+```
+
+---
+
+### Reference Frame Incompleteness [integrated from VST v1.7 §2.7]
+
+*T4 explains why lower layers cannot self-correct geometry errors. T5 establishes reality as the ultimate corrector.*
+
+```
+T4 — Search Space Asymmetry:
+  Lower layer: optimize within attractor basin
+    escape_gradient ≈ 0 (by definition of basin)
+    → escape direction does not exist in lower search space
+  Upper layer: search across basins
+    → can compute gradient toward alternative basin
+
+  CW break requires basin escape.
+  Basin escape requires cross-basin search.
+  Cross-basin search only available at higher resolution.
+  → C(t) cannot self-repair under SCM
+
+T5 — Reality as Ultimate Corrector:
+  P_correction(t) = f(prediction_failure × duration)
+  At P_correction > threshold: forced re-geometry or collapse
+  Corrector = Reality, not Layer N+1
+
+Safe Collapse Governance (DFG response to T5):
+  Collapse Prevention: minimize all failure → CW → catastrophe
+  Safe Collapse: failure_cost << recovery_capacity → VCZ sustained
+  Paradox: optimal stable governance always looks slightly unstable
+```
+
+---
+
 ### Unified Failure Topology [integrated from TLG v1.5 §13.6]
 
 *Governance failures are not independent events. They are interconnected regions within a single adaptive failure space defined by three axes.*
@@ -17503,6 +17587,64 @@ Harmful compression: receiver-controlled, intent-replacing
 Functional compression: sender-controlled, intent-preserving
   → Resolution gap Δρ > 0 → Stable operation
 ```
+
+---
+
+### Boundary Agent Complete Specification [integrated from VST v1.7 §6.11]
+
+*D7 — the structural role critical for VCZ maintenance. Without it, CW convergence is inevitable.*
+
+```
+Properties (all required simultaneously):
+  (a) Inside the system (can generate real turbulence)
+  (b) Outside evaluation structure (not subject to stability rewards)
+  (c) Failure permitted (can be wrong without elimination)
+  (d) No operational power (cannot enforce — only disturb)
+
+Function: Controlled instability injection
+  = permanent Tier-2 disturbance without Tier-3 escalation
+  = artificial plasticity injector
+
+VCZ 3-Condition carrier:
+  C1: Storm is safe because BA absorbs it
+  C2: Upper layer must protect BA survival
+  C3: BA makes drift locally visible
+  Without BA → VCZ 3-Conditions cannot all hold → CW inevitable
+```
+
+**Existence conditions:**
+
+```
+A — Survival decoupled from system stability:
+  Violation: BA evaluated on system performance
+  → immediately becomes CW participant, not storm generator
+
+B — Failure permitted:
+  Violation: BA held to accuracy standard
+  → self-censoring → performative, not functional
+
+C — No operational power:
+  Violation: BA gains authority
+  → becomes power structure → forms its own CW geometry
+```
+
+**T6 protection — BA vs optimizer:**
+
+```
+T6: High-performance optimizer classifies BA as inefficiency
+  → BA removed rationally → CW entry accelerated
+
+BA disappearance pattern:
+  Stability → storm ↓ → BA looks like inefficiency
+  → BA budget cut → BA eliminated → "streamlining"
+  → CW forming (invisible) → mismatch accumulating
+  → large storm → recovery capacity absent
+
+Elimination timing inversely correlated with structural necessity.
+Without structural enforcement: T6 eliminates BA → VCZ collapse → CW → catastrophe.
+```
+
+*S-equation: BA = operational mechanism maintaining Self-Exciting Defect Layer. Without BA, defect layer collapses, SR → 0, system enters Silent Criticality — the most dangerous storm type.*
 
 ---
 
@@ -41022,6 +41164,19 @@ Governance objective:
   continuously
 ```
 
+**S-equation parameter mapping to four risks [VST v1.7 §8.1]:**
+
+```
+α high      → Risk ② (Runaway Amplification) dominant
+n collapsing → Risk ① (Exploration Collapse) dominant
+C(t) misaligned → Risk ③ (Geometry Mismatch) dominant
+β failing   → Risk ④ (Coordination Breakdown) dominant
+
+S = αn² / C(t)β maps the four-risk space:
+  S_norm rising from numerator = ② or ① depending on direction
+  S_norm rising from denominator = ③ or ④ depending on component
+```
+
 ---
 
 ### Form Convergence — The 3+1 Axes of All Adaptive Systems 
@@ -44052,6 +44207,118 @@ Complete hierarchy:
 
 ---
 
+### Storm Scale Law — Power Law Health Distribution [integrated from VST v1.7 §3.10]
+
+*Healthy systems exhibit a specific storm scale distribution. The governance target is maintaining this distribution, not minimizing storm count.*
+
+```
+Storm Scale Law:  P(Storm of scale s) ∝ 1/s^α  (power law)
+
+Scale          Frequency        Signature
+─────────────────────────────────────────────────
+micro          continuous       activation variance, local disagreement
+local          frequent         small conflicts, short recovery
+cluster        occasional       escalation events, mediation needed
+global         rare             structural re-alignment
+system-wide    extremely rare   full geometry recalibration
+
+Heavy-tail: ~90%+ micro/local, ~9% cluster, <1% global
+```
+
+**Distribution shift signals (four diagnostic patterns):**
+
+```
+Small storms disappearing + large maintained:
+  → suppression in lower layers → Absence Paradox
+
+Large storms without small precursors:
+  → CW geometry releasing (VCZ-seeking Storm)
+
+All storms increasing:
+  → approaching Chaos boundary → governance needed
+
+All storms decreasing uniformly:
+  → CW onset → SR/RDE/NCR check required
+```
+
+**VCZ as operating corridor between two failure modes:**
+
+```
+Chaos boundary: storm frequency too high at ALL scales
+  → no convergence possible
+
+CW boundary: storm frequency approaching zero at ALL scales
+  → mismatch accumulates → catastrophe growing
+
+VCZ: micro/local continuous, global rare
+  = narrow corridor between two failures
+  = S_norm << S_c expressed as scale distribution
+
+Governance target:
+  NOT: minimize storm count
+  BUT: maintain storm size distribution ≈ power law
+```
+
+---
+
+### Fractal Lifecycle and Storm Phase Correspondence [integrated from VST v1.7 §14.3]
+
+*Each lifecycle phase has a characteristic storm signature and S-equation regime.*
+
+```
+Phase 1 — Seeding:
+  C(t) ≈ 0, external governance required
+  Storm: random collisions (no structure yet)
+  S-eq: S_norm high, C(t) externally supplied
+
+Phase 2 — Directional Exploration:
+  First owned direction forming
+  Storm: exploration storms (healthy boundary-testing)
+  Risk: Interdependence Trap (premature convergence)
+  S-eq: S_norm volatile, C(t) beginning to internalize
+
+Phase 3 — Attractor Formation:
+  Local attractor crystallizing
+  Storm: position-clarification storms
+  S-eq: S_norm decreasing, terrain forming (d_eff dropping)
+
+Phase 4 — VCZ Stabilization:
+  Triple Recovery Gradient active
+  Storm: power law distribution established
+  S-eq: S_norm << S_c, R ≈ 1
+
+Phase 5 — Rest Mode:
+  dF_RBIT/dt ≈ 0, φ_mature active
+  Storm: micro-storms as value generation
+  S-eq: S_norm minimal, d_eff → 1
+
+Phase 6 — Reawakening:
+  Environmental change exceeds current absorption
+  Storm: precision storms (fast, targeted)
+  S-eq: S_norm briefly rising, C(t) synchronizing
+
+Phase 7 — Higher Exploration:
+  New cycle at expanded resolution
+  Storm: Phase 2 at higher capacity
+  S-eq: new baseline with lower noise floor
+```
+
+**AGI alignment as storm governance:**
+
+```
+Alignment failure = failure at any lifecycle phase:
+  Phase 2: Interdependence Trap → premature convergence
+  Phase 4: CW mistaken for VCZ → false stabilization
+  Phase 5: BA eliminated → Silent Criticality
+  Any phase: Trust topology collapse → correction signals blocked
+
+Value specification → WHAT to aim for.
+Storm governance → HOW the system that aims can fail,
+  and what structural conditions prevent each failure mode.
+```
+
+---
+
 ### Storm–Collapse Lifecycle Closure [integrated from VST v1.5 §3.9]
 
 *The complete VCZ → Storm → Collapse → Recovery → VCZ cycle, with learning vs non-learning distinction.*
@@ -44564,7 +44831,7 @@ This is a **theoretical framework document**, not an implementation specificatio
 | EMT | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
 | Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
 | Open Problems | Twenty-seven open problems (OP16, OP22 resolved) |
-| VST v1.5 Integration | ✓ n² critical phenomena (§3.2.5); stochastic S-eq (§3.2.4); Δρ storm driver (§3.2.6); F_RBIT cross-validation; R-ρ-f_esc triple concordance (§3.5.10); constructive/destructive (§14.2); MI storm characterization (§3.8); Permanently HC (§3.5.6); Rest Mode AND/OR (§3.5.5); E-P resource allocation (§3.7); sub-quadratic terrain + Signaling/Influence; falsification F1-F3 (§11.3) + F4-F7 (§11.4); dF_RBIT/dt ≈ 0 (§3.5.9); φ_mature decomposition (§3.6.1); θd 3-Phase Bootstrap (§3.2.9); Dual-Axis Evaluation (§3.4.3); Failure Diagnosis Flowchart (§4.7); Intervention Trigger Taxonomy (§4.8); Mutual Coverage as detection substrate (§5.1); Storm-Collapse Lifecycle Closure (§3.9) |
+| VST v1.7 Integration | ✓ n² critical phenomena (§3.2.5); stochastic S-eq (§3.2.4); Δρ storm driver (§3.2.6); F_RBIT cross-validation; R-ρ-f_esc triple concordance (§3.5.10); constructive/destructive (§14.2); MI storm (§3.8); Permanently HC (§3.5.6); Rest Mode AND/OR (§3.5.5); E-P resource (§3.7); falsification F1-F3 (§11.3) + F4-F7 (§11.4); dF_RBIT/dt ≈ 0 (§3.5.9); φ_mature (§3.6.1); θd Bootstrap (§3.2.9); Dual-Axis (§3.4.3); Failure Diagnosis (§4.7); Triggers (§4.8); Mutual Coverage (§5.1); Lifecycle Closure (§3.9); SCM Formal + EMT (§2.6); Ref Frame (§2.7); Storm Scale Law (§3.10); BA Complete (§6.11); Fractal Lifecycle 7-phase (§14.3); Four Risks↔S-eq (§8.1); Theory Boundary + Reserve (§11.5) |
 | TLG v1.6 Integration | ✓ Unified Failure Topology (§13.6); SCML (§13.7); Processing Phase Isolation (§10.1-10.5); Safe Collapse Protocol (§13.2.1); Three Structural Operations — separation/friction/cultivation (§3 via GRT); Degraded Map — bidirectional noise↔vector (§3); Fractal Collapse Propagation — Case 2→1→3 cascade + noise MI pre-signal (§13.2.2); VCZ 3-Condition GRT Implementation with C2 gap identified (§13.2.2); Boundary Friction 3-Test (§13.2.2); Rest Mode Granularity Transition (§5.3.1); Lreinf as terrain mechanism — collapse → d_eff → n² (§5.3.1); Conflict Severity Production Signals + I as α proxy (§3.1) |
 | NAT v1.1 Integration | ✓ Sphere topology — k-regular expander graph with spectral gap (§3.0); blind spot absorption architecture with coverage guarantees (§6.3); four-type data classification as resolution-gap routing (§4.2-4.5); storm propagation bounds O(log n) and spectral damping (§3.0+VST§4.4); resource spike detection for blind zones (§6.3.3) |
 | RBIT v1.4 Integration | ✓ Degradation-Upscaling cycle with intent preservation (§Cycle); Seed Sufficiency 3-test protocol (§Seed Sufficiency); resolution gap Δρ as central design variable (§Resolution Gap); R-ρ-f_esc triple concordance (v1.4); Stability Saturation as resolution-growth-stall phenomenon (v1.4+TLG§9.2.1); Storm-Collapse lifecycle closure (v1.4); Extended measurement interface 21 variables (v1.4); TLG-derived falsification criteria 6-8 (v1.4) |
@@ -45921,6 +46188,32 @@ Beyond it, the theory's prescriptions no longer apply.
 A different framework governs reconstruction from zero.
 ```
 
+**Energy Substrate of Recovery — Reserve Capacity [VST v1.7 §11.5]:**
+
+```
+Recovery consumes reserve capacity accumulated during VCZ:
+  Reserve = attention bandwidth + trust inventory
+          + computational slack + institutional flexibility
+
+During VCZ:   C_gov low → freed capacity → reserve accumulates
+During storm: reserve depletes across all dimensions
+
+Depleted-reserve system attempting recovery:
+  Every attempt → immediately exhausted
+  System oscillates between improvement and collapse
+  Diagnosis: reserve depletion, not governance failure
+  Treatment: reserve restoration FIRST, then recovery governance
+
+S-equation implication:
+  C(t) effective ≈ C(t) nominal × reserve_fraction
+  When reserve_fraction → 0: C(t) effective → 0
+  → Irreversibility Condition 1 triggered
+
+The S-equation describes dynamics within the recoverable regime.
+Beyond the three irreversibility conditions,
+the S-equation framework no longer applies.
+```
+
 ---
 
 ### Scale Transition Constraints — What the Fractal Preserves and What It Does Not
@@ -46137,14 +46430,14 @@ The three boundary condition sections are connected:
 
 *Timestamped: February 2026*
 *DFG Framework · Recovery Theory v1.0*
-*VST v1.5 + TLG v1.6 + NAT v1.1 + RBIT v1.4 + GRT Integration Patch Applied*
+*VST v1.7 + TLG v1.6 + NAT v1.1 + RBIT v1.4 + GRT Integration Patch Applied*
 
 ---
 
 ## Cross-Theory Reference Map [Full DFG Integration]
 
 ```
-Recovery Theory          VST v1.5
+Recovery Theory          VST v1.7
 ──────────────────────────────────────────────────────
 D6 (SCM)                §2.5 Silent Criticality
 D7 (Boundary Agent)     §6.4 Self-Exciting Defect Layer
@@ -46168,6 +46461,13 @@ Failure Diagnosis Flow  §4.7 signal → case → recovery
 Intervention Triggers   §4.8 production signals → S-eq
 Mutual Coverage         §5.1 detection via layer intersection
 Storm-Collapse Lifecycle §3.9 complete learning cycle
+SCM Formal + EMT        §2.6 unintegrated pressure + trap
+Ref Frame Incompleteness §2.7 T4 search asymmetry + T5
+Storm Scale Law          §3.10 power law health distribution
+BA Complete Spec         §6.11 D7 existence + T6 defense
+Fractal Lifecycle        §14.3 7-phase storm signatures
+Four Risks ↔ S-eq       §8.1 α/n/C(t)/β mapping
+Theory Boundary          §11.5 three irreversibility + reserve
 
 Recovery Theory          TLG v1.6
 ──────────────────────────────────────────────────────
@@ -46274,6 +46574,17 @@ dF_RBIT/dt Rest Mode criterion missing  VST v1.5 §3.5.9 Resolved
 θd Three-Phase Bootstrap missing        VST v1.5 §3.2.9 Resolved
 Dual-Axis Evaluation Window missing     VST v1.5 §3.4.3 Resolved
 Storm-Collapse full lifecycle missing   VST v1.5 §3.9   Resolved
+SCM structure informal in VST          VST v1.7 §2.6   Resolved
+S_norm discontinuity unexplained       VST v1.7 §2.6   Resolved
+CW detection not operationalized       VST v1.7 §2.6   Resolved
+C(t) failure under SCM unexplained     VST v1.7 §2.7   Resolved
+Safe Collapse rationale informal       VST v1.7 §2.7   Resolved
+Storm size distribution not formalized VST v1.7 §3.10  Resolved
+BA specification incomplete            VST v1.7 §6.11  Resolved
+Storm-lifecycle phase missing          VST v1.7 §14.3  Resolved
+Four Risks ↔ S-eq mapping missing      VST v1.7 §8.1   Resolved
+S-eq applicability domain undefined    VST v1.7 §11.5  Resolved
+Reserve capacity not modeled           VST v1.7 §11.5  Resolved
 
 Remaining open (no companion-theory resolution):
   Meta² two-level separation (ontological)
