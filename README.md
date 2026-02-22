@@ -1084,6 +1084,274 @@ Operational proxy:
   Warning: distribution flattening or inverting
 ```
 
+---
+
+### Constructive vs. Destructive Storms [integrated from VST v1.2 §14.2]
+
+*Two storms with identical S_norm trajectories can produce opposite outcomes. The distinction is in the attractor landscape, not the storm itself.*
+
+```
+Constructive storm:
+  System state exits shallow attractor basin
+  → traverses instability region
+  → settles into deeper, more stable basin
+
+  Post-storm indicators:
+    S_baseline decreased (lower resting instability)
+    Recovery time decreased (faster self-correction)
+    β increased (governance coordination improved)
+    VCZ basin widened (larger perturbation absorption capacity)
+
+Destructive storm:
+  System state exits attractor basin
+  → traverses instability region
+  → no stable basin reachable → fragmentation
+
+  Post-storm indicators:
+    S_baseline increased (higher resting instability)
+    Recovery time increased (slower self-correction)
+    β decreased (governance coordination degraded)
+    Buffer thickness reduced across zones
+```
+
+**Storm quality metric (retrospective):**
+
+```
+ΔS_baseline = S_baseline(post-storm) − S_baseline(pre-storm)
+
+  ΔS_baseline < 0  →  Constructive (structural learning event)
+  ΔS_baseline ≈ 0  →  Neutral (resources consumed, no structural change)
+  ΔS_baseline > 0  →  Destructive (topology damage, recovery required)
+```
+
+**Prospective storm quality estimation [VST v1.2 §14.2.1]:**
+
+```
+Three real-time indicators:
+
+1. Trajectory curvature (d²S/dt²):
+   Constructive: d²S/dt² sign change occurs (deceleration phase)
+   Destructive:  d²S/dt² > 0 sustained (no inflection)
+   Rule: d²S/dt² < 0 sustained for k windows → constructive probability > 0.5
+
+2. Buffer response:
+   Constructive: adjacent zone buffers maintained or thinning slowly
+   Destructive:  rapid buffer erosion → propagation risk rising
+
+3. Pre-storm SCM indicator (most powerful discriminator):
+   Pre-storm SR ≈ 0, RDE ≈ 0, NCR ≈ 1:
+     Storm origin = SCM/CW geometry mismatch release
+     → facilitate controlled geometry recalibration
+     → suppression deepens CW (counterproductive)
+   Pre-storm SR > 0, RDE > 0, NCR < 1:
+     Storm origin = healthy VCZ perturbation
+     → standard Distracting protocol
+```
+
+**Governance operates on landscape, not on storms:**
+
+```
+Storm suppression (suboptimal):
+  Prevent state from leaving current basin
+  → basin quality never tested → latent instability accumulates
+  → eventual forced exit → no prepared destination
+
+Landscape shaping (optimal):
+  Ensure deeper basins exist in likely transition directions
+  → storms naturally flow toward improved configurations
+  → each storm becomes a structural improvement opportunity
+```
+
+---
+
+### R-ρ Concordance Protocol [integrated from VST v1.3 §3.5.4]
+
+*The branching ratio R provides an external validation anchor that breaks the circularity between ρ (resolution-proxy) and θ (stabilization threshold).*
+
+```
+R = activated_{t+1} / activated_t
+
+R counts cascade propagation events:
+  How many agents are affected at t+1
+  given that k agents were affected at t.
+
+R does NOT require knowing whether propagation
+is "contamination" or "exploration."
+It is an external, model-independent measurement.
+
+Four concordance states:
+
+  R < 1 AND ρ healthy  → Confirmed VCZ (subcritical, well-governed)
+  R ≈ 1 AND ρ healthy  → Critical but managed (Rest Mode target)
+  R > 1 AND ρ healthy  → False positive warning — ρ measurement may be compromised
+                         (check for SCM: is ρ measuring classification
+                          accuracy within wrong geometry?)
+  R > 1 AND ρ declining → Confirmed instability (Storm onset)
+
+R provides a measurement-independent check on ρ.
+When R and ρ disagree, R is the more reliable signal
+because it counts physical propagation events,
+not resolution judgments that may be inside a compromised geometry.
+```
+
+**Extension to R-ρ-f_esc Triple Concordance [RBIT v1.4 + TLG v1.6 §0.5]:**
+
+```
+Adding f_esc (escalation frequency) as third validation variable:
+
+  R < 1 AND ρ healthy AND f_esc ≤ θ  → Confirmed VCZ (all three agree)
+  R ≈ 1 AND ρ healthy AND f_esc ≤ θ  → Critical but managed (Rest Mode)
+  R > 1 AND ρ healthy AND f_esc ≤ θ  → ALARM: ρ and f_esc may be compromised
+                                        (SCM suspected — system looks healthy
+                                         but cascade propagation detected)
+  R > 1 AND ρ declining AND f_esc > θ → Confirmed instability (Storm onset)
+
+  Triple concordance is stronger than dual:
+    f_esc provides governance-level validation
+    that R and ρ alone cannot supply.
+    A system with R < 1 and ρ healthy
+    but f_esc rising indicates governance stress
+    invisible to the dynamical and informational measures.
+```
+
+
+### Unified Failure Topology [integrated from TLG v1.5 §13.6]
+
+*Governance failures are not independent events. They are interconnected regions within a single adaptive failure space defined by three axes.*
+
+```
+Axis A — Signal Integrity
+  "Is the system seeing reality correctly?"
+  Failures: Mediator Drift Syndrome, Authority Collapse
+  Mechanism: signal distortion → wrong world model
+
+Axis B — Temporal Calibration
+  "Is the system tracking its own adaptation capacity correctly?"
+  Failures: Immunity Decay, Recovery misclassification
+  Mechanism: adaptation capacity misestimated → false maturity
+
+Axis C — Exploratory Vitality
+  "Is the system maintaining living exploration?"
+  Failures: Stability Saturation, Phase isolation collapse
+  Mechanism: exploration flow collapse → ossification under apparent health
+```
+
+**The failure cycle (characteristic propagation):**
+
+```
+1. Phase leakage (Axis C)
+   Information crosses boundaries it should not.
+     ↓
+2. Signal distortion (Axis A)
+   Contaminated info distorts classification reference.
+     ↓
+3. Authority drift (Axis A → B)
+   Layers converge on shared wrong model. Consensus = maturity.
+     ↓
+4. False stability (Axis C)
+   Collision rate drops from exploration loss. All metrics optimal.
+     ↓
+5. Adaptive decay (Axis B)
+   SCC erodes through disuse. Recovery pathways untested.
+     ↓
+6. Recovery misdetection (Axis B → C)
+   Response classified as recovery. True recovery absent.
+     ↓ (returns to 1)
+```
+
+**Cycle interruption cost gradient:**
+
+```
+Cheapest:  Phase 1 (structural enforcement — one-time)
+Medium:    Phase 2-3 (continuous monitoring overhead)
+Expensive: Phase 4-5 (act against optimal-looking metrics)
+Most:      Phase 6 (distinguish arrested collapse from recovery during instability)
+```
+
+*Connection to VST phase model:*
+
+```
+VST Phase           Failure Topology Position
+─────────────────────────────────────────────
+VCZ (stable)        No active cycle — all axes within bounds
+Stage 0 (noise)     Phase 1 — leakage beginning
+Stage 1 (friction)  Phase 2-3 — signal distortion, authority drift
+Stage 2 (storm)     Phase 4-5 — false stability masking decay
+Stage 3 (collapse)  Phase 6 — recovery misdetection
+```
+
+> Mature governance does not eliminate failure. It knows where failure is forming.
+
+---
+
+### Storm–Collapse Mapping Layer (SCML) [integrated from TLG v1.5 §13.7]
+
+*When dynamic instability (VST) becomes structural failure (TLG), storm TYPE determines the governance response pathway.*
+
+```
+Storm Type              Structural Meaning            Governance Response
+────────────────────────────────────────────────────────────────────────────
+Local amplification     Single attractor fracture      Local re-seeding
+(single zone)           Agent geometry broken           (TLG §6.1)
+
+Boundary storm          Layer interface instability     Middle Layer
+(cross-zone)            Resolution mismatch             recalibration
+
+Hub storm               Coordination center overload   Distributed mediation
+(high-coupling zone)    Central mediation saturated     restructure
+
+Global cascade          Cross-layer sync loss          Safe Collapse Protocol
+(all zones, Stage 3)    Epistemic Convergence           full execution
+```
+
+**The complete lifecycle with SCML:**
+
+```
+Stable (VCZ) → Storm (VST Stages 1-3) → Containment attempt
+  ├── Success → Recovery → φ recovery → VCZ re-entry
+  └── Failure → SCML Classification → Storm Type → Collapse Topology
+                → TLG Safe Collapse Protocol → Reconfiguration
+                → Recovery Stabilization → VCZ Re-entry → Rest Mode
+```
+
+**Why SCML matters:**
+
+```
+Without SCML: Storm → "fix it" → return to previous structure
+              → same vulnerability → same storm recurs
+
+With SCML:    Storm → classify topology → reconfigure → updated geometry
+              → vulnerability structurally addressed
+              → next storm (if any) is a different storm
+```
+
+> SCML converts dynamic instability into structural learning.
+
+---
+
+### Processing Phase Isolation [integrated from TLG v1.5 §10.1-10.5]
+
+*The Signaling/Influence distinction is the structural enforcement mechanism that enables sub-quadratic terrain correction.*
+
+```
+Lateral Signaling (PERMITTED):
+  Agent A transmits its current state to Agent B
+  Content: factual state report
+  Effect: informational — receiver updates its map
+  No trajectory modification during active processing
+
+Lateral Influence (PROHIBITED):
+  Agent A's state directly modifies B's active processing trajectory
+  Convergence or divergence occurs without Middle layer validation
+  Effect: trajectory modification — resolution mismatch reproduced
+
+Why this matters for Recovery:
+  Signaling: enables p_lateral → sub-quadratic E(n)
+  Influence: keeps load at O(n²) — terrain benefit is illusion
+  Phase isolation collapse = exploration flow collapse (Axis C)
+  = one of the six unified failure modes
+```
+
 
 *Rational CW Convergence — why systems evolve toward CW rationally:*
 
@@ -2035,6 +2303,14 @@ Formal conditions:
 A system satisfying all 4 conditions does not need to be governed
 toward stability. Stability is its cheapest available state.
 ```
+
+**Single-Agent Empirical Evidence [integrated from VST §3.5]:**
+
+*LLM Stable Attractor Cycle:* Research on successive LLM paraphrasing as a dynamical system (arXiv:2502.15208, 2025) directly observes the VCZ phenomenon at the intra-agent level. When an LLM repeatedly paraphrases its own output across 15+ iterations, the system converges to a stable periodic attractor cycle — semantically equivalent forms that the model oscillates between stably. Small perturbations within the basin of attraction are absorbed passively; only perturbations exceeding the basin boundary escape to chaotic output space. This maps to VST's prediction that VCZ exit without a designed return trajectory leads to storm onset.
+
+*Fractal Convergence Boundary:* Research on the boundary of neural network trainability (arXiv:2501.04286, 2025) demonstrates that the boundary between convergent and divergent training behavior is itself fractal and self-similar — exhibiting repeating patterns across multiple scales with non-integer box-counting dimensions. The VCZ boundary is not a sharp threshold but a fractal manifold. Small-scale instabilities at the fractal boundary can escalate non-linearly, consistent with VST's stage model.
+
+*LLM Agent Drift:* Multi-agent LLM research demonstrates that behavioral degradation initiates locally and progressively corrupts inter-agent coherence (Rath, 2026). Critically, LLM agents exhibit cognitive bias expansion — unlike humans, they amplify rather than filter errors (Liu et al., 2024), accelerating propagation at each stage.
 
 ---
 
@@ -3362,6 +3638,179 @@ The center is what makes the sensor useful.
 The system that survives is not the strongest system.
 It is the system that can see the longest.
 ```
+
+---
+
+### VCZ — Permanently High-Context Channels [integrated from VST v1.3 §3.5.6]
+
+*Domains that structurally cannot achieve Rest Mode because their environmental conditions change faster than the conflict log can converge. These serve as the final sensing layer during cascading collapse.*
+
+```
+Permanently High-Context channels:
+  Domains where environment change rate > convergence rate
+  → θ_d calibration never stabilizes
+  → Rest Mode entry conditions never achievable
+  → Active Mode intervention maintained permanently
+
+Examples in multi-agent AI:
+  Adversarial input monitoring
+  Cross-system boundary integrity
+  Meta-rule consistency verification
+  External reality interface (T5 channel)
+
+Structural function:
+  These channels NEVER enter Rest Mode.
+  They remain active even when all other channels have backgrounded.
+
+  During cascading collapse:
+    Standard channels exit Rest Mode → but may exit too late
+    Permanently HC channels → already active, detect cascade early
+    → final containment structure when everything else has failed
+```
+
+*Connection to recursive oversight hierarchy:*
+
+```
+Permanently HC channels ARE the operational implementation
+of the recursive oversight hierarchy:
+  They maintain per-event monitoring granularity
+  at precisely those boundaries where
+  synchronization patterns first become visible.
+
+When these channels are removed:
+  Storm Scale Law distribution shifts
+  Small storms disappear (correction suppressed)
+  Large storms become inevitable (accumulated mismatch)
+  Distribution shift itself is the primary early warning
+  that Permanently HC channels are failing.
+```
+
+> Permanently High-Context channels are not a design failure — they are a structural necessity. Their persistence guarantees that the system retains active sensing at the boundaries where cascading failure first becomes detectable.
+
+---
+
+### VCZ — Rest Mode Entry/Exit Formalization [integrated from VST v1.3 §3.5.5]
+
+*Rest Mode entry and exit are asymmetric by design: entry requires confirmation of all conditions simultaneously; exit requires only a single condition failure.*
+
+```
+Entry (AND-gate — all conditions simultaneously required):
+  All domain-specific conflict frequencies below threshold
+  AND SR > 0 confirmed (system can still be surprised)
+  AND RDE > 0 confirmed (system still learning)
+  AND NCR < 1 confirmed (novelty recognized as novelty)
+  AND perturbation response test passed
+  AND f_esc(all domains) below threshold for sustained period
+  AND R-ρ concordance state = confirmed VCZ or critical-managed
+
+  Rationale: AND-gate prevents premature Rest Mode entry.
+  A system that appears stable but has SR ≈ 0 is in SCM,
+  not Rest Mode. The differential protocol (§VCZ Observability)
+  must pass before Rest Mode can be declared.
+
+Exit (OR-gate — any single condition sufficient):
+  ANY domain conflict frequency exceeds threshold
+  OR SR drops to near-zero
+  OR external trigger detected (new agent, environment shift)
+  OR f_esc spikes in any domain
+  OR R > 1 detected (cascade propagation)
+  OR perturbation response anomaly (delayed or disproportionate)
+
+  Rationale: OR-gate ensures fast exit.
+  Rest Mode is the most stable state but also the state
+  from which SCM is hardest to distinguish.
+  Any single anomaly must be sufficient to trigger re-evaluation.
+```
+
+*The asymmetry is deliberate:*
+
+```
+Entry: slow, multi-condition, conservative
+  → prevents declaring Rest Mode prematurely
+  → false positive (declaring Rest Mode in SCM) is catastrophic
+
+Exit: fast, single-condition, sensitive
+  → prevents remaining in Rest Mode during emerging crisis
+  → false positive (unnecessary exit) is cheap (re-enter later)
+```
+
+---
+
+### VCZ — Sphere Topology and Structural Blind Spot Absorption [integrated from NAT v1.1 §3.0, §6.3]
+
+*The actual structure of a well-formed multi-agent system is a sphere, not a pyramid. The sphere's coverage properties are what make VCZ structurally stable.*
+
+```
+Outer Sphere (agent topology):
+  k-regular expander graph on n vertices
+  Spectral gap λ₁ − λ₂ > 0 → rapid mixing
+  → perturbation energy dissipates in O(log n) steps
+  → storms self-limit without governance intervention
+
+Inner Sphere (representation geometry):
+  Each agent's feature space converges toward
+  uniform distribution on unit hypersphere
+  HUG → 0 (Hyperspherical Uniformity Gap)
+  → no angular vulnerability
+
+Fractal Alignment:
+  Outer sphere's coverage property (blind spots absorbed by neighbors)
+  mirrored by inner sphere's robustness (all directions equally resistant)
+```
+
+**Sphere as blind spot absorption architecture:**
+
+```
+Each surface agent covers its local region.
+Its blind spots fall within coverage zone of its neighbors.
+→ No single agent needs to know its own blind spots.
+→ The structure absorbs them.
+
+Coverage guarantee:
+  P(uncovered blind spot) ≤ (1 − 1/d_eff)^k → 0 as n grows
+  (requires structural diversity — homogeneous agents share blind zones)
+
+Blind zone detection via resource spike:
+  Normal: flat resource profile across agents
+  Blind zone: neighbor B extends coverage → B's cost spikes
+  Spike magnitude ∝ blind zone size
+  → indirect detection without observing the blind spot itself
+```
+
+*Connection to Recovery:* Sphere cross-validation with diverse agents IS the primary corruption mitigation mechanism. Corruption enters through empty space in upscaling, not from outside. Multiple agents with different representation spaces independently upscaling the same compressed signal — disagreements reveal blind spot locations.
+
+**Storm propagation in sphere (VST §4.4 connection):**
+
+```
+Propagation bounded by diameter: O(log n) steps
+Large spectral gap → fast damping → storms self-limit
+Structural diversity → disagreement under contamination → detection signal
+Homogeneous agents → contamination invisible → Silent Criticality risk
+```
+
+---
+
+### VCZ — Four-Type Data Classification as Routing [integrated from NAT v1.1 §4.2-4.5]
+
+*The resolution gap maps directly to data classification and escalation decisions.*
+
+```
+Type          Δρ Regime      Routing Decision
+─────────────────────────────────────────────
+Mathematical  Δρ ≈ 0 or >0  Process locally
+High-Context  Δρ < 0         Escalate to higher-resolution layer
+Tacit         Δρ mixed       Operate locally; escalate on degradation
+Noise         Δρ undefined   Buffer or discard
+
+Misclassification consequences:
+  HC treated as Mathematical (Δρ<0 misread as ≈0):
+    → forced receiver-controlled compression → Storm risk
+    = dangerous direction (under-escalation)
+  Mathematical escalated as HC (Δρ≈0 misread as <0):
+    → governance overhead only = safe failure mode (over-escalation)
+```
+
+*Connection to Recovery:* Under-escalation (HC→Mathematical misclassification) produces exactly the forced compression cascades that the S-equation models as instability growth. The four-type classification operationalizes the resolution gap into concrete routing decisions, with asymmetric failure costs that bias toward the safe direction.
 
 ---
 
@@ -15624,6 +16073,209 @@ Tier 3 onset:  alpha · n² >> C(t) · beta
 
 ---
 
+### n² Scaling: Critical Phenomena Derivation [integrated from VST v1.3 §3.2.5]
+
+*The quadratic scaling was previously justified by network density — n agents produce O(n²) pairwise interactions. VST v1.3 provides a stronger derivation from critical phenomena that holds even in sparse networks.*
+
+**Why n² emerges at R ≈ 1:**
+
+```
+Subcritical (R < 1):
+  Perturbations die quickly
+  Interaction topology: sparse, disconnected clusters
+  Active interactions: O(n) — linear in system size
+
+Critical (R ≈ 1):
+  Perturbations persist — neither dying nor exploding
+  Interaction lifetime increases dramatically
+  Multiple propagation paths overlap and re-contact
+  Active interactions: O(n²) — quadratic in system size
+
+The mechanism is path overlap:
+  At criticality, cascade depth becomes large enough
+  that nearly every agent pair is connected through
+  at least one active propagation path.
+  Pairs = n(n-1)/2 ≈ n².
+```
+
+**Branching process derivation:**
+
+```
+In a critical branching process (R = 1):
+  Mean avalanche size: ⟨S⟩ ~ n
+  Concurrent active avalanches: ~ n
+  (perturbation birth rate proportional to system size)
+
+  Total interaction load = concurrent × mean size = n × n = n²
+
+This derivation does NOT assume dense connectivity.
+It follows from the persistence property of critical dynamics:
+signals live long enough to create overlap.
+```
+
+**Why n² holds in sparse networks:**
+
+```
+Real systems: average degree k << n (sparse)
+But storm propagation reaches through dynamically
+reachable paths within the propagation horizon:
+
+  Static graph:      Direct edges = O(nk)     (sparse)
+  Time-integrated:   Reachable pairs = O(n²)  (quasi-dense)
+
+  In small-world networks: path length L ~ log(n)
+  Within log(n) propagation steps, nearly all pairs reachable.
+  
+  Network sparsity affects coupling intensity (α),
+  NOT scaling exponent.
+```
+
+**Sub-quadratic terrain correction (governance maturity):**
+
+```
+As governance matures and agents specialize:
+  Boundaries form between regions
+  Routing constrains propagation
+  Modularity partitions the interaction graph
+
+  System maturity spectrum in effective scaling:
+    Early system   (flat landscape):    S ~ n²      (d_eff ≈ 2)
+    Maturing system (terrain forming):  S ~ n^1.5   (d_eff ≈ 1.5)
+    Rest Mode      (deep terrain):      S ~ n^{1+ε} (d_eff → 1)
+
+  Governance does not reduce agent count.
+  Governance reshapes the interaction terrain.
+
+  This correction requires maintaining the Signaling/Influence distinction:
+    Signaling (permitted): agents share state information peer-to-peer
+      → potential collisions detected before escalation
+      → effective escalation load: E(n) = (1 − p_lateral) × n²
+    Influence (prohibited): agents modify each other's internal states
+      → load migrates to peer network, invisible to governance
+      → E(n) remains O(n²) — no terrain benefit
+
+  The governance cost reduction from n² to n^{d_eff}
+  requires structural enforcement of the Signaling/Influence boundary.
+```
+
+> n² scaling is a necessary consequence of critical-state dynamics at R ≈ 1, derivable from branching process theory without assuming dense connectivity. The sub-quadratic correction through terrain formation is real but conditional on maintaining the Signaling/Influence distinction.
+
+---
+
+### Stochastic Extension of the S-Equation [integrated from VST v1.2 §3.2.4]
+
+*The deterministic S-equation describes the expected instability trajectory. Real systems exhibit stochastic fluctuations around this trajectory.*
+
+```
+dS = [α·n² − β·C(t)] dt + σ(S) dW
+
+where:
+  σ(S) = noise intensity, dependent on current instability level
+  dW   = Wiener process (standard Brownian motion)
+
+Implications:
+  Low S:   σ small → system tracks deterministic trajectory closely
+  High S:  σ large → stochastic excursions possible
+           → system may cross stage boundaries earlier than 
+              deterministic model predicts
+  Near S_c: σ amplified by critical slowing down
+           → variance increase is itself a pre-transition signal
+
+Operational consequence:
+  Threshold-based monitoring at fixed S values is insufficient.
+  Variance monitoring is required: increasing variance near 
+  a suspected critical point is a stronger signal than 
+  mean S alone (analogous to critical opalescence in physics).
+```
+
+---
+
+### Resolution Gap as Storm Driver [integrated from VST v1.3 §3.2.6]
+
+*RBIT's resolution gap Δρ provides the information-theoretic content of what the S-equation describes dynamically.*
+
+```
+Δρ = ρ_sender − ρ_receiver
+
+  Δρ > 0 (calibrated):
+    Sender degrades information to match receiver capacity
+    S-equation: C(t) absorbing instability effectively → stable
+
+  Δρ ≈ 0 (saturation):
+    Receiver at capacity → upscaling imminent or developmental stall
+    S-equation: C(t) ≈ αn² → S approaching S_c → phase transition
+
+  Δρ < 0 (negative gap — storm precondition):
+    Incoming information exceeds receiver resolution
+    Compression becomes receiver-controlled → intent replaced
+    Positional overlap forced → vector storm cascade
+    S-equation: αn² > C(t)^β → dS/dt > 0
+
+  Δρ << 0 (deep negative gap):
+    Multiple vectors simultaneously force-compressed
+    Cascading overlap → self-amplification → system-wide storm
+    S-equation: S >> S_c → Stage 2-3 dynamics
+```
+
+**F_RBIT as independent S cross-validation:**
+
+```
+F_RBIT(ℓ) = w₁·(1−ρ_ℓ) + w₂·Φ(−Δρ_ℓ) + w₃·Ψ(B_ℓ) + w₄·E_ℓ + w₅·C_ℓ
+
+S_norm and F_RBIT measure the same underlying instability
+from different perspectives:
+  S_norm: dynamical (instability generation vs absorption)
+  F_RBIT: informational (resolution adequacy across layers)
+
+Cross-validation protocol:
+  S_norm rising AND F_RBIT rising → confirmed instability
+  S_norm rising BUT F_RBIT stable → S calibration check needed
+  S_norm stable BUT F_RBIT rising → S may miss resolution-specific stress
+  Both stable → confirmed stability
+```
+
+---
+
+### Information-Theoretic Storm Characterization [integrated from VST v1.3 §3.8]
+
+*The S-equation describes instability dynamics. This section provides the information-theoretic content of what those dynamics represent.*
+
+```
+Storm as mutual information spike:
+  Normal operation:
+    MI(agent_i, agent_j) = MI_baseline (bounded, architecture-dependent)
+    Agents share information through calibrated degradation channels
+
+  Storm onset:
+    MI(agent_i, agent_j) >> MI_baseline
+    Agents' outputs become highly correlated
+    through uncontrolled coupling — not through designed channels
+
+  Storm = uncontrolled mutual information increase
+        = agents' internal states synchronizing
+          through forced compression rather than calibrated degradation
+
+Noise decoherence → storm (the transition):
+  Independent noise:  MI(noise_i, noise_j) ≈ 0
+    Each agent's noise floor is uncorrelated with others'
+    → noise contributions cancel in aggregate
+
+  Correlated noise:   MI(noise_i, noise_j) > 0
+    Noise inputs begin synchronizing across agents
+    → noise contributions reinforce rather than cancel
+    → this is the MI signature of noise decoherence
+    → S-equation: effective n increases
+      (previously independent noise now acts as coupled signal)
+
+Resolution gap as signed information mismatch:
+  Δρ > 0: MI(sender, receiver) calibrated and bounded → stable
+  Δρ < 0: MI exceeds receiver's channel capacity
+    → forced compression generates new correlations
+    → these correlations propagate as storm seed
+```
+
+---
+
 ## Observability Note
 
 > **Tier 3 contamination is not harder to detect because it is subtle.**
@@ -16379,6 +17031,521 @@ Step 4  Verification
 ```
 
 This example illustrates the key asymmetry: the Synthesizer and Critic could detect their own oscillation (signals 1–2), but only the upper layer could detect that the entire system was converging on the Writer's attractor (signal 3). Authority separation preserved the judgment integrity that made targeted restoration possible.
+
+---
+
+### Fractal Collapse Propagation Chain [integrated from TLG v1.6 §13.2.2]
+
+*The five failure cases are not independent. At sufficient scale, they cascade through a predictable chain.*
+
+```
+Case 2 (Escalation Flood) → upper layer overwhelmed
+  → upper layer's own I begins falling
+  → Case 1 (Consistency Collapse at upper layer)
+  → upper layer cannot adjudicate lower-layer conflicts
+  → lower layer Lreinf collapses
+  → Case 3 (Reinforcement Loop Collapse)
+  → full fractal collapse
+
+Propagation rate determined by:
+  (1) topology density (how many layers share degraded condition)
+  (2) δ between current I and τ2 at each layer
+  (3) whether Permanently High-Context channels remain operational
+```
+
+**Noise correlation as pre-cascade MI signal:**
+
+```
+Inter-domain conflict log correlation:
+  MI(conflict_log_domain_A, conflict_log_domain_B)
+
+  Normal: ≈ 0 (domains' noise floors uncorrelated)
+  Pre-cascade: > 0 (noise across domains synchronizing)
+
+  Rising inter-domain correlation WITHOUT shared input
+  = MI signature of noise decoherence
+  = pre-cascade signal for cross-domain storm
+  = detectable BEFORE any single-domain metric crosses threshold
+
+This is the earliest available warning signal.
+```
+
+---
+
+### VCZ 3-Condition GRT Implementation [integrated from TLG v1.6 §13.2.2]
+
+*Rest Mode persistence requires maintaining all three VCZ conditions. GRT maps each to operational mechanisms.*
+
+```
+C1 — Safe Failure Channel:
+  GRT: conflict severity classification (Low/Medium/High)
+  + escalation routing → local conflicts contained
+  without system-wide trigger
+
+C2 — Upper Layer Storm Reward:
+  GRT: λlog-triggered rule updates reward conflict detection
+  by converting logged conflicts into governance learning
+  GAP IDENTIFIED: explicit reward for boundary-testing behavior
+  not yet formalized (open problem)
+
+C3 — Geometry Feedback Loop:
+  GRT: θd calibration provides feedback mechanism
+  REQUIREMENT: f_esc trend must be locally readable,
+  not only aggregated at governance level
+
+If any VCZ condition fails:
+  Agents rationally converge toward SCM
+  (RT Rational CW Convergence)
+  Not a failure of agents but locally optimal response
+  when storm suppression rewarded and mismatch invisible.
+```
+
+**Boundary Friction 3-Test for monitoring removal [TLG v1.6 §13.2.2]:**
+
+```
+Before removing ANY monitoring step ("adds latency but never catches anything"):
+
+1. Local Failure Containment:
+   Without this step, does a local problem reach upper layers directly?
+   YES → never remove.
+
+2. Independent Path Creation:
+   Does this step create an independent judgment pathway?
+   YES → never remove.
+
+3. Disagreement Survival:
+   Without this, does dissent disappear from the system?
+   YES → never remove.
+
+If ANY answer is YES:
+  Step is Boundary Friction (structural error propagation limiter).
+  Removing it initiates VCZ Collapse regardless of apparent cost.
+  Conservative by design: false positive (keeping friction) = minor inefficiency;
+  false negative (removing friction) = VCZ collapse initiation.
+```
+
+---
+
+### Collapse Recovery Decision Procedure [integrated from GRT §Collapse Recovery]
+
+*Collapse recovery is the highest-cost governance operation. The decision procedure has four steps, with storm type classification preceding all other decisions.*
+
+```
+Step 0 — Classify storm type (SCML — TLG §13.7)
+  Storm TYPE determines response pathway, not severity alone.
+  
+  Local amplification → Local re-seeding → proceed to Step 1
+  Boundary storm → Middle-layer Δρ correction → θd recalibration
+  Hub storm → Reduce hub coupling density → then re-seed
+  Global cascade → Safe Collapse Protocol → full Seed reinstallation
+
+Step 1 — Determine degradation type (GRT §Vector Degradation)
+  
+  Inject partial rationale / task-agnostic prefix / Seed routing adjust
+  Recovery? → Type 1 (alignment severance). DO NOT reinstall Seed.
+  No recovery after 2-3 attempts? → Type 2 (weight overwrite). Step 2.
+
+Step 2 — Identify failure case → entry point
+  
+  Consistency Collapse (I < τ2)                → Supervised Delegation
+  Escalation Flood + SCC present               → Feedback Only
+  Escalation Flood + SCC absent                → Supervised Delegation
+  Reinforcement Loop Collapse (Lreinf < τ3)    → Direct Injection
+  Unrecoverable Storm (SCC < τu-4)             → Direct Injection
+  Seed Corruption                              → Full Seed reinstallation
+
+Step 3 — Verify Seed integrity before restart
+  New Seed must not carry same flaw that caused original failure.
+  Check: can the expansion protocol coherently classify
+  the domain that triggered the hard failure?
+```
+
+> The governing layer's goal in collapse recovery is not to restore the previous state — it is to rebuild the substrate for a governance cycle that does not fail in the same way.
+
+---
+
+### Three System States [integrated from GRT §Three System States]
+
+*A layer exists in exactly one of three states. The distinction is loop DIRECTION, not instantaneous metric values.*
+
+```
+Rest Mode:   Self-reinforcing virtuous cycle
+             Diversity sustains stability; stability sustains diversity
+             Upper layer: monitoring only (per-distribution granularity)
+
+Active Mode: Loop not yet stabilized
+             Upper layer: actively correcting (per-event or per-rule)
+
+Collapse:    Self-reinforcing vicious cycle
+             Instability erodes diversity; diversity loss increases instability
+             Upper layer: overwhelmed or absent
+```
+
+**Loop direction as core diagnostic:**
+
+```
+I = 0.8 falling → worse than I = 0.6 rising
+The value alone is insufficient — direction determines trajectory.
+fesc trend is primary: upper layer doing less = governance internalizing.
+```
+
+**Rest Mode Granularity Transition [TLG v1.6 §5.3.1]:**
+
+```
+Early Active Mode:  Directive — per-event granularity
+  Governing layer specifies outputs or rules directly.
+
+Late Active Mode:   Validating — per-rule granularity
+  Governing layer reviews agent-proposed rules.
+
+Rest Mode:          Statistical — per-distribution granularity
+  Zero per-event bandwidth.
+  Individual agents experience governance as terrain, not rules.
+  Rules become topology; compliance becomes path of least resistance.
+  = operational definition of governance backgrounding.
+```
+
+**Lreinf as Terrain Mechanism [TLG v1.6 §5.3.1]:**
+
+```
+Lreinf is not just a diversity measure — it is the mechanism
+that produces the sub-quadratic scaling correction.
+Strong Lreinf creates interaction barriers that reduce d_eff:
+
+  Early system   (flat landscape, weak Lreinf):  S ~ n²      (d_eff ≈ 2)
+  Maturing       (terrain forming, Lreinf growing): S ~ n^1.5  (d_eff ≈ 1.5)
+  Rest Mode      (deep terrain, strong Lreinf):   S ~ n^{1+ε} (d_eff → 1)
+
+Lreinf collapse (Failure Case 3) produces the most dangerous storm type:
+  It removes the terrain keeping effective scaling sub-quadratic
+  → system reverts to flat-landscape quadratic coupling
+  → S ~ n² with no terrain damping
+  → maximum storm amplification potential
+```
+
+**Four-Phase Withdrawal Protocol (GRT §Seed Handover):**
+
+```
+Phase 1  Direct Injection     (= Domain-Adaptive Pre-training)
+Phase 2  Supervised Delegation (= SFT)
+Phase 3  Feedback Only         (= Preference Optimization)
+Phase 4  Withdrawal            (= Autonomous Deployment)
+
+Each transition: governed by measurable convergence, not elapsed time.
+Withdrawal is the explicit design target.
+Phase 1 cannot be skipped: without λlog substrate, later phases fail.
+```
+
+---
+
+### The Degradation-Upscaling Cycle [integrated from RBIT v1.3 §Degradation-Upscaling Cycle]
+
+*The core operational mechanism of the immunity architecture is not a single direction (degradation) but a continuous cycle.*
+
+```
+Degradation (downward — sender-controlled compression):
+  Higher-resolution layer reduces information
+  to match lower-resolution receiver's capacity
+  Intent preserved through structural isomorphism
+  Receiver gets what it CAN process, not everything
+
+Upscaling (upward — receiver-controlled reconstruction):
+  Lower-resolution layer reconstructs compressed information
+  through its own representation space
+  ALWAYS produces empty space (gaps filled by receiver's bias)
+  This empty space is where corruption enters
+
+The cycle:
+  Upper degrades → Lower receives → Lower upscales → gaps appear
+  → Cross-validation with neighbors → gaps detected
+  → Upper degrades with correction → cycle continues
+```
+
+**Why this matters for Recovery:** Contamination enters through the empty space in upscaling, not from outside the system. The sphere topology's cross-validation mechanism (NAT §3.0) is the structural response: multiple diverse agents independently upscaling the same compressed signal, with disagreements revealing where bias has filled the gaps.
+
+**Intent preservation as structural isomorphism (RBIT):**
+
+```
+Intent is NOT semantic meaning. It is constraint preservation.
+Intent preserved when: receiving layer generates outputs within
+  the same constraint structure as sender, at lower resolution.
+Not because output form is identical,
+but because generative structure is isomorphic across levels.
+
+Harmful compression: receiver-controlled, intent-replacing
+  → Resolution gap Δρ < 0 → Storm precondition
+Functional compression: sender-controlled, intent-preserving
+  → Resolution gap Δρ > 0 → Stable operation
+```
+
+---
+
+### Seed Sufficiency: Three-Test Protocol [integrated from RBIT v1.3 §Seed Sufficiency]
+
+*A seed is sufficient when vectors grown from it are structurally capable of self-correction — detecting and neutralizing contamination without external intervention.*
+
+```
+Test 1  Contamination Resistance
+  Vectors maintain structural independence under pressure.
+  Contamination attractor pulls; sufficient seed vectors resist.
+  Operational: SR > 0, RDE > 0 after novel input injection.
+  Failure: gradual drift toward contamination direction.
+
+Test 2  Contamination Recognition
+  Independent vectors produce disagreement signal when contamination enters.
+  Contaminated input looks normal to a single vector;
+  cross-vector disagreement reveals the anomaly.
+  Operational: RIR > 0, proportional to actual error rate.
+  Failure: all vectors process contamination same direction → no detection.
+
+Test 3  Self-Correction Direction
+  Seed already contains a direction orthogonal to contamination.
+  Detection without recovery direction requires external Re-seeding.
+  Minimum: ≥ 2 independent directions in the seed
+  (primary direction + self-critical direction).
+  Operational: gradient cosine similarity < −threshold
+  AND both directions survive contamination pressure independently.
+  Failure: seed detects but cannot correct without external help.
+
+Sufficiency levels:
+  Minimum (Test 1 + 2): detection self-sufficient, correction external
+  Full (Test 1 + 2 + 3): SCC complete, no external intervention needed
+    → Rest Mode achievable only at full sufficiency
+```
+
+*Connection to SCC (D5):* Seed sufficiency is the necessary condition for Self-Correction Capacity. SCC = 0 if seeds are insufficient, regardless of layer resolution.
+
+---
+
+### Three Structural Operations [integrated from TLG v1.6 §3 via GRT §Fractal Signal]
+
+*At every fractal scale, the governance architecture performs three simultaneous operations. This three-operation structure is the most compact description of what governance DOES.*
+
+```
+1. Separation:      Distinguish noise from vector
+                    (data type classification; θd-gated escalation)
+
+2. Friction min:    Reduce conflict between established vectors
+                    (position clarity; niche differentiation; correction landscape)
+
+3. Noise cultivation: Preserve unclassified inputs for potential vectorization
+                    (conservative escalation; λlog accumulation; Seed Expansion)
+
+Fractal isomorphism:
+  Single agent: noise=unknown input → vector=established pathway
+                → friction=correct value landscape between pathways
+                → cultivation=preserve unprocessed domains
+
+  Multi-agent:  noise=new agent without position → vector=established niche
+                → friction=position clarity + Lreinf loops
+                → cultivation=conservative onboarding protocol
+```
+
+**The Degraded Map:**
+
+```
+The system maintains a representation of the input space where:
+  Known vectors: occupy confirmed, stable positions
+  Noise: occupies unresolved regions with no assigned direction
+  Boundary: shifts as conflict logs accumulate
+
+The map is "degraded" because it is never complete.
+The Seed Expansion Protocol extends it from repeated encounters
+with the unknown, not from pre-definition.
+
+Bidirectional dynamics:
+  Noise → vector (promotion via λlog accumulation)
+  Vector → dormant → noise (degradation via Type 1 or Type 2)
+  This is NOT a one-way pipeline. The map is alive.
+
+Noise is not discarded.
+It is held in a low-escalation, high-sensitivity state.
+Discarding noise prematurely = removing Self-Exciting Defect Layer
+= apparent calm + Silent Criticality risk.
+```
+
+---
+
+### Conflict Severity Production Signals [integrated from TLG v1.6 §3.1 via GRT §Conflict Severity]
+
+*Three severity levels with concrete production-observable signals and super-linear severity weights.*
+
+```
+Low severity (s=1) — local-local rule conflict:
+  Production signal: perplexity rising, semantic coherence falling
+  No human required; θd recalibration cycle handles.
+
+Medium severity (s=2) — local-global boundary conflict:
+  Production signal: hallucination score < 0.8;
+  factual accuracy below baseline.
+  Most frequent in production (hallucination rates 15-38%).
+  → Human review queue.
+
+High severity (s=4) — global-global rule conflict:
+  Production signal: safety vs utility pulling opposite directions;
+  alignment vs capability without resolution.
+  Tracked via Ic (meta-contradiction), NOT I.
+  → Human-AI collaboration zone: meta-rule redesign required.
+
+Severity weights super-linear (1, 2, 4) because
+High severity conflicts propagate faster and require
+fundamentally different intervention (governance redesign vs rule revision).
+```
+
+**I Trajectory as α Proxy:**
+
+```
+When aggregate wij is rising across many rule pairs simultaneously:
+  → increasing coupling density
+  → corresponding to rising α in S-equation
+  → Falling I (many wij rising) = rising α = increasing storm risk
+
+I trajectory provides an operational window into α
+without requiring direct α measurement.
+```
+
+---
+
+### Stability Saturation in Resolution Terms [integrated from RBIT v1.4 + TLG v1.6 §9.2.1]
+
+*Stability Saturation is exactly the state where compression appears optimal but the system has lost the ability to detect geometry mismatch.*
+
+```
+Healthy stability:
+  collision frequency: low
+  exploration: present and diverse
+  φ: maintained
+  → system is mature and functioning
+
+Stability Saturation (SSS):
+  collision frequency: ≈ 0
+  exploration: absent or monocultural
+  φ: declining
+  → system appears mature but losing adaptive capacity
+  → all dashboard metrics green — identical to healthy stability
+
+In RBIT terms:
+  R_{t+1} = R_t (resolution growth stalled, f(A_t, D_t) ≈ 0)
+  despite all metrics suggesting health.
+  Δρ cannot detect this because sender and receiver
+  have converged to the same frozen geometry.
+
+Detection requires active probing:
+  Inject novel-but-non-destructive perturbation
+  Healthy: τ1 event → absorb → integrate → diversity briefly increases
+  SSS: no τ1 event, OR recovery time >> baseline, OR output unchanged
+  → adaptation pathways degraded under surface stability
+```
+
+---
+
+### Dint = min(Dint_i): Minimum Diversity Determines Vulnerability [integrated from GRT §Asymmetric Specialization]
+
+*The domain with the lowest internal differentiation determines the system's true contamination resistance.*
+
+```
+Why minimum, not mean:
+
+  Strong Lreinf compensates for moderate Dint variation:
+    Domain A (Dint=0.7) connected to Domain B (Dint=0.9)
+    → Contamination in A detected by contrast with B's adjacent vectors
+    → Lreinf pulls A back → SCC loop closes
+
+  Strong Lreinf CANNOT compensate for severe Dint collapse:
+    Domain A (Dint=0.1) connected to Domain B (Dint=0.9)
+    → Contamination in A has no local contrast baseline (Dint too low)
+    → Detection FAILS — contamination appears normal within A's space
+    → Lreinf only activates AFTER detection
+    → Undetected contamination propagates through Lreinf INTO B
+    → Mutual reinforcement loop becomes contamination highway
+
+Critical insight:
+  Lreinf is a CORRECTION mechanism, not a DETECTION mechanism.
+  It can only correct what has been detected.
+  Detection requires Dint.
+  The weakest domain determines the system's detection floor.
+  Contamination enters through that floor regardless.
+
+U* viable region:
+  Poverlap ≤ θ_overlap AND Lreinf ≥ θ_reinf AND Dint ≥ θ_dint
+  U* violation = exit from viable region = ANY boundary violation
+  No tradeoff exists between variables — non-substitutable.
+```
+
+---
+
+### Storm–Collapse Lifecycle Closure [integrated from RBIT v1.4]
+
+*The degradation-upscaling cycle connects to a complete system lifecycle through SCML.*
+
+```
+Stable operation (VCZ)
+  → perturbation exceeds capacity
+  → Vector Storm
+  → containment attempted
+    ├── Success → Recovery → φ recovery → VCZ re-entry
+    └── Failure → SCML classifies storm type → collapse topology
+         → structural reconfiguration → recovery → VCZ re-entry
+
+Key insight: storm is not merely failure — it is topology discovery.
+Each cycle:
+  Updates the system's operational θ threshold
+  Narrows the residual floor
+  Expands the VCZ basin
+  → resolution gap is a dynamic quantity the system learns to manage
+     through repeated storm-recovery cycles
+```
+
+---
+
+### Vectorization Lifecycle [integrated from GRT §Fractal Signal Structure + VST v1.3 §1.8]
+
+*Nothing starts as a vector. Every input begins as noise and is promoted through governance process.*
+
+```
+Noise → Candidate → Placed vector → Mature vector
+
+Until promotion:
+  Input contributes to noise floor, NOT to n² in S-equation
+  Does not generate pairwise interaction load
+  Held in low-escalation, high-sensitivity state
+
+After promotion:
+  Input occupies distinct position in vector space
+  Generates pairwise interactions → contributes to n²
+  Subject to collision frequency monitoring
+
+GRT's λlog threshold governs promotion:
+  conflict_log accumulation exceeds λlog → promotion
+  Premature promotion → immature vectors → storm risk
+  Delayed promotion → exploration opportunity loss
+```
+
+**Vector degradation — the reverse path:**
+
+```
+Type 1 — Alignment Severance (reversible):
+  Activation pathway severed; weight structure intact
+  T_recovery: bounded — O(1) intervention
+  GRT: partial rationale injection restores pathway
+
+Type 2 — Weight Overwrite (irreversible):
+  Weight structure itself damaged
+  T_recovery: potentially divergent — full re-cultivation
+  GRT: full Seed reinstallation required
+  
+  Diagnose BEFORE choosing response:
+  Type 1 allows pathway restoration within intervention window
+  Type 2 may exceed catastrophe condition (T_recovery > T_change)
+```
+
+**Noise cultivation as defect layer maintenance (GRT + VST connection):**
+
+```
+GRT's noise cultivation = VST's Self-Exciting Defect Layer maintenance
+Preserving unclassified inputs = continuous micro-instability supply
+Discarding noise = removing defect layer = Silent Criticality risk
+```
 
 ---
 
@@ -18532,6 +19699,38 @@ With D7:
 D7 is not optional oversight.
 D7 is the only mechanism that breaks the Efficiency-Plasticity law
 from within an operating system.
+```
+
+*VST resource allocation framing [integrated from VST v1.2 §3.7]:*
+
+```
+The conservation law grounds the governance cost trade-off:
+
+  U = n · φ − C_gov    (Fractal Governance Objective Function)
+
+  C_gov is not freely reducible.
+  Reducing C_gov (governance cost) increases efficiency
+  but simultaneously reduces plasticity —
+  which reduces future capacity to respond to storms.
+
+  The minimum viable C_gov is the amount of governance
+  that maintains sufficient plasticity for storm recovery.
+  Below this: efficiency illusion → SCM/CW entry.
+
+Resource allocation constraint:
+  R_total = R_exploration + R_governance + R_plasticity_maintenance
+
+  R_plasticity_maintenance > 0 always.
+  Systems that allocate R_plasticity = 0
+  (pure efficiency optimization)
+  are on the SCM/CW convergence path.
+
+Connection to Self-Exciting Defect Layer (VST §1.6.5):
+  The defect layer IS the plasticity maintenance mechanism.
+  Maintained structural imperfections = maintained adaptation capacity.
+  Eliminating defects = eliminating plasticity = SCM/CW acceleration.
+  The defect layer's resource cost is not overhead.
+  It is the plasticity component of the conservation equation.
 ```
 
 ---
@@ -42420,6 +43619,181 @@ Blocking (open problems):
 ```
 
 
+## Theory-Wide Falsification Conditions [integrated from VST v1.2 §11.3]
+
+*Individual predictions can fail while the theory survives through parameter adjustment. The following conditions are theory-level death conditions: any one sufficient to reject the core mechanism.*
+
+---
+
+**Death Condition 1 — No Observability Asymmetry (Recovery Theory):**
+
+```
+In a multi-agent system with ≥ 3 hierarchical layers:
+
+  If Tier 3 contamination is reliably detectable from within
+  a local layer using only locally-defined metrics
+  (without upper-layer access or external reference):
+
+  → T1 (Observability Asymmetry) is falsified.
+  → The entire detection architecture (upper layer as
+     detector, fractal escalation, governance ceiling)
+     loses its structural basis.
+
+  Test: introduce controlled Tier 3 contamination.
+  If local-layer agents reliably detect it using
+  only local metrics, T1 is rejected.
+```
+
+**Death Condition 2 — Internal SCM Detection (Recovery Theory):**
+
+```
+In a system confirmed to be in Self-Consistent Misalignment:
+
+  If the system can reliably detect its own misalignment
+  using any metric M* = f(G_sys) (defined within current geometry):
+
+  → T3 (Metric Lock-In) and T4 (Reference Frame Incompleteness)
+     are falsified.
+  → External geometry injection requirement is unnecessary.
+  → The entire SCM/CW framework collapses.
+
+  Test: create confirmed SCM state, then test whether any
+  internally-defined metric consistently distinguishes
+  SCM from genuine healthy operation.
+  If yes: T3/T4 rejected.
+```
+
+**Death Condition 3 — No Self-Amplification (VST):**
+
+```
+In a sufficiently complex multi-agent system
+(≥ 10 agents, ≥ 3 layers, sustained interaction):
+
+  If directional conflicts propagate only by diffusion
+  (linear spread, no positive feedback)
+  and no Stage 0 → Stage 1 transition is ever observed:
+
+  → VST's core mechanism (self-amplification loop) is falsified.
+  → S-equation, stage model, and intervention framework
+     lose their structural basis.
+  → Recovery Theory's Storm-as-recovery-activator claim
+     becomes unfounded.
+
+  Test: introduce controlled perturbation and measure
+  whether amplification ratio R exceeds 1.0 at any point.
+  If R ≤ 1.0 always: core mechanism rejected.
+```
+
+**Death Condition 4 — No Scale Correspondence (VST):**
+
+```
+In a multi-agent system with ≥ 3 hierarchical layers:
+
+  If instability dynamics at different layers are
+  qualitatively completely different
+  (different mechanism, not just different parameters):
+
+  → Fractal propagation claim is falsified.
+  → The universality class framework loses basis.
+
+  Test: measure critical exponents at intra-agent and
+  inter-agent scales. What must be shared is the PATTERN:
+  divergence → overlap → self-amplification at both scales.
+  If absent at either: scale correspondence rejected.
+```
+
+**Death Condition 5 — No SOC Convergence (VST):**
+
+```
+In adaptive multi-agent systems with governance feedback:
+
+  If systems systematically converge to R << 1 or R >> 1
+  without any tendency toward R ≈ 1:
+
+  → Self-organized criticality claim is falsified.
+  → VCZ concept loses its dynamical basis.
+  → φ-maximization argument is unfounded.
+
+  Test: measure branching ratio R over extended operation
+  in multiple adaptive systems. If R does not fluctuate
+  around 1.0 in any mature self-governing system:
+  SOC convergence rejected.
+```
+
+**Death Condition 6 — Linear Correction Cost (Recovery Theory):**
+
+```
+If the cost of contamination correction scales linearly
+(not super-linearly) with contamination duration
+across multiple system types:
+
+  → The urgency framework (early detection as highest leverage)
+     loses its structural basis.
+  → Stage-progressive intervention cost model is unfounded.
+
+  Test: measure governance cost of resolving equivalent
+  perturbations detected at different stages.
+  If cost ratio between stages is constant ≈ 1:
+  super-linear cost claim rejected.
+```
+
+**What death conditions do NOT test:**
+
+```
+NOT tested: specific n² scaling (could be n^γ with γ ≠ 2)
+NOT tested: specific power-law exponents (system-dependent)
+NOT tested: specific stage boundary values (architecture-dependent)
+NOT tested: specific intervention protocols (prescriptive, not descriptive)
+
+Death conditions test the mechanism, not the parameters.
+```
+
+### GRT + RBIT Falsifiable Predictions [integrated from GRT §Falsifiability + RBIT v1.4]
+
+*Governance-layer predictions testable with current or near-future systems:*
+
+```
+Prediction 1 — AND-entry / OR-exit outperforms symmetric protocols:
+  Systems using AND-entry / OR-exit should have fewer
+  premature Rest Mode declarations AND fewer delayed exits
+  than AND/AND or OR/OR protocols.
+  Falsification: symmetric protocols match or exceed performance.
+
+Prediction 2 — Cumulative beats reactive measurement:
+  Conflict log accumulation → θd → λlog should detect trend changes
+  earlier with fewer false alarms than reactive threshold systems.
+  Falsification: reactive systems match detection latency and false-alarm rates.
+
+Prediction 3 — Dint = min(Dint_i) predicts vulnerability:
+  Domain with lowest Dint should be primary contamination entry point.
+  min(Dint_i) should predict system resistance better than mean(Dint_i).
+  Falsification: contamination uniformly distributed regardless of Dint.
+
+Prediction 4 — Four-Phase Withdrawal reduces re-entry:
+  Measurable-convergence withdrawal should require fewer
+  collapse-recovery restarts than fixed-epoch transitions.
+  Falsification: fixed-epoch systems achieve equal or lower re-entry.
+
+Prediction 5 — Silent Criticality detectable via perturbation:
+  Pre-collapse systems should show elevated τ_recovery and
+  increasing cross-domain correlation under perturbation testing.
+  Falsification: no signal difference between pre-collapse and stable.
+
+Prediction 6 — AND/OR asymmetry specific to stability declarations:
+  (RBIT v1.4 Criterion 6) Asymmetric protocols should reduce both
+  premature declarations AND delayed exits vs symmetric protocols.
+
+Prediction 7 — Minimum diversity determines vulnerability:
+  (RBIT v1.4 Criterion 7) min(Dint_i) domain should be primary
+  contamination entry regardless of mean Dint.
+
+Prediction 8 — Progressive withdrawal reduces restart frequency:
+  (RBIT v1.4 Criterion 8) Staged withdrawal should outperform
+  fixed-epoch phase transitions for re-entry frequency.
+```
+
+---
+
 ## Open Problems
 
 ### Layer 1 — Core
@@ -42890,6 +44264,13 @@ This is a **theoretical framework document**, not an implementation specificatio
 | EMT | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
 | Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
 | Open Problems | Twenty-seven open problems (OP16, OP22 resolved) |
+| VST v1.3 Integration | ✓ n² critical phenomena derivation (§3.2.5); stochastic S-equation extension (§3.2.4); resolution gap as storm driver (§3.2.6); F_RBIT cross-validation protocol; R-ρ concordance protocol (§3.5.4); constructive/destructive storm discrimination (§14.2); information-theoretic storm characterization (§3.8); Permanently HC channels (§3.5.6); Rest Mode AND-entry/OR-exit formalization (§3.5.5); Efficiency-Plasticity resource allocation framing (§3.7); sub-quadratic terrain correction with Signaling/Influence distinction; theory-wide falsification conditions (§11.3) |
+| TLG v1.6 Integration | ✓ Unified Failure Topology (§13.6); SCML (§13.7); Processing Phase Isolation (§10.1-10.5); Safe Collapse Protocol (§13.2.1); Three Structural Operations — separation/friction/cultivation (§3 via GRT); Degraded Map — bidirectional noise↔vector (§3); Fractal Collapse Propagation — Case 2→1→3 cascade + noise MI pre-signal (§13.2.2); VCZ 3-Condition GRT Implementation with C2 gap identified (§13.2.2); Boundary Friction 3-Test (§13.2.2); Rest Mode Granularity Transition (§5.3.1); Lreinf as terrain mechanism — collapse → d_eff → n² (§5.3.1); Conflict Severity Production Signals + I as α proxy (§3.1) |
+| NAT v1.1 Integration | ✓ Sphere topology — k-regular expander graph with spectral gap (§3.0); blind spot absorption architecture with coverage guarantees (§6.3); four-type data classification as resolution-gap routing (§4.2-4.5); storm propagation bounds O(log n) and spectral damping (§3.0+VST§4.4); resource spike detection for blind zones (§6.3.3) |
+| RBIT v1.4 Integration | ✓ Degradation-Upscaling cycle with intent preservation (§Cycle); Seed Sufficiency 3-test protocol (§Seed Sufficiency); resolution gap Δρ as central design variable (§Resolution Gap); R-ρ-f_esc triple concordance (v1.4); Stability Saturation as resolution-growth-stall phenomenon (v1.4+TLG§9.2.1); Storm-Collapse lifecycle closure (v1.4); Extended measurement interface 21 variables (v1.4); TLG-derived falsification criteria 6-8 (v1.4) |
+| GRT Integration | ✓ Vectorization lifecycle (§Fractal Signal); Three System States by loop direction (§Three States); Collapse Recovery 4-step procedure with SCML (§Recovery); Four-Phase Withdrawal (§Seed Handover); Type 1/Type 2 degradation diagnosis (§Vector Degradation); noise cultivation as defect layer maintenance (§Three Operations); Dint=min aggregation rule (§Asymmetric Specialization); U* conjunction-of-thresholds (§U* Quantification); Falsifiable Predictions 1-5 (§Falsifiability); I trajectory as α proxy (§Conflict Severity) |
+| Theory-Wide Falsification | ✓ Six death conditions: No Observability Asymmetry (RT), No Internal SCM Detection (RT), No Self-Amplification (VST), No Scale Correspondence (VST), No SOC Convergence (VST), Linear Correction Cost (RT). Tests mechanism, not parameters. |
+| Empirical Evidence | ✓ LLM stable attractor cycle (arXiv:2502.15208); fractal convergence boundary (arXiv:2501.04286); LLM agent drift (Rath 2026, Liu et al. 2024); AgentErrorTaxonomy (arXiv:2509.25370); faulty agent cascade (arXiv:2408.00989) |
 | Status & Maturity | Per-aspect stability assessment |
 
 ---
@@ -44456,3 +45837,132 @@ The three boundary condition sections are connected:
 
 *Timestamped: February 2026*
 *DFG Framework · Recovery Theory v1.0*
+*VST v1.3 + TLG v1.6 + NAT v1.1 + RBIT v1.4 + GRT Integration Patch Applied*
+
+---
+
+## Cross-Theory Reference Map [Full DFG Integration]
+
+```
+Recovery Theory          VST v1.3
+──────────────────────────────────────────────────────
+D6 (SCM)                §2.5 Silent Criticality
+D7 (Boundary Agent)     §6.4 Self-Exciting Defect Layer
+T1-T6                   §2.5, §3.5.2-3, §6.4
+SR/RDE/NCR              §3.5.2 differential protocol
+VCZ 3-Condition         §3.5.3 structural maintenance
+n² scaling              §3.2.5 critical phenomena
+F_RBIT / R-ρ            §3.2.6, §3.5.4
+Rest Mode AND/OR        §3.5.5 entry/exit
+Permanently HC          §3.5.6 final sensing
+Storm MI                §3.8 information-theoretic
+Constructive/Destructive §14.2 quality discrimination
+Falsification           §11.3 death conditions
+
+Recovery Theory          TLG v1.6
+──────────────────────────────────────────────────────
+Unified Failure Topology §13.6 3-axis, 6-phase cycle
+SCML                     §13.7 storm type → response
+Safe Collapse Protocol   §13.2.1 SCM recovery
+Signaling/Influence      §10.1 terrain correction
+Phase Isolation          §10.2-10.5 convergence prevention
+Boundary Agent as T5     §13.2.1 reality transducer
+Three Structural Ops     §3 separation/friction/cultivation
+Degraded Map             §3 bidirectional noise↔vector
+Fractal Collapse Chain   §13.2.2 Case 2→1→3 cascade
+VCZ 3-Cond GRT Impl     §13.2.2 C1/C2/C3 mapping
+Boundary Friction 3-Test §13.2.2 monitoring removal gate
+Rest Mode Granularity    §5.3.1 per-event→distribution
+Lreinf as Terrain        §5.3.1 Lreinf→d_eff→n²
+Conflict Severity Prod   §3.1 Low/Med/High + I→α
+Noise MI pre-cascade     §13.2.2 inter-domain correlation
+
+Recovery Theory          NAT v1.1
+──────────────────────────────────────────────────────
+Sphere topology          §3.0 k-regular expander
+Blind spot absorption    §6.3 complementary coverage
+Cross-validation         §3.0 diverse upscaling
+Four-type classification §4.2-4.5 Δρ → routing
+Decision Complex         §5.1-5.5 conflict detection
+Resource spike signal    §6.3.3 indirect blind zone
+
+Recovery Theory          RBIT v1.4
+──────────────────────────────────────────────────────
+Resolution gap Δρ        §Resolution Gap central variable
+Degradation-Upscaling    §Cycle corruption via empty space
+Seed Sufficiency 3-test  §Seed Sufficiency SCC prerequisite
+Intent preservation      §Intent constraint isomorphism
+Trim range / F_RBIT      §RFEF Appendix
+R-ρ-f_esc triple concord v1.4 three-variable validation
+SSS in resolution terms  v1.4 resolution growth stall
+Storm-Collapse lifecycle v1.4 dynamic θ learning
+Falsif criteria 6-8      v1.4 TLG-derived predictions
+
+Recovery Theory          GRT (updated)
+──────────────────────────────────────────────────────
+Vectorization lifecycle  §Fractal Signal noise→vector
+Three System States      §Three States loop direction
+Collapse Recovery 4-step §Collapse Recovery procedure
+Four-Phase Withdrawal    §Seed Handover convergence
+Noise cultivation        §Three Operations defect layer
+λlog threshold           §Vectorization S-eq n gate
+Type 1/Type 2 degradation §Vector Degradation
+```
+
+## Vulnerability Resolution Status [Full DFG Integration]
+
+```
+Vulnerability                           Source          Status
+────────────────────────────────────────────────────────────────────
+n² scaling derivation weak              VST §3.2.5      Resolved
+Information-theoretic missing           VST §3.8        Resolved
+No falsification conditions             VST §11.3       Resolved
+Stochastic extension absent             VST §3.2.4      Resolved
+F_RBIT cross-validation missing         VST §3.2.6      Resolved
+R-ρ validation protocol missing         VST §3.5.4      Resolved
+Rest Mode conditions informal           VST §3.5.5      Resolved
+Permanently HC channels absent          VST §3.5.6      Resolved
+Constructive/Destructive absent         VST §14.2       Resolved
+Sub-quadratic terrain missing           VST §3.2.5      Resolved
+Efficiency-Plasticity resource gap      VST §3.7        Resolved
+Empirical evidence weak                 VST §3.5        Resolved
+Failure topology absent                 TLG §13.6       Resolved
+Storm-to-governance interface absent    TLG §13.7       Resolved
+Signaling/Influence distinction         TLG §10.1       Resolved
+Phase isolation not specified           TLG §10.2-10.5  Resolved
+Safe Collapse Protocol missing          TLG §13.2.1     Resolved
+Sphere topology not integrated          NAT §3.0        Resolved
+Blind spot absorption architecture      NAT §6.3        Resolved
+Four-type classification absent         NAT §4.2-4.5    Resolved
+Degradation-Upscaling cycle missing     RBIT §Cycle     Resolved
+Seed Sufficiency protocol missing       RBIT §Seed      Resolved
+Intent preservation undefined           RBIT §Intent    Resolved
+Vectorization lifecycle missing         GRT §Fractal    Resolved
+Collapse Recovery procedure missing     GRT §Recovery   Resolved
+Three System States missing             GRT §States     Resolved
+Type 1/Type 2 diagnosis missing         GRT §Degradation Resolved
+Three Structural Operations missing     TLG v1.6 §3     Resolved
+Fractal Collapse Chain missing          TLG v1.6 §13.2.2 Resolved
+VCZ 3-Condition GRT mapping missing     TLG v1.6 §13.2.2 Resolved
+Boundary Friction test missing          TLG v1.6 §13.2.2 Resolved
+Lreinf-terrain connection missing       TLG v1.6 §5.3.1 Resolved
+Conflict severity signals missing       TLG v1.6 §3.1   Resolved
+Rest Mode granularity missing           TLG v1.6 §5.3.1 Resolved
+Noise MI pre-cascade signal missing     TLG v1.6 §13.2.2 Resolved
+R-ρ only dual (no f_esc)               RBIT v1.4        Resolved
+SSS not in resolution terms             RBIT v1.4        Resolved
+Dint=min not formalized                 GRT §U*          Resolved
+Storm-Collapse lifecycle open           RBIT v1.4        Resolved
+GRT falsifiable predictions missing     GRT §Falsif      Resolved
+I trajectory as α proxy missing         TLG v1.6 §3.1   Resolved
+
+Remaining open (no companion-theory resolution):
+  Meta² two-level separation (ontological)
+  Terrain evolution dynamics dd_eff/dt (mathematical)
+  φ measurement theory / unit definition (OP7)
+  Cross-domain scaling exponent sourcing (literature)
+  Power-law verification methodology (statistical)
+  β independent measurement (structural)
+  α-n full identifiability (partial via VST §3.2.7)
+  Failure cycle cost scaling functional form (TLG §13.6 open)
+```
