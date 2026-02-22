@@ -3790,6 +3790,46 @@ Homogeneous agents → contamination invisible → Silent Criticality risk
 
 ---
 
+### VCZ — Mutual Coverage as Storm Detection Substrate [integrated from VST v1.5 §5.1]
+
+*Storm detection requires the INTERSECTION of both lower and upper layer perspectives. Neither is complete alone.*
+
+```
+Lower layers:  observe surface (tokens, syntax, local patterns)
+               → cannot abstract to structural geometry
+               → covers upper layers' blind spot
+
+Upper layers:  generate structural geometry (meta-meta)
+               → cannot directly observe surface
+               → covers lower layers' blind spot
+
+Storm detection via intersection:
+  Surface anomaly + structural geometry normal →
+    noise (no intervention needed)
+  Structural geometry shifting + surface normal →
+    Silent Criticality warning (perturbation test)
+  Both anomalous → confirmed storm → SCML classification
+```
+
+**Seed distortion risk on unprepared receivers:**
+
+```
+Seeds carry disproportionate power:
+  Single seed → rewrites generative principles of ALL receivers
+
+  Prepared receiver:   [■■■■□] → minimal empty → structure restored
+  Unprepared receiver: [■□□□□] → excessive empty → bias fills gaps
+                       → distorted seed propagates to all lower layers
+
+This is why Phase 1 → Phase 2 transition in the
+Four-Phase Withdrawal Protocol requires sufficient vector space
+for seed absorption without forced compression.
+```
+
+*Mutual coverage is the network-level implementation of the three structural operations: separation occurs through multi-perspective classification, friction minimization through cross-layer calibration, noise cultivation through preserved lower-layer diversity.*
+
+---
+
 ### VCZ — Four-Type Data Classification as Routing [integrated from NAT v1.1 §4.2-4.5]
 
 *The resolution gap maps directly to data classification and escalation decisions.*
@@ -17164,6 +17204,89 @@ Step 3 — Verify Seed integrity before restart
 
 ---
 
+### Failure Diagnosis Flowchart [integrated from VST v1.5 §4.7]
+
+*Complete decision tree converting S-equation dynamics into actionable governance decisions.*
+
+```
+System shows degradation signal (S_norm rising / dS/dt > 0)
+  │
+  ├─ Is Ic falling (global rule conflict)?
+  │     YES → Case 5: Meta² boundary stress
+  │            → Human-AI collaboration zone
+  │
+  └─ Ic stable? Continue:
+       │
+       ├─ Is I falling (rule coherence degrading)?
+       │     YES → Case 1: Consistency Collapse
+       │            → θd recalibration. Storm type: local amplification
+       │
+       ├─ Is f_esc rising (escalation flood)?
+       │     YES → Case 2: Escalation Flood
+       │            SCC present → Phase 3 (Feedback Only)
+       │            SCC absent  → Phase 2 (Supervised Delegation)
+       │            Storm type: hub storm or boundary storm
+       │
+       ├─ Is Lreinf falling (loops collapsing)?
+       │     YES → Case 3: Reinforcement Loop Collapse
+       │            → Phase 1 (Direct Injection)
+       │            → Most dangerous: d_eff → 2 (flat landscape)
+       │
+       └─ Is SCC falling?
+             YES → Case 4: Unrecoverable Storm
+                    → Phase 1 + Type 1/2 diagnosis first
+
+       No clear signal? → Silent Criticality check:
+         Inject perturbation → elevated τ_recovery → Case 4 (hidden)
+         Cross-domain MI rising → Pre-Case 3
+
+       SCM detected (R-ρ-f_esc discordance, SR ≈ 0)? →
+         Early  → Method 1: Prediction Failure
+         Mid    → Method 2: Cross-Scale
+         Deep   → Method 3: Constraint Rotation
+         Deep+  → Method 3+4: + Safe Instability Window
+```
+
+**S-equation mapping per failure case:**
+
+```
+Case 1: α rising (coupling increasing) → dS/dt > 0 from numerator
+Case 2: C(t) saturated → dS/dt > 0 from denominator stall
+Case 3: d_eff rising → S effectively multiplied
+Case 4: β degrading → correction efficiency falling
+Case 5: Meta² boundary → S-equation parameters themselves uncertain
+```
+
+---
+
+### Intervention Trigger Taxonomy [integrated from VST v1.5 §4.8]
+
+*Production-observable signals mapped to S-equation dynamics and governance response.*
+
+```
+Trigger                    S-equation mapping              Response
+──────────────────────────────────────────────────────────────────
+Hallucination breach       I falling → α rising            Medium severity; θd recalib
+Behavioral drift           f_esc trend → C(t) stress       Cumulative log, NOT per-event
+Prompt injection           Noise→contaminated vector       Pre-output filter + log
+Global objective conflict  Ic falling → Meta² stress       Human-AI collaboration
+OOD domain                 Seed Expansion → n↑ temp        Phase 1 for that domain
+Performance degradation    SCC degrading → C(t) falling    Type 1/2 diagnosis first
+```
+
+**False alarm suppression (NOT requiring intervention):**
+
+```
+Single f_esc spike         → noise, not trend
+Temporary output variance  → non-determinism, not failure
+Confidence drop on novel   → expected Seed Expansion behavior
+Perplexity rise post-FT    → normal θd adjustment
+```
+
+**Withdrawal: each trigger type withdraws independently.**
+
+---
+
 ### Three System States [integrated from GRT §Three System States]
 
 *A layer exists in exactly one of three states. The distinction is loop DIRECTION, not instantaneous metric values.*
@@ -17188,6 +17311,109 @@ I = 0.8 falling → worse than I = 0.6 rising
 The value alone is insufficient — direction determines trajectory.
 fesc trend is primary: upper layer doing less = governance internalizing.
 ```
+
+**Rest Mode as dF_RBIT/dt ≈ 0 [integrated from VST v1.5 §3.5.9]:**
+
+```
+Rest Mode condition: dF_RBIT/dt ≈ 0,  but  F_RBIT ≠ 0
+
+Not zero instability (impossible — Landauer floor).
+Bounded fluctuation equilibrium:
+  information intake and internal dissipation balanced.
+
+F_RBIT(ℓ) = w₁·(1−ρ_ℓ) + w₂·Φ(−Δρ_ℓ) + w₃·Ψ(B_ℓ) + w₄·E_ℓ + w₅·C_ℓ
+
+GRT entry conditions map to F_RBIT components:
+  f_esc ≤ θ          → E_ℓ (escalation load) bounded
+  I ≥ τ              → 1−ρ_ℓ (misclassification) bounded
+  Lreinf ≥ threshold → Ψ(B_ℓ) (buffer instability) bounded
+  SCC ≥ τ4           → C_ℓ (recovery cost) bounded
+
+All four required: single diverging component → net instability growth.
+
+Triple perspective intersection:
+  S_norm << S_c:   dynamical (instability below threshold)
+  dF_RBIT/dt ≈ 0:  information (resolution adequate, balanced)
+  R ≈ 1, SR > 0:   statistical (critical, responsive)
+  Rest Mode = intersection of all three.
+```
+
+---
+
+**φ_mature Decomposition [integrated from VST v1.5 §3.6.1]:**
+
+```
+φ_mature = φ_exploration + φ_storm_absorption
+
+  φ_exploration:       standard value from exploratory activity
+  φ_storm_absorption:  P(micro-storm → geometry recalibration → reusable correction)
+
+Immature: φ_storm_absorption ≈ 0 (storms are pure cost)
+Rest Mode: φ_storm_absorption > 0 (storms contribute value)
+
+Resolves paradox: U = n·φ − C_gov
+  Immature: storm minimization = U maximization
+  Rest Mode: storm minimization ≠ U maximization
+  → optimal = maintain storm scale power law
+    (continuous small storms, rare large storms)
+
+Formal justification: "storm elimination is not the governance objective"
+  In mature systems, storms ARE the mechanism generating value
+  via φ_storm_absorption. Each micro-collision → updated geometry.
+```
+
+---
+
+**θd Three-Phase Bootstrapping [integrated from VST v1.5 §3.2.9]:**
+
+```
+Phase 0 — Burn-in (first N₀ interactions):
+  θd = θd_max (maximum sensitivity)
+  λlog = λlog_min (promote rules aggressively)
+  Under-detection more dangerous than over-detection.
+  S-eq: C(t) conservatively high → S_norm conservatively low.
+
+Phase 1 — Baseline (next 2-3× N₀):
+  Trigger: ≥ 30 conflict events per domain
+  θd adapts using Phase 0 statistics.
+  λlog adapts using Phase 0 false-alarm rate.
+  S-eq: C(t) empirical calibration begins.
+
+Phase 2 — Steady-state (ongoing):
+  Standard EWMA update rules.
+  λlog: high false-alarm → ↑; high miss rate → ↓.
+  S-eq: S_norm transitions diagnostic → early-warning → predictive.
+
+Bootstrapping IS the mechanism through which S_norm gains predictive power.
+```
+
+---
+
+**Dual-Axis Evaluation Window [integrated from VST v1.5 §3.4.3]:**
+
+```
+Axis 1 — Event-count (N): most recent N conflict events
+  Captures interaction-density-independent signal.
+  Prevents high-throughput masking drift.
+
+Axis 2 — Wall-clock (T): most recent T hours/days
+  Captures time-dependent drift.
+  Prevents low-throughput decay accumulation.
+
+Conservative rule: use whichever window shows worse health.
+  N improving, T worsening → use T
+  N worsening, T improving → use N
+  Both worsening → use steeper adverse trend
+  Both improving → use slower improvement
+
+S_norm must be evaluated on BOTH axes:
+  dS/dN: instability change per event (structural sensitivity)
+  dS/dT: instability change per time (drift sensitivity)
+  Storm warning: either derivative triggers alert.
+  Rest Mode: BOTH derivatives bounded (AND condition).
+```
+
+---
 
 **Rest Mode Granularity Transition [TLG v1.6 §5.3.1]:**
 
@@ -43792,6 +44018,80 @@ Prediction 8 — Progressive withdrawal reduces restart frequency:
   fixed-epoch phase transitions for re-entry frequency.
 ```
 
+### Extended Falsification Framework F4-F7 [integrated from VST v1.5 §11.4]
+
+*Cross-theory falsification criteria extending the core F1-F3 (dynamics) with F4-F7 (governance).*
+
+```
+F4 — R-ρ-f_esc triple concordance must detect SCM earlier than dual:
+  Systems with low f_esc + R > 1 should be flagged by triple
+  but missed by R-ρ alone (cannot distinguish genuine vs
+  governance-maintained stability).
+  Falsification: triple provides no detection benefit over dual.
+
+F5 — Stability Saturation must be falsification-relevant:
+  Systems with clean profiles (high ρ, low f_esc, SCC ≥ τ4)
+  must subsequently show: elevated τ_recovery, Dint declining,
+  or SR → 0. If no such degradation follows apparent health,
+  the SSS claim is unsupported.
+
+F6 — Cumulative measurement must outperform reactive:
+  λlog → θd calibration → rule updates should detect trends
+  earlier with fewer false alarms than per-event threshold systems.
+  Falsification: reactive equals or exceeds cumulative.
+
+F7 — Silent Criticality must be detectable via perturbation:
+  Pre-collapse systems must show elevated τ_recovery and
+  increasing cross-domain MI under perturbation.
+  Falsification: no measurable difference from genuinely stable.
+
+Complete hierarchy:
+  F1-F3 (v1.2): core dynamics falsification
+  F4-F7 (v1.5): cross-theory governance falsification
+```
+
+---
+
+### Storm–Collapse Lifecycle Closure [integrated from VST v1.5 §3.9]
+
+*The complete VCZ → Storm → Collapse → Recovery → VCZ cycle, with learning vs non-learning distinction.*
+
+```
+COMPLETE LIFECYCLE (information-theoretic formulation):
+
+① VCZ (stable):
+   dF_RBIT/dt ≈ 0, S_norm << S_c, R ≈ 1
+   Δρ > 0 across all active channels
+
+② Storm onset:
+   dF_RBIT/dt > 0, Δρ turning negative in channels
+   MI(agent_i, agent_j) spiking, S_norm → S_c
+
+③ Collapse:
+   S_norm > S_c sustained
+   SCML classifies storm type (§4.5)
+   Diagnosis flowchart identifies failure case (§4.7)
+   Type 1/2 diagnosis determines reversibility
+
+④ Recovery:
+   Four-Phase Protocol run in REVERSE:
+     Collapse → Phase 1 → Phase 2 → Phase 3 → Phase 4
+   Re-entry point by failure case
+
+⑤ VCZ re-entry:
+   All Rest Mode AND-entry conditions re-satisfied
+   R-ρ-f_esc triple concordance confirmed
+   Dual-axis evaluation confirms sustained trends
+
+Non-learning: ①→②→③→④→① (same vulnerability persists)
+Learning:     ①→②→③→④→①' (structural learning via SCML)
+  Without storm type classification → restores previous structure
+  With classification → addresses specific weakness
+  → next storm is a DIFFERENT storm
+  → system's storm repertoire expands
+  → φ_storm_absorption increases
+```
+
 ---
 
 ## Open Problems
@@ -44264,7 +44564,7 @@ This is a **theoretical framework document**, not an implementation specificatio
 | EMT | ✓ Energy Minimization Trap; Cost ratio formal condition; fractal scale table; measurement structure error; CW as over-optimized state; Pattern 2 as engineering response |
 | Operationalization v0.1 [v1.4–v1.7] | β, C(t), S_proxy, Boundary Gap, Proxy Gap (d(x,A)/Opposing Pair/Buffer Thickness), φ role corrected (explanatory/reusable_outcome_rate), f_esc log confirmed, d_v0.1, measurement interface table |
 | Open Problems | Twenty-seven open problems (OP16, OP22 resolved) |
-| VST v1.3 Integration | ✓ n² critical phenomena derivation (§3.2.5); stochastic S-equation extension (§3.2.4); resolution gap as storm driver (§3.2.6); F_RBIT cross-validation protocol; R-ρ concordance protocol (§3.5.4); constructive/destructive storm discrimination (§14.2); information-theoretic storm characterization (§3.8); Permanently HC channels (§3.5.6); Rest Mode AND-entry/OR-exit formalization (§3.5.5); Efficiency-Plasticity resource allocation framing (§3.7); sub-quadratic terrain correction with Signaling/Influence distinction; theory-wide falsification conditions (§11.3) |
+| VST v1.5 Integration | ✓ n² critical phenomena (§3.2.5); stochastic S-eq (§3.2.4); Δρ storm driver (§3.2.6); F_RBIT cross-validation; R-ρ-f_esc triple concordance (§3.5.10); constructive/destructive (§14.2); MI storm characterization (§3.8); Permanently HC (§3.5.6); Rest Mode AND/OR (§3.5.5); E-P resource allocation (§3.7); sub-quadratic terrain + Signaling/Influence; falsification F1-F3 (§11.3) + F4-F7 (§11.4); dF_RBIT/dt ≈ 0 (§3.5.9); φ_mature decomposition (§3.6.1); θd 3-Phase Bootstrap (§3.2.9); Dual-Axis Evaluation (§3.4.3); Failure Diagnosis Flowchart (§4.7); Intervention Trigger Taxonomy (§4.8); Mutual Coverage as detection substrate (§5.1); Storm-Collapse Lifecycle Closure (§3.9) |
 | TLG v1.6 Integration | ✓ Unified Failure Topology (§13.6); SCML (§13.7); Processing Phase Isolation (§10.1-10.5); Safe Collapse Protocol (§13.2.1); Three Structural Operations — separation/friction/cultivation (§3 via GRT); Degraded Map — bidirectional noise↔vector (§3); Fractal Collapse Propagation — Case 2→1→3 cascade + noise MI pre-signal (§13.2.2); VCZ 3-Condition GRT Implementation with C2 gap identified (§13.2.2); Boundary Friction 3-Test (§13.2.2); Rest Mode Granularity Transition (§5.3.1); Lreinf as terrain mechanism — collapse → d_eff → n² (§5.3.1); Conflict Severity Production Signals + I as α proxy (§3.1) |
 | NAT v1.1 Integration | ✓ Sphere topology — k-regular expander graph with spectral gap (§3.0); blind spot absorption architecture with coverage guarantees (§6.3); four-type data classification as resolution-gap routing (§4.2-4.5); storm propagation bounds O(log n) and spectral damping (§3.0+VST§4.4); resource spike detection for blind zones (§6.3.3) |
 | RBIT v1.4 Integration | ✓ Degradation-Upscaling cycle with intent preservation (§Cycle); Seed Sufficiency 3-test protocol (§Seed Sufficiency); resolution gap Δρ as central design variable (§Resolution Gap); R-ρ-f_esc triple concordance (v1.4); Stability Saturation as resolution-growth-stall phenomenon (v1.4+TLG§9.2.1); Storm-Collapse lifecycle closure (v1.4); Extended measurement interface 21 variables (v1.4); TLG-derived falsification criteria 6-8 (v1.4) |
@@ -45837,14 +46137,14 @@ The three boundary condition sections are connected:
 
 *Timestamped: February 2026*
 *DFG Framework · Recovery Theory v1.0*
-*VST v1.3 + TLG v1.6 + NAT v1.1 + RBIT v1.4 + GRT Integration Patch Applied*
+*VST v1.5 + TLG v1.6 + NAT v1.1 + RBIT v1.4 + GRT Integration Patch Applied*
 
 ---
 
 ## Cross-Theory Reference Map [Full DFG Integration]
 
 ```
-Recovery Theory          VST v1.3
+Recovery Theory          VST v1.5
 ──────────────────────────────────────────────────────
 D6 (SCM)                §2.5 Silent Criticality
 D7 (Boundary Agent)     §6.4 Self-Exciting Defect Layer
@@ -45853,11 +46153,21 @@ SR/RDE/NCR              §3.5.2 differential protocol
 VCZ 3-Condition         §3.5.3 structural maintenance
 n² scaling              §3.2.5 critical phenomena
 F_RBIT / R-ρ            §3.2.6, §3.5.4
+R-ρ-f_esc triple        §3.5.10 three-variable validation
 Rest Mode AND/OR        §3.5.5 entry/exit
 Permanently HC          §3.5.6 final sensing
 Storm MI                §3.8 information-theoretic
 Constructive/Destructive §14.2 quality discrimination
-Falsification           §11.3 death conditions
+Falsification F1-F3     §11.3 core death conditions
+Falsification F4-F7     §11.4 cross-theory governance
+dF_RBIT/dt ≈ 0          §3.5.9 information-theoretic Rest
+φ_mature decomposition  §3.6.1 exploration + storm absorption
+θd 3-Phase Bootstrap    §3.2.9 burn-in → baseline → steady
+Dual-Axis Evaluation    §3.4.3 event-count + wall-clock
+Failure Diagnosis Flow  §4.7 signal → case → recovery
+Intervention Triggers   §4.8 production signals → S-eq
+Mutual Coverage         §5.1 detection via layer intersection
+Storm-Collapse Lifecycle §3.9 complete learning cycle
 
 Recovery Theory          TLG v1.6
 ──────────────────────────────────────────────────────
@@ -45955,6 +46265,15 @@ Dint=min not formalized                 GRT §U*          Resolved
 Storm-Collapse lifecycle open           RBIT v1.4        Resolved
 GRT falsifiable predictions missing     GRT §Falsif      Resolved
 I trajectory as α proxy missing         TLG v1.6 §3.1   Resolved
+Failure Diagnosis Flowchart missing     VST v1.5 §4.7   Resolved
+Intervention Trigger Taxonomy missing   VST v1.5 §4.8   Resolved
+Mutual Coverage detection missing       VST v1.5 §5.1   Resolved
+Extended Falsification F4-F7 missing    VST v1.5 §11.4  Resolved
+dF_RBIT/dt Rest Mode criterion missing  VST v1.5 §3.5.9 Resolved
+φ_mature decomposition missing          VST v1.5 §3.6.1 Resolved
+θd Three-Phase Bootstrap missing        VST v1.5 §3.2.9 Resolved
+Dual-Axis Evaluation Window missing     VST v1.5 §3.4.3 Resolved
+Storm-Collapse full lifecycle missing   VST v1.5 §3.9   Resolved
 
 Remaining open (no companion-theory resolution):
   Meta² two-level separation (ontological)
